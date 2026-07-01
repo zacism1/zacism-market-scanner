@@ -82,8 +82,8 @@
 <body class="bg-[#0a0a0f] text-zinc-200 trading-bg">
     <!-- Header -->
     <div class="border-b border-white/10 bg-black/60 backdrop-blur-xl sticky top-0 z-50">
-        <div class="max-w-screen-xl mx-auto px-6 py-5 flex items-center justify-between">
-            <div class="flex items-center gap-x-4">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-x-3 sm:gap-x-4">
                 <div class="w-9 h-9 bg-emerald-500 rounded-2xl flex items-center justify-center shadow-inner">
                     <i class="fa-solid fa-chart-line text-white text-2xl"></i>
                 </div>
@@ -94,15 +94,15 @@
             </div>
             
             <div class="flex items-center gap-x-3">
-                <div class="px-4 py-1.5 rounded-3xl bg-white/5 text-xs flex items-center gap-x-2 border border-white/10">
+                <div class="hidden sm:flex px-4 py-1.5 rounded-3xl bg-white/5 text-xs items-center gap-x-2 border border-white/10">
                     <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
                     <span class="text-emerald-400 font-medium text-xs tracking-wider">LIVE FROM ZACISM APP</span>
                 </div>
                 
                 <a href="https://github.com/zacism1/zacism-market-scanner" target="_blank" 
-                   class="flex items-center gap-x-2 px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-colors">
+                   class="flex items-center gap-x-2 px-3 sm:px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-colors">
                     <i class="fa-brands fa-github"></i>
-                    <span class="font-medium">GitHub</span>
+                    <span class="font-medium hidden sm:inline">GitHub</span>
                 </a>
             </div>
         </div>
@@ -116,7 +116,7 @@
                 <span class="text-xs font-medium tracking-widest text-emerald-400">WEEKLY PUBLIC SCANS</span>
             </div>
             
-            <h1 class="font-display text-6xl tracking-[-3.2px] leading-none font-semibold mb-4">
+            <h1 class="font-display text-5xl sm:text-6xl tracking-[-3.2px] leading-none font-semibold mb-4">
                 Zacism AI<br>Market Scanner
             </h1>
             <p class="text-xl text-zinc-400 max-w-md">
@@ -127,7 +127,7 @@
                 <div class="px-5 py-3 bg-white/5 rounded-3xl border border-white/10 flex items-center gap-x-3">
                     <div>
                         <div class="text-xs text-zinc-500">LAST UPDATED</div>
-                        <div id="last-updated" class="font-mono text-sm font-medium">Moments ago</div>
+                        <div id="last-updated" class="font-mono text-sm font-medium">Loading…</div>
                     </div>
                 </div>
                 
@@ -168,7 +168,7 @@
                 <div class="relative">
                     <i class="fa-solid fa-search absolute left-4 top-3.5 text-zinc-500"></i>
                     <input id="search-input" type="text" placeholder="Search ticker or company..." 
-                           class="w-full bg-white/5 border border-white/10 focus:border-emerald-500/50 transition-colors pl-11 pr-4 py-3 rounded-3xl text-sm outline-none" onkeyup="filterResults()">
+                           class="w-full bg-white/5 border border-white/10 focus:border-emerald-500/50 transition-colors pl-11 pr-4 py-3 rounded-3xl text-sm outline-none" oninput="filterResults()">
                 </div>
             </div>
             
@@ -198,7 +198,7 @@
                     </div>
                     <div class="text-xs text-zinc-500 mt-0.5">Grok + Claude wide-net opportunities</div>
                 </div>
-                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="global-count">24 opportunities</div>
+                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="global-count">—</div>
             </div>
             
             <div id="global-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -216,7 +216,7 @@
                     </div>
                     <div class="text-xs text-zinc-500 mt-0.5">3–10 day technical opportunities</div>
                 </div>
-                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="swing-count">12 setups</div>
+                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="swing-count">—</div>
             </div>
             
             <div id="swing-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -265,7 +265,7 @@
                     </div>
                     <div class="text-xs text-zinc-500 mt-0.5">IV plays, earnings strategies &amp; spreads</div>
                 </div>
-                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="options-count">8 plays</div>
+                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="options-count">—</div>
             </div>
             
             <div id="options-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -289,65 +289,121 @@
             document.documentElement.style.setProperty('--accent', '#67e8f9');
         }
 
-        // Sample data matching Zacism ScanResult model
-        let sampleData = {
-            global: [
-                {
-                    id: "g1", ticker: "NVDA", name: "NVIDIA Corporation", scanType: "momentum", signal: "BUY", confidence: 9,
-                    thesis: "Strong AI demand continues. Data center revenue beat expectations significantly. Relative strength leader breaking out of consolidation.",
-                    entry: "~$138–$142", target: "$168", stopLoss: "$129", currentPrice: 140.25, priceSource: "IBKR",
-                    timeframe: "2–4 weeks", catalysts: ["AI infrastructure spend", "Earnings beat"], risks: ["Valuation compression", "Macro slowdown"],
-                    source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
-                },
-                {
-                    id: "g2", ticker: "BHP", name: "BHP Group", scanType: "undervalued", signal: "BUY", confidence: 7,
-                    thesis: "Iron ore prices stabilizing. Strong free cash flow and shareholder returns. Attractive valuation relative to peers.",
-                    entry: "~$52–$54", target: "$62", stopLoss: "$48", currentPrice: 53.10, priceSource: "Yahoo",
-                    timeframe: "3–6 weeks", catalysts: ["China stimulus", "Cost discipline"], risks: ["Commodity volatility", "China demand"],
-                    source: "Claude", generatedAt: "2026-07-01T09:12:00Z"
-                }
-            ],
-            swing: [
-                {
-                    id: "s1", ticker: "TSLA", name: "Tesla Inc", scanType: "swing", signal: "BUY", confidence: 8,
-                    thesis: "Oversold bounce setup. Support at recent lows holding with increasing volume. Potential gap fill toward $420 zone.",
-                    entry: "~$385–$395", target: "$435", stopLoss: "$365", currentPrice: 389.50, priceSource: "IBKR",
-                    timeframe: "5–10 days", catalysts: ["FSD progress", "Energy storage growth"], risks: ["Execution risk", "Competition"],
-                    source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
-                }
-            ],
+        // Live data published by the Zacism app.
+        const scanData = {
+            global: [],
+            swing: [],
             special: {
-                earnings: [
-                    {
-                        id: "e1", ticker: "AAPL", name: "Apple Inc", scanType: "earnings", signal: "BUY", confidence: 8,
-                        thesis: "Services growth accelerating. iPhone cycle bottoming. Attractive risk/reward into earnings with IV elevated.",
-                        entry: "~$225–$230", target: "$255", stopLoss: "$212", currentPrice: 228.40, priceSource: "IBKR",
-                        timeframe: "Pre-earnings", catalysts: ["Services beat potential", "AI features"], risks: ["China exposure", "Margin pressure"],
-                        source: "Claude", generatedAt: "2026-07-01T09:12:00Z"
-                    }
-                ],
+                earnings: [],
                 newfloat: [],
-                volume: [
-                    {
-                        id: "v1", ticker: "SMCI", name: "Super Micro Computer", scanType: "unusualVolume", signal: "BUY", confidence: 7,
-                        thesis: "Unusual volume spike with no major news. Potential institutional accumulation ahead of AI server cycle.",
-                        entry: "~$48–$50", target: "$62", stopLoss: "$43", currentPrice: 49.20, priceSource: "Yahoo",
-                        timeframe: "Short term", catalysts: ["Dark pool activity", "Sector rotation"], risks: ["High beta", "Liquidity risk"],
-                        source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
-                    }
-                ],
+                volume: [],
                 squeeze: []
             },
-            options: [
-                {
-                    id: "o1", ticker: "META", name: "Meta Platforms", scanType: "options", signal: "BUY", confidence: 8,
-                    thesis: "Bull call spread into strong earnings. IV crush potential post-event creates attractive risk-defined setup.",
-                    entry: "Bull Call Spread $580–$620", target: "High probability", stopLoss: "Defined risk", currentPrice: 598.30, priceSource: "IBKR",
-                    timeframe: "Earnings play", catalysts: ["Ad growth", "AI capex"], risks: ["Regulatory", "Ad spend slowdown"],
-                    source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
-                }
-            ]
+            options: []
         };
+
+        async function fetchJSON(path, fallback) {
+            try {
+                const separator = path.includes('?') ? '&' : '?';
+                const response = await fetch(`${path}${separator}v=${Date.now()}`, { cache: 'no-store' });
+                if (response.status === 404) return fallback;
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return await response.json();
+            } catch (error) {
+                console.error(`Could not load ${path}:`, error);
+                return fallback;
+            }
+        }
+
+        function escapeHTML(value) {
+            return String(value ?? '').replace(/[&<>"']/g, character => ({
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#39;'
+            })[character]);
+        }
+
+        function normalizeResults(value, category) {
+            if (!Array.isArray(value)) return [];
+
+            return value.map((result, index) => {
+                const rawPrice = result.currentPrice ?? result.current_price;
+                const price = rawPrice == null ? Number.NaN : Number(rawPrice);
+                const rawConfidence = Number(result.confidence);
+                const signal = String(result.signal || 'HOLD').toUpperCase();
+
+                return {
+                    id: `${category}-${index}`,
+                    ticker: escapeHTML(result.ticker),
+                    name: escapeHTML(result.name),
+                    scanType: escapeHTML(result.scanType || result.scan_type || category),
+                    signal: ['BUY', 'SELL', 'HOLD'].includes(signal) ? signal : 'HOLD',
+                    confidence: Number.isFinite(rawConfidence)
+                        ? Math.max(0, Math.min(10, rawConfidence))
+                        : 0,
+                    thesis: escapeHTML(result.thesis),
+                    entry: result.entry == null ? null : escapeHTML(result.entry),
+                    target: result.target == null ? null : escapeHTML(result.target),
+                    stopLoss: (result.stopLoss ?? result.stop_loss) == null
+                        ? null
+                        : escapeHTML(result.stopLoss ?? result.stop_loss),
+                    currentPrice: Number.isFinite(price) ? price : null,
+                    priceSource: escapeHTML(result.priceSource ?? result.price_source ?? ''),
+                    timeframe: escapeHTML(result.timeframe || ''),
+                    catalysts: Array.isArray(result.catalysts) ? result.catalysts.map(escapeHTML) : [],
+                    risks: Array.isArray(result.risks) ? result.risks.map(escapeHTML) : [],
+                    source: escapeHTML(result.source || 'Zacism'),
+                    generatedAt: escapeHTML(result.generatedAt ?? result.generated_at ?? '')
+                };
+            });
+        }
+
+        function formatPublishedDate(value) {
+            if (!value) return 'Waiting for first publish';
+
+            const date = new Date(value);
+            if (Number.isNaN(date.getTime())) return 'Unknown';
+
+            return new Intl.DateTimeFormat(undefined, {
+                dateStyle: 'medium',
+                timeStyle: 'short'
+            }).format(date);
+        }
+
+        async function loadPublishedData() {
+            const [
+                global,
+                swing,
+                earnings,
+                newFloats,
+                unusualVolume,
+                shortSqueeze,
+                options,
+                marker
+            ] = await Promise.all([
+                fetchJSON('data/global.json', []),
+                fetchJSON('data/swing.json', []),
+                fetchJSON('data/earnings.json', []),
+                fetchJSON('data/new_floats.json', []),
+                fetchJSON('data/unusual_volume.json', []),
+                fetchJSON('data/short_squeeze.json', []),
+                fetchJSON('data/options.json', []),
+                fetchJSON('data/last-updated.json', {})
+            ]);
+
+            scanData.global = normalizeResults(global, 'global');
+            scanData.swing = normalizeResults(swing, 'swing');
+            scanData.special.earnings = normalizeResults(earnings, 'earnings');
+            scanData.special.newfloat = normalizeResults(newFloats, 'newFloat');
+            scanData.special.volume = normalizeResults(unusualVolume, 'unusualVolume');
+            scanData.special.squeeze = normalizeResults(shortSqueeze, 'shortSqueeze');
+            scanData.options = normalizeResults(options, 'options');
+
+            document.getElementById('last-updated').textContent =
+                formatPublishedDate(marker.last_updated || marker.lastUpdated);
+        }
 
         let currentTab = 0;
         let currentSpecialFilter = 'all';
@@ -464,43 +520,37 @@
         function renderGlobalResults(searchTerm = '', minConf = 1) {
             const container = document.getElementById('global-results');
             container.innerHTML = '';
-            
-            let filtered = sampleData.global.filter(r => 
+            let filtered = scanData.global.filter(r =>
                 (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
                 r.confidence >= minConf
             );
-            
+            document.getElementById('global-count').textContent = `${filtered.length} opportunities`;
+
             if (filtered.length === 0) {
                 container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No results match your filters.</div>`;
                 return;
             }
-            
             filtered.forEach(result => {
                 container.innerHTML += createScanCard(result);
             });
-            
-            document.getElementById('global-count').textContent = `${filtered.length} opportunities`;
         }
 
         function renderSwingResults(searchTerm = '', minConf = 1) {
             const container = document.getElementById('swing-results');
             container.innerHTML = '';
-            
-            let filtered = sampleData.swing.filter(r => 
+            let filtered = scanData.swing.filter(r =>
                 (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
                 r.confidence >= minConf
             );
-            
+            document.getElementById('swing-count').textContent = `${filtered.length} setups`;
+
             if (filtered.length === 0) {
                 container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No swing setups match your filters.</div>`;
                 return;
             }
-            
             filtered.forEach(result => {
                 container.innerHTML += createScanCard(result);
             });
-            
-            document.getElementById('swing-count').textContent = `${filtered.length} setups`;
         }
 
         function renderSpecialResults(searchTerm = '', minConf = 1) {
@@ -508,21 +558,19 @@
             container.innerHTML = '';
             
             let allSpecial = [];
-            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'earnings') allSpecial = allSpecial.concat(sampleData.special.earnings);
-            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'newfloat') allSpecial = allSpecial.concat(sampleData.special.newfloat);
-            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'volume') allSpecial = allSpecial.concat(sampleData.special.volume);
-            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'squeeze') allSpecial = allSpecial.concat(sampleData.special.squeeze);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'earnings') allSpecial = allSpecial.concat(scanData.special.earnings);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'newfloat') allSpecial = allSpecial.concat(scanData.special.newfloat);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'volume') allSpecial = allSpecial.concat(scanData.special.volume);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'squeeze') allSpecial = allSpecial.concat(scanData.special.squeeze);
 
-            let filtered = allSpecial.filter(r => 
+            let filtered = allSpecial.filter(r =>
                 (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
                 r.confidence >= minConf
             );
-            
             if (filtered.length === 0) {
                 container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No special situation matches your filters.</div>`;
                 return;
             }
-            
             filtered.forEach(result => {
                 container.innerHTML += createScanCard(result);
             });
@@ -531,22 +579,19 @@
         function renderOptionsResults(searchTerm = '', minConf = 1) {
             const container = document.getElementById('options-results');
             container.innerHTML = '';
-            
-            let filtered = sampleData.options.filter(r => 
+            let filtered = scanData.options.filter(r =>
                 (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
                 r.confidence >= minConf
             );
-            
+            document.getElementById('options-count').textContent = `${filtered.length} plays`;
+
             if (filtered.length === 0) {
                 container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No options plays match your filters.</div>`;
                 return;
             }
-            
             filtered.forEach(result => {
                 container.innerHTML += createScanCard(result);
             });
-            
-            document.getElementById('options-count').textContent = `${filtered.length} plays`;
         }
 
         function showDetailModal(resultId) {
@@ -554,14 +599,14 @@
             let result = null;
             let category = '';
             
-            // Simple search across sample data
-            for (let key in sampleData) {
-                if (Array.isArray(sampleData[key])) {
-                    const found = sampleData[key].find(r => r.id === resultId);
+            // Search across all published categories.
+            for (let key in scanData) {
+                if (Array.isArray(scanData[key])) {
+                    const found = scanData[key].find(r => r.id === resultId);
                     if (found) { result = found; category = key; break; }
-                } else if (typeof sampleData[key] === 'object') {
-                    for (let subkey in sampleData[key]) {
-                        const found = sampleData[key][subkey].find(r => r.id === resultId);
+                } else if (typeof scanData[key] === 'object') {
+                    for (let subkey in scanData[key]) {
+                        const found = scanData[key][subkey].find(r => r.id === resultId);
                         if (found) { result = found; category = `${key} - ${subkey}`; break; }
                     }
                 }
@@ -609,28 +654,24 @@
             document.body.insertAdjacentHTML('beforeend', modalHTML);
         }
 
-        function initializeSite() {
+        async function initializeSite() {
             initializeTailwind();
-            
-            // Set initial last updated time
-            const now = new Date();
-            document.getElementById('last-updated').textContent = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + ' today';
+            await loadPublishedData();
 
-            // Initial render
             document.getElementById('content-0').classList.remove('hidden');
-            renderGlobalResults();
-            renderSwingResults();
-            renderSpecialResults();
-            renderOptionsResults();
 
-            // Confidence slider listener
+            const minConfidence = parseInt(document.getElementById('confidence-slider').value);
+            renderGlobalResults('', minConfidence);
+            renderSwingResults('', minConfidence);
+            renderSpecialResults('', minConfidence);
+            renderOptionsResults('', minConfidence);
+
             const slider = document.getElementById('confidence-slider');
             slider.oninput = () => {
                 document.getElementById('confidence-value').textContent = slider.value;
                 filterResults();
             };
 
-            // Keyboard support
             document.addEventListener('keydown', function(e) {
                 if (e.key === "/" && document.activeElement.tagName === "BODY") {
                     e.preventDefault();
@@ -638,12 +679,11 @@
                 }
             });
 
-            // Make sure first tab is active
             document.getElementById('tab-0').classList.add('border-emerald-400', 'text-emerald-400');
         }
 
         // Boot the site
-        window.onload = initializeSite;
+        window.addEventListener('DOMContentLoaded', initializeSite);
     </script>
 </body>
 </html>
