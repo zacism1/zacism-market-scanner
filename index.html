@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zacism AI Market Scanner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+        
+        :root {
+            --primary: #67e8f9;
+        }
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .font-display {
+            font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif;
+            font-weight: 600;
+        }
+
+        .trading-bg {
+            background-color: #0a0a0f;
+            background-image: 
+                linear-gradient(rgba(103, 232, 249, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(103, 232, 249, 0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .glass {
+            background: rgba(255,255,255, 0.04);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255, 0.08);
+        }
+
+        .neon-cyan {
+            box-shadow: 0 0 15px rgba(103, 232, 249, 0.3);
+        }
+
+        .section-header {
+            font-size: 0.875rem;
+            letter-spacing: -.025em;
+            font-weight: 600;
+            color: #a1a1aa;
+        }
+
+        .scan-card {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .scan-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            border-color: rgba(103, 232, 249, 0.2);
+        }
+
+        .confidence-bar {
+            height: 6px;
+            background: linear-gradient(to right, #67e8f9, #a78bfa);
+            border-radius: 9999px;
+            transition: width 0.4s ease;
+        }
+
+        .tab-active {
+            background-color: rgba(103, 232, 249, 0.1);
+            color: #67e8f9;
+            border-bottom: 2px solid #67e8f9;
+        }
+
+        .metric {
+            font-variant-numeric: tabular-nums;
+        }
+
+        .terminal-text {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        }
+    </style>
+</head>
+<body class="bg-[#0a0a0f] text-zinc-200 trading-bg">
+    <!-- Header -->
+    <div class="border-b border-white/10 bg-black/60 backdrop-blur-xl sticky top-0 z-50">
+        <div class="max-w-screen-xl mx-auto px-6 py-5 flex items-center justify-between">
+            <div class="flex items-center gap-x-4">
+                <div class="w-9 h-9 bg-emerald-500 rounded-2xl flex items-center justify-center shadow-inner">
+                    <i class="fa-solid fa-chart-line text-white text-2xl"></i>
+                </div>
+                <div>
+                    <div class="font-display text-3xl tracking-tighter font-semibold">zacism</div>
+                    <div class="text-[10px] text-emerald-400 -mt-1 tracking-[2px] font-medium">AI MARKET SCANNER</div>
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-x-3">
+                <div class="px-4 py-1.5 rounded-3xl bg-white/5 text-xs flex items-center gap-x-2 border border-white/10">
+                    <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
+                    <span class="text-emerald-400 font-medium text-xs tracking-wider">LIVE FROM ZACISM APP</span>
+                </div>
+                
+                <a href="https://github.com/zacism1/zacism-market-scanner" target="_blank" 
+                   class="flex items-center gap-x-2 px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-colors">
+                    <i class="fa-brands fa-github"></i>
+                    <span class="font-medium">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="max-w-screen-xl mx-auto px-6 pt-14 pb-8">
+        <div class="max-w-2xl">
+            <div class="inline-flex items-center gap-x-2 px-4 py-1 rounded-3xl bg-white/5 border border-white/10 mb-6">
+                <i class="fa-solid fa-satellite text-emerald-400"></i>
+                <span class="text-xs font-medium tracking-widest text-emerald-400">WEEKLY PUBLIC SCANS</span>
+            </div>
+            
+            <h1 class="font-display text-6xl tracking-[-3.2px] leading-none font-semibold mb-4">
+                Zacism AI<br>Market Scanner
+            </h1>
+            <p class="text-xl text-zinc-400 max-w-md">
+                High-conviction opportunities discovered by the Zacism trading system.
+            </p>
+            
+            <div class="flex items-center gap-x-4 mt-8">
+                <div class="px-5 py-3 bg-white/5 rounded-3xl border border-white/10 flex items-center gap-x-3">
+                    <div>
+                        <div class="text-xs text-zinc-500">LAST UPDATED</div>
+                        <div id="last-updated" class="font-mono text-sm font-medium">Moments ago</div>
+                    </div>
+                </div>
+                
+                <div class="text-xs px-4 py-3 bg-emerald-500/10 text-emerald-400 rounded-3xl border border-emerald-500/30 flex items-center gap-x-2">
+                    <i class="fa-solid fa-sync fa-spin-pulse"></i>
+                    <span class="font-medium">Auto-synced from Zacism</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Tabs (mirrors Zacism app) -->
+    <div class="max-w-screen-xl mx-auto px-6">
+        <div class="flex items-center border-b border-white/10 mb-6 overflow-x-auto pb-1">
+            <div onclick="switchTab(0)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 border-b-2 border-emerald-400 text-emerald-400" id="tab-0">
+                <i class="fa-solid fa-globe"></i>
+                <span>Global Scan</span>
+            </div>
+            <div onclick="switchTab(1)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-1">
+                <i class="fa-solid fa-waveform-lines"></i>
+                <span>Swing Trades</span>
+            </div>
+            <div onclick="switchTab(2)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-2">
+                <i class="fa-solid fa-star"></i>
+                <span>Special Situations</span>
+            </div>
+            <div onclick="switchTab(3)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-3">
+                <i class="fa-solid fa-chart-bar"></i>
+                <span>Options</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="max-w-screen-xl mx-auto px-6 mb-6">
+        <div class="flex flex-wrap items-center gap-3">
+            <div class="flex-1 min-w-[220px]">
+                <div class="relative">
+                    <i class="fa-solid fa-search absolute left-4 top-3.5 text-zinc-500"></i>
+                    <input id="search-input" type="text" placeholder="Search ticker or company..." 
+                           class="w-full bg-white/5 border border-white/10 focus:border-emerald-500/50 transition-colors pl-11 pr-4 py-3 rounded-3xl text-sm outline-none" onkeyup="filterResults()">
+                </div>
+            </div>
+            
+            <div class="flex items-center gap-x-2 bg-white/5 border border-white/10 px-4 rounded-3xl">
+                <span class="text-xs text-zinc-400">Min Confidence</span>
+                <input type="range" id="confidence-slider" min="1" max="10" value="6" class="w-28 accent-emerald-400" oninput="filterResults()">
+                <span id="confidence-value" class="font-mono text-sm w-6 text-right">6</span>
+            </div>
+            
+            <button onclick="resetFilters()" 
+                    class="px-5 py-3 text-xs rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 flex items-center gap-x-2 text-zinc-300">
+                <i class="fa-solid fa-undo"></i>
+                <span class="font-medium">Reset</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Content Area -->
+    <div class="max-w-screen-xl mx-auto px-6 pb-20">
+        <!-- Global Scan Tab -->
+        <div id="content-0" class="tab-content">
+            <div class="flex items-end justify-between mb-5">
+                <div>
+                    <div class="section-header flex items-center gap-x-2">
+                        <i class="fa-solid fa-globe text-emerald-400"></i>
+                        <span>GLOBAL MARKET SCAN</span>
+                    </div>
+                    <div class="text-xs text-zinc-500 mt-0.5">Grok + Claude wide-net opportunities</div>
+                </div>
+                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="global-count">24 opportunities</div>
+            </div>
+            
+            <div id="global-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Swing Trades Tab -->
+        <div id="content-1" class="tab-content hidden">
+            <div class="flex items-end justify-between mb-5">
+                <div>
+                    <div class="section-header flex items-center gap-x-2">
+                        <i class="fa-solid fa-waveform-lines text-cyan-400"></i>
+                        <span>SWING TRADE SETUPS</span>
+                    </div>
+                    <div class="text-xs text-zinc-500 mt-0.5">3–10 day technical opportunities</div>
+                </div>
+                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="swing-count">12 setups</div>
+            </div>
+            
+            <div id="swing-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Special Situations Tab -->
+        <div id="content-2" class="tab-content hidden">
+            <div class="mb-6">
+                <div class="section-header flex items-center gap-x-2 mb-3">
+                    <i class="fa-solid fa-star text-purple-400"></i>
+                    <span>SPECIAL SITUATIONS</span>
+                </div>
+                
+                <!-- Sub tabs for Special Situations -->
+                <div class="flex flex-wrap gap-2">
+                    <div onclick="filterSpecial('all')" class="special-subtab px-4 py-1.5 text-xs rounded-3xl bg-white/10 cursor-pointer active-subtab" id="special-all">All</div>
+                    <div onclick="filterSpecial('earnings')" class="special-subtab px-4 py-1.5 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-earnings">
+                        <i class="fa-regular fa-calendar mr-1.5"></i>Earnings
+                    </div>
+                    <div onclick="filterSpecial('newfloat')" class="special-subtab px-4 py-1.5 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-newfloat">
+                        <i class="fa-solid fa-rocket mr-1.5"></i>New Floats
+                    </div>
+                    <div onclick="filterSpecial('volume')" class="special-subtab px-4 py-1.5 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-volume">
+                        <i class="fa-solid fa-chart-line mr-1.5"></i>Unusual Volume
+                    </div>
+                    <div onclick="filterSpecial('squeeze')" class="special-subtab px-4 py-1.5 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-squeeze">
+                        <i class="fa-solid fa-arrow-trend-up mr-1.5"></i>Short Squeeze
+                    </div>
+                </div>
+            </div>
+            
+            <div id="special-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Options Tab -->
+        <div id="content-3" class="tab-content hidden">
+            <div class="flex items-end justify-between mb-5">
+                <div>
+                    <div class="section-header flex items-center gap-x-2">
+                        <i class="fa-solid fa-chart-bar text-violet-400"></i>
+                        <span>OPTIONS OPPORTUNITIES</span>
+                    </div>
+                    <div class="text-xs text-zinc-500 mt-0.5">IV plays, earnings strategies &amp; spreads</div>
+                </div>
+                <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="options-count">8 plays</div>
+            </div>
+            
+            <div id="options-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="max-w-screen-xl mx-auto px-6 pb-12">
+        <div class="text-[10px] text-center text-zinc-500 max-w-lg mx-auto">
+            AI-generated ideas for informational purposes only. Not financial advice. 
+            Always do your own research. Past performance does not guarantee future results.
+            Data is pushed automatically from the private Zacism trading app.
+        </div>
+    </div>
+
+    <script>
+        // Tailwind script
+        function initializeTailwind() {
+            document.documentElement.style.setProperty('--accent', '#67e8f9');
+        }
+
+        // Sample data matching Zacism ScanResult model
+        let sampleData = {
+            global: [
+                {
+                    id: "g1", ticker: "NVDA", name: "NVIDIA Corporation", scanType: "momentum", signal: "BUY", confidence: 9,
+                    thesis: "Strong AI demand continues. Data center revenue beat expectations significantly. Relative strength leader breaking out of consolidation.",
+                    entry: "~$138–$142", target: "$168", stopLoss: "$129", currentPrice: 140.25, priceSource: "IBKR",
+                    timeframe: "2–4 weeks", catalysts: ["AI infrastructure spend", "Earnings beat"], risks: ["Valuation compression", "Macro slowdown"],
+                    source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
+                },
+                {
+                    id: "g2", ticker: "BHP", name: "BHP Group", scanType: "undervalued", signal: "BUY", confidence: 7,
+                    thesis: "Iron ore prices stabilizing. Strong free cash flow and shareholder returns. Attractive valuation relative to peers.",
+                    entry: "~$52–$54", target: "$62", stopLoss: "$48", currentPrice: 53.10, priceSource: "Yahoo",
+                    timeframe: "3–6 weeks", catalysts: ["China stimulus", "Cost discipline"], risks: ["Commodity volatility", "China demand"],
+                    source: "Claude", generatedAt: "2026-07-01T09:12:00Z"
+                }
+            ],
+            swing: [
+                {
+                    id: "s1", ticker: "TSLA", name: "Tesla Inc", scanType: "swing", signal: "BUY", confidence: 8,
+                    thesis: "Oversold bounce setup. Support at recent lows holding with increasing volume. Potential gap fill toward $420 zone.",
+                    entry: "~$385–$395", target: "$435", stopLoss: "$365", currentPrice: 389.50, priceSource: "IBKR",
+                    timeframe: "5–10 days", catalysts: ["FSD progress", "Energy storage growth"], risks: ["Execution risk", "Competition"],
+                    source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
+                }
+            ],
+            special: {
+                earnings: [
+                    {
+                        id: "e1", ticker: "AAPL", name: "Apple Inc", scanType: "earnings", signal: "BUY", confidence: 8,
+                        thesis: "Services growth accelerating. iPhone cycle bottoming. Attractive risk/reward into earnings with IV elevated.",
+                        entry: "~$225–$230", target: "$255", stopLoss: "$212", currentPrice: 228.40, priceSource: "IBKR",
+                        timeframe: "Pre-earnings", catalysts: ["Services beat potential", "AI features"], risks: ["China exposure", "Margin pressure"],
+                        source: "Claude", generatedAt: "2026-07-01T09:12:00Z"
+                    }
+                ],
+                newfloat: [],
+                volume: [
+                    {
+                        id: "v1", ticker: "SMCI", name: "Super Micro Computer", scanType: "unusualVolume", signal: "BUY", confidence: 7,
+                        thesis: "Unusual volume spike with no major news. Potential institutional accumulation ahead of AI server cycle.",
+                        entry: "~$48–$50", target: "$62", stopLoss: "$43", currentPrice: 49.20, priceSource: "Yahoo",
+                        timeframe: "Short term", catalysts: ["Dark pool activity", "Sector rotation"], risks: ["High beta", "Liquidity risk"],
+                        source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
+                    }
+                ],
+                squeeze: []
+            },
+            options: [
+                {
+                    id: "o1", ticker: "META", name: "Meta Platforms", scanType: "options", signal: "BUY", confidence: 8,
+                    thesis: "Bull call spread into strong earnings. IV crush potential post-event creates attractive risk-defined setup.",
+                    entry: "Bull Call Spread $580–$620", target: "High probability", stopLoss: "Defined risk", currentPrice: 598.30, priceSource: "IBKR",
+                    timeframe: "Earnings play", catalysts: ["Ad growth", "AI capex"], risks: ["Regulatory", "Ad spend slowdown"],
+                    source: "Grok", generatedAt: "2026-07-01T09:12:00Z"
+                }
+            ]
+        };
+
+        let currentTab = 0;
+        let currentSpecialFilter = 'all';
+
+        function switchTab(tabIndex) {
+            // Hide all content
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            // Deactivate all tabs
+            document.querySelectorAll('.tab-button').forEach(el => {
+                el.classList.remove('border-emerald-400', 'text-emerald-400');
+                el.classList.add('text-zinc-400');
+            });
+
+            // Show selected
+            document.getElementById(`content-${tabIndex}`).classList.remove('hidden');
+            const activeTab = document.getElementById(`tab-${tabIndex}`);
+            activeTab.classList.add('border-emerald-400', 'text-emerald-400');
+            activeTab.classList.remove('text-zinc-400');
+
+            currentTab = tabIndex;
+            filterResults();
+        }
+
+        function filterSpecial(type) {
+            currentSpecialFilter = type;
+            
+            // Update active subtab styling
+            document.querySelectorAll('.special-subtab').forEach(el => el.classList.remove('bg-white/10', 'active-subtab'));
+            document.getElementById(`special-${type === 'all' ? 'all' : type}`).classList.add('bg-white/10', 'active-subtab');
+            
+            renderSpecialResults();
+        }
+
+        function filterResults() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const minConf = parseInt(document.getElementById('confidence-slider').value);
+            document.getElementById('confidence-value').textContent = minConf;
+
+            if (currentTab === 0) renderGlobalResults(searchTerm, minConf);
+            else if (currentTab === 1) renderSwingResults(searchTerm, minConf);
+            else if (currentTab === 2) renderSpecialResults(searchTerm, minConf);
+            else if (currentTab === 3) renderOptionsResults(searchTerm, minConf);
+        }
+
+        function resetFilters() {
+            document.getElementById('search-input').value = '';
+            document.getElementById('confidence-slider').value = 6;
+            document.getElementById('confidence-value').textContent = '6';
+            currentSpecialFilter = 'all';
+            
+            document.querySelectorAll('.special-subtab').forEach(el => el.classList.remove('bg-white/10', 'active-subtab'));
+            document.getElementById('special-all').classList.add('bg-white/10', 'active-subtab');
+            
+            filterResults();
+        }
+
+        function createScanCard(result) {
+            const signalColor = result.signal === 'BUY' ? 'emerald' : result.signal === 'SELL' ? 'rose' : 'amber';
+            const sourceColor = result.source === 'Grok' ? 'cyan' : 'orange';
+            
+            let html = `
+                <div class="scan-card glass border border-white/10 rounded-3xl p-5 cursor-pointer" onclick="showDetailModal('${result.id}')">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <div class="flex items-center gap-x-3">
+                                <span class="terminal-text text-2xl font-semibold tracking-tighter">${result.ticker}</span>
+                                <span class="px-2.5 py-0.5 text-[10px] font-bold rounded-2xl bg-${signalColor}-500/10 text-${signalColor}-400 border border-${signalColor}-500/30">
+                                    ${result.signal}
+                                </span>
+                            </div>
+                            <div class="text-xs text-zinc-400 mt-0.5 line-clamp-1">${result.name}</div>
+                        </div>
+                        
+                        <div class="text-right">
+                            ${result.currentPrice ? `
+                            <div class="text-sm font-semibold metric">$${result.currentPrice}</div>
+                            <div class="text-[10px] text-emerald-400 flex items-center justify-end gap-x-1">
+                                <i class="fa-solid fa-satellite text-[9px]"></i>
+                                <span>${result.priceSource || 'Live'}</span>
+                            </div>` : ''}
+                        </div>
+                    </div>
+
+                    <!-- Confidence -->
+                    <div class="mb-4">
+                        <div class="flex justify-between text-xs mb-1.5">
+                            <span class="text-zinc-400">Confidence</span>
+                            <span class="font-mono font-semibold">${result.confidence}/10</span>
+                        </div>
+                        <div class="h-1.5 bg-white/10 rounded-full overflow-hidden">
+                            <div class="confidence-bar" style="width: ${result.confidence * 10}%"></div>
+                        </div>
+                    </div>
+
+                    <div class="text-xs text-zinc-300 line-clamp-3 leading-snug mb-4">
+                        ${result.thesis}
+                    </div>
+
+                    <div class="flex justify-between items-center text-xs">
+                        <div class="flex items-center gap-x-4">
+                            ${result.entry ? `<div><span class="text-zinc-500">Entry</span> <span class="font-medium">${result.entry}</span></div>` : ''}
+                            ${result.target ? `<div><span class="text-zinc-500">Target</span> <span class="font-medium text-emerald-400">${result.target}</span></div>` : ''}
+                        </div>
+                        
+                        <div class="px-3 py-1 rounded-2xl text-[10px] bg-white/5 text-zinc-400 border border-white/10">
+                            ${result.source}
+                        </div>
+                    </div>
+                </div>
+            `;
+            return html;
+        }
+
+        function renderGlobalResults(searchTerm = '', minConf = 1) {
+            const container = document.getElementById('global-results');
+            container.innerHTML = '';
+            
+            let filtered = sampleData.global.filter(r => 
+                (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
+                r.confidence >= minConf
+            );
+            
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No results match your filters.</div>`;
+                return;
+            }
+            
+            filtered.forEach(result => {
+                container.innerHTML += createScanCard(result);
+            });
+            
+            document.getElementById('global-count').textContent = `${filtered.length} opportunities`;
+        }
+
+        function renderSwingResults(searchTerm = '', minConf = 1) {
+            const container = document.getElementById('swing-results');
+            container.innerHTML = '';
+            
+            let filtered = sampleData.swing.filter(r => 
+                (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
+                r.confidence >= minConf
+            );
+            
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No swing setups match your filters.</div>`;
+                return;
+            }
+            
+            filtered.forEach(result => {
+                container.innerHTML += createScanCard(result);
+            });
+            
+            document.getElementById('swing-count').textContent = `${filtered.length} setups`;
+        }
+
+        function renderSpecialResults(searchTerm = '', minConf = 1) {
+            const container = document.getElementById('special-results');
+            container.innerHTML = '';
+            
+            let allSpecial = [];
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'earnings') allSpecial = allSpecial.concat(sampleData.special.earnings);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'newfloat') allSpecial = allSpecial.concat(sampleData.special.newfloat);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'volume') allSpecial = allSpecial.concat(sampleData.special.volume);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'squeeze') allSpecial = allSpecial.concat(sampleData.special.squeeze);
+
+            let filtered = allSpecial.filter(r => 
+                (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
+                r.confidence >= minConf
+            );
+            
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No special situation matches your filters.</div>`;
+                return;
+            }
+            
+            filtered.forEach(result => {
+                container.innerHTML += createScanCard(result);
+            });
+        }
+
+        function renderOptionsResults(searchTerm = '', minConf = 1) {
+            const container = document.getElementById('options-results');
+            container.innerHTML = '';
+            
+            let filtered = sampleData.options.filter(r => 
+                (r.ticker.toLowerCase().includes(searchTerm) || r.name.toLowerCase().includes(searchTerm)) &&
+                r.confidence >= minConf
+            );
+            
+            if (filtered.length === 0) {
+                container.innerHTML = `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No options plays match your filters.</div>`;
+                return;
+            }
+            
+            filtered.forEach(result => {
+                container.innerHTML += createScanCard(result);
+            });
+            
+            document.getElementById('options-count').textContent = `${filtered.length} plays`;
+        }
+
+        function showDetailModal(resultId) {
+            // Find the result across all categories
+            let result = null;
+            let category = '';
+            
+            // Simple search across sample data
+            for (let key in sampleData) {
+                if (Array.isArray(sampleData[key])) {
+                    const found = sampleData[key].find(r => r.id === resultId);
+                    if (found) { result = found; category = key; break; }
+                } else if (typeof sampleData[key] === 'object') {
+                    for (let subkey in sampleData[key]) {
+                        const found = sampleData[key][subkey].find(r => r.id === resultId);
+                        if (found) { result = found; category = `${key} - ${subkey}`; break; }
+                    }
+                }
+            }
+            
+            if (!result) return;
+
+            const modalHTML = `
+                <div class="fixed inset-0 bg-black/90 flex items-end md:items-center justify-center z-[100]" onclick="this.remove()">
+                    <div onclick="event.stopImmediatePropagation()" class="glass w-full md:w-[520px] rounded-t-3xl md:rounded-3xl p-6 border border-white/10 max-h-[90vh] overflow-auto">
+                        <div class="flex justify-between items-start mb-6">
+                            <div>
+                                <div class="flex items-center gap-x-3">
+                                    <span class="terminal-text text-4xl font-bold tracking-[-1.5px]">${result.ticker}</span>
+                                    <span class="px-4 py-1 text-sm font-bold rounded-3xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">${result.signal}</span>
+                                </div>
+                                <div class="text-sm text-zinc-400">${result.name}</div>
+                            </div>
+                            <button onclick="event.target.closest('.fixed').remove()" class="text-3xl leading-none text-zinc-400 hover:text-white">&times;</button>
+                        </div>
+
+                        <div class="mb-6">
+                            <div class="text-xs text-zinc-400 mb-2">THESIS</div>
+                            <div class="text-sm leading-relaxed">${result.thesis}</div>
+                        </div>
+
+                        <div class="grid grid-cols-3 gap-4 mb-6">
+                            ${result.entry ? `<div class="bg-white/5 rounded-2xl p-4"><div class="text-xs text-zinc-400">ENTRY</div><div class="font-semibold">${result.entry}</div></div>` : ''}
+                            ${result.target ? `<div class="bg-white/5 rounded-2xl p-4"><div class="text-xs text-zinc-400">TARGET</div><div class="font-semibold text-emerald-400">${result.target}</div></div>` : ''}
+                            ${result.stopLoss ? `<div class="bg-white/5 rounded-2xl p-4"><div class="text-xs text-zinc-400">STOP</div><div class="font-semibold text-rose-400">${result.stopLoss}</div></div>` : ''}
+                        </div>
+
+                        <div class="flex justify-between text-xs mb-8">
+                            <div>Timeframe: <span class="font-medium">${result.timeframe || '—'}</span></div>
+                            <div>Source: <span class="font-medium">${result.source}</span></div>
+                        </div>
+
+                        <div class="text-[10px] text-center text-zinc-500 pt-4 border-t border-white/10">
+                            Generated from Zacism app • For informational purposes only
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.body.insertAdjacentHTML('beforeend', modalHTML);
+        }
+
+        function initializeSite() {
+            initializeTailwind();
+            
+            // Set initial last updated time
+            const now = new Date();
+            document.getElementById('last-updated').textContent = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + ' today';
+
+            // Initial render
+            document.getElementById('content-0').classList.remove('hidden');
+            renderGlobalResults();
+            renderSwingResults();
+            renderSpecialResults();
+            renderOptionsResults();
+
+            // Confidence slider listener
+            const slider = document.getElementById('confidence-slider');
+            slider.oninput = () => {
+                document.getElementById('confidence-value').textContent = slider.value;
+                filterResults();
+            };
+
+            // Keyboard support
+            document.addEventListener('keydown', function(e) {
+                if (e.key === "/" && document.activeElement.tagName === "BODY") {
+                    e.preventDefault();
+                    document.getElementById('search-input').focus();
+                }
+            });
+
+            // Make sure first tab is active
+            document.getElementById('tab-0').classList.add('border-emerald-400', 'text-emerald-400');
+        }
+
+        // Boot the site
+        window.onload = initializeSite;
+    </script>
+</body>
+</html>
