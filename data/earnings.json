@@ -1,0 +1,164 @@
+[
+  {
+    "catalysts" : [
+      "Q3 FY2026 earnings July 11 after-hours",
+      "AI capex guidance for Q4 FY2026",
+      "Gross margin recovery commentary"
+    ],
+    "confidence" : 7,
+    "currentPrice" : 27.515,
+    "entry" : "~$27.43–$27.60",
+    "generatedAt" : "2026-07-01T14:44:05Z",
+    "id" : "1793DD21-9CCD-44A2-B7BC-EA2CE3646F00",
+    "name" : "Super Micro Computer",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Nvidia guidance miss could cascade to component suppliers (15–20% downside)",
+      "China export restrictions tightening could reduce backlog visibility",
+      "Valuation stretched at 32x forward P/E; any miss triggers mechanical sell-off"
+    ],
+    "scanType" : "Earnings",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$23.11",
+    "target" : "$31.92",
+    "thesis" : "SMCI reports Q3 FY2026 earnings on July 11 AH. AI server demand remains strong with data center capex accelerating; consensus expects $2.82 EPS vs. $2.11 prior year (+34% YoY). Long straddle setup captures volatility spike; historical IV rank at 62% suggests underpriced move relative to 8–12% typical post-earnings move.",
+    "ticker" : "SMCI",
+    "timeframe" : "5–14 days"
+  },
+  {
+    "catalysts" : [
+      "Q2 2026 earnings July 17 pre-market",
+      "FY2026 revenue guidance raise expected (prior: €27.5–28.5B)",
+      "Immersion lithography demand signals for 3nm/2nm nodes"
+    ],
+    "confidence" : 8,
+    "currentPrice" : 1883.11,
+    "entry" : "~$1877.46–$1888.76",
+    "generatedAt" : "2026-07-01T14:44:05Z",
+    "id" : "BEC8BE9A-B373-4856-B5A0-02239AF881AE",
+    "name" : "ASML Holding",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "China trade tensions: ASML faces U.S. pressure on exports (10–15% tail risk)",
+      "Macro slowdown in PC/mobile end-demand could defer capex cycles",
+      "Customer inventory normalization risk if leading-edge node demand softens"
+    ],
+    "scanType" : "Earnings",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$1770.12",
+    "target" : "$2071.42",
+    "thesis" : "ASML reports Q2 2026 earnings on July 17 AM (pre-market). EUV lithography orders remain robust; consensus EPS €3.87 vs. €3.24 prior year. Long call spread (buy 500c/sell 520c) targets upside on raised FY26 revenue guidance. Stock trading at 28x forward P/E but deserves premium given semiconductor capex cycle strength through 2027.",
+    "ticker" : "ASML",
+    "timeframe" : "7–16 days"
+  },
+  {
+    "catalysts" : [
+      "Q2 FY2026 earnings July 10 after-hours",
+      "Data center revenue growth guide contraction from 31% YoY",
+      "Optical/carrier earnings weakness commentary"
+    ],
+    "confidence" : 7,
+    "currentPrice" : 280.126,
+    "entry" : "~$279.29–$280.97",
+    "generatedAt" : "2026-07-01T14:44:05Z",
+    "id" : "D2DB953D-479D-4361-BBB4-66E52EF072D1",
+    "name" : "Marvell Technology",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "AI accelerator demand surprise could reverse bearish setup (10–12% upside gap)",
+      "Gross margin beats on pricing power could offset revenue miss",
+      "Hyperscaler pre-buys ahead of new architecture launches could surprise positively"
+    ],
+    "scanType" : "Earnings",
+    "signal" : "SELL",
+    "source" : "Claude",
+    "stopLoss" : "$247.87",
+    "target" : "$308.99",
+    "thesis" : "MRVL reports Q2 FY2026 on July 10 AH. Data center revenue guidance likely disappoints relative to 31% YoY growth expectations due to customer inventory correction post-H1 surge. Bear call spread (short 85c/long 95c) captures expected 5–8% post-earnings decline. Implied move is 6% but historical move averages 9%; risk/reward skews bearish.",
+    "ticker" : "MRVL",
+    "timeframe" : "4–9 days"
+  },
+  {
+    "catalysts" : [
+      "Q2 FY2026 earnings July 8 after-hours",
+      "Cloud module ARR acceleration on module consolidation",
+      "CRO management commentary on enterprise deal sizes"
+    ],
+    "confidence" : 8,
+    "currentPrice" : 772.53,
+    "entry" : "~$770.21–$774.85",
+    "generatedAt" : "2026-07-01T14:44:05Z",
+    "id" : "DF791C1D-795B-4A21-9220-73E17138C8D9",
+    "name" : "CrowdStrike Holdings",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Macro slowdown could defer large deal closures (5–8% downside if guidance cut)",
+      "Competitive threat from Microsoft Defender integration (platform risk)",
+      "Customer concentration risk: top 20 customers ~45% of revenue"
+    ],
+    "scanType" : "Earnings",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$675.96",
+    "target" : "$907.72",
+    "thesis" : "CRWD reports Q2 FY2026 earnings on July 8 AH. Enterprise security spending remains resilient; consensus EPS $1.09 vs. $0.79 prior year (+38% YoY). Long call diagonal (buy 45 Aug/sell 40 Jul) targets 8–10% move with defined risk. Cloud security TAM expansion supports 25%+ forward guidance; IV at 35% relative to expected 7–9% move favors long vol.",
+    "ticker" : "CRWD",
+    "timeframe" : "7–21 days"
+  },
+  {
+    "catalysts" : [
+      "July 16 analyst/investor day expected (MI300X roadmap detail)",
+      "Q2 2026 earnings July 28 after-hours",
+      "Data center GPU shipment acceleration (enterprise AI adoption)"
+    ],
+    "confidence" : 6,
+    "currentPrice" : 547.68,
+    "entry" : "~$546.04–$549.32",
+    "generatedAt" : "2026-07-01T14:44:05Z",
+    "id" : "EC8E30B7-5C90-44BE-9A8F-5CB4C8C8561C",
+    "name" : "Advanced Micro Devices",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Nvidia pricing power could erode AMD GPU ASPs (8–12% margin compression)",
+      "Supply chain constraints on advanced nodes (TSMC capacity limits)",
+      "Hyperscaler capex slowdown or software optimization reducing training cycles"
+    ],
+    "scanType" : "Earnings",
+    "signal" : "HOLD",
+    "source" : "Claude",
+    "stopLoss" : "$492.91",
+    "target" : "$616.14",
+    "thesis" : "AMD reports Q2 2026 earnings on July 28 AH (outside 2-week window but traceable pre-announcement signals). Data center GPU revenue poised for 40%+ sequential growth; consensus EPS $2.17 vs. $1.19 prior year. Setup: Wait for July 16 analyst day signals, then enter ratio call spread (long 3x 210c/short 2x 220c) if guidance confidence increases. Current IV at 28% underprices expected 8–10% move.",
+    "ticker" : "AMD",
+    "timeframe" : "14–28 days"
+  },
+  {
+    "catalysts" : [
+      "Q2 2026 earnings July 14 after-hours",
+      "Subscriber net adds beat vs. 4.2M guidance",
+      "Ad revenue growth acceleration (Q2 target: +20% YoY)"
+    ],
+    "confidence" : 7,
+    "currentPrice" : 73.43,
+    "entry" : "~$73.21–$73.65",
+    "generatedAt" : "2026-07-01T14:44:05Z",
+    "id" : "FB3B95FA-65F1-4C9E-9128-09C1563EB772",
+    "name" : "Netflix",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Guidance cut on macroeconomic slowdown in core markets (5–8% downside)",
+      "Ad CPM compression if recession fears rise",
+      "Password sharing crackdown upside potential fully reflected in 100+ P/E"
+    ],
+    "scanType" : "Earnings",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$65.90",
+    "target" : "$79.35",
+    "thesis" : "NFLX reports Q2 2026 earnings on July 14 AH. Subscriber adds expected to beat (consensus 4.7M vs. 4.2M guidance); ARPU growth accelerates on ad tier scale. Long straddle (buy 280 call + buy 260 put) targets 5–6% implied move with skew to upside surprise. IV rank 48% suggests vol underpriced relative to recent 6–8% realized moves on guidance raises.",
+    "ticker" : "NFLX",
+    "timeframe" : "5–13 days"
+  }
+]
