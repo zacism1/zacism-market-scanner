@@ -91,6 +91,7 @@
     "entry" : "~$770.21–$774.85",
     "generatedAt" : "2026-07-01T14:44:05Z",
     "id" : "DF791C1D-795B-4A21-9220-73E17138C8D9",
+    "industry" : "Technology",
     "name" : "CrowdStrike Holdings",
     "priceSource" : "Yahoo",
     "risks" : [
@@ -118,6 +119,7 @@
     "entry" : "~$546.04–$549.32",
     "generatedAt" : "2026-07-01T14:44:05Z",
     "id" : "EC8E30B7-5C90-44BE-9A8F-5CB4C8C8561C",
+    "industry" : "Technology",
     "name" : "Advanced Micro Devices",
     "priceSource" : "Yahoo",
     "risks" : [
