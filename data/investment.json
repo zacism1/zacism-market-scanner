@@ -3,6 +3,70 @@
     {
       "candidates" : [
         {
+          "balanceSheetScore" : 92,
+          "companyName" : "Waste Management, Inc.",
+          "keyRisk" : "US regulatory or fuel-cost pressure",
+          "moatScore" : 90,
+          "overallScore" : 88,
+          "rationale" : "Dominant North American landfill and collection network, high incremental margins, consistent free-cash-flow conversion.",
+          "recommendation" : "Buy",
+          "ticker" : "WM",
+          "valuationScore" : 75
+        },
+        {
+          "balanceSheetScore" : 88,
+          "companyName" : "Republic Services, Inc.",
+          "keyRisk" : "Acquisition integration risk",
+          "moatScore" : 85,
+          "overallScore" : 85,
+          "rationale" : "Strong regional density, disciplined pricing, investment-grade balance sheet supporting steady dividends.",
+          "recommendation" : "Buy",
+          "ticker" : "RSG",
+          "valuationScore" : 78
+        },
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "Waste Connections, Inc.",
+          "keyRisk" : "Canadian FX and wildfire exposure",
+          "moatScore" : 82,
+          "overallScore" : 82,
+          "rationale" : "High-quality secondary-market footprint, low leakage, solid cash generation with conservative leverage.",
+          "recommendation" : "Buy",
+          "ticker" : "WCN",
+          "valuationScore" : 72
+        },
+        {
+          "balanceSheetScore" : 78,
+          "companyName" : "Cleanaway Waste Management Limited",
+          "keyRisk" : "Domestic economic slowdown or landfill capacity constraints",
+          "moatScore" : 68,
+          "overallScore" : 71,
+          "rationale" : "Leading Australian waste platform with post-collection vertical integration and improving returns on capital.",
+          "recommendation" : "Watch",
+          "ticker" : "CWY.AX",
+          "valuationScore" : 65
+        },
+        {
+          "balanceSheetScore" : 72,
+          "companyName" : "Clean Harbors, Inc.",
+          "keyRisk" : "Energy-sector volume swings",
+          "moatScore" : 70,
+          "overallScore" : 65,
+          "rationale" : "Specialist hazardous-waste and industrial-services operator with technical barriers but more cyclical demand.",
+          "recommendation" : "Watch",
+          "ticker" : "CLH",
+          "valuationScore" : 55
+        }
+      ],
+      "conclusion" : "Defensive oligopoly economics and recurring revenue favor scale operators with fortress balance sheets, leaving only a handful of listed names suitable for conservative SMSF review.",
+      "generatedAt" : "2026-07-02T03:22:43Z",
+      "id" : "D525B154-5C26-4995-A735-E65AA9C8433F",
+      "model" : "grok-3-mini-fast",
+      "theme" : "Waste Management & Environmental Services"
+    },
+    {
+      "candidates" : [
+        {
           "balanceSheetScore" : 90,
           "companyName" : "Johnson & Johnson",
           "keyRisk" : "Ongoing talc and opioid litigation overhang plus modest top-line growth post-2023 spin-off.",
@@ -174,6 +238,143 @@
     }
   ],
   "reports" : [
+    {
+      "bearCase" : [
+        "Unavailable"
+      ],
+      "bullCase" : [
+        "Unavailable"
+      ],
+      "businessSummary" : "Unavailable",
+      "catalysts" : [
+        "Unavailable"
+      ],
+      "companyName" : "Waste Management, Inc.",
+      "conclusion" : "WM operates a durable, essential-service waste business with strong cash generation but lacks sufficient data for confident valuation at current levels within an SMSF mandate.",
+      "confidence" : 40,
+      "dataAsOf" : "2024-09-30",
+      "deliveryStatus" : "partial",
+      "disconfirmingEvidence" : [
+        "Unavailable"
+      ],
+      "exchange" : "NYSE",
+      "financials" : {
+        "balanceSheet" : "Unavailable",
+        "earningsGrowth" : "Unavailable",
+        "freeCashFlow" : "Unavailable",
+        "returnsOnCapital" : "Unavailable",
+        "revenueGrowth" : "Unavailable",
+        "shareCountTrend" : "Unavailable"
+      },
+      "generatedAt" : "2026-07-02T03:25:42Z",
+      "id" : "5841918F-4B55-4AEA-95BA-35C88A1640B3",
+      "keyRisks" : [
+        "Unavailable"
+      ],
+      "managementAndCapitalAllocation" : "Unavailable",
+      "moat" : "Unavailable",
+      "monitoringChecklist" : [
+        "Unavailable"
+      ],
+      "overallScore" : 55,
+      "perspectives" : [
+        {
+          "keyQuestions" : [
+            "How stable is pricing power over five years?",
+            "What evidence exists of customer loyalty beyond contracts?"
+          ],
+          "name" : "Business Owner",
+          "score" : 65,
+          "thesis" : "Unavailable",
+          "verdict" : "Solid essential service with recurring demand"
+        },
+        {
+          "keyQuestions" : [
+            "What is the reinvestment runway beyond tuck-in acquisitions?",
+            "How aligned are incentives with long-term owners?"
+          ],
+          "name" : "Capital Allocator",
+          "score" : 60,
+          "thesis" : "Unavailable",
+          "verdict" : "Disciplined capital returns historically"
+        },
+        {
+          "keyQuestions" : [
+            "What base-rate evidence supports sustained above-GDP growth?",
+            "Which accounting items could distort reported returns?"
+          ],
+          "name" : "Rational Skeptic",
+          "score" : 45,
+          "thesis" : "Unavailable",
+          "verdict" : "Mature industry with limited growth optionality"
+        },
+        {
+          "keyQuestions" : [
+            "What regulatory or landfill-permit risks could impair asset values?",
+            "How exposed is the business to municipal budget cycles?"
+          ],
+          "name" : "Downside Protector",
+          "score" : 70,
+          "thesis" : "Unavailable",
+          "verdict" : "Defensive balance sheet and essential service"
+        }
+      ],
+      "positionSuggestion" : {
+        "addConditions" : [
+
+        ],
+        "entryConditions" : [
+
+        ],
+        "exitConditions" : [
+          "Do not act until the incomplete research has been independently verified."
+        ],
+        "holdingPeriod" : "5+ years (thesis-driven)",
+        "initialPortfolioPercent" : 0,
+        "maximumPortfolioPercent" : 0,
+        "rationale" : "Position sizing is unavailable for an incomplete report.",
+        "trancheCount" : 3
+      },
+      "recommendation" : "Watch",
+      "riskRating" : "Low",
+      "sources" : [
+        {
+          "asOf" : "Unavailable",
+          "title" : "Unavailable"
+        }
+      ],
+      "ticker" : "WM",
+      "valuation" : {
+        "base" : {
+          "assumptions" : [
+            "Unavailable"
+          ],
+          "fairValue" : 0,
+          "name" : "Base",
+          "probability" : 0.5
+        },
+        "bear" : {
+          "assumptions" : [
+            "Unavailable"
+          ],
+          "fairValue" : 0,
+          "name" : "Bear",
+          "probability" : 0.25
+        },
+        "bull" : {
+          "assumptions" : [
+            "Unavailable"
+          ],
+          "fairValue" : 0,
+          "name" : "Bull",
+          "probability" : 0.25
+        },
+        "currency" : "USD",
+        "methodology" : "Unavailable",
+        "preferredBuyBelow" : 0,
+        "weightedFairValue" : 0
+      }
+    },
     {
       "bearCase" : [
         "Keytruda biosimilar entry faster than expected",
