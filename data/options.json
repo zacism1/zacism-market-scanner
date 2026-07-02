@@ -1,3 +1,271 @@
 [
-
+  {
+    "catalysts" : [
+      "Market regime supports bullish options pressure",
+      "Sweep flow suggests urgency",
+      "Repeated flow cluster",
+      "News/alt-alpha pulse agrees with direction",
+      "Jobs catalyst aligns with this setup",
+      "premium≥25K"
+    ],
+    "confidence" : 9,
+    "currency" : "USD",
+    "entry" : "Estimated limit debit $1.28; verify live chain",
+    "exchange" : "US Options",
+    "generatedAt" : "2026-07-02T13:52:56Z",
+    "id" : "DF262664-D740-423D-A333-471C08E12168",
+    "industry" : "Consumer",
+    "name" : "AMZN CALL opportunity",
+    "priceSource" : "Unusual Whales",
+    "region" : "United States",
+    "risks" : [
+      "Strict liquidity gate passed",
+      "Provider premium is an estimated flow-derived mark; broker quote must confirm bracket levels",
+      "UW market intelligence Bullish (+4.0 pts): Market Tide Bullish: +$12.0M net, 5 samples • Dark pool Bullish: 78 prints, $43.7M | top MU $10.6M, HOOD $5.1M, TSLA $4.5M",
+      "Flow persistence supports setup (+2.0)",
+      "Volatility profile attractive (+3.0)",
+      "Event timing supports setup (+2.0)"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Unusual Whales · Options Conviction",
+    "stopLoss" : "Exit near $1.21 premium or when the thesis invalidates",
+    "target" : "Take profit near $1.47 premium or before 2026-07-06",
+    "thesis" : "Strategy: Bull Call Debit Spread | Expiry: 2026-07-06 | Strikes: Buy 247.50 CALL | Moneyness: Moneyness unavailable | Unusual Whales | 4 events | Bullish | $918K | SWEEP | IVR=64 | DTE=3 | ITM-bias: prefer 5–8% ITM strike | UW tape=Bullish 86/100",
+    "ticker" : "AMZN",
+    "timeframe" : "3 DTE · expires 2026-07-06"
+  },
+  {
+    "catalysts" : [
+      "Market regime supports bullish options pressure",
+      "Repeated flow cluster",
+      "Jobs catalyst aligns with this setup",
+      "premium≥25K",
+      "aggression=ASK",
+      "vol/OI=10.8×"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 23.06,
+    "entry" : "Estimated limit debit $2.05; verify live chain",
+    "exchange" : "US Options",
+    "generatedAt" : "2026-07-02T13:53:06Z",
+    "id" : "F40832DB-EB03-4CE1-8D9C-820B1B18846D",
+    "name" : "WULF CALL opportunity",
+    "priceSource" : "Unusual Whales",
+    "region" : "United States",
+    "risks" : [
+      "Elevated spread 25%",
+      "Provider premium is an estimated flow-derived mark; broker quote must confirm bracket levels",
+      "UW market intelligence Bullish (+4.0 pts): Market Tide Bullish: +$12.0M net, 5 samples • Dark pool Bullish: 78 prints, $43.7M | top MU $10.6M, HOOD $5.1M, TSLA $4.5M",
+      "Event timing supports setup (+2.0)",
+      "Macro catalyst supports setup (+3.0)",
+      "Trend does not confirm option direction (-14.0)"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Unusual Whales · Options Conviction",
+    "stopLoss" : "Exit near $1.95 premium or when the thesis invalidates",
+    "target" : "Take profit near $2.36 premium or before 2026-07-17",
+    "thesis" : "Strategy: Bull Call Debit Spread | Expiry: 2026-07-17 | Strikes: Buy 25.50 CALL | Moneyness: OTM | Unusual Whales | 12 events | Bullish | $742K | ASK | IVR=43 | DTE=14 | ITM-bias: prefer 5–8% ITM strike | UW tape=Bullish 86/100",
+    "ticker" : "WULF",
+    "timeframe" : "14 DTE · expires 2026-07-17"
+  },
+  {
+    "catalysts" : [
+      "Market regime supports bullish options pressure",
+      "Sweep flow suggests urgency",
+      "Repeated flow cluster",
+      "Jobs catalyst aligns with this setup",
+      "premium≥25K",
+      "aggression=SWEEP"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 29.028,
+    "entry" : "Estimated limit debit $1.53; verify live chain",
+    "exchange" : "US Options",
+    "generatedAt" : "2026-07-02T13:53:03Z",
+    "id" : "F6D1667D-9639-45CD-BE97-7A35BFB0173A",
+    "name" : "SMCI CALL opportunity",
+    "priceSource" : "Unusual Whales",
+    "region" : "United States",
+    "risks" : [
+      "Elevated spread 22%",
+      "Provider premium is an estimated flow-derived mark; broker quote must confirm bracket levels",
+      "UW market intelligence Bullish (+4.0 pts): Market Tide Bullish: +$12.0M net, 5 samples • Dark pool Bullish: 78 prints, $43.7M | top MU $10.6M, HOOD $5.1M, TSLA $4.5M",
+      "Persistent/accelerating whale flow (+5.0)",
+      "Event timing supports setup (+2.0)",
+      "Macro catalyst supports setup (+3.0)"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Unusual Whales · Options Conviction",
+    "stopLoss" : "Exit near $1.45 premium or when the thesis invalidates",
+    "target" : "Take profit near $1.76 premium or before 2026-07-10",
+    "thesis" : "Strategy: Bull Call Debit Spread | Expiry: 2026-07-10 | Strikes: Buy 28.00 CALL | Moneyness: ITM | Unusual Whales | 7 events | Bullish | $783K | SWEEP | IVR=64 | DTE=7 | ITM-bias: prefer 5–8% ITM strike | UW tape=Bullish 86/100",
+    "ticker" : "SMCI",
+    "timeframe" : "7 DTE · expires 2026-07-10"
+  },
+  {
+    "catalysts" : [
+      "Q3 earnings beat expected"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 302.453,
+    "entry" : "~$301.55–$303.36",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:50:49Z",
+    "id" : "E3E35CFB-6C94-4008-91BF-FB6E9EB61E75",
+    "industry" : "Technology",
+    "name" : "Apple Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Macro growth slowdown"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$241.96",
+    "target" : "$483.92",
+    "thesis" : "Strategy: Debit Call Spread | Expiry: 2026-09-18 | Strikes: Buy 220C / Sell 230C | Moneyness: OTM. Strong iPhone cycle and services growth support upside into September with IV at 22%. Break-even at 223.40 with max risk of 1.40 per share.",
+    "ticker" : "AAPL",
+    "timeframe" : "78 days to 2026-09-18"
+  },
+  {
+    "catalysts" : [
+      "Robotaxi event"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 412.7,
+    "entry" : "~$411.46–$413.94",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:50:49Z",
+    "id" : "FF486C55-B888-49DA-BA89-A3A8331DE2C4",
+    "industry" : "Consumer",
+    "name" : "Tesla Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Margin compression"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$330.16",
+    "target" : "$660.32",
+    "thesis" : "Strategy: Credit Put Spread | Expiry: 2026-10-16 | Strikes: Sell 280P / Buy 260P | Moneyness: OTM. Delivery ramp and energy storage offset valuation concerns; 45DTE support keeps premium attractive. Max loss capped at 2.10.",
+    "ticker" : "TSLA",
+    "timeframe" : "106 days to 2026-10-16"
+  },
+  {
+    "catalysts" : [
+      "China stimulus data"
+    ],
+    "confidence" : 7,
+    "currency" : "AUD",
+    "currentPrice" : 59.57,
+    "entry" : "~$59.39–$59.75",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:50:49Z",
+    "id" : "1E0DF1D4-F2B9-40FD-B3FE-11A7E7346890",
+    "name" : "BHP Group Ltd",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "Commodity price volatility"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$47.66",
+    "target" : "$95.31",
+    "thesis" : "Strategy: Covered Call | Expiry: 2026-08-20 | Strikes: Long shares / Sell 42C | Moneyness: OTM. Iron ore prices stable above $105 with dividend support; 49 DTE yields 2.8% premium. Break-even lowered to 39.10.",
+    "ticker" : "BHP.AX",
+    "timeframe" : "49 days to 2026-08-20"
+  },
+  {
+    "catalysts" : [
+      "Azure growth print"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 386.085,
+    "entry" : "~$384.93–$387.24",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:50:49Z",
+    "id" : "2CC2A281-CE19-4CFA-9972-F26C497BB171",
+    "industry" : "Technology",
+    "name" : "Microsoft Corporation",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Regulatory scrutiny"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$308.87",
+    "target" : "$617.74",
+    "thesis" : "Strategy: Debit Call Spread | Expiry: 2026-09-18 | Strikes: Buy 450C / Sell 465C | Moneyness: OTM. Cloud and AI demand remain robust with low IV at 19%. Max risk 3.20 per contract.",
+    "ticker" : "MSFT",
+    "timeframe" : "78 days to 2026-09-18"
+  },
+  {
+    "catalysts" : [
+      "Data center bookings"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 198.66,
+    "entry" : "~$198.06–$199.26",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:50:49Z",
+    "id" : "4EC20981-4642-491B-80A2-EEA9647BED51",
+    "industry" : "Technology",
+    "name" : "NVIDIA Corporation",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Export restrictions"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$158.93",
+    "target" : "$317.86",
+    "thesis" : "Strategy: Credit Put Spread | Expiry: 2026-08-21 | Strikes: Sell 115P / Buy 105P | Moneyness: OTM. Blackwell ramp offsets any near-term digestion; 50 DTE credit attractive at 1.85. Defined risk 8.15.",
+    "ticker" : "NVDA",
+    "timeframe" : "50 days to 2026-08-21"
+  },
+  {
+    "catalysts" : [
+      "AI product launches"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 363.17,
+    "entry" : "~$362.08–$364.26",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:50:49Z",
+    "id" : "FAF47D28-E13F-41A3-95C2-03AF0656A2DD",
+    "industry" : "Technology",
+    "name" : "Alphabet Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Antitrust ruling"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$290.54",
+    "target" : "$581.07",
+    "thesis" : "Strategy: Debit Call Spread | Expiry: 2026-10-16 | Strikes: Buy 175C / Sell 185C | Moneyness: OTM. Search and YouTube ad trends positive; 106 DTE structure offers 2.45 max profit with break-even 176.80.",
+    "ticker" : "GOOGL",
+    "timeframe" : "106 days to 2026-10-16"
+  }
 ]
