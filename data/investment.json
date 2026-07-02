@@ -1,0 +1,610 @@
+{
+  "funnels" : [
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 90,
+          "companyName" : "Johnson & Johnson",
+          "keyRisk" : "Ongoing talc and opioid litigation overhang plus modest top-line growth post-2023 spin-off.",
+          "moatScore" : 85,
+          "overallScore" : 82,
+          "rationale" : "Diversified healthcare giant with entrenched prescription and consumer moats, consistent free-cash-flow conversion and minimal net debt.",
+          "recommendation" : "Buy",
+          "ticker" : "JNJ",
+          "valuationScore" : 75
+        },
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "Merck & Co.",
+          "keyRisk" : "Heavy single-product concentration and 2028+ patent cliff.",
+          "moatScore" : 88,
+          "overallScore" : 79,
+          "rationale" : "Keytruda oncology franchise creates multi-year visibility; strong operating margins and investment-grade balance sheet.",
+          "recommendation" : "Buy",
+          "ticker" : "MRK",
+          "valuationScore" : 68
+        },
+        {
+          "balanceSheetScore" : 82,
+          "companyName" : "AbbVie",
+          "keyRisk" : "Immunology category competition and historical debt from Allergan acquisition.",
+          "moatScore" : 80,
+          "overallScore" : 76,
+          "rationale" : "Skyrizi/Rinvoq transition largely de-risked; high-single-digit dividend yield supported by robust cash generation.",
+          "recommendation" : "Buy",
+          "ticker" : "ABBV",
+          "valuationScore" : 72
+        },
+        {
+          "balanceSheetScore" : 80,
+          "companyName" : "AstraZeneca",
+          "keyRisk" : "Clinical and regulatory binary events plus emerging-market currency exposure.",
+          "moatScore" : 78,
+          "overallScore" : 73,
+          "rationale" : "Broad late-stage oncology and rare-disease pipeline; solid net-cash position after recent deleveraging.",
+          "recommendation" : "Watch",
+          "ticker" : "AZN",
+          "valuationScore" : 65
+        },
+        {
+          "balanceSheetScore" : 83,
+          "companyName" : "Novartis",
+          "keyRisk" : "Generic erosion on legacy portfolio and modest pipeline productivity.",
+          "moatScore" : 75,
+          "overallScore" : 71,
+          "rationale" : "Post-Sandoz spin-off focus on innovative medicines; attractive free-cash-flow yield and Swiss-franc stability.",
+          "recommendation" : "Watch",
+          "ticker" : "NVS",
+          "valuationScore" : 70
+        },
+        {
+          "balanceSheetScore" : 78,
+          "companyName" : "Bristol-Myers Squibb",
+          "keyRisk" : "Multiple patent expirations clustered 2026-2028.",
+          "moatScore" : 72,
+          "overallScore" : 68,
+          "rationale" : "Opdivo/Yervoy franchise plus growing cardiovascular pipeline; investment-grade metrics and shareholder returns.",
+          "recommendation" : "Watch",
+          "ticker" : "BMY",
+          "valuationScore" : 62
+        },
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "Roche Holding",
+          "keyRisk" : "Elevated valuation relative to growth outlook and biosimilar pressure on legacy oncology.",
+          "moatScore" : 82,
+          "overallScore" : 66,
+          "rationale" : "Diagnostics-plus-pharma combination yields defensive cash flows and diagnostics leadership.",
+          "recommendation" : "Avoid",
+          "ticker" : "RHHBY",
+          "valuationScore" : 55
+        },
+        {
+          "balanceSheetScore" : 80,
+          "companyName" : "Eli Lilly",
+          "keyRisk" : "Extreme valuation leaves little margin of safety for any clinical or reimbursement setback.",
+          "moatScore" : 85,
+          "overallScore" : 62,
+          "rationale" : "Unmatched obesity and Alzheimer's pipeline creates exceptional moat, yet current multiples price in near-perfect execution.",
+          "recommendation" : "Avoid",
+          "ticker" : "LLY",
+          "valuationScore" : 35
+        }
+      ],
+      "conclusion" : "Pharmaceuticals contain a handful of durable-moat, fortress-balance-sheet compounders that survive patent cycles and merit deeper value analysis for a conservative SMSF.",
+      "generatedAt" : "2026-07-01T06:15:29Z",
+      "id" : "1B0517E5-04D6-4BDE-98E9-BD6F30AE908C",
+      "model" : "grok-3-mini-fast",
+      "theme" : "pharmaceutical"
+    },
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 92,
+          "companyName" : "AIA Group",
+          "keyRisk" : "China exposure and regulatory shifts could trigger short-term swings.",
+          "moatScore" : 85,
+          "overallScore" : 88,
+          "rationale" : "Asia-focused leader with exceptional capital strength and pricing power; moderate volatility suits 4% swing sizing.",
+          "recommendation" : "Buy",
+          "ticker" : "1299.HK",
+          "valuationScore" : 75
+        },
+        {
+          "balanceSheetScore" : 88,
+          "companyName" : "Sun Life Financial",
+          "keyRisk" : "Interest-rate sensitivity may amplify 2-10 day price moves.",
+          "moatScore" : 78,
+          "overallScore" : 82,
+          "rationale" : "Diversified Canadian platform with clean balance sheet and steady cash flows appropriate for moderate-risk entries.",
+          "recommendation" : "Buy",
+          "ticker" : "SLF",
+          "valuationScore" : 80
+        },
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "Manulife Financial",
+          "keyRisk" : "Legacy long-duration liabilities create periodic valuation swings.",
+          "moatScore" : 75,
+          "overallScore" : 79,
+          "rationale" : "Solid North American and Asian franchise with improving capital ratios supporting controlled swing exposure.",
+          "recommendation" : "Watch",
+          "ticker" : "MFC",
+          "valuationScore" : 78
+        },
+        {
+          "balanceSheetScore" : 80,
+          "companyName" : "MetLife",
+          "keyRisk" : "US regulatory or rate volatility within swing windows.",
+          "moatScore" : 72,
+          "overallScore" : 76,
+          "rationale" : "US-centric scale and disciplined capital management offer value for moderate-risk short-term trades.",
+          "recommendation" : "Watch",
+          "ticker" : "MET",
+          "valuationScore" : 82
+        },
+        {
+          "balanceSheetScore" : 82,
+          "companyName" : "Zurich Insurance Group",
+          "keyRisk" : "Currency and European macro shocks.",
+          "moatScore" : 70,
+          "overallScore" : 74,
+          "rationale" : "European leader with conservative reserving and strong solvency suited to selective swing opportunities.",
+          "recommendation" : "Watch",
+          "ticker" : "ZURN.SW",
+          "valuationScore" : 68
+        },
+        {
+          "balanceSheetScore" : 78,
+          "companyName" : "Allianz SE",
+          "keyRisk" : "Investment-portfolio mark-to-market moves in short timeframes.",
+          "moatScore" : 68,
+          "overallScore" : 71,
+          "rationale" : "Global diversification and robust capital base allow measured 4% position swings.",
+          "recommendation" : "Avoid",
+          "ticker" : "ALV.DE",
+          "valuationScore" : 65
+        }
+      ],
+      "conclusion" : "Global life insurance features durable scale moats and capital-intensive economics that favor only the strongest balance sheets for moderate-risk swing trades of 2-10 days.",
+      "generatedAt" : "2026-07-01T04:21:38Z",
+      "id" : "B20E52E4-1979-4798-91F2-2877308BF345",
+      "model" : "grok-3-mini-fast",
+      "theme" : "Global Life Insurance"
+    }
+  ],
+  "reports" : [
+    {
+      "bearCase" : [
+        "Keytruda biosimilar entry faster than expected",
+        "US drug pricing reform caps revenue",
+        "Pipeline attrition exceeds historical norms"
+      ],
+      "bullCase" : [
+        "Multiple late-stage oncology assets achieve approval",
+        "Animal health segment accelerates",
+        "Share count declines 2% annually"
+      ],
+      "businessSummary" : "Merck develops and commercialises human and animal health pharmaceuticals with a focus on oncology, vaccines and infectious diseases.",
+      "catalysts" : [
+        "New indication approvals for Keytruda",
+        "Positive phase 3 readouts in 2025",
+        "Potential bolt-on acquisitions"
+      ],
+      "companyName" : "Merck & Co., Inc.",
+      "conclusion" : "Merck offers durable oncology leadership via Keytruda with strong cash generation but faces patent expiry risks and pipeline uncertainty that warrant a measured position.",
+      "confidence" : 65,
+      "dataAsOf" : "2024-09-30",
+      "deliveryStatus" : "complete",
+      "disconfirmingEvidence" : [
+        "Accelerated Keytruda revenue decline",
+        "Multiple pipeline failures",
+        "Balance sheet deterioration"
+      ],
+      "exchange" : "NYSE",
+      "financials" : {
+        "balanceSheet" : "Investment grade with modest net debt",
+        "earningsGrowth" : "High-single digit supported by operating leverage",
+        "freeCashFlow" : "Strong and growing above $15bn annually",
+        "returnsOnCapital" : "High teens ROIC sustained by pricing power",
+        "revenueGrowth" : "Mid-single digit over five years driven by Keytruda",
+        "shareCountTrend" : "Gradual reduction via buybacks"
+      },
+      "generatedAt" : "2026-07-01T06:20:55Z",
+      "id" : "20938081-5934-4469-843B-01BED21F0B49",
+      "keyRisks" : [
+        "Patent cliff concentration",
+        "Regulatory pricing pressure",
+        "Clinical trial failures"
+      ],
+      "managementAndCapitalAllocation" : "Consistent dividend growth, disciplined M&A and share repurchases while retaining R&D investment capacity.",
+      "moat" : "Patent-protected blockbusters especially Keytruda plus manufacturing scale and regulatory expertise.",
+      "monitoringChecklist" : [
+        "Quarterly Keytruda sales",
+        "Pipeline milestone updates",
+        "Free cash flow conversion",
+        "Net debt to EBITDA"
+      ],
+      "overallScore" : 72,
+      "perspectives" : [
+        {
+          "keyQuestions" : [
+            "Can pipeline replace Keytruda revenue post-2028?",
+            "Will pricing pressure intensify in the US?"
+          ],
+          "name" : "Business Owner",
+          "score" : 78,
+          "thesis" : "Keytruda delivers clear customer value in oncology with high physician loyalty and expanding indications.",
+          "verdict" : "Attractive"
+        },
+        {
+          "keyQuestions" : [
+            "Are acquisitions priced conservatively?",
+            "Will capital returns remain disciplined?"
+          ],
+          "name" : "Capital Allocator",
+          "score" : 70,
+          "thesis" : "Management balances dividends, buybacks and R&D with a history of value-accretive deals such as Prometheus.",
+          "verdict" : "Sound"
+        },
+        {
+          "keyQuestions" : [
+            "What evidence shows pipeline success rate above industry average?",
+            "How sensitive are margins to generic entry?"
+          ],
+          "name" : "Rational Skeptic",
+          "score" : 65,
+          "thesis" : "Base rates for pharma patent cliffs show revenue pressure is common yet Merck has historically navigated transitions.",
+          "verdict" : "Plausible"
+        },
+        {
+          "keyQuestions" : [
+            "What regulatory or litigation events could impair the franchise?",
+            "How exposed is the business to US policy changes?"
+          ],
+          "name" : "Downside Protector",
+          "score" : 75,
+          "thesis" : "Strong balance sheet and diversified revenue provide buffer against single-product failure.",
+          "verdict" : "Adequate"
+        }
+      ],
+      "positionSuggestion" : {
+        "addConditions" : [
+          "Sustained Keytruda sales growth and pipeline updates"
+        ],
+        "entryConditions" : [
+          "Price below weighted fair value",
+          "No major adverse regulatory rulings"
+        ],
+        "exitConditions" : [
+          "Material loss of Keytruda exclusivity without replacement",
+          "Sustained ROIC below 12%"
+        ],
+        "holdingPeriod" : "Minimum five years",
+        "initialPortfolioPercent" : 3,
+        "maximumPortfolioPercent" : 8,
+        "rationale" : "Conservative initial size preserves SMSF diversification while allowing averaging on volatility.",
+        "trancheCount" : 3
+      },
+      "recommendation" : "Buy",
+      "riskRating" : "Medium",
+      "sources" : [
+        {
+          "asOf" : "2024-09-30",
+          "title" : "Merck 10-K and investor presentations"
+        }
+      ],
+      "ticker" : "MRK",
+      "valuation" : {
+        "base" : {
+          "assumptions" : [
+            "Keytruda erosion offset by new oncology assets",
+            "Mid-single digit revenue CAGR persists",
+            "ROIC remains above 15%"
+          ],
+          "fairValue" : 125,
+          "name" : "Base",
+          "probability" : 0.5
+        },
+        "bear" : {
+          "assumptions" : [
+            "Keytruda revenue declines 40% post-patent expiry",
+            "Pipeline delivers only modest replacements",
+            "Margins compress 300bp"
+          ],
+          "fairValue" : 95,
+          "name" : "Bear",
+          "probability" : 0.25
+        },
+        "bull" : {
+          "assumptions" : [
+            "Pipeline exceeds expectations with multiple blockbusters",
+            "Pricing power maintained in key markets",
+            "Free cash flow grows at 8% CAGR"
+          ],
+          "fairValue" : 155,
+          "name" : "Bull",
+          "probability" : 0.25
+        },
+        "currency" : "USD",
+        "methodology" : "Five-year DCF with explicit patent cliff modelling and terminal growth of 3%",
+        "preferredBuyBelow" : 105,
+        "weightedFairValue" : 125
+      }
+    },
+    {
+      "bearCase" : [
+        "China regulatory tightening caps new business margins",
+        "Prolonged low interest rates pressure investment spreads",
+        "Geopolitical tensions disrupt Hong Kong listing status"
+      ],
+      "bullCase" : [
+        "China middle-class expansion resumes",
+        "Digital distribution lowers cost ratios",
+        "Continued capital returns exceed 4% yield"
+      ],
+      "businessSummary" : "Pan-Asian life insurer focused on protection and long-term savings products across 18 markets with emphasis on China, Hong Kong and Southeast Asia.",
+      "catalysts" : [
+        "Interim results showing new business value recovery",
+        "Announcement of additional HK$10bn buyback tranche",
+        "Upgrade in AM Best or S&P rating"
+      ],
+      "companyName" : "AIA Group Limited",
+      "conclusion" : "AIA offers a durable Asian life-insurance franchise with conservative balance sheet characteristics that align with SMSF capital-preservation objectives over a multi-year horizon.",
+      "confidence" : 55,
+      "dataAsOf" : "2024-06-30",
+      "deliveryStatus" : "partial",
+      "disconfirmingEvidence" : [
+        "Two consecutive years of negative embedded-value growth",
+        "Material restatement of insurance liabilities under IFRS 17",
+        "Loss of operating licence in any key market"
+      ],
+      "exchange" : "HKEX",
+      "financials" : {
+        "balanceSheet" : "Strong solvency ratios with limited leverage",
+        "earningsGrowth" : "Unavailable",
+        "freeCashFlow" : "Unavailable",
+        "returnsOnCapital" : "Unavailable",
+        "revenueGrowth" : "Unavailable",
+        "shareCountTrend" : "Gradual reduction via buybacks"
+      },
+      "generatedAt" : "2026-07-01T06:08:14Z",
+      "id" : "8CC9CED7-27AE-4DEF-B359-CE5E86B8EF14",
+      "keyRisks" : [
+        "Regulatory capital requirements in China",
+        "Currency translation from multiple Asian currencies",
+        "Pandemic-related claims or lapse spikes"
+      ],
+      "managementAndCapitalAllocation" : "Conservative reserving and dividend growth track record; active share repurchase program when shares trade below intrinsic value.",
+      "moat" : "Brand strength and agency distribution network in high-growth Asian markets; scale advantages in underwriting and investment management.",
+      "monitoringChecklist" : [
+        "Quarterly new business value reports",
+        "Annual solvency and financial condition report",
+        "Embedded value sensitivity disclosures",
+        "Management commentary on China regulatory developments"
+      ],
+      "overallScore" : 68,
+      "perspectives" : [
+        {
+          "keyQuestions" : [
+            "How durable is the agency force versus digital disruption?",
+            "What is customer lapse behaviour post-pandemic?"
+          ],
+          "name" : "Business Owner",
+          "score" : 72,
+          "thesis" : "Recurring premium income and customer loyalty in protection products create predictable economics.",
+          "verdict" : "Attractive long-term compounding vehicle"
+        },
+        {
+          "keyQuestions" : [
+            "Will M&A remain small and bolt-on?",
+            "Are incentive plans aligned with long-term book value growth?"
+          ],
+          "name" : "Capital Allocator",
+          "score" : 70,
+          "thesis" : "Excess capital returned via dividends and repurchases while maintaining regulatory buffers.",
+          "verdict" : "Prudent allocator with buyback discipline"
+        },
+        {
+          "keyQuestions" : [
+            "What is the sensitivity of embedded value to interest-rate moves?",
+            "How have IFRS 17 transition adjustments affected comparability?"
+          ],
+          "name" : "Rational Skeptic",
+          "score" : 62,
+          "thesis" : "Asian macro and regulatory risks could compress multiples; accounting for insurance contracts remains complex.",
+          "verdict" : "Base rates supportive but cyclical exposure exists"
+        },
+        {
+          "keyQuestions" : [
+            "What is the exposure to China regulatory tightening?",
+            "Are there material off-balance-sheet guarantees?"
+          ],
+          "name" : "Downside Protector",
+          "score" : 68,
+          "thesis" : "High solvency coverage and geographic diversification limit single-market permanent loss scenarios.",
+          "verdict" : "Balance sheet provides reasonable protection"
+        }
+      ],
+      "positionSuggestion" : {
+        "addConditions" : [
+
+        ],
+        "entryConditions" : [
+
+        ],
+        "exitConditions" : [
+          "Do not act until the incomplete research has been independently verified."
+        ],
+        "holdingPeriod" : "5+ years (thesis-driven)",
+        "initialPortfolioPercent" : 0,
+        "maximumPortfolioPercent" : 0,
+        "rationale" : "Position sizing is unavailable for an incomplete report.",
+        "trancheCount" : 3
+      },
+      "recommendation" : "Watch",
+      "riskRating" : "Medium",
+      "sources" : [
+        {
+          "asOf" : "2023-12-31",
+          "title" : "AIA Group Annual Report 2023"
+        },
+        {
+          "asOf" : "2023-12-31",
+          "title" : "AIA Group Embedded Value Report 2023"
+        }
+      ],
+      "ticker" : "1299.HK",
+      "valuation" : {
+        "base" : {
+          "assumptions" : [
+            "Mid-single-digit embedded-value growth",
+            "Stable Hong Kong and ASEAN contribution"
+          ],
+          "fairValue" : 0,
+          "name" : "Base",
+          "probability" : 0.5
+        },
+        "bear" : {
+          "assumptions" : [
+            "Prolonged China slowdown",
+            "Margin compression from regulatory price caps"
+          ],
+          "fairValue" : 0,
+          "name" : "Bear",
+          "probability" : 0.25
+        },
+        "bull" : {
+          "assumptions" : [
+            "China recovery accelerates new business value",
+            "Continued buybacks at 0.8x embedded value"
+          ],
+          "fairValue" : 0,
+          "name" : "Bull",
+          "probability" : 0.25
+        },
+        "currency" : "HKD",
+        "methodology" : "Embedded-value multiples applied to base-case projections; no current price input available",
+        "preferredBuyBelow" : 0,
+        "weightedFairValue" : 0
+      }
+    }
+  ],
+  "themes" : [
+    {
+      "name" : "Diversified Pharmaceuticals",
+      "rationale" : "Aging demographics create durable demand; high regulatory barriers and strong free cash flow support quality at reasonable valuations with limited cyclical exposure.",
+      "risks" : [
+        "Patent expirations",
+        "Pricing pressure"
+      ],
+      "sampleTickers" : [
+        "JNJ",
+        "AZN",
+        "GSK"
+      ],
+      "score" : 82,
+      "subindustries" : [
+        "Branded Pharmaceuticals",
+        "Specialty Generics"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Regulated Multi-Utilities",
+      "rationale" : "Essential services with regulated returns deliver predictable cash flows and downside resilience across economic cycles at conservative valuations.",
+      "risks" : [
+        "Interest rate sensitivity",
+        "Regulatory resets"
+      ],
+      "sampleTickers" : [
+        "NG",
+        "DUK",
+        "AEE"
+      ],
+      "score" : 79,
+      "subindustries" : [
+        "Electricity Transmission",
+        "Gas Distribution"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Global Consumer Staples",
+      "rationale" : "Non-discretionary demand for food, beverages and household goods provides defensive earnings stability and pricing power through inflation.",
+      "risks" : [
+        "Input cost inflation",
+        "Private label competition"
+      ],
+      "sampleTickers" : [
+        "PG",
+        "NESN",
+        "KO"
+      ],
+      "score" : 77,
+      "subindustries" : [
+        "Packaged Food",
+        "Household Products"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Property & Casualty Insurance",
+      "rationale" : "Underwriting discipline and float investment income generate quality returns; conservative balance sheets and catastrophe modeling support resilience.",
+      "risks" : [
+        "Catastrophe losses",
+        "Reserve inadequacy"
+      ],
+      "sampleTickers" : [
+        "BRK.B",
+        "TRV",
+        "MUV2"
+      ],
+      "score" : 75,
+      "subindustries" : [
+        "Commercial Lines",
+        "Reinsurance"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Waste Management & Environmental Services",
+      "rationale" : "Recurring collection contracts and landfill assets produce stable cash flows; structural volume growth from regulation and urbanisation.",
+      "risks" : [
+        "Fuel price volatility",
+        "Local permitting delays"
+      ],
+      "sampleTickers" : [
+        "WM",
+        "RSG",
+        "VEON"
+      ],
+      "score" : 74,
+      "subindustries" : [
+        "Solid Waste Collection",
+        "Hazardous Waste"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Toll Road & Airport Infrastructure",
+      "rationale" : "Long-term concession agreements deliver inflation-linked revenues with limited competition and high barriers, offering defensive global cash flows.",
+      "risks" : [
+        "Traffic volume shocks",
+        "Political concession risk"
+      ],
+      "sampleTickers" : [
+        "ATL",
+        "AENA",
+        "PAC"
+      ],
+      "score" : 73,
+      "subindustries" : [
+        "Toll Roads",
+        "Airports"
+      ],
+      "timeHorizon" : "15+ years"
+    }
+  ],
+  "version" : 1
+}
