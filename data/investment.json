@@ -58,7 +58,7 @@
           "valuationScore" : 55
         }
       ],
-      "conclusion" : "Defensive oligopoly economics and recurring revenue favor scale operators with fortress balance sheets, leaving only a handful of listed names suitable for conservative SMSF review.",
+      "conclusion" : "Defensive oligopoly economics and recurring revenue favour scale operators with fortress balance sheets, leaving only a handful of listed names suitable for disciplined long-term review.",
       "generatedAt" : "2026-07-02T03:22:43Z",
       "id" : "D525B154-5C26-4995-A735-E65AA9C8433F",
       "model" : "grok-3-mini-fast",
@@ -155,7 +155,7 @@
           "valuationScore" : 35
         }
       ],
-      "conclusion" : "Pharmaceuticals contain a handful of durable-moat, fortress-balance-sheet compounders that survive patent cycles and merit deeper value analysis for a conservative SMSF.",
+      "conclusion" : "Pharmaceuticals contain a handful of durable-moat, fortress-balance-sheet compounders that survive patent cycles and merit deeper value analysis for a disciplined long-term portfolio.",
       "generatedAt" : "2026-07-01T06:15:29Z",
       "id" : "1B0517E5-04D6-4BDE-98E9-BD6F30AE908C",
       "model" : "grok-3-mini-fast",
@@ -250,7 +250,7 @@
         "Unavailable"
       ],
       "companyName" : "Waste Management, Inc.",
-      "conclusion" : "WM operates a durable, essential-service waste business with strong cash generation but lacks sufficient data for confident valuation at current levels within an SMSF mandate.",
+      "conclusion" : "WM operates a durable, essential-service waste business with strong cash generation but lacks sufficient data for confident valuation at current levels within a long-term investment mandate.",
       "confidence" : 40,
       "dataAsOf" : "2024-09-30",
       "deliveryStatus" : "partial",
@@ -484,7 +484,7 @@
         "holdingPeriod" : "Minimum five years",
         "initialPortfolioPercent" : 3,
         "maximumPortfolioPercent" : 8,
-        "rationale" : "Conservative initial size preserves SMSF diversification while allowing averaging on volatility.",
+        "rationale" : "Conservative initial size preserves portfolio diversification while allowing averaging on volatility.",
         "trancheCount" : 3
       },
       "recommendation" : "Buy",
@@ -551,7 +551,7 @@
         "Upgrade in AM Best or S&P rating"
       ],
       "companyName" : "AIA Group Limited",
-      "conclusion" : "AIA offers a durable Asian life-insurance franchise with conservative balance sheet characteristics that align with SMSF capital-preservation objectives over a multi-year horizon.",
+      "conclusion" : "AIA offers a durable Asian life-insurance franchise with conservative balance sheet characteristics that align with long-term capital-preservation objectives over a multi-year horizon.",
       "confidence" : 55,
       "dataAsOf" : "2024-06-30",
       "deliveryStatus" : "partial",

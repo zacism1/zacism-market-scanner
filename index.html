@@ -8,29 +8,36 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500&amp;display=swap');
 
         :root {
-            --primary: #67e8f9;
+            --primary: #6ee7b7;
+            --ledger-line: rgba(148, 163, 184, 0.16);
+            --ledger-surface: rgba(8, 15, 19, 0.88);
         }
 
         body {
-            font-family: 'Inter', system_ui, sans-serif;
+            font-family: 'Inter', system-ui, sans-serif;
             overflow-x: hidden;
         }
 
         .font-display {
-            font-family: 'Space Grotesk', 'Inter', system_ui, sans-serif;
+            font-family: 'Inter', system-ui, sans-serif;
             font-weight: 600;
+        }
+
+        .font-editorial {
+            font-family: 'Newsreader', Georgia, serif;
+            font-weight: 400;
         }
 
         .trading-bg {
             position: relative;
             isolation: isolate;
-            background-color: #0a0a0f;
+            background-color: #05090c;
             background-image:
-                linear-gradient(rgba(103, 232, 249, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(103, 232, 249, 0.03) 1px, transparent 1px);
+                linear-gradient(rgba(110, 231, 183, 0.025) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(110, 231, 183, 0.025) 1px, transparent 1px);
             background-size: 40px 40px;
         }
 
@@ -41,9 +48,9 @@
             z-index: -1;
             pointer-events: none;
             background:
-                radial-gradient(circle at 18% 12%, rgba(34, 211, 238, 0.08), transparent 32%),
-                radial-gradient(circle at 82% 28%, rgba(52, 211, 153, 0.055), transparent 30%);
-            opacity: 0.7;
+                radial-gradient(circle at 18% 12%, rgba(16, 185, 129, 0.06), transparent 34%),
+                radial-gradient(circle at 82% 28%, rgba(14, 116, 144, 0.045), transparent 32%);
+            opacity: 0.58;
             animation: ambient-shift 16s ease-in-out infinite alternate;
             will-change: transform, opacity;
         }
@@ -54,9 +61,9 @@
         }
 
         .glass {
-            background: rgba(255,255,255, 0.04);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(255,255,255, 0.08);
+            background: rgba(8, 15, 19, 0.9);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--ledger-line);
         }
 
         .neon-cyan {
@@ -147,9 +154,9 @@
         .top-five-shell {
             position: relative;
             overflow: hidden;
-            background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.018));
-            border: 1px solid rgba(161, 161, 170, 0.22);
-            box-shadow: 0 28px 80px rgba(0, 0, 0, 0.24);
+            background: linear-gradient(180deg, rgba(9, 18, 22, 0.96), rgba(5, 11, 14, 0.96));
+            border: 1px solid var(--ledger-line);
+            box-shadow: 0 28px 80px rgba(0, 0, 0, 0.22);
         }
 
         .top-five-shell::before {
@@ -170,7 +177,7 @@
 
         .top-five-grid {
             display: grid;
-            grid-template-columns: 36px minmax(130px, 0.95fr) minmax(130px, 0.85fr) 72px minmax(250px, 2fr) minmax(155px, 1.1fr) minmax(155px, 1.1fr) 78px;
+            grid-template-columns: 44px minmax(124px, 0.85fr) minmax(118px, 0.8fr) 68px 78px minmax(230px, 1.75fr) minmax(140px, 1fr) minmax(140px, 1fr) 72px;
             column-gap: 14px;
             align-items: start;
         }
@@ -186,6 +193,89 @@
         .top-five-row:focus-visible {
             background: rgba(103, 232, 249, 0.035);
             outline: none;
+        }
+
+        .ledger-briefing {
+            display: grid;
+            grid-template-columns: minmax(360px, 1.05fr) minmax(360px, 1.05fr) minmax(340px, 0.95fr);
+            border-bottom: 1px solid var(--ledger-line);
+            background: rgba(3, 8, 11, 0.74);
+        }
+
+        .ledger-briefing > * {
+            min-width: 0;
+            padding: 22px 38px;
+        }
+
+        .ledger-briefing > * + * {
+            border-left: 1px solid var(--ledger-line);
+        }
+
+        .ledger-kicker {
+            color: #6ee7b7;
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 0.16em;
+            text-transform: uppercase;
+        }
+
+        .ledger-title {
+            white-space: nowrap;
+            font-size: 2.75rem;
+        }
+
+        .ledger-actions button {
+            min-height: 38px;
+            transition: color 160ms ease, background-color 160ms ease;
+        }
+
+        .ledger-actions button:hover,
+        .ledger-actions button:focus-visible {
+            color: #d1fae5;
+            background: rgba(110, 231, 183, 0.055);
+            outline: none;
+        }
+
+        .change-metric {
+            padding-left: 14px;
+            border-left: 1px solid var(--ledger-line);
+        }
+
+        .change-metric:first-child {
+            padding-left: 0;
+            border-left: 0;
+        }
+
+        .ledger-evidence {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 10px 26px;
+            padding: 12px 20px;
+            border-top: 1px solid var(--ledger-line);
+            color: #71717a;
+            font-size: 10px;
+        }
+
+        .ledger-evidence span {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+        .bookmark-button {
+            display: inline-grid;
+            width: 28px;
+            height: 28px;
+            place-items: center;
+            color: #71717a;
+            border-radius: 6px;
+        }
+
+        .bookmark-button:hover,
+        .bookmark-button[aria-pressed="true"] {
+            color: #6ee7b7;
+            background: rgba(110, 231, 183, 0.08);
         }
 
         .research-list-item {
@@ -209,6 +299,15 @@
         }
 
         @media (max-width: 1100px) {
+            .ledger-briefing {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .ledger-briefing > :last-child {
+                grid-column: 1 / -1;
+                border-left: 0;
+                border-top: 1px solid var(--ledger-line);
+            }
             .top-five-header-grid {
                 display: none;
             }
@@ -224,7 +323,7 @@
             }
 
             .top-five-grid {
-                grid-template-columns: 34px minmax(140px, 0.8fr) minmax(240px, 1.4fr) minmax(150px, 0.9fr);
+                grid-template-columns: 38px minmax(136px, 0.75fr) 74px minmax(220px, 1.35fr) minmax(150px, 0.9fr);
             }
 
             .top-five-rank {
@@ -238,37 +337,68 @@
             }
 
             .top-five-industry {
-                grid-column: 3;
+                grid-column: 4;
                 grid-row: 1;
             }
 
             .top-five-horizon {
-                grid-column: 4;
+                grid-column: 5;
                 grid-row: 1;
             }
 
             .top-five-score {
-                grid-column: 2;
+                grid-column: 3;
                 grid-row: 2;
             }
 
-            .top-five-thesis {
+            .top-five-fair-value {
                 grid-column: 3;
+                grid-row: 3;
+            }
+
+            .top-five-thesis {
+                grid-column: 4;
                 grid-row: 2 / span 2;
             }
 
             .top-five-catalysts {
-                grid-column: 4;
+                grid-column: 5;
                 grid-row: 2;
             }
 
             .top-five-risks {
-                grid-column: 4;
+                grid-column: 5;
                 grid-row: 3;
             }
         }
 
         @media (max-width: 760px) {
+            .ledger-title {
+                white-space: normal;
+                font-size: 2.4rem;
+            }
+            .ledger-briefing {
+                display: block;
+            }
+
+            .ledger-briefing > * {
+                padding: 20px;
+            }
+
+            .ledger-briefing > * + * {
+                border-left: 0;
+                border-top: 1px solid var(--ledger-line);
+            }
+
+            .ledger-change-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+                row-gap: 20px;
+            }
+
+            .ledger-change-grid .change-metric:nth-child(3) {
+                padding-left: 0;
+                border-left: 0;
+            }
             .mobile-status-row {
                 align-items: stretch;
                 gap: 10px;
@@ -317,6 +447,7 @@
             .top-five-company,
             .top-five-industry,
             .top-five-score,
+            .top-five-fair-value,
             .top-five-thesis,
             .top-five-catalysts,
             .top-five-risks,
@@ -337,20 +468,24 @@
                 grid-row: 3;
             }
 
-            .top-five-thesis {
+            .top-five-fair-value {
                 grid-row: 4;
             }
 
-            .top-five-catalysts {
+            .top-five-thesis {
                 grid-row: 5;
             }
 
-            .top-five-risks {
+            .top-five-catalysts {
                 grid-row: 6;
             }
 
-            .top-five-horizon {
+            .top-five-risks {
                 grid-row: 7;
+            }
+
+            .top-five-horizon {
+                grid-row: 8;
             }
         }
 
@@ -391,42 +526,45 @@
         </div>
     </div>
 
-    <!-- Hero -->
-    <div class="max-w-[1480px] mx-auto px-6 pt-6 pb-5">
-        <div class="max-w-4xl">
-            <div class="inline-flex items-center gap-2 mb-3 text-[10px] font-semibold tracking-[0.14em] text-emerald-300 uppercase">
-                <i class="fa-solid fa-chart-line"></i>
-                Weekly high-conviction ideas
-            </div>
-            <h1 class="font-display text-3xl sm:text-4xl tracking-[-1.8px] leading-[1.05] font-semibold mb-3">
-                zacism market scanner
-            </h1>
-            <p class="text-base sm:text-lg text-zinc-400 max-w-2xl leading-relaxed">
-                Professional-grade investment ideas and market intelligence from the Zacism AI system.
-            </p>
+    <!-- Owner's Ledger briefing -->
+    <section class="ledger-briefing" aria-labelledby="ledger-title">
+        <div>
+            <h1 id="ledger-title" class="font-editorial ledger-title leading-none tracking-[-0.035em] text-zinc-100">The Owner’s Ledger</h1>
+            <p class="mt-3 text-sm text-emerald-300">Long-term conviction. Durable compounding. Real-world evidence.</p>
+            <p class="mt-5 max-w-lg text-sm leading-relaxed text-zinc-400">Every week, Zacism surfaces high-quality public-market opportunities for owners who think in decades, not quarters.</p>
+        </div>
 
-            <div class="mobile-status-row flex flex-wrap items-center gap-x-4 mt-6">
-                <div class="px-5 py-3 bg-white/5 rounded-3xl border border-white/10 flex items-center gap-x-3">
-                    <div>
-                        <div class="text-xs text-zinc-500">LAST UPDATED</div>
-                        <div id="last-updated" class="font-mono text-sm font-medium">Loading…</div>
-                    </div>
-                </div>
-
-                <div class="text-xs px-4 py-3 bg-emerald-500/10 text-emerald-400 rounded-3xl border border-emerald-500/30 flex items-center gap-x-2">
-                    <i class="fa-solid fa-cloud-arrow-up"></i>
-                    <span class="font-medium">Published from Zacism</span>
-                </div>
+        <div>
+            <div class="ledger-kicker">Editorial briefing</div>
+            <p class="mt-4 text-sm leading-6 text-zinc-300">This week’s ledger prioritises durable moats, rational capital allocation and valuation discipline. Every idea is published with explicit catalysts, risks and a thesis that can be disproved.</p>
+            <div class="mt-5 flex flex-wrap items-center gap-3 text-[11px] text-zinc-500">
+                <span>Published <strong id="last-updated" class="font-normal text-zinc-300">Loading…</strong></span>
+                <span class="border border-white/10 px-3 py-1.5 rounded-full">By Zacism Research</span>
             </div>
         </div>
-    </div>
+
+        <div>
+            <div class="ledger-kicker">What changed since last week</div>
+            <div class="ledger-change-grid grid grid-cols-4 gap-3 mt-5">
+                <div class="change-metric"><div class="text-[10px] text-zinc-500">New ideas</div><div id="change-new" class="mt-1 terminal-text text-xl text-emerald-300">—</div></div>
+                <div class="change-metric"><div class="text-[10px] text-zinc-500">Moved in</div><div id="change-in" class="mt-1 terminal-text text-xl text-emerald-300">—</div></div>
+                <div class="change-metric"><div class="text-[10px] text-zinc-500">Moved out</div><div id="change-out" class="mt-1 terminal-text text-xl text-zinc-300">—</div></div>
+                <div class="change-metric"><div class="text-[10px] text-zinc-500">Largest move</div><div id="change-largest" class="mt-1 terminal-text text-xl text-emerald-300">—</div></div>
+            </div>
+            <div class="ledger-actions grid grid-cols-3 mt-5 border-t border-white/10 text-[10px] text-zinc-400">
+                <button type="button" onclick="showCompareModal()"><i class="fa-solid fa-code-compare mr-2"></i>Compare</button>
+                <button type="button" onclick="showArchiveModal()"><i class="fa-regular fa-calendar mr-2"></i>Archive</button>
+                <button type="button" onclick="showMethodologyModal()"><i class="fa-solid fa-circle-info mr-2"></i>Methodology</button>
+            </div>
+        </div>
+    </section>
 
     <!-- Weekly Top 5: derived from Investment Mode and Global Scan publications -->
-    <section class="max-w-[1480px] mx-auto px-0 sm:px-6 pb-8" aria-labelledby="weekly-top-five-title">
+    <section class="max-w-[1480px] mx-auto px-0 sm:px-10 pb-8" aria-labelledby="weekly-top-five-title">
         <div class="top-five-shell">
             <div class="px-5 sm:px-6 py-4 border-b border-white/10 flex flex-wrap items-end justify-between gap-3">
                 <div>
-                    <h2 id="weekly-top-five-title" class="font-display text-xl sm:text-2xl tracking-tight flex items-center gap-3">
+                    <h2 id="weekly-top-five-title" class="font-editorial text-2xl sm:text-3xl tracking-tight flex items-center gap-3">
                         <span class="block w-0.5 h-5 bg-emerald-400"></span>
                         Weekly Top 5 Investment Ideas
                     </h2>
@@ -440,6 +578,7 @@
                 <div>Ticker / Company</div>
                 <div>Industry / Sector</div>
                 <div>Conviction</div>
+                <div>Fair value gap</div>
                 <div>Investment thesis</div>
                 <div>Key catalysts</div>
                 <div>Key risks</div>
@@ -448,8 +587,12 @@
 
             <div id="weekly-top-five-results" aria-live="polite"></div>
 
-            <div class="px-5 sm:px-6 py-2.5 border-t border-white/10 text-[10px] italic text-zinc-500">
-                Conviction reflects published business quality, confidence, valuation discipline, and long-term upside—not short-term price momentum.
+            <div class="ledger-evidence">
+                <span><i class="fa-regular fa-clipboard text-emerald-400"></i>Evidence quality: published research</span>
+                <span><i class="fa-regular fa-clock text-emerald-400"></i>Update cadence: manual weekly review</span>
+                <span><i class="fa-solid fa-database text-emerald-400"></i>Published datasets: 9</span>
+                <span><i class="fa-solid fa-scale-balanced text-emerald-400"></i>Owner’s Compounder Framework</span>
+                <button type="button" onclick="showMethodologyModal()" class="ml-auto text-emerald-300 hover:text-emerald-200">Learn how we score <i class="fa-solid fa-arrow-right ml-1"></i></button>
             </div>
         </div>
     </section>
@@ -514,7 +657,7 @@
                 <div>
                     <div class="section-header flex items-center gap-x-2">
                         <i class="fa-solid fa-building-columns text-indigo-400"></i>
-                        <span>INVESTMENT RESEARCH · VALUE / SMSF</span>
+                        <span>INVESTMENT RESEARCH · LONG-TERM VALUE</span>
                     </div>
                     <div class="text-xs text-zinc-500 mt-0.5">5+ year owner mindset · four independent perspectives · scenario valuation</div>
                 </div>
@@ -616,7 +759,7 @@
     <!-- Disclaimer -->
     <div class="max-w-[1480px] mx-auto px-6 pb-12">
         <div class="text-[10px] text-center text-zinc-500 max-w-lg mx-auto">
-            AI-generated ideas for informational purposes only. Not financial advice.
+            Published research ideas for informational purposes only. Not financial advice.
             Always do your own research. Past performance does not guarantee future results.
             Data is published from the private Zacism trading app.
         </div>
@@ -995,6 +1138,21 @@
             return `${escapeHTML(currency)} ${number.toLocaleString(undefined, { maximumFractionDigits: 2 })}`.trim();
         }
 
+        function numericValue(value) {
+            if (typeof value === 'number') return Number.isFinite(value) ? value : null;
+            const match = String(value || '').replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
+            const number = match ? Number(match[0]) : Number.NaN;
+            return Number.isFinite(number) ? number : null;
+        }
+
+        function fairValueGap(currentValue, fairValue) {
+            const current = numericValue(currentValue);
+            const fair = numericValue(fairValue);
+            if (!current || !fair || current <= 0) return '—';
+            const gap = ((fair - current) / current) * 100;
+            return `${gap >= 0 ? '+' : ''}${Math.round(gap)}%`;
+        }
+
         function normalizedIndustryKey(value) {
             return String(value || '')
                 .toLowerCase()
@@ -1032,7 +1190,8 @@
                 thesis: joinedThesis(report.conclusion, report.businessSummary, report.moat),
                 catalysts: report.catalysts.slice(0, 3),
                 risks: report.keyRisks.slice(0, 3),
-                horizon: report.positionSuggestion.holdingPeriod || '5+ years'
+                horizon: report.positionSuggestion.holdingPeriod || '5+ years',
+                fairValueGap: fairValueGap(report.valuation.currentPrice, report.valuation.weightedFairValue)
             }));
 
             const equityCandidates = investmentData.equityIdeas.map(idea => ({
@@ -1046,7 +1205,8 @@
                 thesis: joinedThesis(idea.thesis, idea.moatEvidence, idea.valuationFramework),
                 catalysts: idea.catalysts.slice(0, 3),
                 risks: idea.risks.slice(0, 3),
-                horizon: idea.timeHorizon || '3–5+ years'
+                horizon: idea.timeHorizon || '3–5+ years',
+                fairValueGap: fairValueGap(idea.currentPrice, idea.targetPrice)
             }));
 
             const globalCandidates = scanData.global
@@ -1062,7 +1222,8 @@
                     thesis: result.thesis,
                     catalysts: result.catalysts.slice(0, 3),
                     risks: result.risks.slice(0, 3),
-                    horizon: /year|long/i.test(result.timeframe) ? result.timeframe : '3–5+ years'
+                    horizon: /year|long/i.test(result.timeframe) ? result.timeframe : '3–5+ years',
+                    fairValueGap: fairValueGap(result.currentPrice, result.target)
                 }));
 
             const bestByTicker = new Map();
@@ -1115,11 +1276,6 @@
         }
 
         function createTopFiveRow(idea, index) {
-            const action = idea.detailType === 'investment'
-                ? `showInvestmentModal('${idea.id}')`
-                : idea.detailType === 'equity'
-                    ? `showEquityModal('${idea.id}')`
-                    : `showDetailModal('${idea.id}')`;
             const sourceLabel = idea.detailType === 'investment'
                 ? 'Deep Research'
                 : idea.detailType === 'equity'
@@ -1127,8 +1283,11 @@
                     : 'Global Scan';
 
             return `
-                <button type="button" class="top-five-row top-five-grid px-5 sm:px-6 py-3 border-b border-white/10" onclick="${action}" aria-label="Open research for ${idea.ticker}">
-                    <div class="top-five-rank terminal-text text-xl text-emerald-300">${index + 1}</div>
+                <div class="top-five-row top-five-grid px-5 sm:px-6 py-4 border-b border-white/10 cursor-pointer" role="button" tabindex="0" onclick="openTopFiveIdea('${idea.detailType}', '${idea.id}')" onkeydown="if(event.key === 'Enter' || event.key === ' '){event.preventDefault();openTopFiveIdea('${idea.detailType}', '${idea.id}')}" aria-label="Open research for ${idea.ticker}">
+                    <div class="top-five-rank flex items-center gap-1">
+                        <button type="button" class="bookmark-button" data-bookmark-id="${idea.id}" aria-label="Save ${idea.ticker} to comparison" aria-pressed="${isBookmarked(idea.id)}" onclick="event.stopPropagation();toggleBookmark('${idea.id}', this)"><i class="${isBookmarked(idea.id) ? 'fa-solid' : 'fa-regular'} fa-bookmark"></i></button>
+                        <span class="terminal-text text-xl text-emerald-300">${index + 1}</span>
+                    </div>
                     <div class="top-five-company min-w-0">
                         <div class="terminal-text text-lg font-semibold text-zinc-100">${idea.ticker}</div>
                         <div class="text-[11px] text-zinc-400 mt-0.5 leading-snug">${idea.companyName}</div>
@@ -1141,11 +1300,16 @@
                         <div class="inline-flex min-w-12 justify-center border border-emerald-400/20 bg-emerald-400/[0.04] px-2 py-1.5 rounded-md terminal-text text-base text-emerald-300">${idea.conviction}</div>
                         <div class="text-[9px] text-zinc-600 mt-1">/ 100</div>
                     </div>
+                    <div class="top-five-fair-value">
+                        <div class="top-five-mobile-label">Fair value gap</div>
+                        <div class="terminal-text text-base ${idea.fairValueGap.startsWith('-') ? 'text-rose-300' : 'text-emerald-300'}">${idea.fairValueGap}</div>
+                        <div class="text-[9px] text-zinc-600 mt-1">vs published value</div>
+                    </div>
                     <p class="top-five-thesis text-xs sm:text-[13px] leading-relaxed text-zinc-300 line-clamp-3">${idea.thesis}</p>
                     <div class="top-five-catalysts">${topFiveList(idea.catalysts, 'No catalyst published', 'Key catalysts')}</div>
                     <div class="top-five-risks">${topFiveList(idea.risks, 'No risk published', 'Key risks')}</div>
                     <div class="top-five-horizon terminal-text text-sm leading-snug text-emerald-300">${idea.horizon}</div>
-                </button>`;
+                </div>`;
         }
 
         function renderWeeklyTopFive() {
@@ -1159,6 +1323,138 @@
             container.innerHTML = ideas.length
                 ? ideas.map(createTopFiveRow).join('')
                 : `<div class="px-6 py-12 text-center"><div class="text-sm text-zinc-300">No long-term ideas have been published yet.</div><div class="text-xs text-zinc-500 mt-2">Publish Investment Mode research or a Global Scan from the Zacism app to populate this weekly list.</div></div>`;
+            renderLedgerChanges(ideas);
+        }
+
+        const ledgerStorage = {
+            bookmarks: 'zacism-ledger-bookmarks-v1',
+            editions: 'zacism-ledger-editions-v1'
+        };
+
+        function readLocalJSON(key, fallback) {
+            try {
+                return JSON.parse(localStorage.getItem(key)) ?? fallback;
+            } catch {
+                return fallback;
+            }
+        }
+
+        function isBookmarked(id) {
+            return readLocalJSON(ledgerStorage.bookmarks, []).includes(id);
+        }
+
+        function toggleBookmark(id, button) {
+            const bookmarks = new Set(readLocalJSON(ledgerStorage.bookmarks, []));
+            if (bookmarks.has(id)) bookmarks.delete(id);
+            else bookmarks.add(id);
+            localStorage.setItem(ledgerStorage.bookmarks, JSON.stringify([...bookmarks]));
+            const active = bookmarks.has(id);
+            button.setAttribute('aria-pressed', String(active));
+            const icon = button.querySelector('i');
+            icon.classList.toggle('fa-solid', active);
+            icon.classList.toggle('fa-regular', !active);
+        }
+
+        function openTopFiveIdea(detailType, id) {
+            if (detailType === 'investment') showInvestmentModal(id);
+            else if (detailType === 'equity') showEquityModal(id);
+            else showDetailModal(id);
+        }
+
+        function renderLedgerChanges(ideas) {
+            const publishedAt = document.getElementById('last-updated').textContent;
+            const current = {
+                key: `${publishedAt}:${ideas.map(idea => idea.ticker).join(',')}`,
+                publishedAt,
+                ideas: ideas.map((idea, rank) => ({ id: idea.id, ticker: idea.ticker, conviction: idea.conviction, rank: rank + 1 }))
+            };
+            const editions = readLocalJSON(ledgerStorage.editions, []);
+            const existingIndex = editions.findIndex(edition => edition.key === current.key);
+            const previous = existingIndex > 0 ? editions[existingIndex - 1] : existingIndex < 0 ? editions.at(-1) : editions[existingIndex - 1];
+
+            if (existingIndex < 0) {
+                editions.push(current);
+                localStorage.setItem(ledgerStorage.editions, JSON.stringify(editions.slice(-26)));
+            }
+
+            if (!previous) {
+                document.getElementById('change-new').textContent = ideas.length || '—';
+                document.getElementById('change-in').textContent = '0';
+                document.getElementById('change-out').textContent = '0';
+                document.getElementById('change-largest').textContent = 'Baseline';
+                return;
+            }
+
+            const previousByTicker = new Map(previous.ideas.map(idea => [idea.ticker, idea]));
+            const currentTickers = new Set(current.ideas.map(idea => idea.ticker));
+            const additions = current.ideas.filter(idea => !previousByTicker.has(idea.ticker));
+            const removals = previous.ideas.filter(idea => !currentTickers.has(idea.ticker));
+            const movers = current.ideas
+                .filter(idea => previousByTicker.has(idea.ticker))
+                .map(idea => ({ ticker: idea.ticker, delta: idea.conviction - previousByTicker.get(idea.ticker).conviction }))
+                .sort((left, right) => Math.abs(right.delta) - Math.abs(left.delta));
+            const largest = movers[0];
+
+            document.getElementById('change-new').textContent = additions.length;
+            document.getElementById('change-in').textContent = additions.length;
+            document.getElementById('change-out').textContent = removals.length;
+            document.getElementById('change-largest').textContent = largest && largest.delta
+                ? `${largest.delta > 0 ? '+' : ''}${largest.delta}`
+                : 'No change';
+        }
+
+        function showLedgerModal(title, body, width = '760px') {
+            const modal = `
+                <div class="fixed inset-0 bg-black/90 flex items-end md:items-center justify-center z-[120]" onclick="this.remove()">
+                    <section onclick="event.stopImmediatePropagation()" class="glass w-full rounded-t-3xl md:rounded-2xl p-6 border border-white/10 max-h-[92vh] overflow-auto" style="max-width:${width}">
+                        <div class="flex items-start justify-between gap-4 mb-6"><div><div class="ledger-kicker">The Owner’s Ledger</div><h2 class="font-editorial text-3xl text-zinc-100 mt-1">${title}</h2></div><button type="button" aria-label="Close" onclick="event.target.closest('.fixed').remove()" class="text-3xl leading-none text-zinc-500 hover:text-white">&times;</button></div>
+                        ${body}
+                    </section>
+                </div>`;
+            document.body.insertAdjacentHTML('beforeend', modal);
+        }
+
+        function showCompareModal() {
+            const ideas = topFiveCandidates();
+            const bookmarks = new Set(readLocalJSON(ledgerStorage.bookmarks, []));
+            const selected = ideas.filter(idea => bookmarks.has(idea.id));
+            const comparison = (selected.length ? selected : ideas.slice(0, 2)).slice(0, 4);
+            const body = comparison.length ? `
+                <p class="text-sm text-zinc-400 mb-5">${selected.length ? 'Saved ideas' : 'Save ideas with the bookmark icon to customise this comparison. Showing the two highest-ranked ideas for now.'}</p>
+                <div class="grid sm:grid-cols-2 gap-px bg-white/10 border border-white/10">${comparison.map(idea => `
+                    <button type="button" onclick="event.target.closest('.fixed').remove();openTopFiveIdea('${idea.detailType}','${idea.id}')" class="bg-[#071015] p-5 text-left hover:bg-emerald-500/[0.04]">
+                        <div class="flex justify-between gap-3"><div><div class="terminal-text text-xl text-zinc-100">${idea.ticker}</div><div class="text-xs text-zinc-500">${idea.companyName}</div></div><div class="terminal-text text-emerald-300">${idea.conviction}/100</div></div>
+                        <div class="mt-4 text-xs text-zinc-400">${idea.industry} · ${idea.horizon}</div>
+                        <div class="mt-3 text-sm leading-relaxed text-zinc-300 line-clamp-4">${idea.thesis}</div>
+                        <div class="mt-4 text-xs text-emerald-300">Fair value gap ${idea.fairValueGap}</div>
+                    </button>`).join('')}</div>`
+                : '<p class="text-sm text-zinc-400">Publish Investment Mode research to begin comparing ideas.</p>';
+            showLedgerModal('Compare the shortlist', body, '900px');
+        }
+
+        function showArchiveModal() {
+            const editions = readLocalJSON(ledgerStorage.editions, []).slice().reverse();
+            const body = editions.length ? `
+                <p class="text-sm text-zinc-400 mb-5">The browser records each newly published Top 5 edition you view. Zacism’s repository remains the source of truth.</p>
+                <div class="divide-y divide-white/10 border-y border-white/10">${editions.map(edition => `
+                    <div class="py-4 flex flex-wrap items-center justify-between gap-3"><div><div class="text-sm text-zinc-200">${escapeHTML(edition.publishedAt)}</div><div class="text-xs text-zinc-500 mt-1">${edition.ideas.map(idea => escapeHTML(idea.ticker)).join(' · ')}</div></div><div class="terminal-text text-xs text-emerald-300">${edition.ideas.length} ideas</div></div>`).join('')}</div>`
+                : '<p class="text-sm text-zinc-400">The first weekly edition will appear here after published ideas load.</p>';
+            showLedgerModal('Weekly archive', body);
+        }
+
+        function showMethodologyModal() {
+            const body = `
+                <p class="text-sm leading-7 text-zinc-300">The ledger ranks published research using business quality, confidence, valuation discipline and long-term upside. It favours durable economics and explicit downside analysis over short-term momentum.</p>
+                <div class="grid sm:grid-cols-2 gap-px bg-white/10 border border-white/10 mt-6">
+                    ${[
+                        ['Business quality', 'Moat durability, recurring economics, balance-sheet strength and management discipline.'],
+                        ['Valuation discipline', 'Scenario value, preferred buy levels and a visible margin of safety.'],
+                        ['Evidence quality', 'Freshness, primary-source support and clear separation of facts from estimates.'],
+                        ['Falsifiability', 'Named risks, disconfirming evidence and conditions that would break the thesis.']
+                    ].map(([heading, copy]) => `<div class="bg-[#071015] p-5"><div class="text-sm font-semibold text-zinc-100">${heading}</div><p class="text-xs leading-6 text-zinc-400 mt-2">${copy}</p></div>`).join('')}
+                </div>
+                <p class="text-[10px] text-zinc-500 mt-5">Conviction is a research ranking—not a promise of performance or personal financial advice.</p>`;
+            showLedgerModal('How conviction is scored', body);
         }
 
         function createInvestmentCard(report) {
