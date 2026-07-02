@@ -1,5 +1,665 @@
 {
+  "equityIdeas" : [
+    {
+      "catalysts" : [
+        "Bank charter benefits unlocking lower funding costs",
+        "Continued expansion of lending and financial products"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "SoFi Technologies",
+      "convictionScore" : 9.6,
+      "currentPrice" : 18.36,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "C59644E1-8AC5-4801-B4DF-C01A8F94D3EC",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Intense fintech competition and margin pressure",
+        "Credit losses in consumer lending during downturns"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 14.3208,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 23.500799999999998,
+      "thesis" : "SoFi offers digital banking growth potential if lending scale and member economics improve steadily.",
+      "ticker" : "SOFI",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "New product launches driving incremental sales",
+        "Further international or channel expansion"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "e.l.f. Beauty",
+      "convictionScore" : 9.5,
+      "currentPrice" : 78.69,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "09B663D9-2731-4763-8B27-F9E4CB73699A",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Rising input costs squeezing margins",
+        "Increased competition from larger beauty peers"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 61.3782,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 100.7232,
+      "thesis" : "e.l.f. Beauty can sustain above-average growth by leveraging low prices and expanding shelf space.",
+      "ticker" : "ELF",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Rising interest rates supporting net interest margins",
+        "Continued loan growth and expense discipline"
+      ],
+      "category" : "Momentum Breakout",
+      "companyName" : "Bank of America Corporation",
+      "convictionScore" : 9.45,
+      "currentPrice" : 57.915,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "C57B6040-3302-4A4D-B0A1-B7B62141F280",
+      "industry" : "Financials",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Credit deterioration in commercial or consumer books",
+        "Regulatory or litigation costs rising unexpectedly"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 50.9652,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 67.1814,
+      "thesis" : "Bank of America offers steady earnings growth from scale and improving net interest income.",
+      "ticker" : "BAC",
+      "timeHorizon" : "Momentum hold (2-8 weeks)"
+    },
+    {
+      "catalysts" : [
+        "Accelerating restaurant adoption post-pandemic",
+        "New product modules increasing revenue per location"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "Toast",
+      "convictionScore" : 9.45,
+      "currentPrice" : 29.08,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "1675C2E5-9D4F-4E60-9205-87C3DDF1C0A3",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "High customer concentration among small restaurants",
+        "Competition from entrenched POS providers"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 22.682399999999998,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 37.2224,
+      "thesis" : "Toast can compound revenue by penetrating the independent restaurant segment and expanding wallet share.",
+      "ticker" : "TOST",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Successful new market entries increasing store count",
+        "Beverage innovation supporting traffic growth"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "Dutch Bros",
+      "convictionScore" : 9.4,
+      "currentPrice" : 72.79,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "2A9B8E5A-5FBE-4336-9FFB-5FA6D009E69B",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "High valuation leaving little room for execution misses",
+        "Labor and commodity cost inflation pressuring margins"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 56.77620000000001,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 93.17120000000001,
+      "thesis" : "Dutch Bros growth depends on disciplined unit expansion and maintaining same-store sales momentum.",
+      "ticker" : "BROS",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Positive late-stage trial readouts in new therapeutic areas",
+        "Further label expansions for Skyrizi or Rinvoq"
+      ],
+      "category" : "Momentum Breakout",
+      "companyName" : "AbbVie Inc.",
+      "convictionScore" : 9.399999999999999,
+      "currentPrice" : 249.735,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "B1425669-8AE8-441C-A57D-27086C56D7EF",
+      "industry" : "Healthcare",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Biosimilar competition intensifying for flagship products",
+        "Clinical or regulatory delays in pipeline candidates"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 219.76680000000002,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 289.69259999999997,
+      "thesis" : "AbbVie can maintain growth through new indications and pipeline delivery offsetting Humira erosion.",
+      "ticker" : "ABBV",
+      "timeHorizon" : "Momentum hold (2-8 weeks)"
+    },
+    {
+      "catalysts" : [
+        "Successful new drug launches in oncology or immunology",
+        "Cost synergies following business separation"
+      ],
+      "category" : "Momentum Breakout",
+      "companyName" : "Johnson & Johnson",
+      "convictionScore" : 9.299999999999999,
+      "currentPrice" : 253.005,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "9B282D2B-83CE-4D7D-9A80-627B21ED50FF",
+      "industry" : "Healthcare",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Patent expirations pressuring key drugs",
+        "Product liability or regulatory setbacks"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 222.6444,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 293.4858,
+      "thesis" : "Johnson & Johnson provides defensive growth through a broad healthcare franchise and steady dividend.",
+      "ticker" : "JNJ",
+      "timeHorizon" : "Momentum hold (2-8 weeks)"
+    },
+    {
+      "catalysts" : [
+        "Potential rerating if execution improves",
+        "BofA Securities Adjusts Hims & Hers Health Price Target to $36 From $25, Maintains Neutral Rating",
+        "Hims & Hers Health, Inc. (HIMS) is Attracting Investor Attention: Here is What You Should Know"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "Hims & Hers Health",
+      "convictionScore" : 9.2,
+      "currentPrice" : 37.06,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T14:48:22Z",
+      "id" : "812DF4B0-5739-487D-9771-D61E424ED27B",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Lower institutional coverage and liquidity risk",
+        "Headline language skews cautious"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 28.906800000000004,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 47.436800000000005,
+      "thesis" : "Hims & Hers Health screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "HIMS",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "New product launches such as additional crypto or banking features",
+        "Higher interest income from cash sweep balances"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "Robinhood Markets",
+      "convictionScore" : 9.15,
+      "currentPrice" : 104.65,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-01T15:04:20Z",
+      "id" : "7A61CB0D-25DE-40CE-91E7-D87F65189D14",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Regulatory scrutiny on trading practices",
+        "Revenue concentration in volatile trading activity"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 81.62700000000001,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 133.952,
+      "thesis" : "Robinhood growth hinges on diversified revenue beyond trading volumes and sustained user retention.",
+      "ticker" : "HOOD",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Potential rerating if execution improves"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "Duolingo",
+      "convictionScore" : 9.15,
+      "currentPrice" : 121.76,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-01T14:54:35Z",
+      "id" : "E2945E93-B7AD-4C51-BAF2-95E67170CBF4",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Lower institutional coverage and liquidity risk"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 94.9728,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 155.8528,
+      "thesis" : "Duolingo screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
+      "ticker" : "DUOL",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Potential rerating if execution improves"
+      ],
+      "category" : "Under the Radar",
+      "companyName" : "Upstart Holdings",
+      "convictionScore" : 9.15,
+      "currentPrice" : 36.26,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-01T14:56:42Z",
+      "id" : "DF7102A5-27B5-445C-980F-B8E572DFD698",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Lower institutional coverage and liquidity risk"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 28.282799999999998,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 46.4128,
+      "thesis" : "Upstart Holdings screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
+      "ticker" : "UPST",
+      "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Breakout-style trend continuation",
+        "Bristol Myers Squibb vs. Johnson & Johnson: Which Healthcare Stock Is a Better Buy in 2026?",
+        "Merck to Hold Second-Quarter 2026 Sales and Earnings Conference Call Aug. 4"
+      ],
+      "category" : "Momentum Breakout",
+      "companyName" : "Merck & Co. Inc.",
+      "convictionScore" : 9.149999999999999,
+      "currentPrice" : 126.815,
+      "dataFreshness" : "Delayed",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-01T15:02:56Z",
+      "id" : "78DF63F9-EA55-4C51-85B6-B12648A0B229",
+      "industry" : "Healthcare",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "False breakout / reversal risk",
+        "Headline language skews cautious"
+      ],
+      "scanType" : "Core Opportunities",
+      "signal" : "BUY",
+      "stopLoss" : 111.5972,
+      "suggestedAllocationPct" : 2,
+      "targetPrice" : 147.10539999999997,
+      "thesis" : "Merck & Co. Inc. screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "MRK",
+      "timeHorizon" : "Momentum hold (2-8 weeks)"
+    },
+    {
+      "catalysts" : [
+        "Enterprise voice AI rollouts",
+        "Automotive and restaurant adoption",
+        "Recurring revenue growth",
+        "Near-term relative strength confirms investor attention"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "SoundHound AI",
+      "convictionScore" : 8.950000000000001,
+      "currentPrice" : 6.68,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$46.76-$80.16 (7-12x over 5-10 years)",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-02T03:30:37Z",
+      "id" : "E4660E46-737F-4CA7-89DF-6D33AF15ADDA",
+      "longTermUpsideScore" : 9,
+      "moatEvidence" : "Vertical deployments and proprietary conversational data are the moat signals; retention and gross margin need confirmation.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Crowded AI market",
+        "Profitability timeline",
+        "Hype-driven valuation swings"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 4.008,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 53.44,
+      "thesis" : "SoundHound AI fits the voice AI interfaces sleeve at $6.68; the 10x case depends on years of compounding rather than a quick rerating. If voice becomes a default AI interface across cars, restaurants, and devices, a small share of recurring conversational AI spend could create a much larger revenue base. Moat evidence to verify: Vertical deployments and proprietary conversational data are the moat signals; retention and gross margin need confirmation. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "SOUN",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If voice becomes a default AI interface across cars, restaurants, and devices, a small share of recurring conversational AI spend could create a much larger revenue base."
+    },
+    {
+      "catalysts" : [
+        "New health categories",
+        "Subscriber retention",
+        "Margin expansion",
+        "Near-term relative strength confirms investor attention"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "Hims & Hers Health",
+      "convictionScore" : 8.65,
+      "currentPrice" : 37.57,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$262.99-$450.84 (7-12x over 5-10 years)",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-02T03:29:37Z",
+      "id" : "C1F5AE82-1336-413D-8D5E-6A23B6DE910E",
+      "longTermUpsideScore" : 9.3,
+      "moatEvidence" : "Brand, direct distribution, personalization data, and repeat customer relationships can become a compounding acquisition advantage.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Regulatory scrutiny",
+        "Competition in GLP-1 and wellness",
+        "Marketing efficiency could weaken",
+        "High near-term volatility can create poor entry timing"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 22.541999999999998,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 300.56,
+      "thesis" : "Hims & Hers Health fits the consumerized digital health sleeve at $37.57; the 10x case depends on years of compounding rather than a quick rerating. If Hims expands categories while keeping customer acquisition efficient, a modest share of cash-pay digital health could support a far larger recurring revenue stream. Moat evidence to verify: Brand, direct distribution, personalization data, and repeat customer relationships can become a compounding acquisition advantage. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "HIMS",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If Hims expands categories while keeping customer acquisition efficient, a modest share of cash-pay digital health could support a far larger recurring revenue stream."
+    },
+    {
+      "catalysts" : [
+        "Satellite deployment milestones",
+        "Carrier commercialization",
+        "Regulatory approvals",
+        "ASTS Stock Eases After 3-Day Run: FCC Opens Door For Direct Phone-To-Satellite Connectivity Using 800 MHz Spectrum"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "AST SpaceMobile",
+      "convictionScore" : 8.250000000000002,
+      "currentPrice" : 86.1,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$258.30-$516.60 (3-6x over 5-10 years)",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-02T03:29:36Z",
+      "id" : "27CC74CC-9100-41FB-8994-3205987ABB6D",
+      "longTermUpsideScore" : 8.450000000000001,
+      "moatEvidence" : "Carrier partnerships and spectrum/network integration are a meaningful wedge if the satellite network works at commercial scale.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Funding dilution",
+        "Technical execution risk",
+        "Commercial adoption may lag",
+        "Barclays cuts PT to $60 (Underweight) on launch delays and near-term risk/reward"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "HOLD",
+      "stopLoss" : 51.66,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 344.4,
+      "thesis" : "AST SpaceMobile fits the direct-to-device satellite broadband sleeve at $86.10; the 10x case depends on years of compounding rather than a quick rerating. If AST SpaceMobile signs scaled carrier deals and serves even a niche slice of global mobile coverage gaps, subscription-style economics could justify a market cap far above today's base. Moat evidence to verify: Carrier partnerships and spectrum/network integration are a meaningful wedge if the satellite network works at commercial scale. Alt alpha: Neutral pulse from 6 recent headline(s). Fresh intel: ASTS gained momentum from confirmed BlueBird 8-10 operations, Japan's ~$926M Rakuten subsidy, August launch window for BB11-13, and FCC D2D tailwinds despite Barclays PT cut and insider filing.",
+      "ticker" : "ASTS",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If AST SpaceMobile signs scaled carrier deals and serves even a niche slice of global mobile coverage gaps, subscription-style economics could justify a market cap far above today's base."
+    },
+    {
+      "catalysts" : [
+        "Hardware roadmap milestones",
+        "Cloud and enterprise partnerships",
+        "Proof of commercial quantum workloads",
+        "IonQ (IONQ) Stock Looks Pricey On Earnings Yet Strong On Returns"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "IonQ",
+      "convictionScore" : 8.200000000000001,
+      "currentPrice" : 51.4,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$257.00-$514.00 (5-10x over 5-10 years)",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-02T03:29:38Z",
+      "id" : "A7108B9E-DD26-45B6-9F92-27EEDAFAD604",
+      "longTermUpsideScore" : 8.4,
+      "moatEvidence" : "Technical talent, hardware roadmap progress, and ecosystem partnerships are the main moat signals to verify.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Technology may take longer than expected",
+        "Dilution risk",
+        "Incumbent cloud platforms may dominate"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 30.839999999999996,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 308.4,
+      "thesis" : "IonQ fits the quantum computing optionality sleeve at $51.40; the 10x case depends on years of compounding rather than a quick rerating. If quantum workloads become commercially useful and the company captures an early platform share, today's revenue base could be tiny relative to the eventual compute market. Moat evidence to verify: Technical talent, hardware roadmap progress, and ecosystem partnerships are the main moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "IONQ",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If quantum workloads become commercially useful and the company captures an early platform share, today's revenue base could be tiny relative to the eventual compute market."
+    }
+  ],
   "funnels" : [
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 98,
+          "companyName" : "Berkshire Hathaway Inc.",
+          "keyRisk" : "Succession and conglomerate complexity.",
+          "moatScore" : 95,
+          "overallScore" : 92,
+          "rationale" : "Unmatched capital base and permanent capital advantage in reinsurance via General Re.",
+          "recommendation" : "Strong Buy",
+          "ticker" : "BRK.B",
+          "valuationScore" : 75
+        },
+        {
+          "balanceSheetScore" : 90,
+          "companyName" : "Munich Re",
+          "keyRisk" : "Catastrophe loss volatility and European regulatory shifts.",
+          "moatScore" : 88,
+          "overallScore" : 85,
+          "rationale" : "Global leader with diversified reinsurance book and strong reserving culture.",
+          "recommendation" : "Buy",
+          "ticker" : "MUV2.DE",
+          "valuationScore" : 78
+        },
+        {
+          "balanceSheetScore" : 88,
+          "companyName" : "Hannover Re",
+          "keyRisk" : "Reinsurance cycle pricing pressure.",
+          "moatScore" : 82,
+          "overallScore" : 82,
+          "rationale" : "Best-in-class combined ratio track record and efficient capital allocation.",
+          "recommendation" : "Buy",
+          "ticker" : "HNR1.DE",
+          "valuationScore" : 85
+        },
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "Arch Capital Group Ltd.",
+          "keyRisk" : "Acquisition integration and investment portfolio risk.",
+          "moatScore" : 80,
+          "overallScore" : 78,
+          "rationale" : "Diversified platform with excellent underwriting discipline across reinsurance and insurance.",
+          "recommendation" : "Buy",
+          "ticker" : "ACGL",
+          "valuationScore" : 72
+        },
+        {
+          "balanceSheetScore" : 80,
+          "companyName" : "RenaissanceRe Holdings Ltd.",
+          "keyRisk" : "High earnings volatility from peak perils.",
+          "moatScore" : 78,
+          "overallScore" : 73,
+          "rationale" : "Specialized catastrophe expertise and strong risk modeling moat.",
+          "recommendation" : "Watch",
+          "ticker" : "RNR",
+          "valuationScore" : 68
+        },
+        {
+          "balanceSheetScore" : 82,
+          "companyName" : "Swiss Re AG",
+          "keyRisk" : "Legacy reserve development and Life & Health drag.",
+          "moatScore" : 75,
+          "overallScore" : 70,
+          "rationale" : "Broad product suite and global footprint with improving capital returns.",
+          "recommendation" : "Watch",
+          "ticker" : "SREN.SW",
+          "valuationScore" : 65
+        },
+        {
+          "balanceSheetScore" : 78,
+          "companyName" : "Everest Group Ltd.",
+          "keyRisk" : "Concentration in North American property lines.",
+          "moatScore" : 70,
+          "overallScore" : 68,
+          "rationale" : "Solid US-focused reinsurance franchise with reasonable valuation.",
+          "recommendation" : "Watch",
+          "ticker" : "EG",
+          "valuationScore" : 70
+        },
+        {
+          "balanceSheetScore" : 75,
+          "companyName" : "Axis Capital Holdings Ltd.",
+          "keyRisk" : "Underwriting inconsistency and higher expense ratio.",
+          "moatScore" : 65,
+          "overallScore" : 62,
+          "rationale" : "Adequate scale but thinner moat versus larger peers.",
+          "recommendation" : "Avoid",
+          "ticker" : "AXS",
+          "valuationScore" : 62
+        }
+      ],
+      "conclusion" : "Reinsurance offers durable economics for scale operators with disciplined underwriting and fortress balance sheets, led by Berkshire Hathaway and select European specialists.",
+      "generatedAt" : "2026-07-02T09:42:21Z",
+      "id" : "93F1B620-975A-473A-B54D-A41142C474D1",
+      "model" : "grok-3-mini-fast",
+      "theme" : "Reinsurance"
+    },
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 96,
+          "companyName" : "The Coca-Cola Company",
+          "keyRisk" : "Emerging-market currency volatility and long-term sugar-tax exposure.",
+          "moatScore" : 95,
+          "overallScore" : 92,
+          "rationale" : "Unmatched global brand portfolio, consistent free-cash-flow conversion and fortress net-cash position after leases.",
+          "recommendation" : "Buy",
+          "ticker" : "KO",
+          "valuationScore" : 78
+        },
+        {
+          "balanceSheetScore" : 94,
+          "companyName" : "The Procter & Gamble Company",
+          "keyRisk" : "Private-label share gains in a prolonged cost-of-living crisis.",
+          "moatScore" : 93,
+          "overallScore" : 89,
+          "rationale" : "Category-leading household brands, 90-plus years of dividend growth and investment-grade balance sheet with minimal net debt.",
+          "recommendation" : "Buy",
+          "ticker" : "PG",
+          "valuationScore" : 75
+        },
+        {
+          "balanceSheetScore" : 91,
+          "companyName" : "PepsiCo, Inc.",
+          "keyRisk" : "Health-driven volume pressure on sugary beverages.",
+          "moatScore" : 88,
+          "overallScore" : 84,
+          "rationale" : "Diversified beverage and snack portfolio, strong route-to-market and solid returns on invested capital.",
+          "recommendation" : "Buy",
+          "ticker" : "PEP",
+          "valuationScore" : 72
+        },
+        {
+          "balanceSheetScore" : 88,
+          "companyName" : "Unilever PLC",
+          "keyRisk" : "Slower emerging-market recovery and activist pressure for further restructuring.",
+          "moatScore" : 85,
+          "overallScore" : 79,
+          "rationale" : "Global personal-care and food reach with improving margin trajectory after portfolio pruning.",
+          "recommendation" : "Watch",
+          "ticker" : "UL",
+          "valuationScore" : 68
+        },
+        {
+          "balanceSheetScore" : 89,
+          "companyName" : "Colgate-Palmolive Company",
+          "keyRisk" : "Category concentration and rising input-cost inflation.",
+          "moatScore" : 82,
+          "overallScore" : 76,
+          "rationale" : "Dominant oral-care franchise and steady cash generation despite modest top-line growth.",
+          "recommendation" : "Watch",
+          "ticker" : "CL",
+          "valuationScore" : 65
+        },
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "Kimberly-Clark Corporation",
+          "keyRisk" : "Pulp-price volatility and private-label share erosion.",
+          "moatScore" : 78,
+          "overallScore" : 71,
+          "rationale" : "Essential tissue and hygiene brands with high barriers in away-from-home channels.",
+          "recommendation" : "Watch",
+          "ticker" : "KMB",
+          "valuationScore" : 62
+        },
+        {
+          "balanceSheetScore" : 87,
+          "companyName" : "Nestlé S.A.",
+          "keyRisk" : "Premium valuation and slower organic growth in developed markets.",
+          "moatScore" : 80,
+          "overallScore" : 68,
+          "rationale" : "Broad nutrition and pet-care portfolio with scale advantages, though valuation remains elevated.",
+          "recommendation" : "Avoid",
+          "ticker" : "NSRGY",
+          "valuationScore" : 55
+        },
+        {
+          "balanceSheetScore" : 79,
+          "companyName" : "General Mills, Inc.",
+          "keyRisk" : "Private-label competition and interest-rate sensitivity on floating debt.",
+          "moatScore" : 70,
+          "overallScore" : 62,
+          "rationale" : "Stable North-American center-store brands but thinner moat and higher leverage versus peers.",
+          "recommendation" : "Avoid",
+          "ticker" : "GIS",
+          "valuationScore" : 58
+        }
+      ],
+      "conclusion" : "Global consumer staples offers durable demand and brand moats, with the shortlist limited to firms possessing fortress balance sheets and pricing power.",
+      "generatedAt" : "2026-07-02T09:40:45Z",
+      "id" : "BF44E1BA-43A7-4B85-9E98-922A5D69965D",
+      "model" : "grok-3-mini-fast",
+      "theme" : "Global Consumer Staples"
+    },
     {
       "candidates" : [
         {
@@ -58,7 +718,7 @@
           "valuationScore" : 55
         }
       ],
-      "conclusion" : "Defensive oligopoly economics and recurring revenue favour scale operators with fortress balance sheets, leaving only a handful of listed names suitable for disciplined long-term review.",
+      "conclusion" : "Defensive oligopoly economics and recurring revenue favor scale operators with fortress balance sheets, leaving only a handful of listed names suitable for conservative SMSF review.",
       "generatedAt" : "2026-07-02T03:22:43Z",
       "id" : "D525B154-5C26-4995-A735-E65AA9C8433F",
       "model" : "grok-3-mini-fast",
@@ -155,7 +815,7 @@
           "valuationScore" : 35
         }
       ],
-      "conclusion" : "Pharmaceuticals contain a handful of durable-moat, fortress-balance-sheet compounders that survive patent cycles and merit deeper value analysis for a disciplined long-term portfolio.",
+      "conclusion" : "Pharmaceuticals contain a handful of durable-moat, fortress-balance-sheet compounders that survive patent cycles and merit deeper value analysis for a conservative SMSF.",
       "generatedAt" : "2026-07-01T06:15:29Z",
       "id" : "1B0517E5-04D6-4BDE-98E9-BD6F30AE908C",
       "model" : "grok-3-mini-fast",
@@ -240,6 +900,161 @@
   "reports" : [
     {
       "bearCase" : [
+        "Major catastrophe losses or reserve development pressure earnings",
+        "Interest-rate or inflation shocks impair investment portfolio",
+        "Competitive pressure compresses margins"
+      ],
+      "bullCase" : [
+        "Sustained underwriting excellence drives ROE above 15%",
+        "Continued special dividends and opportunistic buybacks",
+        "Expansion in high-margin specialty lines"
+      ],
+      "businessSummary" : "Hannover Re provides property & casualty and life & health reinsurance worldwide with a focus on risk selection and retrocession.",
+      "catalysts" : [
+        "Q4 reserve releases",
+        "New retrocession treaties",
+        "Management capital-return announcements"
+      ],
+      "companyName" : "Hannover Rück SE",
+      "conclusion" : "Leading global reinsurer with disciplined underwriting and capital returns but limited reinvestment runway and cyclical exposure warrant a cautious stance.",
+      "confidence" : 45,
+      "dataAsOf" : "2024-09-30",
+      "deliveryStatus" : "complete",
+      "disconfirmingEvidence" : [
+        "Two consecutive years of combined ratio above 100%",
+        "Material decline in solvency ratio",
+        "Repeated dividend cuts"
+      ],
+      "exchange" : "Xetra",
+      "financials" : {
+        "balanceSheet" : "Unavailable",
+        "earningsGrowth" : "Unavailable",
+        "freeCashFlow" : "Unavailable",
+        "returnsOnCapital" : "Unavailable",
+        "revenueGrowth" : "Unavailable",
+        "shareCountTrend" : "Unavailable"
+      },
+      "generatedAt" : "2026-07-02T09:43:20Z",
+      "id" : "A50F091A-04A3-4C9D-87DB-35F7D1C1AB58",
+      "keyRisks" : [
+        "Catastrophe frequency increase",
+        "Regulatory changes in key markets",
+        "Prolonged soft market pricing"
+      ],
+      "managementAndCapitalAllocation" : "Conservative reserving and regular dividend/special dividend policy; limited M&A activity and disciplined buybacks when undervalued.",
+      "moat" : "Strong underwriting franchise and diversification across lines and geographies; scale advantages in data and retrocession.",
+      "monitoringChecklist" : [
+        "Quarterly combined ratio and solvency disclosures",
+        "Annual retrocession renewals",
+        "Dividend policy updates"
+      ],
+      "overallScore" : 62,
+      "perspectives" : [
+        {
+          "keyQuestions" : [
+            "How sustainable is combined-ratio outperformance?",
+            "What is customer concentration?"
+          ],
+          "name" : "Business Owner",
+          "score" : 68,
+          "thesis" : "Underwriting discipline and client relationships support long-term value creation in reinsurance.",
+          "verdict" : "Solid franchise"
+        },
+        {
+          "keyQuestions" : [
+            "Will buybacks continue at current valuations?",
+            "How are excess reserves deployed?"
+          ],
+          "name" : "Capital Allocator",
+          "score" : 60,
+          "thesis" : "Returns capital via dividends; modest reinvestment opportunities in new lines.",
+          "verdict" : "Prudent but limited runway"
+        },
+        {
+          "keyQuestions" : [
+            "What is normalized loss ratio over 10 years?",
+            "How exposed to inflation and catastrophe trends?"
+          ],
+          "name" : "Rational Skeptic",
+          "score" : 55,
+          "thesis" : "Reinsurance results are volatile; historical ROE mean-reversion is likely.",
+          "verdict" : "Cyclical with base-rate concerns"
+        },
+        {
+          "keyQuestions" : [
+            "What is exposure to interest-rate or credit shocks?",
+            "Any regulatory or geopolitical tail risks in key markets?"
+          ],
+          "name" : "Downside Protector",
+          "score" : 65,
+          "thesis" : "Strong solvency ratios and conservative investment portfolio reduce permanent-loss probability.",
+          "verdict" : "Adequate buffers"
+        }
+      ],
+      "positionSuggestion" : {
+        "addConditions" : [
+          "Further 15% price decline or improved combined-ratio guidance"
+        ],
+        "entryConditions" : [
+          "Price below 200 EUR",
+          "Solvency ratio above 200%"
+        ],
+        "exitConditions" : [
+          "Combined ratio exceeds 102% for two consecutive years",
+          "Solvency ratio falls below 180%",
+          "Better opportunities elsewhere"
+        ],
+        "holdingPeriod" : "At least five years",
+        "initialPortfolioPercent" : 3,
+        "maximumPortfolioPercent" : 6,
+        "rationale" : "Modest starter position given cyclical nature and current valuation uncertainty",
+        "trancheCount" : 2
+      },
+      "recommendation" : "Watch",
+      "riskRating" : "Medium",
+      "sources" : [
+        {
+          "asOf" : "2024",
+          "title" : "Hannover Re investor relations and annual reports"
+        }
+      ],
+      "ticker" : "HNR1.DE",
+      "valuation" : {
+        "base" : {
+          "assumptions" : [
+            "Combined ratio averages 96%",
+            "Modest premium growth 5-7%"
+          ],
+          "fairValue" : 240,
+          "name" : "Base",
+          "probability" : 0.5
+        },
+        "bear" : {
+          "assumptions" : [
+            "Combined ratio deteriorates to 102%",
+            "Premium growth slows to 2%"
+          ],
+          "fairValue" : 180,
+          "name" : "Bear",
+          "probability" : 0.25
+        },
+        "bull" : {
+          "assumptions" : [
+            "Combined ratio sustains 93%",
+            "Continued dividend growth and buybacks"
+          ],
+          "fairValue" : 290,
+          "name" : "Bull",
+          "probability" : 0.25
+        },
+        "currency" : "EUR",
+        "methodology" : "Dividend-discount and normalized earnings multiple applied to five-year owner horizon",
+        "preferredBuyBelow" : 200,
+        "weightedFairValue" : 237.5
+      }
+    },
+    {
+      "bearCase" : [
         "Unavailable"
       ],
       "bullCase" : [
@@ -250,7 +1065,7 @@
         "Unavailable"
       ],
       "companyName" : "Waste Management, Inc.",
-      "conclusion" : "WM operates a durable, essential-service waste business with strong cash generation but lacks sufficient data for confident valuation at current levels within a long-term investment mandate.",
+      "conclusion" : "WM operates a durable, essential-service waste business with strong cash generation but lacks sufficient data for confident valuation at current levels within an SMSF mandate.",
       "confidence" : 40,
       "dataAsOf" : "2024-09-30",
       "deliveryStatus" : "partial",
@@ -413,6 +1228,7 @@
       },
       "generatedAt" : "2026-07-01T06:20:55Z",
       "id" : "20938081-5934-4469-843B-01BED21F0B49",
+      "industry" : "Healthcare",
       "keyRisks" : [
         "Patent cliff concentration",
         "Regulatory pricing pressure",
@@ -484,7 +1300,7 @@
         "holdingPeriod" : "Minimum five years",
         "initialPortfolioPercent" : 3,
         "maximumPortfolioPercent" : 8,
-        "rationale" : "Conservative initial size preserves portfolio diversification while allowing averaging on volatility.",
+        "rationale" : "Conservative initial size preserves SMSF diversification while allowing averaging on volatility.",
         "trancheCount" : 3
       },
       "recommendation" : "Buy",
@@ -551,7 +1367,7 @@
         "Upgrade in AM Best or S&P rating"
       ],
       "companyName" : "AIA Group Limited",
-      "conclusion" : "AIA offers a durable Asian life-insurance franchise with conservative balance sheet characteristics that align with long-term capital-preservation objectives over a multi-year horizon.",
+      "conclusion" : "AIA offers a durable Asian life-insurance franchise with conservative balance sheet characteristics that align with SMSF capital-preservation objectives over a multi-year horizon.",
       "confidence" : 55,
       "dataAsOf" : "2024-06-30",
       "deliveryStatus" : "partial",
@@ -693,119 +1509,114 @@
   ],
   "themes" : [
     {
-      "name" : "Diversified Pharmaceuticals",
-      "rationale" : "Aging demographics create durable demand; high regulatory barriers and strong free cash flow support quality at reasonable valuations with limited cyclical exposure.",
-      "risks" : [
-        "Patent expirations",
-        "Pricing pressure"
-      ],
-      "sampleTickers" : [
-        "JNJ",
-        "AZN",
-        "GSK"
-      ],
-      "score" : 82,
-      "subindustries" : [
-        "Branded Pharmaceuticals",
-        "Specialty Generics"
-      ],
-      "timeHorizon" : "10+ years"
-    },
-    {
-      "name" : "Regulated Multi-Utilities",
-      "rationale" : "Essential services with regulated returns deliver predictable cash flows and downside resilience across economic cycles at conservative valuations.",
-      "risks" : [
-        "Interest rate sensitivity",
-        "Regulatory resets"
-      ],
-      "sampleTickers" : [
-        "NG",
-        "DUK",
-        "AEE"
-      ],
-      "score" : 79,
-      "subindustries" : [
-        "Electricity Transmission",
-        "Gas Distribution"
-      ],
-      "timeHorizon" : "10+ years"
-    },
-    {
-      "name" : "Global Consumer Staples",
-      "rationale" : "Non-discretionary demand for food, beverages and household goods provides defensive earnings stability and pricing power through inflation.",
-      "risks" : [
-        "Input cost inflation",
-        "Private label competition"
-      ],
-      "sampleTickers" : [
-        "PG",
-        "NESN",
-        "KO"
-      ],
-      "score" : 77,
-      "subindustries" : [
-        "Packaged Food",
-        "Household Products"
-      ],
-      "timeHorizon" : "10+ years"
-    },
-    {
-      "name" : "Property & Casualty Insurance",
-      "rationale" : "Underwriting discipline and float investment income generate quality returns; conservative balance sheets and catastrophe modeling support resilience.",
-      "risks" : [
-        "Catastrophe losses",
-        "Reserve inadequacy"
-      ],
-      "sampleTickers" : [
-        "BRK.B",
-        "TRV",
-        "MUV2"
-      ],
-      "score" : 75,
-      "subindustries" : [
-        "Commercial Lines",
-        "Reinsurance"
-      ],
-      "timeHorizon" : "10+ years"
-    },
-    {
-      "name" : "Waste Management & Environmental Services",
-      "rationale" : "Recurring collection contracts and landfill assets produce stable cash flows; structural volume growth from regulation and urbanisation.",
+      "name" : "Rail Freight Transportation",
+      "rationale" : "Durable oligopoly with high barriers, essential for goods movement, reasonable valuations after rate normalization, and structural need for efficient inland transport amid global trade shifts.",
       "risks" : [
         "Fuel price volatility",
-        "Local permitting delays"
+        "Regulatory rate caps"
+      ],
+      "sampleTickers" : [
+        "UNP",
+        "CSX",
+        "NSC"
+      ],
+      "score" : 85,
+      "subindustries" : [
+        "Class I Railroads",
+        "Rail Equipment"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Waste Management",
+      "rationale" : "Recurring revenue from essential service, pricing power through local monopolies, steady volume growth from population and regulation, attractive free cash flow at moderate multiples.",
+      "risks" : [
+        "Environmental litigation",
+        "Municipal contract re-bids"
       ],
       "sampleTickers" : [
         "WM",
-        "RSG",
-        "VEON"
+        "RSG"
       ],
-      "score" : 74,
+      "score" : 82,
       "subindustries" : [
         "Solid Waste Collection",
-        "Hazardous Waste"
+        "Landfill Operations"
       ],
       "timeHorizon" : "10+ years"
     },
     {
-      "name" : "Toll Road & Airport Infrastructure",
-      "rationale" : "Long-term concession agreements deliver inflation-linked revenues with limited competition and high barriers, offering defensive global cash flows.",
+      "name" : "Reinsurance",
+      "rationale" : "Float generation and disciplined underwriting create long-term compounding, elevated rates post-catastrophe losses provide margin buffer, global diversification reduces single-market risk.",
       "risks" : [
-        "Traffic volume shocks",
-        "Political concession risk"
+        "Climate-driven loss creep",
+        "Investment portfolio drawdowns"
       ],
       "sampleTickers" : [
-        "ATL",
-        "AENA",
-        "PAC"
+        "BRK.B",
+        "RNR"
       ],
-      "score" : 73,
+      "score" : 80,
       "subindustries" : [
-        "Toll Roads",
-        "Airports"
+        "Property Catastrophe Reinsurance",
+        "Life Reinsurance"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Medical Consumables and Devices",
+      "rationale" : "Aging demographics and procedure volume growth provide durable demand, high switching costs and regulatory moats support margins, current valuations reflect realistic growth not hype.",
+      "risks" : [
+        "Healthcare reimbursement pressure",
+        "Product liability"
+      ],
+      "sampleTickers" : [
+        "MDT",
+        "BSX"
+      ],
+      "score" : 78,
+      "subindustries" : [
+        "Orthopedics",
+        "General Medical Supplies"
+      ],
+      "timeHorizon" : "10+ years"
+    },
+    {
+      "name" : "Electric Transmission Equipment",
+      "rationale" : "Grid hardening and renewable integration require decades of capital spending, oligopolistic suppliers enjoy pricing power, balance sheets resilient to rate cycles.",
+      "risks" : [
+        "Supply chain delays",
+        "Policy subsidy reversals"
+      ],
+      "sampleTickers" : [
+        "ETN",
+        "ABB"
+      ],
+      "score" : 77,
+      "subindustries" : [
+        "High-Voltage Transformers",
+        "Grid Automation"
       ],
       "timeHorizon" : "15+ years"
+    },
+    {
+      "name" : "Toll Road Concessions",
+      "rationale" : "Long-term contracts with inflation-linked tolls deliver predictable cash flows, limited new competition due to land constraints, current yields compensate for traffic cyclicality.",
+      "risks" : [
+        "Traffic volume shocks",
+        "Political renegotiation of tariffs"
+      ],
+      "sampleTickers" : [
+        "AENA.MC",
+        "ATL.MI"
+      ],
+      "score" : 75,
+      "subindustries" : [
+        "Highway Concessions",
+        "Bridge Operations"
+      ],
+      "timeHorizon" : "20+ years"
     }
   ],
-  "version" : 1
+  "version" : 2
 }
