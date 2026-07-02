@@ -22,27 +22,25 @@
         .trading-bg {
             background-color: #0a0a0f;
             background-image: 
-                linear-gradient(rgba(16, 185, 129, 0.025) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(16, 185, 129, 0.025) 1px, transparent 1px);
-            background-size: 48px 48px;
+                linear-gradient(rgba(16, 185, 129, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(16, 185, 129, 0.03) 1px, transparent 1px);
+            background-size: 44px 44px;
         }
 
         .glass {
-            background: rgba(255,255,255, 0.035);
-            backdrop-filter: blur(24px);
+            background: rgba(255,255,255, 0.04);
+            backdrop-filter: blur(20px);
             border: 1px solid rgba(255,255,255, 0.08);
         }
 
         .premium-card {
-            transition: transform 0.2s cubic-bezier(0.4, 0.0, 0.2, 1), 
-                        box-shadow 0.2s cubic-bezier(0.4, 0.0, 0.2, 1),
-                        border-color 0.2s ease;
+            transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
         }
         
         .premium-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-            border-color: rgba(16, 185, 129, 0.25);
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            border-color: rgba(16, 185, 129, 0.2);
         }
 
         .section-header {
@@ -76,7 +74,7 @@
             left: 0;
             width: 100%;
             height: 2px;
-            background: linear-gradient(to right, #10b981, transparent);
+            background: #10b981;
         }
 
         .metric {
@@ -85,17 +83,10 @@
 
         .terminal-text {
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-            letter-spacing: -.02em;
-        }
-
-        .hero-glow {
-            box-shadow: 0 0 80px rgba(16, 185, 129, 0.08);
         }
 
         @media (max-width: 768px) {
-            .premium-card {
-                padding: 1rem;
-            }
+            .premium-card { padding: 1rem; }
         }
     </style>
 </head>
@@ -118,7 +109,7 @@
                 </div>
                 
                 <a href="https://github.com/zacism1/zacism-market-scanner" target="_blank" 
-                   class="flex items-center gap-x-2 px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-all active:scale-[0.985]">
+                   class="flex items-center gap-x-2 px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-all">
                     <i class="fa-brands fa-github"></i>
                     <span class="font-medium hidden sm:inline">GitHub</span>
                 </a>
@@ -127,29 +118,29 @@
     </div>
 
     <!-- Hero -->
-    <div class="max-w-screen-2xl mx-auto px-6 pt-16 pb-10">
-        <div class="max-w-3xl">
+    <div class="max-w-screen-2xl mx-auto px-6 pt-14 pb-8">
+        <div class="max-w-2xl">
             <div class="inline-flex items-center gap-x-2 px-5 py-1.5 rounded-3xl bg-white/5 border border-white/10 mb-6">
                 <i class="fa-solid fa-chart-line text-emerald-400"></i>
                 <span class="text-xs font-semibold tracking-[1px] text-emerald-400">WEEKLY HIGH-CONVICTION IDEAS</span>
             </div>
             
-            <h1 class="font-display text-7xl sm:text-7xl tracking-[-4.5px] leading-[0.9] font-semibold mb-5">
+            <h1 class="font-display text-7xl tracking-[-4.2px] leading-none font-semibold mb-4">
                 zacism<br>market scanner
             </h1>
-            <p class="text-2xl text-zinc-400 max-w-lg tracking-tight">
+            <p class="text-xl text-zinc-400 max-w-md">
                 Professional-grade investment ideas and market intelligence from the Zacism AI system.
             </p>
             
-            <div class="flex flex-wrap items-center gap-x-4 mt-9">
-                <div class="px-6 py-3.5 bg-white/5 rounded-3xl border border-white/10 flex items-center gap-x-3">
+            <div class="flex flex-wrap items-center gap-x-4 mt-8">
+                <div class="px-6 py-3 bg-white/5 rounded-3xl border border-white/10 flex items-center gap-x-3">
                     <div>
-                        <div class="text-xs text-zinc-500 tracking-wider">LAST UPDATED</div>
-                        <div id="last-updated" class="font-mono text-sm font-medium mt-0.5">—</div>
+                        <div class="text-xs text-zinc-500">LAST UPDATED</div>
+                        <div id="last-updated" class="font-mono text-sm font-medium">—</div>
                     </div>
                 </div>
                 
-                <div class="px-5 py-3.5 bg-emerald-500/10 text-emerald-400 rounded-3xl border border-emerald-500/20 flex items-center gap-x-2 text-sm">
+                <div class="px-5 py-3 bg-emerald-500/10 text-emerald-400 rounded-3xl border border-emerald-500/20 flex items-center gap-x-2 text-sm">
                     <i class="fa-solid fa-sync fa-spin-pulse"></i>
                     <span class="font-medium">Auto-synced from Zacism</span>
                 </div>
@@ -157,47 +148,46 @@
         </div>
     </div>
 
-    <!-- Navigation Tabs -->
+    <!-- Navigation -->
     <div class="max-w-screen-2xl mx-auto px-6 sticky top-[73px] bg-[#0a0a0f]/95 backdrop-blur-xl z-40 border-b border-white/10">
-        <div class="flex items-center gap-x-1 overflow-x-auto pb-3 pt-2 scrollbar-hide">
+        <div class="flex items-center gap-x-1 overflow-x-auto pb-2">
             <div onclick="switchTab(0)" class="nav-tab px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2.5 active text-emerald-400" id="tab-0">
-                <i class="fa-solid fa-globe w-4"></i>
+                <i class="fa-solid fa-globe"></i>
                 <span>Global Scan</span>
             </div>
             <div onclick="switchTab(1)" class="nav-tab px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2.5 text-zinc-400 hover:text-zinc-200" id="tab-1">
-                <i class="fa-solid fa-waveform-lines w-4"></i>
+                <i class="fa-solid fa-waveform-lines"></i>
                 <span>Swing Trades</span>
             </div>
             <div onclick="switchTab(2)" class="nav-tab px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2.5 text-zinc-400 hover:text-zinc-200" id="tab-2">
-                <i class="fa-solid fa-star w-4"></i>
+                <i class="fa-solid fa-star"></i>
                 <span>Special Situations</span>
             </div>
             <div onclick="switchTab(3)" class="nav-tab px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2.5 text-zinc-400 hover:text-zinc-200" id="tab-3">
-                <i class="fa-solid fa-chart-bar w-4"></i>
+                <i class="fa-solid fa-chart-bar"></i>
                 <span>Options</span>
             </div>
         </div>
     </div>
 
     <!-- Filters -->
-    <div class="max-w-screen-2xl mx-auto px-6 pt-6 pb-4">
+    <div class="max-w-screen-2xl mx-auto px-6 pt-5 pb-4">
         <div class="flex flex-col sm:flex-row gap-3">
             <div class="flex-1">
                 <div class="relative">
                     <i class="fa-solid fa-search absolute left-4 top-3.5 text-zinc-500"></i>
                     <input id="search-input" type="text" placeholder="Search ticker or company..." 
-                           class="w-full bg-white/5 border border-white/10 focus:border-emerald-500/60 transition-colors pl-11 pr-4 py-3.5 rounded-3xl text-sm outline-none" onkeyup="filterResults()">
+                           class="w-full bg-white/5 border border-white/10 focus:border-emerald-500/50 transition-colors pl-11 pr-4 py-3.5 rounded-3xl text-sm outline-none" onkeyup="filterResults()">
                 </div>
             </div>
             
             <div class="flex items-center gap-x-3 bg-white/5 border border-white/10 px-5 rounded-3xl">
-                <span class="text-xs text-zinc-400 whitespace-nowrap">Min Confidence</span>
+                <span class="text-xs text-zinc-400">Min Confidence</span>
                 <input type="range" id="confidence-slider" min="1" max="10" value="6" class="w-28 accent-emerald-400" oninput="filterResults()">
                 <span id="confidence-value" class="font-mono text-sm font-medium w-5 text-right">6</span>
             </div>
             
-            <button onclick="resetFilters()" 
-                    class="px-6 py-3.5 text-sm rounded-3xl bg-white/5 hover:bg-white/10 active:bg-white/15 border border-white/10 flex items-center gap-x-2 text-zinc-300 transition-colors">
+            <button onclick="resetFilters()" class="px-6 py-3.5 text-sm rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 flex items-center gap-x-2 text-zinc-300">
                 <i class="fa-solid fa-undo text-xs"></i>
                 <span class="font-medium">Reset</span>
             </button>
@@ -205,62 +195,51 @@
     </div>
 
     <!-- Content -->
-    <div class="max-w-screen-2xl mx-auto px-6 pb-20">
-        <!-- Global Scan -->
+    <div class="max-w-screen-2xl mx-auto px-6 pb-16">
         <div id="content-0" class="tab-content">
-            <div class="flex items-end justify-between mb-6">
-                <div>
-                    <div class="section-header flex items-center gap-x-2.5">
-                        <i class="fa-solid fa-globe text-emerald-400"></i>
-                        <span>GLOBAL MARKET SCAN</span>
-                    </div>
+            <div class="flex items-end justify-between mb-5">
+                <div class="section-header flex items-center gap-x-2">
+                    <i class="fa-solid fa-globe text-emerald-400"></i>
+                    <span>GLOBAL MARKET SCAN</span>
                 </div>
                 <div class="text-xs px-4 py-1.5 bg-white/5 rounded-2xl text-zinc-400 border border-white/10" id="global-count"></div>
             </div>
             <div id="global-results" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4"></div>
         </div>
 
-        <!-- Swing Trades -->
         <div id="content-1" class="tab-content hidden">
-            <div class="flex items-end justify-between mb-6">
-                <div>
-                    <div class="section-header flex items-center gap-x-2.5">
-                        <i class="fa-solid fa-waveform-lines text-cyan-400"></i>
-                        <span>SWING TRADE SETUPS</span>
-                    </div>
+            <div class="flex items-end justify-between mb-5">
+                <div class="section-header flex items-center gap-x-2">
+                    <i class="fa-solid fa-waveform-lines text-cyan-400"></i>
+                    <span>SWING TRADE SETUPS</span>
                 </div>
                 <div class="text-xs px-4 py-1.5 bg-white/5 rounded-2xl text-zinc-400 border border-white/10" id="swing-count"></div>
             </div>
             <div id="swing-results" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4"></div>
         </div>
 
-        <!-- Special Situations -->
         <div id="content-2" class="tab-content hidden">
-            <div class="mb-6">
-                <div class="section-header flex items-center gap-x-2.5 mb-4">
+            <div class="mb-5">
+                <div class="section-header flex items-center gap-x-2 mb-3">
                     <i class="fa-solid fa-star text-purple-400"></i>
                     <span>SPECIAL SITUATIONS</span>
                 </div>
-                
                 <div class="flex flex-wrap gap-2">
-                    <div onclick="filterSpecial('all')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/10 cursor-pointer font-medium active-subtab" id="special-all">All</div>
-                    <div onclick="filterSpecial('earnings')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-earnings">Earnings</div>
-                    <div onclick="filterSpecial('newfloat')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-newfloat">New Floats</div>
-                    <div onclick="filterSpecial('volume')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-volume">Unusual Volume</div>
-                    <div onclick="filterSpecial('squeeze')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-squeeze">Short Squeeze</div>
+                    <div onclick="switchSpecialFilter('all')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/10 cursor-pointer font-medium active-subtab" id="special-all">All</div>
+                    <div onclick="switchSpecialFilter('earnings')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-earnings">Earnings</div>
+                    <div onclick="switchSpecialFilter('newfloat')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-newfloat">New Floats</div>
+                    <div onclick="switchSpecialFilter('volume')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-volume">Unusual Volume</div>
+                    <div onclick="switchSpecialFilter('squeeze')" class="special-subtab px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 cursor-pointer" id="special-squeeze">Short Squeeze</div>
                 </div>
             </div>
             <div id="special-results" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4"></div>
         </div>
 
-        <!-- Options -->
         <div id="content-3" class="tab-content hidden">
-            <div class="flex items-end justify-between mb-6">
-                <div>
-                    <div class="section-header flex items-center gap-x-2.5">
-                        <i class="fa-solid fa-chart-bar text-violet-400"></i>
-                        <span>OPTIONS OPPORTUNITIES</span>
-                    </div>
+            <div class="flex items-end justify-between mb-5">
+                <div class="section-header flex items-center gap-x-2">
+                    <i class="fa-solid fa-chart-bar text-violet-400"></i>
+                    <span>OPTIONS OPPORTUNITIES</span>
                 </div>
                 <div class="text-xs px-4 py-1.5 bg-white/5 rounded-2xl text-zinc-400 border border-white/10" id="options-count"></div>
             </div>
@@ -268,60 +247,213 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <div class="max-w-screen-2xl mx-auto px-6 pb-14">
-        <div class="text-center">
-            <div class="text-[10px] text-zinc-500 max-w-md mx-auto">
-                AI-generated ideas for informational purposes only. Not financial advice. 
-                Data is pushed automatically from the private Zacism trading system.
-            </div>
+    <div class="max-w-screen-2xl mx-auto px-6 pb-12">
+        <div class="text-center text-[10px] text-zinc-500">
+            AI-generated ideas for informational purposes only. Not financial advice.
         </div>
     </div>
 
     <script>
-        // Tailwind config
-        function initTailwind() {
-            // Already handled via CDN
+        function initTailwind() {}
+
+        let sampleData = {
+            global: [
+                { id: "g1", ticker: "NVDA", name: "NVIDIA Corporation", signal: "BUY", confidence: 9, thesis: "Strong AI demand continues. Data center revenue significantly beat expectations.", entry: "~$138–$142", target: "$168", stopLoss: "$129", currentPrice: 140.25, source: "Grok" },
+                { id: "g2", ticker: "BHP", name: "BHP Group", signal: "BUY", confidence: 7, thesis: "Iron ore prices stabilizing with strong free cash flow and attractive valuation.", entry: "~$52–$54", target: "$62", stopLoss: "$48", currentPrice: 53.10, source: "Claude" }
+            ],
+            swing: [
+                { id: "s1", ticker: "TSLA", name: "Tesla Inc", signal: "BUY", confidence: 8, thesis: "Oversold bounce setup. Support holding with increasing volume.", entry: "~$385–$395", target: "$435", stopLoss: "$365", currentPrice: 389.50, source: "Grok" }
+            ],
+            special: {
+                earnings: [
+                    { id: "e1", ticker: "AAPL", name: "Apple Inc", signal: "BUY", confidence: 8, thesis: "Services growth accelerating. iPhone cycle bottoming. Attractive risk/reward into earnings.", entry: "~$225–$230", target: "$255", stopLoss: "$212", currentPrice: 228.40, source: "Claude" }
+                ],
+                newfloat: [],
+                volume: [
+                    { id: "v1", ticker: "SMCI", name: "Super Micro Computer", signal: "BUY", confidence: 7, thesis: "Unusual volume spike. Potential institutional accumulation ahead of AI server cycle.", entry: "~$48–$50", target: "$62", stopLoss: "$43", currentPrice: 49.20, source: "Grok" }
+                ],
+                squeeze: []
+            },
+            options: [
+                { id: "o1", ticker: "META", name: "Meta Platforms", signal: "BUY", confidence: 8, thesis: "Bull call spread into strong earnings with attractive risk-defined setup.", entry: "Bull Call Spread $580–$620", target: "High probability", stopLoss: "Defined risk", currentPrice: 598.30, source: "Grok" }
+            ]
+        };
+
+        let currentTab = 0;
+        let currentSpecialFilter = 'all';
+
+        function switchTab(tabIndex) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('.nav-tab').forEach(el => el.classList.remove('active', 'text-emerald-400'));
+
+            document.getElementById(`content-${tabIndex}`).classList.remove('hidden');
+            const activeTab = document.getElementById(`tab-${tabIndex}`);
+            activeTab.classList.add('active', 'text-emerald-400');
+
+            currentTab = tabIndex;
+            filterResults();
         }
 
-        let sampleData = { /* ... existing sample data ... */ };
+        function switchSpecialFilter(type) {
+            currentSpecialFilter = type;
+            document.querySelectorAll('.special-subtab').forEach(el => el.classList.remove('bg-white/10', 'active-subtab'));
+            document.getElementById(`special-${type === 'all' ? 'all' : type}`).classList.add('bg-white/10', 'active-subtab');
+            renderSpecialResults();
+        }
 
-        // The rest of the JavaScript remains the same as before.
-        // (Keeping it short here for the response)
+        function filterResults() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const minConf = parseInt(document.getElementById('confidence-slider').value);
+            document.getElementById('confidence-value').textContent = minConf;
+
+            if (currentTab === 0) renderGlobalResults(searchTerm, minConf);
+            else if (currentTab === 1) renderSwingResults(searchTerm, minConf);
+            else if (currentTab === 2) renderSpecialResults(searchTerm, minConf);
+            else if (currentTab === 3) renderOptionsResults(searchTerm, minConf);
+        }
+
+        function resetFilters() {
+            document.getElementById('search-input').value = '';
+            document.getElementById('confidence-slider').value = 6;
+            document.getElementById('confidence-value').textContent = '6';
+            currentSpecialFilter = 'all';
+            document.querySelectorAll('.special-subtab').forEach(el => el.classList.remove('bg-white/10', 'active-subtab'));
+            document.getElementById('special-all').classList.add('bg-white/10', 'active-subtab');
+            filterResults();
+        }
+
+        function createCard(result) {
+            const signalColor = result.signal === 'BUY' ? 'emerald' : 'rose';
+            return `
+                <div class="premium-card glass border border-white/10 rounded-3xl p-5 cursor-pointer" onclick="showDetail('${result.id}')">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <div class="flex items-center gap-x-3">
+                                <span class="terminal-text text-2xl font-semibold tracking-tighter">${result.ticker}</span>
+                                <span class="px-3 py-0.5 text-xs font-bold rounded-2xl bg-${signalColor}-500/10 text-${signalColor}-400 border border-${signalColor}-500/30">${result.signal}</span>
+                            </div>
+                            <div class="text-xs text-zinc-400 mt-1 line-clamp-1">${result.name}</div>
+                        </div>
+                        ${result.currentPrice ? `<div class="text-right"><div class="text-sm font-semibold">$${result.currentPrice}</div></div>` : ''}
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="flex justify-between text-xs mb-1.5">
+                            <span class="text-zinc-400">Confidence</span>
+                            <span class="font-mono font-semibold">${result.confidence}/10</span>
+                        </div>
+                        <div class="h-1 bg-white/10 rounded-full overflow-hidden"><div class="confidence-bar" style="width: ${result.confidence * 10}%"></div></div>
+                    </div>
+
+                    <div class="text-xs text-zinc-300 line-clamp-3 leading-snug mb-4">${result.thesis}</div>
+
+                    <div class="flex justify-between items-center text-xs">
+                        <div class="flex gap-x-4">
+                            ${result.entry ? `<div><span class="text-zinc-500">Entry</span> <span class="font-medium">${result.entry}</span></div>` : ''}
+                            ${result.target ? `<div><span class="text-zinc-500">Target</span> <span class="font-medium text-emerald-400">${result.target}</span></div>` : ''}
+                        </div>
+                        <div class="px-3 py-1 rounded-2xl text-xs bg-white/5 text-zinc-400 border border-white/10">${result.source}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderGlobalResults(search = '', min = 1) {
+            const container = document.getElementById('global-results');
+            let filtered = sampleData.global.filter(r => (r.ticker.toLowerCase().includes(search) || r.name.toLowerCase().includes(search)) && r.confidence >= min);
+            container.innerHTML = filtered.length ? filtered.map(createCard).join('') : `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No results match your filters.</div>`;
+            document.getElementById('global-count').textContent = `${filtered.length} opportunities`;
+        }
+
+        function renderSwingResults(search = '', min = 1) {
+            const container = document.getElementById('swing-results');
+            let filtered = sampleData.swing.filter(r => (r.ticker.toLowerCase().includes(search) || r.name.toLowerCase().includes(search)) && r.confidence >= min);
+            container.innerHTML = filtered.length ? filtered.map(createCard).join('') : `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No swing setups match your filters.</div>`;
+            document.getElementById('swing-count').textContent = `${filtered.length} setups`;
+        }
+
+        function renderSpecialResults(search = '', min = 1) {
+            const container = document.getElementById('special-results');
+            let all = [];
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'earnings') all = all.concat(sampleData.special.earnings);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'newfloat') all = all.concat(sampleData.special.newfloat);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'volume') all = all.concat(sampleData.special.volume);
+            if (currentSpecialFilter === 'all' || currentSpecialFilter === 'squeeze') all = all.concat(sampleData.special.squeeze);
+
+            let filtered = all.filter(r => (r.ticker.toLowerCase().includes(search) || r.name.toLowerCase().includes(search)) && r.confidence >= min);
+            container.innerHTML = filtered.length ? filtered.map(createCard).join('') : `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No special situation matches your filters.</div>`;
+        }
+
+        function renderOptionsResults(search = '', min = 1) {
+            const container = document.getElementById('options-results');
+            let filtered = sampleData.options.filter(r => (r.ticker.toLowerCase().includes(search) || r.name.toLowerCase().includes(search)) && r.confidence >= min);
+            container.innerHTML = filtered.length ? filtered.map(createCard).join('') : `<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No options plays match your filters.</div>`;
+            document.getElementById('options-count').textContent = `${filtered.length} plays`;
+        }
+
+        function showDetail(id) {
+            let result = null;
+            for (let key in sampleData) {
+                if (Array.isArray(sampleData[key])) {
+                    result = sampleData[key].find(r => r.id === id);
+                    if (result) break;
+                } else if (typeof sampleData[key] === 'object') {
+                    for (let sub in sampleData[key]) {
+                        result = sampleData[key][sub].find(r => r.id === id);
+                        if (result) break;
+                    }
+                }
+            }
+            if (!result) return;
+
+            const modal = document.createElement('div');
+            modal.className = 'fixed inset-0 bg-black/90 flex items-end md:items-center justify-center z-[100]';
+            modal.innerHTML = `
+                <div onclick="event.target.closest('.fixed').remove()" class="glass w-full md:w-[520px] rounded-t-3xl md:rounded-3xl p-6 border border-white/10">
+                    <div class="flex justify-between items-start mb-6">
+                        <div>
+                            <div class="flex items-center gap-x-3">
+                                <span class="terminal-text text-4xl font-bold tracking-[-1.5px]">${result.ticker}</span>
+                                <span class="px-4 py-1 text-sm font-bold rounded-3xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">${result.signal}</span>
+                            </div>
+                            <div class="text-sm text-zinc-400">${result.name}</div>
+                        </div>
+                        <button onclick="event.target.closest('.fixed').remove()" class="text-3xl leading-none text-zinc-400 hover:text-white">&times;</button>
+                    </div>
+                    <div class="mb-6"><div class="text-xs text-zinc-400 mb-2">THESIS</div><div class="text-sm leading-relaxed">${result.thesis}</div></div>
+                    <div class="grid grid-cols-3 gap-4 mb-8">
+                        ${result.entry ? `<div class="bg-white/5 rounded-2xl p-4"><div class="text-xs text-zinc-400">ENTRY</div><div class="font-semibold">${result.entry}</div></div>` : ''}
+                        ${result.target ? `<div class="bg-white/5 rounded-2xl p-4"><div class="text-xs text-zinc-400">TARGET</div><div class="font-semibold text-emerald-400">${result.target}</div></div>` : ''}
+                        ${result.stopLoss ? `<div class="bg-white/5 rounded-2xl p-4"><div class="text-xs text-zinc-400">STOP</div><div class="font-semibold text-rose-400">${result.stopLoss}</div></div>` : ''}
+                    </div>
+                    <div class="text-[10px] text-center text-zinc-500 pt-4 border-t border-white/10">Generated from Zacism • For informational purposes only</div>
+                </div>
+            `;
+            document.body.appendChild(modal);
+        }
 
         function initializeSite() {
-            initTailwind();
-            
             const now = new Date();
             const el = document.getElementById('last-updated');
-            if (el) el.textContent = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'}) + ' today';
+            if (el) el.textContent = now.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'}) + ' today';
 
-            // Initial render
             document.getElementById('content-0').classList.remove('hidden');
-            // ... render functions ...
+            renderGlobalResults();
+            renderSwingResults();
+            renderSpecialResults();
+            renderOptionsResults();
 
-            // Confidence slider
             const slider = document.getElementById('confidence-slider');
-            if (slider) {
-                slider.oninput = () => {
-                    const valEl = document.getElementById('confidence-value');
-                    if (valEl) valEl.textContent = slider.value;
-                    filterResults();
-                };
-            }
+            if (slider) slider.oninput = () => { document.getElementById('confidence-value').textContent = slider.value; filterResults(); };
 
-            // Keyboard shortcut
-            document.addEventListener('keydown', function(e) {
-                if (e.key === "/" && document.activeElement.tagName === "BODY") {
+            document.addEventListener('keydown', e => {
+                if (e.key === '/' && document.activeElement.tagName === 'BODY') {
                     e.preventDefault();
-                    const search = document.getElementById('search-input');
-                    if (search) search.focus();
+                    document.getElementById('search-input')?.focus();
                 }
             });
 
-            // Make first tab active
-            const firstTab = document.getElementById('tab-0');
-            if (firstTab) firstTab.classList.add('active', 'text-emerald-400');
+            document.getElementById('tab-0').classList.add('active', 'text-emerald-400');
         }
 
         window.onload = initializeSite;
