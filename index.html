@@ -21,6 +21,19 @@
             overflow-x: hidden;
         }
 
+        body.menu-open {
+            overflow: hidden;
+        }
+
+        .mobile-menu-backdrop,
+        .archive-banner {
+            display: none;
+        }
+
+        .archive-banner.is-visible {
+            display: flex;
+        }
+
         .font-display {
             font-family: 'Inter', system-ui, sans-serif;
             font-weight: 600;
@@ -635,6 +648,46 @@
                 flex: 0 0 min(82vw, 320px);
                 scroll-snap-align: start;
             }
+
+            .mobile-menu-backdrop.is-open {
+                position: fixed;
+                inset: 65px 0 0;
+                z-index: 60;
+                display: block;
+                background: rgba(0, 0, 0, 0.72);
+                backdrop-filter: blur(8px);
+            }
+
+            .mobile-menu-panel {
+                margin: 10px 12px 0;
+                padding: 10px;
+                border: 1px solid var(--ledger-line);
+                border-radius: 18px;
+                background: #081014;
+                box-shadow: 0 24px 80px rgba(0, 0, 0, 0.48);
+            }
+
+            .mobile-menu-link {
+                display: flex;
+                width: 100%;
+                min-height: 48px;
+                align-items: center;
+                gap: 12px;
+                padding: 0 14px;
+                border-radius: 12px;
+                color: #d4d4d8;
+                font-size: 13px;
+                font-weight: 600;
+                text-align: left;
+            }
+
+            .mobile-menu-link:hover,
+            .mobile-menu-link:focus-visible,
+            .mobile-menu-link[aria-current="page"] {
+                color: #a7f3d0;
+                background: rgba(110, 231, 183, 0.08);
+                outline: none;
+            }
         }
 
         @media (prefers-reduced-motion: reduce) {
@@ -665,13 +718,36 @@
                     <span class="text-emerald-400 font-medium text-xs tracking-wider">LIVE FROM ZACISM</span>
                 </div>
 
-                <a href="https://github.com/zacism1/zacism-market-scanner" target="_blank"
-                   class="flex items-center gap-x-2 px-3 sm:px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-colors">
+                <a href="https://github.com/zacism1/zacism-market-scanner" target="_blank" rel="noopener noreferrer"
+                   class="hidden sm:flex items-center gap-x-2 px-3 sm:px-5 py-2 rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-sm transition-colors">
                     <i class="fa-brands fa-github"></i>
-                    <span class="font-medium hidden sm:inline">GitHub</span>
+                    <span class="font-medium">GitHub</span>
                 </a>
+
+                <button id="mobile-menu-button" type="button" aria-label="Open site menu" aria-expanded="false" aria-controls="mobile-site-menu"
+                        class="sm:hidden w-11 h-11 rounded-full bg-white/5 hover:bg-white/10 border border-white/10 text-zinc-200"
+                        onclick="toggleMobileMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
         </div>
+    </div>
+
+    <div id="mobile-site-menu" class="mobile-menu-backdrop" aria-hidden="true" onclick="if(event.target === this) closeMobileMenu()">
+        <nav class="mobile-menu-panel" aria-label="Mobile site navigation">
+            <button type="button" class="mobile-menu-link" onclick="navigateToSection('ledger-title')"><i class="fa-solid fa-house w-5 text-emerald-400"></i>Owner’s Ledger</button>
+            <button type="button" class="mobile-menu-link" onclick="navigateToSection('weekly-top-five-title')"><i class="fa-solid fa-ranking-star w-5 text-emerald-400"></i>Weekly Top 5</button>
+            <button type="button" class="mobile-menu-link mobile-tab-link" data-tab="0" onclick="navigateToTab(0)"><i class="fa-solid fa-building-columns w-5 text-indigo-400"></i>Investment Mode</button>
+            <button type="button" class="mobile-menu-link mobile-tab-link" data-tab="1" onclick="navigateToTab(1)"><i class="fa-solid fa-earth-oceania w-5 text-emerald-400"></i>Global Scan</button>
+            <button type="button" class="mobile-menu-link mobile-tab-link" data-tab="4" onclick="navigateToTab(4)"><i class="fa-solid fa-chart-bar w-5 text-violet-400"></i>Options</button>
+            <button type="button" class="mobile-menu-link" onclick="closeMobileMenu();showArchiveModal()"><i class="fa-regular fa-calendar w-5 text-cyan-400"></i>Weekly History</button>
+            <a href="https://github.com/zacism1/zacism-market-scanner" target="_blank" rel="noopener noreferrer" class="mobile-menu-link"><i class="fa-brands fa-github w-5 text-zinc-400"></i>GitHub</a>
+        </nav>
+    </div>
+
+    <div id="archive-banner" class="archive-banner max-w-[1480px] mx-auto mt-3 px-4 sm:px-6 py-3 items-center justify-between gap-4 border border-cyan-400/20 bg-cyan-400/[0.06] rounded-2xl text-xs">
+        <span><i class="fa-regular fa-calendar text-cyan-300 mr-2"></i>Viewing <strong id="archive-banner-label">a historical edition</strong></span>
+        <button type="button" class="text-cyan-300 hover:text-cyan-200" onclick="restoreLatestEdition()">Return to latest</button>
     </div>
 
     <!-- Owner's Ledger briefing -->
@@ -753,24 +829,24 @@
     <!-- Navigation Tabs (mirrors Zacism app) -->
     <div class="scanner-nav-shell max-w-[1480px] mx-auto px-6">
         <div class="text-[10px] uppercase tracking-[0.12em] text-zinc-500 mb-2">Published Research &amp; Market Scans</div>
-        <div class="tabs-scroll flex items-center border-b border-white/10 mb-6 overflow-x-auto pb-1" aria-label="Published scan sections">
-            <button type="button" onclick="switchTab(0)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 border-b-2 border-emerald-400 text-emerald-400" id="tab-0">
+        <div class="tabs-scroll flex items-center border-b border-white/10 mb-6 overflow-x-auto pb-1" role="tablist" aria-label="Published scan sections">
+            <button type="button" role="tab" aria-selected="true" aria-controls="content-0" onclick="switchTab(0)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 border-b-2 border-emerald-400 text-emerald-400" id="tab-0">
                 <i class="fa-solid fa-building-columns"></i>
                 <span>Investment Mode</span>
             </button>
-            <button type="button" onclick="switchTab(1)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-1">
+            <button type="button" role="tab" aria-selected="false" aria-controls="content-1" onclick="switchTab(1)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-1">
                 <i class="fa-solid fa-globe"></i>
                 <span>Global Scan</span>
             </button>
-            <button type="button" onclick="switchTab(2)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-2">
+            <button type="button" role="tab" aria-selected="false" aria-controls="content-2" onclick="switchTab(2)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-2">
                 <i class="fa-solid fa-waveform-lines"></i>
                 <span>Swing Trades</span>
             </button>
-            <button type="button" onclick="switchTab(3)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-3">
+            <button type="button" role="tab" aria-selected="false" aria-controls="content-3" onclick="switchTab(3)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-3">
                 <i class="fa-solid fa-star"></i>
                 <span>Special Situations</span>
             </button>
-            <button type="button" onclick="switchTab(4)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-4">
+            <button type="button" role="tab" aria-selected="false" aria-controls="content-4" onclick="switchTab(4)" class="tab-button px-6 py-3 text-sm font-semibold cursor-pointer flex items-center gap-x-2 text-zinc-400 hover:text-zinc-200" id="tab-4">
                 <i class="fa-solid fa-chart-bar"></i>
                 <span>Options</span>
             </button>
@@ -805,7 +881,7 @@
     <!-- Content Area -->
     <div class="max-w-[1480px] mx-auto px-6 pb-20">
         <!-- Investment Mode Tab -->
-        <div id="content-0" class="tab-content">
+        <div id="content-0" class="tab-content" role="tabpanel" aria-labelledby="tab-0">
             <div class="flex items-end justify-between mb-5">
                 <div>
                     <div class="section-header flex items-center gap-x-2">
@@ -818,13 +894,14 @@
             </div>
 
             <div id="investment-themes" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-6"></div>
-            <div id="equity-ideas" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6"></div>
+            <div id="tenx-ideas" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8"></div>
+            <div id="equity-ideas" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8"></div>
             <div id="investment-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
             <div id="investment-funnels" class="mt-8 space-y-4"></div>
         </div>
 
         <!-- Global Scan Tab -->
-        <div id="content-1" class="tab-content hidden">
+        <div id="content-1" class="tab-content hidden" role="tabpanel" aria-labelledby="tab-1">
             <div class="flex items-end justify-between mb-5">
                 <div>
                     <div class="section-header flex items-center gap-x-2">
@@ -842,7 +919,7 @@
         </div>
 
         <!-- Swing Trades Tab -->
-        <div id="content-2" class="tab-content hidden">
+        <div id="content-2" class="tab-content hidden" role="tabpanel" aria-labelledby="tab-2">
             <div class="flex items-end justify-between mb-5">
                 <div>
                     <div class="section-header flex items-center gap-x-2">
@@ -860,7 +937,7 @@
         </div>
 
         <!-- Special Situations Tab -->
-        <div id="content-3" class="tab-content hidden">
+        <div id="content-3" class="tab-content hidden" role="tabpanel" aria-labelledby="tab-3">
             <div class="mb-6">
                 <div class="section-header flex items-center gap-x-2 mb-3">
                     <i class="fa-solid fa-star text-purple-400"></i>
@@ -891,7 +968,7 @@
         </div>
 
         <!-- Options Tab -->
-        <div id="content-4" class="tab-content hidden">
+        <div id="content-4" class="tab-content hidden" role="tabpanel" aria-labelledby="tab-4">
             <div class="flex items-end justify-between mb-5">
                 <div>
                     <div class="section-header flex items-center gap-x-2">
@@ -942,6 +1019,8 @@
             themes: [],
             funnels: []
         };
+        let publishedArchive = [];
+        let activeEdition = null;
         async function fetchJSON(path, fallback) {
             try {
                 const separator = path.includes('?') ? '&' : '?';
@@ -1005,6 +1084,9 @@
                     ticker: escapeHTML(result.ticker),
                     name: escapeHTML(result.name),
                     industry: escapeHTML(result.industry || result.sector || result.theme || ''),
+                    exchange: escapeHTML(result.exchange || result.market || ''),
+                    region: escapeHTML(result.region || result.country || ''),
+                    currency: escapeHTML(result.currency || ''),
                     scanType: escapeHTML(result.scanType || result.scan_type || category),
                     signal: ['BUY', 'SELL', 'HOLD'].includes(signal) ? signal : 'HOLD',
                     confidence: Number.isFinite(rawConfidence)
@@ -1123,6 +1205,7 @@
                 ticker: escapeHTML(idea.ticker),
                 companyName: escapeHTML(idea.companyName ?? idea.company_name),
                 exchange: escapeHTML(idea.exchange),
+                currency: escapeHTML(idea.currency || ''),
                 industry: escapeHTML(idea.industry || idea.sector || idea.category || ''),
                 category: escapeHTML(idea.category || 'Core Compounder'),
                 scanType: escapeHTML(idea.scanType ?? idea.scan_type ?? 'Equity Opportunity'),
@@ -1181,6 +1264,25 @@
             }).format(date);
         }
 
+        function applyPublishedPayload(payload, marker = {}) {
+            const scans = payload.scans || payload;
+            scanData.global = normalizeResults(scans.global || [], 'global');
+            scanData.swing = normalizeResults(scans.swing || [], 'swing');
+            scanData.special.earnings = normalizeResults(scans.earnings || [], 'earnings');
+            scanData.special.newfloat = normalizeResults(scans.newFloats || scans.new_floats || [], 'newFloat');
+            scanData.special.volume = normalizeResults(scans.unusualVolume || scans.unusual_volume || [], 'unusualVolume');
+            scanData.special.squeeze = normalizeResults(scans.shortSqueeze || scans.short_squeeze || [], 'shortSqueeze');
+            scanData.options = normalizeResults(scans.options || [], 'options');
+            normalizeInvestmentPayload(payload.investment || { reports: [], equityIdeas: [], themes: [], funnels: [] });
+
+            document.getElementById('last-updated').textContent =
+                formatPublishedDate(marker.last_updated || marker.lastUpdated || payload.publishedAt);
+            document.getElementById('special-earnings-count').textContent = `(${scanData.special.earnings.length})`;
+            document.getElementById('special-newfloat-count').textContent = `(${scanData.special.newfloat.length})`;
+            document.getElementById('special-volume-count').textContent = `(${scanData.special.volume.length})`;
+            document.getElementById('special-squeeze-count').textContent = `(${scanData.special.squeeze.length})`;
+        }
+
         async function loadPublishedData() {
             const [
                 global,
@@ -1191,7 +1293,8 @@
                 shortSqueeze,
                 options,
                 investment,
-                marker
+                marker,
+                archiveIndex
             ] = await Promise.all([
                 fetchJSON('data/global.json', []),
                 fetchJSON('data/swing.json', []),
@@ -1201,25 +1304,15 @@
                 fetchJSON('data/short_squeeze.json', []),
                 fetchJSON('data/options.json', []),
                 fetchJSON('data/investment.json', { reports: [], equityIdeas: [], themes: [], funnels: [] }),
-                fetchJSON('data/last-updated.json', {})
+                fetchJSON('data/last-updated.json', {}),
+                fetchJSON('data/history/index.json', { editions: [] })
             ]);
-
-            scanData.global = normalizeResults(global, 'global');
-            scanData.swing = normalizeResults(swing, 'swing');
-            scanData.special.earnings = normalizeResults(earnings, 'earnings');
-            scanData.special.newfloat = normalizeResults(newFloats, 'newFloat');
-            scanData.special.volume = normalizeResults(unusualVolume, 'unusualVolume');
-            scanData.special.squeeze = normalizeResults(shortSqueeze, 'shortSqueeze');
-            scanData.options = normalizeResults(options, 'options');
-            normalizeInvestmentPayload(investment);
-
-            document.getElementById('last-updated').textContent =
-                formatPublishedDate(marker.last_updated || marker.lastUpdated);
-
-            document.getElementById('special-earnings-count').textContent = `(${scanData.special.earnings.length})`;
-            document.getElementById('special-newfloat-count').textContent = `(${scanData.special.newfloat.length})`;
-            document.getElementById('special-volume-count').textContent = `(${scanData.special.volume.length})`;
-            document.getElementById('special-squeeze-count').textContent = `(${scanData.special.squeeze.length})`;
+            applyPublishedPayload({
+                global, swing, earnings, newFloats, unusualVolume, shortSqueeze, options, investment
+            }, marker);
+            publishedArchive = Array.isArray(archiveIndex) ? archiveIndex : (archiveIndex.editions || []);
+            activeEdition = null;
+            document.getElementById('archive-banner').classList.remove('is-visible');
         }
 
         let currentTab = 0;
@@ -1232,6 +1325,7 @@
             document.querySelectorAll('.tab-button').forEach(el => {
                 el.classList.remove('border-emerald-400', 'text-emerald-400');
                 el.classList.add('text-zinc-400');
+                el.setAttribute('aria-selected', 'false');
             });
 
             // Show selected
@@ -1239,9 +1333,48 @@
             const activeTab = document.getElementById(`tab-${tabIndex}`);
             activeTab.classList.add('border-emerald-400', 'text-emerald-400');
             activeTab.classList.remove('text-zinc-400');
+            activeTab.setAttribute('aria-selected', 'true');
+
+            document.querySelectorAll('.mobile-tab-link').forEach(link => {
+                if (Number(link.dataset.tab) === tabIndex) link.setAttribute('aria-current', 'page');
+                else link.removeAttribute('aria-current');
+            });
 
             currentTab = tabIndex;
             filterResults();
+        }
+
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-site-menu');
+            const button = document.getElementById('mobile-menu-button');
+            const isOpen = menu.classList.toggle('is-open');
+            menu.setAttribute('aria-hidden', String(!isOpen));
+            button.setAttribute('aria-expanded', String(isOpen));
+            button.setAttribute('aria-label', isOpen ? 'Close site menu' : 'Open site menu');
+            button.querySelector('i').className = isOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars';
+            document.body.classList.toggle('menu-open', isOpen);
+        }
+
+        function closeMobileMenu() {
+            const menu = document.getElementById('mobile-site-menu');
+            const button = document.getElementById('mobile-menu-button');
+            menu.classList.remove('is-open');
+            menu.setAttribute('aria-hidden', 'true');
+            button.setAttribute('aria-expanded', 'false');
+            button.setAttribute('aria-label', 'Open site menu');
+            button.querySelector('i').className = 'fa-solid fa-bars';
+            document.body.classList.remove('menu-open');
+        }
+
+        function navigateToSection(id) {
+            closeMobileMenu();
+            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
+        function navigateToTab(tabIndex) {
+            closeMobileMenu();
+            switchTab(tabIndex);
+            document.querySelector('.scanner-nav-shell')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
 
         function filterSpecial(type) {
@@ -1296,6 +1429,18 @@
             const match = String(value || '').replace(/,/g, '').match(/-?\d+(?:\.\d+)?/);
             const number = match ? Number(match[0]) : Number.NaN;
             return Number.isFinite(number) ? number : null;
+        }
+
+        function marketPrice(value, currency = '') {
+            const number = Number(value);
+            if (!Number.isFinite(number) || number <= 0) return '—';
+            const code = String(currency || '').toUpperCase();
+            if (/^[A-Z]{3}$/.test(code)) {
+                try {
+                    return new Intl.NumberFormat(undefined, { style: 'currency', currency: code, maximumFractionDigits: 2 }).format(number);
+                } catch {}
+            }
+            return `$${number.toLocaleString(undefined, { maximumFractionDigits: 2 })}`;
         }
 
         function fairValueGap(currentValue, fairValue) {
@@ -1607,13 +1752,49 @@
         }
 
         function showArchiveModal() {
-            const editions = readLocalJSON(ledgerStorage.editions, []).slice().reverse();
-            const body = editions.length ? `
-                <p class="text-sm text-zinc-400 mb-5">The browser records each newly published Top 5 edition you view. Zacism’s repository remains the source of truth.</p>
-                <div class="divide-y divide-white/10 border-y border-white/10">${editions.map(edition => `
-                    <div class="py-4 flex flex-wrap items-center justify-between gap-3"><div><div class="text-sm text-zinc-200">${escapeHTML(edition.publishedAt)}</div><div class="text-xs text-zinc-500 mt-1">${edition.ideas.map(idea => escapeHTML(idea.ticker)).join(' · ')}</div></div><div class="terminal-text text-xs text-emerald-300">${edition.ideas.length} ideas</div></div>`).join('')}</div>`
-                : '<p class="text-sm text-zinc-400">The first weekly edition will appear here after published ideas load.</p>';
+            const localEditions = readLocalJSON(ledgerStorage.editions, []).slice().reverse();
+            const body = publishedArchive.length ? `
+                <p class="text-sm text-zinc-400 mb-5">Every weekly edition is a repository-backed snapshot, so the same history is available on every device.</p>
+                <div class="divide-y divide-white/10 border-y border-white/10">${publishedArchive.map(edition => `
+                    <button type="button" class="w-full py-4 flex items-center justify-between gap-4 text-left hover:bg-emerald-400/[0.035]" onclick="event.currentTarget.closest('.fixed').remove();loadArchiveEdition('${escapeHTML(edition.id)}')">
+                        <div><div class="text-sm text-zinc-200">${escapeHTML(edition.label || edition.id)}</div><div class="text-xs text-zinc-500 mt-1">${formatPublishedDate(edition.publishedAt)} · ${Number(edition.investmentIdeas || 0)} investment · ${Number(edition.optionsIdeas || 0)} options</div></div>
+                        <i class="fa-solid fa-arrow-right text-emerald-300"></i>
+                    </button>`).join('')}</div>`
+                : localEditions.length ? `
+                    <p class="text-sm text-zinc-400 mb-5">Publisher-backed history starts with the next app publish. These editions were recorded in this browser.</p>
+                    <div class="divide-y divide-white/10 border-y border-white/10">${localEditions.map(edition => `<div class="py-4"><div class="text-sm text-zinc-200">${escapeHTML(edition.publishedAt)}</div><div class="text-xs text-zinc-500 mt-1">${edition.ideas.map(idea => escapeHTML(idea.ticker)).join(' · ')}</div></div>`).join('')}</div>`
+                    : '<p class="text-sm text-zinc-400">The first weekly edition will appear here after the next Zacism app publish.</p>';
             showLedgerModal('Weekly archive', body);
+        }
+
+        function renderAllPublishedContent() {
+            const minConfidence = parseInt(document.getElementById('confidence-slider').value);
+            renderWeeklyTopFive();
+            renderInvestmentResults('', minConfidence);
+            renderGlobalResults('', minConfidence);
+            renderSwingResults('', minConfidence);
+            renderSpecialResults('', minConfidence);
+            renderOptionsResults('', minConfidence);
+        }
+
+        async function loadArchiveEdition(editionID) {
+            const edition = await fetchJSON(`data/history/${encodeURIComponent(editionID)}.json`, null);
+            if (!edition) {
+                showLedgerModal('Edition unavailable', '<p class="text-sm text-zinc-400">This weekly snapshot could not be loaded. Return to the latest edition and try again.</p>');
+                return;
+            }
+            activeEdition = editionID;
+            applyPublishedPayload(edition, { last_updated: edition.publishedAt });
+            document.getElementById('archive-banner-label').textContent = edition.label || editionID;
+            document.getElementById('archive-banner').classList.add('is-visible');
+            renderAllPublishedContent();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        async function restoreLatestEdition() {
+            await loadPublishedData();
+            renderAllPublishedContent();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
         function showMethodologyModal() {
@@ -1671,15 +1852,18 @@
         }
 
         function createEquityCard(idea) {
-            const currentPrice = Number.isFinite(idea.currentPrice) && idea.currentPrice > 0 ? `$${idea.currentPrice.toLocaleString()}` : '—';
-            const targetPrice = Number.isFinite(idea.targetPrice) && idea.targetPrice > 0 ? `$${idea.targetPrice.toLocaleString()}` : idea.estimatedUpsideRange || '—';
+            const inferredCurrency = idea.currency || (idea.exchange === 'ASX' ? 'AUD' : 'USD');
+            const currentPrice = marketPrice(idea.currentPrice, inferredCurrency);
+            const targetPrice = Number.isFinite(idea.targetPrice) && idea.targetPrice > 0 ? marketPrice(idea.targetPrice, inferredCurrency) : idea.estimatedUpsideRange || '—';
+            const isTenX = /10x/i.test(idea.scanType);
             return `
-                <button type="button" class="scan-card glass border border-emerald-400/15 rounded-3xl p-5 text-left w-full" onclick="showEquityModal('${idea.id}')">
+                <button type="button" class="scan-card glass border ${isTenX ? 'border-amber-400/20' : 'border-emerald-400/15'} rounded-3xl p-5 text-left w-full" onclick="showEquityModal('${idea.id}')">
                     <div class="flex justify-between items-start gap-4 mb-4">
                         <div class="min-w-0">
                             <div class="flex items-center gap-2 flex-wrap">
                                 <span class="terminal-text text-2xl font-semibold tracking-tighter">${idea.ticker}</span>
                                 <span class="px-2.5 py-0.5 text-[10px] font-bold rounded-2xl border ${recommendationClasses(idea.signal)}">${idea.signal}</span>
+                                ${isTenX ? '<span class="px-2.5 py-0.5 text-[10px] font-bold rounded-2xl border border-amber-400/25 bg-amber-400/[0.07] text-amber-300">ASYMMETRIC</span>' : ''}
                             </div>
                             <div class="text-xs text-zinc-300 mt-0.5 line-clamp-1">${idea.companyName}</div>
                             <div class="text-[10px] text-zinc-500 mt-1">${idea.industry || idea.category} · ${idea.timeHorizon}</div>
@@ -1704,6 +1888,7 @@
         function renderInvestmentResults(searchTerm = '', minConf = 1) {
             const reportsContainer = document.getElementById('investment-results');
             const equityContainer = document.getElementById('equity-ideas');
+            const tenXContainer = document.getElementById('tenx-ideas');
             const themesContainer = document.getElementById('investment-themes');
             const funnelsContainer = document.getElementById('investment-funnels');
             const minimumConfidence = minConf * 10;
@@ -1716,10 +1901,15 @@
                 (idea.ticker.toLowerCase().includes(searchTerm) || idea.companyName.toLowerCase().includes(searchTerm)) &&
                 idea.convictionScore >= minConf
             );
+            const tenXIdeas = equityIdeas.filter(idea => /10x/i.test(idea.scanType));
+            const coreIdeas = equityIdeas.filter(idea => !/10x/i.test(idea.scanType));
             const visibleCount = reports.length + equityIdeas.length;
             document.getElementById('investment-count').textContent = `${visibleCount} ${visibleCount === 1 ? 'idea' : 'ideas'}`;
-            equityContainer.innerHTML = equityIdeas.length
-                ? `<div class="col-span-full section-header flex items-center gap-2 mb-1"><i class="fa-solid fa-gem text-emerald-400"></i><span>EQUITY OPPORTUNITY SCANNER</span></div>${equityIdeas.map(createEquityCard).join('')}`
+            tenXContainer.innerHTML = tenXIdeas.length
+                ? `<div class="col-span-full mb-1"><div class="section-header flex items-center gap-2"><i class="fa-solid fa-arrow-up-right-dots text-amber-300"></i><span>10X &amp; ASYMMETRIC UPSIDE</span></div><p class="text-xs text-zinc-500 mt-1">Under-the-radar businesses where a small current base, structural tailwind and identifiable milestones create several-fold upside—with explicit failure cases.</p></div>${tenXIdeas.map(createEquityCard).join('')}`
+                : '';
+            equityContainer.innerHTML = coreIdeas.length
+                ? `<div class="col-span-full section-header flex items-center gap-2 mb-1"><i class="fa-solid fa-gem text-emerald-400"></i><span>HIGH-CONVICTION LONG-TERM IDEAS</span></div>${coreIdeas.map(createEquityCard).join('')}`
                 : '';
             reportsContainer.innerHTML = reports.length
                 ? `<div class="col-span-full section-header flex items-center gap-2 mb-1"><i class="fa-solid fa-book-open text-indigo-400"></i><span>DEEP RESEARCH REPORTS</span></div>${reports.map(createInvestmentCard).join('')}`
@@ -1776,12 +1966,12 @@
                                 </span>
                             </div>
                             <div class="text-xs text-zinc-400 mt-0.5 line-clamp-1">${result.name}</div>
-                            ${categoryLabels[result.category] ? `<div class="text-[10px] text-zinc-500 mt-1">${categoryLabels[result.category]}</div>` : ''}
+                            <div class="text-[10px] text-zinc-500 mt-1">${[result.exchange || result.region, categoryLabels[result.category]].filter(Boolean).join(' · ') || result.scanType}</div>
                         </div>
 
                         <div class="text-right">
                             ${result.currentPrice ? `
-                            <div class="text-sm font-semibold metric">$${result.currentPrice}</div>
+                            <div class="text-sm font-semibold metric">${marketPrice(result.currentPrice, result.currency)}</div>
                             <div class="text-[10px] text-emerald-400 flex items-center justify-end gap-x-1">
                                 <i class="fa-solid fa-satellite text-[9px]"></i>
                                 <span>${result.priceSource || 'Live'}</span>
@@ -1821,6 +2011,7 @@
 
         function createOptionsCard(result) {
             const option = result.option || extractOptionsMetadata(result);
+            const convictionBacked = /conviction|unusual whales|uw/i.test(result.source);
             const moneyness = option.moneyness
                 ? `<span class="px-2.5 py-0.5 text-[10px] font-bold rounded-full bg-violet-500/10 text-violet-300 border border-violet-500/25">${option.moneyness}</span>`
                 : '';
@@ -1850,7 +2041,7 @@
                         <div class="flex gap-2"><span class="text-zinc-500 w-16 shrink-0">Risk exit</span><span class="text-rose-300 line-clamp-1">${option.riskExit || 'See trade thesis'}</span></div>
                     </div>
                     <div class="mt-4 pt-3 border-t border-white/10 flex items-center justify-between gap-3 text-[9px] uppercase tracking-wider text-zinc-500">
-                        <span>Best available weekly idea</span><span>Not conviction-gated</span>
+                        <span>${convictionBacked ? 'Options Conviction evidence' : 'Best available weekly idea'}</span><span>${result.source}</span>
                     </div>
                 </button>`;
         }
@@ -2032,8 +2223,9 @@
         function showEquityModal(ideaId) {
             const idea = investmentData.equityIdeas.find(item => item.id === ideaId);
             if (!idea) return;
-            const currentPrice = Number.isFinite(idea.currentPrice) && idea.currentPrice > 0 ? `$${idea.currentPrice.toLocaleString()}` : '—';
-            const targetPrice = Number.isFinite(idea.targetPrice) && idea.targetPrice > 0 ? `$${idea.targetPrice.toLocaleString()}` : idea.estimatedUpsideRange || '—';
+            const inferredCurrency = idea.currency || (idea.exchange === 'ASX' ? 'AUD' : 'USD');
+            const currentPrice = marketPrice(idea.currentPrice, inferredCurrency);
+            const targetPrice = Number.isFinite(idea.targetPrice) && idea.targetPrice > 0 ? marketPrice(idea.targetPrice, inferredCurrency) : idea.estimatedUpsideRange || '—';
             const modalHTML = `
                 <div class="fixed inset-0 bg-black/90 flex items-end md:items-center justify-center z-[100]" onclick="this.remove()">
                     <div onclick="event.stopImmediatePropagation()" class="glass w-full md:w-[720px] rounded-t-3xl md:rounded-3xl p-6 border border-white/10 max-h-[92vh] overflow-auto">
@@ -2166,13 +2358,7 @@
 
             document.getElementById('content-0').classList.remove('hidden');
 
-            const minConfidence = parseInt(document.getElementById('confidence-slider').value);
-            renderWeeklyTopFive();
-            renderInvestmentResults('', minConfidence);
-            renderGlobalResults('', minConfidence);
-            renderSwingResults('', minConfidence);
-            renderSpecialResults('', minConfidence);
-            renderOptionsResults('', minConfidence);
+            renderAllPublishedContent();
 
             const slider = document.getElementById('confidence-slider');
             slider.oninput = () => {
@@ -2185,6 +2371,7 @@
                     e.preventDefault();
                     document.getElementById('search-input').focus();
                 }
+                if (e.key === "Escape") closeMobileMenu();
             });
 
             document.getElementById('tab-0').classList.add('border-emerald-400', 'text-emerald-400');
