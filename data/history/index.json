@@ -1,4 +1,17 @@
 {
-  "version": 1,
-  "editions": []
+  "editions" : [
+    {
+      "id" : "2026-W27",
+      "investmentIdeas" : 22,
+      "label" : "Week of 29 June 2026",
+      "optionsIdeas" : 9,
+      "publishedAt" : "2026-07-02T13:58:31Z",
+      "regions" : [
+        "Australia",
+        "United Kingdom",
+        "United States"
+      ]
+    }
+  ],
+  "version" : 1
 }
