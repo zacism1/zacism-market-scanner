@@ -1,3 +1,544 @@
 [
-
+  {
+    "catalysts" : [
+      "China stimulus data July 8",
+      "BHP demerger vote"
+    ],
+    "confidence" : 8,
+    "currency" : "AUD",
+    "currentPrice" : 59.57,
+    "entry" : "~$59.39–$59.75",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "88BDB3CE-1A16-471B-80E7-6A02EC00B884",
+    "name" : "BHP Group",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "Iron ore price drop",
+      "AUD strength"
+    ],
+    "scanType" : "Undervalued",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$53.70",
+    "target" : "$71.79",
+    "thesis" : "Trading at 6.8x 2026E EBITDA below long-term average with iron ore volume recovery catalyst. Strong free cash flow supports 8% dividend yield. Activist pressure for demerger adds upside.",
+    "ticker" : "BHP.AX",
+    "timeframe" : "3–5 weeks"
+  },
+  {
+    "catalysts" : [
+      "Q2 earnings July 23",
+      "Foundry customer wins"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 127.02,
+    "entry" : "~$126.64–$127.40",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "6BAB68CB-48D6-4B48-967F-1BEEA0447D47",
+    "industry" : "Technology",
+    "name" : "Intel Corporation",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "TSMC competition",
+      "Capex overrun"
+    ],
+    "scanType" : "Undervalued",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$111.34",
+    "target" : "$167.89",
+    "thesis" : "0.8x book value with foundry turnaround on track; CHIPS Act funding inflows starting Q3 2026. Margin expansion expected from 18A process.",
+    "ticker" : "INTC",
+    "timeframe" : "4–6 weeks"
+  },
+  {
+    "catalysts" : [
+      "Hydrogen project FID",
+      "Iron ore shipments"
+    ],
+    "confidence" : 7,
+    "currency" : "AUD",
+    "currentPrice" : 18.96,
+    "entry" : "~$18.90–$19.02",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "A410DFC8-2FB5-413A-841D-D682D4282DF7",
+    "name" : "Fortescue",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "China demand slowdown",
+      "Funding dilution"
+    ],
+    "scanType" : "Undervalued",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$16.91",
+    "target" : "$23.73",
+    "thesis" : "Green hydrogen pivot undervalued at 1.2x NAV; 2026 production guidance beats expectations.",
+    "ticker" : "FMG.AX",
+    "timeframe" : "3–5 weeks"
+  },
+  {
+    "catalysts" : [
+      "Q3 earnings July 10",
+      "Asset sale close"
+    ],
+    "confidence" : 6,
+    "currency" : "USD",
+    "currentPrice" : 11.98,
+    "entry" : "~$11.94–$12.02",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "EB9DE1DF-D391-4EF7-98CB-D78FE6A67997",
+    "name" : "Walgreens Boots Alliance",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Pharmacy reimbursement cuts",
+      "Debt covenant breach"
+    ],
+    "scanType" : "Undervalued",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$10.28",
+    "target" : "$16.73",
+    "thesis" : "0.4x sales with store closure program and cost cuts; sale of VillageMD stake provides balance sheet relief.",
+    "ticker" : "WBA",
+    "timeframe" : "4–6 weeks"
+  },
+  {
+    "catalysts" : [
+      "GTC keynote July 15",
+      "AI capex beats"
+    ],
+    "confidence" : 9,
+    "currency" : "USD",
+    "currentPrice" : 197.58,
+    "entry" : "~$196.99–$198.17",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "767A6F91-6A1D-4020-9972-08ECDA757E08",
+    "industry" : "Technology",
+    "name" : "NVIDIA Corporation",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Export restrictions",
+      "Margin compression"
+    ],
+    "scanType" : "Breakout",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$183.12",
+    "target" : "$231.31",
+    "thesis" : "Breaking $145 resistance on heavy volume; Blackwell ramp confirmed by hyperscaler orders.",
+    "ticker" : "NVDA",
+    "timeframe" : "2–3 weeks"
+  },
+  {
+    "catalysts" : [
+      "FDA approval July 18",
+      "Plasma collection data"
+    ],
+    "confidence" : 8,
+    "currency" : "AUD",
+    "currentPrice" : 117.75,
+    "entry" : "~$117.40–$118.10",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "F39F0CA2-8B97-4FA1-8EC6-5E05D7C6E61E",
+    "name" : "CSL Limited",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "Currency headwinds",
+      "Donor shortage"
+    ],
+    "scanType" : "Breakout",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$111.13",
+    "target" : "$130.63",
+    "thesis" : "Breaking $320 neckline on plasma volume recovery; new flu vaccine approval expected.",
+    "ticker" : "CSL.AX",
+    "timeframe" : "3–4 weeks"
+  },
+  {
+    "catalysts" : [
+      "Computex follow-up orders",
+      "Q2 guidance raise"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 540.88,
+    "entry" : "~$539.26–$542.50",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "3ED50580-3303-48A4-B367-D3823156430C",
+    "industry" : "Technology",
+    "name" : "Advanced Micro Devices",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Intel recovery",
+      "Inventory build"
+    ],
+    "scanType" : "Breakout",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$501.88",
+    "target" : "$627.35",
+    "thesis" : "Clear break of $160 with MI350 volume ramp; data center share gains accelerating.",
+    "ticker" : "AMD",
+    "timeframe" : "2–4 weeks"
+  },
+  {
+    "catalysts" : [
+      "Simandou first ore",
+      "Copper price >$5"
+    ],
+    "confidence" : 7,
+    "currency" : "GBP",
+    "currentPrice" : 7023,
+    "entry" : "~$7001.93–$7044.07",
+    "exchange" : "LSE",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "15B3B473-F481-44C8-B6E7-2AB456340283",
+    "name" : "Rio Tinto",
+    "priceSource" : "Yahoo",
+    "region" : "United Kingdom",
+    "risks" : [
+      "Guinea political risk",
+      "Iron ore volatility"
+    ],
+    "scanType" : "Breakout",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$6601.62",
+    "target" : "$7725.30",
+    "thesis" : "Breaking 5200p resistance on copper volume upside; Simandou ramp confirmed.",
+    "ticker" : "RIO.L",
+    "timeframe" : "3–5 weeks"
+  },
+  {
+    "catalysts" : [
+      "Q2 earnings July 30",
+      "Llama 4 release"
+    ],
+    "confidence" : 9,
+    "currency" : "USD",
+    "currentPrice" : 612.91,
+    "entry" : "~$611.07–$614.75",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "3FC7D094-56D3-4A12-BE03-31FD6730AAF2",
+    "industry" : "Technology",
+    "name" : "Meta Platforms",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Ad market slowdown",
+      "Antitrust action"
+    ],
+    "scanType" : "Momentum",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$576.86",
+    "target" : "$685.61",
+    "thesis" : "Strong institutional accumulation above $520; AI capex monetization accelerating.",
+    "ticker" : "META",
+    "timeframe" : "2–4 weeks"
+  },
+  {
+    "catalysts" : [
+      "iOS 20 launch",
+      "India iPhone 17 ramp"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 294.38,
+    "entry" : "~$293.50–$295.26",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "1C0CE89D-823B-408F-A9C0-08DE2F05B8F3",
+    "industry" : "Technology",
+    "name" : "Apple Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "China sales miss",
+      "Regulatory fines"
+    ],
+    "scanType" : "Momentum",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$275.25",
+    "target" : "$331.18",
+    "thesis" : "Uptrend intact with services growth and India production ramp; buybacks accelerating.",
+    "ticker" : "AAPL",
+    "timeframe" : "3–5 weeks"
+  },
+  {
+    "catalysts" : [
+      "Azure growth beat",
+      "Copilot adoption metrics"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 384.28,
+    "entry" : "~$383.13–$385.43",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "A2D0A459-9273-4A64-A8DF-86CC45FBFDA9",
+    "industry" : "Technology",
+    "name" : "Microsoft Corporation",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Capex digestion",
+      "Google competition"
+    ],
+    "scanType" : "Momentum",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$362.53",
+    "target" : "$422.24",
+    "thesis" : "Continued institutional flows into Azure AI; OpenAI integration driving margin expansion.",
+    "ticker" : "MSFT",
+    "timeframe" : "2–4 weeks"
+  },
+  {
+    "catalysts" : [
+      "Robotaxi unveil July 12",
+      "Energy Q2 beat"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 425.3,
+    "entry" : "~$424.02–$426.58",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "1F9C6E92-6B31-4A68-B7E2-6E1AF9AB0392",
+    "industry" : "Consumer",
+    "name" : "Tesla Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Margin pressure",
+      "Competition intensification"
+    ],
+    "scanType" : "Momentum",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$385.26",
+    "target" : "$506.13",
+    "thesis" : "Robotaxi event momentum with FSD v13 rollout; energy storage backlog growing 40%.",
+    "ticker" : "TSLA",
+    "timeframe" : "3–5 weeks"
+  },
+  {
+    "catalysts" : [
+      "AWS growth print",
+      "Prime Day results"
+    ],
+    "confidence" : 8,
+    "currency" : "USD",
+    "currentPrice" : 241.7,
+    "entry" : "~$240.97–$242.43",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "DB24429E-6D69-4AE3-9DB2-0B94A61D16F3",
+    "industry" : "Consumer",
+    "name" : "Amazon.com Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Guidance miss",
+      "Retail margin compression"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$227.20",
+    "target" : "$265.87",
+    "thesis" : "IV elevated ahead of AWS re:Invent; sell 30-delta strangle for earnings crush.",
+    "ticker" : "AMZN",
+    "timeframe" : "1–2 weeks"
+  },
+  {
+    "catalysts" : [
+      "Cloud growth",
+      "YouTube ad recovery"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 361.21,
+    "entry" : "~$360.13–$362.29",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "09B600C2-8535-4EA7-A694-C65EA41DAA20",
+    "industry" : "Technology",
+    "name" : "Alphabet Inc.",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Antitrust ruling",
+      "AI spend overrun"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$339.54",
+    "target" : "$397.33",
+    "thesis" : "Low IV for July 25 earnings; iron condor 175/185/195/205 for IV crush play.",
+    "ticker" : "GOOGL",
+    "timeframe" : "10 days"
+  },
+  {
+    "catalysts" : [
+      "RBA July 7 decision",
+      "NPL update"
+    ],
+    "confidence" : 7,
+    "currency" : "AUD",
+    "currentPrice" : 161.14,
+    "entry" : "~$160.66–$161.62",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "935FEE76-CAAB-4DA1-A089-31F7CF3D704A",
+    "name" : "Commonwealth Bank",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "Rate hike surprise",
+      "Housing data miss"
+    ],
+    "scanType" : "Options",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$151.47",
+    "target" : "$177.25",
+    "thesis" : "IV elevated pre-rate decision; buy 0.8-delta put spread for downside protection.",
+    "ticker" : "CBA.AX",
+    "timeframe" : "2 weeks"
+  },
+  {
+    "catalysts" : [
+      "New DoD contract",
+      "Commercial ACV beat"
+    ],
+    "confidence" : 7,
+    "currency" : "USD",
+    "currentPrice" : 125.73,
+    "entry" : "~$125.35–$126.11",
+    "exchange" : "NYSE",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "C1CC7CC8-45BB-4830-A8D4-A3636FBF45FA",
+    "industry" : "Technology",
+    "name" : "Palantir Technologies",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Dilution",
+      "Valuation compression"
+    ],
+    "scanType" : "Swing",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$116.51",
+    "target" : "$144.82",
+    "thesis" : "Bull flag forming above $38 with government contract momentum; 3-day hold target.",
+    "ticker" : "PLTR",
+    "timeframe" : "4–8 days"
+  },
+  {
+    "catalysts" : [
+      "June sales report July 9",
+      "Bunnings margins"
+    ],
+    "confidence" : 7,
+    "currency" : "AUD",
+    "currentPrice" : 86.85,
+    "entry" : "~$86.59–$87.11",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "6AAF02D5-F4AA-440F-9A38-2808DC9D7BD0",
+    "name" : "Wesfarmers",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "Consumer weakness",
+      "Cost inflation"
+    ],
+    "scanType" : "Swing",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$82.42",
+    "target" : "$93.69",
+    "thesis" : "Cup and handle breakout on retail sales recovery; Kmart same-store sales catalyst.",
+    "ticker" : "WES.AX",
+    "timeframe" : "5–10 days"
+  },
+  {
+    "catalysts" : [
+      "BTC ETF flows",
+      "ETH ETF approval"
+    ],
+    "confidence" : 6,
+    "currency" : "USD",
+    "currentPrice" : 159.24,
+    "entry" : "~$158.76–$159.72",
+    "exchange" : "NASDAQ",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "E0D8B2B7-A48F-42A0-9B6F-33E422E4102F",
+    "name" : "Coinbase Global",
+    "priceSource" : "Yahoo",
+    "region" : "United States",
+    "risks" : [
+      "Regulatory action",
+      "Crypto volatility"
+    ],
+    "scanType" : "Swing",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$143.74",
+    "target" : "$187.92",
+    "thesis" : "Inverse H&S pattern completing; BTC ETF inflows driving volume.",
+    "ticker" : "COIN",
+    "timeframe" : "5–9 days"
+  },
+  {
+    "catalysts" : [
+      "Data centre leasing",
+      "Singapore expansion"
+    ],
+    "confidence" : 7,
+    "currency" : "AUD",
+    "currentPrice" : 30.9,
+    "entry" : "~$30.81–$30.99",
+    "exchange" : "ASX",
+    "generatedAt" : "2026-07-02T13:22:52Z",
+    "id" : "9CD64A57-4D61-4FAA-8C08-76FF3F2C6F07",
+    "name" : "Goodman Group",
+    "priceSource" : "Yahoo",
+    "region" : "Australia",
+    "risks" : [
+      "Interest rate rise",
+      "Construction delays"
+    ],
+    "scanType" : "Swing",
+    "signal" : "BUY",
+    "source" : "Grok",
+    "stopLoss" : "$29.07",
+    "target" : "$34.15",
+    "thesis" : "Ascending triangle on data centre demand; 8% rental growth locked.",
+    "ticker" : "GMG.AX",
+    "timeframe" : "6–10 days"
+  }
 ]
