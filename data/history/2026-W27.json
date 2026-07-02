@@ -1,0 +1,2862 @@
+{
+  "id" : "2026-W27",
+  "investment" : {
+    "equityIdeas" : [
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "SOFI Expands Lending: Can Small Business Loans Boost Growth?",
+          "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "SoFi Technologies",
+        "convictionScore" : 9.65,
+        "currency" : "USD",
+        "currentPrice" : 18.89,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "2F4A9C2B-390A-4B2B-9A53-08DB3513EBF9",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 14.734200000000001,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 24.1792,
+        "thesis" : "SoFi Technologies screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "SOFI",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Breakout-style trend continuation",
+          "Natural Gas Falls Ahead of US Storage Data Despite Hot Weather Forecasts",
+          "Microsoft Launching AI Engineering Business"
+        ],
+        "category" : "Momentum Breakout",
+        "companyName" : "Woolworths Group Limited",
+        "convictionScore" : 9.45,
+        "currency" : "AUD",
+        "currentPrice" : 39.35,
+        "dataFreshness" : "Delayed",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "3D7018EF-5827-4CE3-9A57-42C809848FC0",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "False breakout / reversal risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 34.628,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 45.646,
+        "thesis" : "Woolworths Group Limited screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "WOW.AX",
+        "timeHorizon" : "Momentum hold (2-8 weeks)"
+      },
+      {
+        "catalysts" : [
+          "Breakout-style trend continuation",
+          "HSBC Adjusts Price Target on Intel to $200 From $100, Maintains Buy Rating",
+          "Why Analysts Are Growing More Bullish on Cadence Design Systems, Inc. (CDNS)"
+        ],
+        "category" : "Momentum Breakout",
+        "companyName" : "Intel Corporation",
+        "convictionScore" : 9.45,
+        "currency" : "USD",
+        "currentPrice" : 127.04,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "CE46754E-B1B8-463E-A49B-ADD11EB862B1",
+        "industry" : "Technology",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "False breakout / reversal risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 111.79520000000001,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 147.3664,
+        "thesis" : "Intel Corporation screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "INTC",
+        "timeHorizon" : "Momentum hold (2-8 weeks)"
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "Celsius Holdings (CELH) Stock Looks Fully Priced Despite Strong 36% Returns",
+          "Did Analyst Reframes Of Slowing Core Growth Just Shift Celsius Holdings' (CELH) Investment Narrative?"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "Celsius Holdings",
+        "convictionScore" : 9.3,
+        "currency" : "USD",
+        "currentPrice" : 33.37,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "881ACE7E-EDF4-4700-9228-0C5B32A9710F",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 26.028599999999997,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 42.7136,
+        "thesis" : "Celsius Holdings screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "CELH",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "e.l.f. Beauty (ELF) Soars 5.9%: Is Further Upside Left in the Stock?",
+          "ELF: Raising target price to $59.00"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "e.l.f. Beauty",
+        "convictionScore" : 9.3,
+        "currency" : "USD",
+        "currentPrice" : 79.57,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "A52168C3-9B59-449C-B370-0F5F6ADB8E9D",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 62.0646,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 101.8496,
+        "thesis" : "e.l.f. Beauty screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "ELF",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Breakout-style trend continuation",
+          "Almonty begins processing operations at South Korea’s Sangdong Mine",
+          "Florida Cancer Specialists & Research Institute Celebrates Ribbon Cutting of New Downtown Sarasota Location"
+        ],
+        "category" : "Momentum Breakout",
+        "companyName" : "Wesfarmers Limited",
+        "convictionScore" : 9.299999999999999,
+        "currency" : "AUD",
+        "currentPrice" : 86.85,
+        "dataFreshness" : "Delayed",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "20654E85-33D6-4109-A9DF-4E746B4808CE",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "False breakout / reversal risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 76.428,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 100.74599999999998,
+        "thesis" : "Wesfarmers Limited screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "WES.AX",
+        "timeHorizon" : "Momentum hold (2-8 weeks)"
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "Box, HubSpot, and Toast Shares Are Soaring, What You Need To Know",
+          "Toast (TOST) Stock Declines While Market Improves: Some Information for Investors"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "Toast",
+        "convictionScore" : 9.15,
+        "currency" : "USD",
+        "currentPrice" : 28.97,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "410C2D83-7789-4E08-AC2E-8584E3D6ADC8",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 22.5966,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 37.0816,
+        "thesis" : "Toast screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "TOST",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "User growth",
+          "Product cross-sell",
+          "Rate-cycle normalization",
+          "SOFI Expands Lending: Can Small Business Loans Boost Growth?"
+        ],
+        "category" : "Long-Term Compounder",
+        "companyName" : "SoFi Technologies",
+        "convictionScore" : 9.05,
+        "currency" : "USD",
+        "currentPrice" : 18.925,
+        "dataFreshness" : "Delayed",
+        "estimatedUpsideRange" : "$132.47-$227.10 (7-12x over 5-10 years)",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:46:39Z",
+        "id" : "FFD9052F-ABDA-472E-A1BC-E79A82E00B4D",
+        "longTermUpsideScore" : 9.1,
+        "moatEvidence" : "Brand, product velocity, embedded distribution, and data-driven underwriting are the execution signals to monitor.",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Credit cycle losses",
+          "Regulatory pressure",
+          "High competition from banks and fintechs"
+        ],
+        "scanType" : "10x Potential",
+        "signal" : "BUY",
+        "stopLoss" : 11.355,
+        "suggestedAllocationPct" : 1.5,
+        "targetPrice" : 151.4,
+        "thesis" : "SoFi Technologies fits the next-generation consumer finance platforms sleeve at $18.93; the 10x case depends on years of compounding rather than a quick rerating. If the platform becomes a primary financial account for younger customers and cross-sell expands, revenue per user could compound for years from a still-modest base. Moat evidence to verify: Brand, product velocity, embedded distribution, and data-driven underwriting are the execution signals to monitor. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "SOFI",
+        "timeHorizon" : "Long-term compounder (5-10 years)",
+        "valuationFramework" : "If the platform becomes a primary financial account for younger customers and cross-sell expands, revenue per user could compound for years from a still-modest base."
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "Natural Gas Falls Ahead of US Storage Data Despite Hot Weather Forecasts",
+          "Microsoft Launching AI Engineering Business"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "CSL Limited",
+        "convictionScore" : 9.05,
+        "currency" : "AUD",
+        "currentPrice" : 117.75,
+        "dataFreshness" : "Delayed",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "BF332003-950E-45F0-A296-B67FBB639739",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 91.845,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 150.72,
+        "thesis" : "CSL Limited screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "CSL.AX",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "HIMS Stock Hits 2026 High After Unlocking $400M Working Capital Through JPMorgan — Retail Gets Less Bearish",
+          "Sector Update: Healthcare Stocks Higher Late Afternoon"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "Hims & Hers Health",
+        "convictionScore" : 9.049999999999999,
+        "currency" : "USD",
+        "currentPrice" : 37.6,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "C1023099-E0A2-465C-B404-3FCE65B32625",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk",
+          "Headline language skews cautious"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 29.328000000000003,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 48.128,
+        "thesis" : "Hims & Hers Health screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "HIMS",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves",
+          "Sector Update: Financial Stocks Advance Premarket Thursday",
+          "Robinhood CEO says AI agents could soon trade as effectively as humans"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "Robinhood Markets",
+        "convictionScore" : 8.95,
+        "currency" : "USD",
+        "currentPrice" : 117.735,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "476E8555-06AC-4BFF-BBA3-0B6837671983",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 91.83330000000001,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 150.70080000000002,
+        "thesis" : "Robinhood Markets screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "HOOD",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Clinical trial readouts",
+          "Platform partnerships",
+          "Regulatory milestones",
+          "Wall Street Thinks This High-Flying Biotech Stock Can Soar Another 57%"
+        ],
+        "category" : "Long-Term Compounder",
+        "companyName" : "Intellia Therapeutics",
+        "convictionScore" : 8.75,
+        "currency" : "USD",
+        "currentPrice" : 17.7,
+        "dataFreshness" : "Delayed",
+        "estimatedUpsideRange" : "$123.90-$212.40 (7-12x over 5-10 years)",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:46:39Z",
+        "id" : "B717FC99-ED53-4C52-B78A-E477C274C0E1",
+        "longTermUpsideScore" : 9.1,
+        "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Binary clinical failures",
+          "Cash burn and dilution",
+          "Long commercialization timelines"
+        ],
+        "scanType" : "10x Potential",
+        "signal" : "BUY",
+        "stopLoss" : 10.62,
+        "suggestedAllocationPct" : 1.5,
+        "targetPrice" : 141.6,
+        "thesis" : "Intellia Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $17.70; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "NTLA",
+        "timeHorizon" : "Long-term compounder (5-10 years)",
+        "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "CAVA Group",
+        "convictionScore" : 8.75,
+        "currency" : "USD",
+        "currentPrice" : 78.95,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "7C019D3A-6316-4071-941F-CCB29A21B781",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 61.581,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 101.05600000000001,
+        "thesis" : "CAVA Group screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
+        "ticker" : "CAVA",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Potential rerating if execution improves"
+        ],
+        "category" : "Under the Radar",
+        "companyName" : "Affirm Holdings",
+        "convictionScore" : 8.75,
+        "currency" : "USD",
+        "currentPrice" : 85.51,
+        "dataFreshness" : "Delayed",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:43:19Z",
+        "id" : "90F44C6B-765D-4950-A269-BD90B33EBA41",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Lower institutional coverage and liquidity risk"
+        ],
+        "scanType" : "Core Opportunities",
+        "signal" : "BUY",
+        "stopLoss" : 66.6978,
+        "suggestedAllocationPct" : 2,
+        "targetPrice" : 109.45280000000001,
+        "thesis" : "Affirm Holdings screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
+        "ticker" : "AFRM",
+        "timeHorizon" : "Accumulation watch (3-12 months)"
+      },
+      {
+        "catalysts" : [
+          "Clinical trial readouts",
+          "Platform partnerships",
+          "Regulatory milestones",
+          "Cathie Wood Doubles Down on AI, Loads Up on Tesla, Palantir, and SpaceX"
+        ],
+        "category" : "Long-Term Compounder",
+        "companyName" : "Recursion Pharmaceuticals",
+        "convictionScore" : 8.700000000000001,
+        "currency" : "USD",
+        "currentPrice" : 3.75,
+        "dataFreshness" : "Delayed",
+        "estimatedUpsideRange" : "$26.25-$45.00 (7-12x over 5-10 years)",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:46:39Z",
+        "id" : "CB56F9AE-7FDA-48E2-A853-31056FDE4230",
+        "longTermUpsideScore" : 8.9,
+        "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Binary clinical failures",
+          "Cash burn and dilution",
+          "Long commercialization timelines"
+        ],
+        "scanType" : "10x Potential",
+        "signal" : "BUY",
+        "stopLoss" : 2.25,
+        "suggestedAllocationPct" : 1.5,
+        "targetPrice" : 30,
+        "thesis" : "Recursion Pharmaceuticals fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $3.75; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "RXRX",
+        "timeHorizon" : "Long-term compounder (5-10 years)",
+        "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
+      },
+      {
+        "catalysts" : [
+          "Manufacturing yield milestones",
+          "Customer qualifications",
+          "Energy density validation",
+          "AMD Is Up 150% This Year But Here Are 5 Overlooked Stocks Betting on What Comes Next"
+        ],
+        "category" : "Long-Term Compounder",
+        "companyName" : "QuantumScape",
+        "convictionScore" : 8.600000000000001,
+        "currency" : "USD",
+        "currentPrice" : 7.645,
+        "dataFreshness" : "Delayed",
+        "estimatedUpsideRange" : "$53.52-$91.74 (7-12x over 5-10 years)",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:46:39Z",
+        "id" : "A45710CC-F235-4EEF-BEF7-3BFD535230B4",
+        "longTermUpsideScore" : 8.8,
+        "moatEvidence" : "Manufacturing yield, customer qualification, and IP-protected chemistry are the important moat evidence.",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Scale-up failures",
+          "Cash burn",
+          "Incumbent battery competition"
+        ],
+        "scanType" : "10x Potential",
+        "signal" : "BUY",
+        "stopLoss" : 4.587,
+        "suggestedAllocationPct" : 1.5,
+        "targetPrice" : 61.16,
+        "thesis" : "QuantumScape fits the next-generation batteries sleeve at $7.64; the 10x case depends on years of compounding rather than a quick rerating. If the battery architecture reaches scaled manufacturing and wins premium device or EV sockets, revenue could move from pilot scale to a multi-billion-dollar opportunity. Moat evidence to verify: Manufacturing yield, customer qualification, and IP-protected chemistry are the important moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "QS",
+        "timeHorizon" : "Long-term compounder (5-10 years)",
+        "valuationFramework" : "If the battery architecture reaches scaled manufacturing and wins premium device or EV sockets, revenue could move from pilot scale to a multi-billion-dollar opportunity."
+      },
+      {
+        "catalysts" : [
+          "Clinical trial readouts",
+          "Platform partnerships",
+          "Regulatory milestones",
+          "Tesla’s 10% Weight in ARKK Sets Up a Make-or-Break Year for the Innovation ETF"
+        ],
+        "category" : "Long-Term Compounder",
+        "companyName" : "Beam Therapeutics",
+        "convictionScore" : 8.450000000000001,
+        "currency" : "USD",
+        "currentPrice" : 34.5,
+        "dataFreshness" : "Delayed",
+        "estimatedUpsideRange" : "$241.50-$414.00 (7-12x over 5-10 years)",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:46:39Z",
+        "id" : "653814F5-3F99-4A8A-ABB9-C9CA7F0A6A8A",
+        "longTermUpsideScore" : 8.8,
+        "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Binary clinical failures",
+          "Cash burn and dilution",
+          "Long commercialization timelines"
+        ],
+        "scanType" : "10x Potential",
+        "signal" : "BUY",
+        "stopLoss" : 20.7,
+        "suggestedAllocationPct" : 1.5,
+        "targetPrice" : 276,
+        "thesis" : "Beam Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $34.50; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "BEAM",
+        "timeHorizon" : "Long-term compounder (5-10 years)",
+        "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
+      },
+      {
+        "catalysts" : [
+          "Commercial deployment milestones",
+          "Regulatory approvals",
+          "Fleet and unit-economics proof",
+          "Is Joby Aviation a Buy After Clearing Its Latest Regulatory Hurdle?"
+        ],
+        "category" : "Long-Term Compounder",
+        "companyName" : "Joby Aviation",
+        "convictionScore" : 8.450000000000001,
+        "currency" : "USD",
+        "currentPrice" : 8.86,
+        "dataFreshness" : "Delayed",
+        "estimatedUpsideRange" : "$62.02-$106.32 (7-12x over 5-10 years)",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:46:39Z",
+        "id" : "0424E989-933D-40F3-AEB8-79ABFDB732D5",
+        "longTermUpsideScore" : 8.8,
+        "moatEvidence" : "Certification progress, deployment data, manufacturing partners, and real customer usage are the moat signals to verify.",
+        "priceSource" : "Yahoo/Alpha Vantage",
+        "risks" : [
+          "Regulatory delays",
+          "Hardware margin pressure",
+          "Adoption may be slower than forecasts"
+        ],
+        "scanType" : "10x Potential",
+        "signal" : "BUY",
+        "stopLoss" : 5.316,
+        "suggestedAllocationPct" : 1.5,
+        "targetPrice" : 70.88,
+        "thesis" : "Joby Aviation fits the robotics, autonomy, and physical AI sleeve at $8.86; the 10x case depends on years of compounding rather than a quick rerating. If autonomous systems move from pilots to scaled fleets, even niche leadership in logistics, mobility, or robotics could create large recurring hardware-plus-software economics. Moat evidence to verify: Certification progress, deployment data, manufacturing partners, and real customer usage are the moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
+        "ticker" : "JOBY",
+        "timeHorizon" : "Long-term compounder (5-10 years)",
+        "valuationFramework" : "If autonomous systems move from pilots to scaled fleets, even niche leadership in logistics, mobility, or robotics could create large recurring hardware-plus-software economics."
+      }
+    ],
+    "funnels" : [
+      {
+        "candidates" : [
+          {
+            "balanceSheetScore" : 98,
+            "companyName" : "Berkshire Hathaway Inc.",
+            "keyRisk" : "Succession and conglomerate complexity.",
+            "moatScore" : 95,
+            "overallScore" : 92,
+            "rationale" : "Unmatched capital base and permanent capital advantage in reinsurance via General Re.",
+            "recommendation" : "Strong Buy",
+            "ticker" : "BRK.B",
+            "valuationScore" : 75
+          },
+          {
+            "balanceSheetScore" : 90,
+            "companyName" : "Munich Re",
+            "keyRisk" : "Catastrophe loss volatility and European regulatory shifts.",
+            "moatScore" : 88,
+            "overallScore" : 85,
+            "rationale" : "Global leader with diversified reinsurance book and strong reserving culture.",
+            "recommendation" : "Buy",
+            "ticker" : "MUV2.DE",
+            "valuationScore" : 78
+          },
+          {
+            "balanceSheetScore" : 88,
+            "companyName" : "Hannover Re",
+            "keyRisk" : "Reinsurance cycle pricing pressure.",
+            "moatScore" : 82,
+            "overallScore" : 82,
+            "rationale" : "Best-in-class combined ratio track record and efficient capital allocation.",
+            "recommendation" : "Buy",
+            "ticker" : "HNR1.DE",
+            "valuationScore" : 85
+          },
+          {
+            "balanceSheetScore" : 85,
+            "companyName" : "Arch Capital Group Ltd.",
+            "keyRisk" : "Acquisition integration and investment portfolio risk.",
+            "moatScore" : 80,
+            "overallScore" : 78,
+            "rationale" : "Diversified platform with excellent underwriting discipline across reinsurance and insurance.",
+            "recommendation" : "Buy",
+            "ticker" : "ACGL",
+            "valuationScore" : 72
+          },
+          {
+            "balanceSheetScore" : 80,
+            "companyName" : "RenaissanceRe Holdings Ltd.",
+            "keyRisk" : "High earnings volatility from peak perils.",
+            "moatScore" : 78,
+            "overallScore" : 73,
+            "rationale" : "Specialized catastrophe expertise and strong risk modeling moat.",
+            "recommendation" : "Watch",
+            "ticker" : "RNR",
+            "valuationScore" : 68
+          },
+          {
+            "balanceSheetScore" : 82,
+            "companyName" : "Swiss Re AG",
+            "keyRisk" : "Legacy reserve development and Life & Health drag.",
+            "moatScore" : 75,
+            "overallScore" : 70,
+            "rationale" : "Broad product suite and global footprint with improving capital returns.",
+            "recommendation" : "Watch",
+            "ticker" : "SREN.SW",
+            "valuationScore" : 65
+          },
+          {
+            "balanceSheetScore" : 78,
+            "companyName" : "Everest Group Ltd.",
+            "keyRisk" : "Concentration in North American property lines.",
+            "moatScore" : 70,
+            "overallScore" : 68,
+            "rationale" : "Solid US-focused reinsurance franchise with reasonable valuation.",
+            "recommendation" : "Watch",
+            "ticker" : "EG",
+            "valuationScore" : 70
+          },
+          {
+            "balanceSheetScore" : 75,
+            "companyName" : "Axis Capital Holdings Ltd.",
+            "keyRisk" : "Underwriting inconsistency and higher expense ratio.",
+            "moatScore" : 65,
+            "overallScore" : 62,
+            "rationale" : "Adequate scale but thinner moat versus larger peers.",
+            "recommendation" : "Avoid",
+            "ticker" : "AXS",
+            "valuationScore" : 62
+          }
+        ],
+        "conclusion" : "Reinsurance offers durable economics for scale operators with disciplined underwriting and fortress balance sheets, led by Berkshire Hathaway and select European specialists.",
+        "generatedAt" : "2026-07-02T09:42:21Z",
+        "id" : "93F1B620-975A-473A-B54D-A41142C474D1",
+        "model" : "grok-3-mini-fast",
+        "theme" : "Reinsurance"
+      },
+      {
+        "candidates" : [
+          {
+            "balanceSheetScore" : 96,
+            "companyName" : "The Coca-Cola Company",
+            "keyRisk" : "Emerging-market currency volatility and long-term sugar-tax exposure.",
+            "moatScore" : 95,
+            "overallScore" : 92,
+            "rationale" : "Unmatched global brand portfolio, consistent free-cash-flow conversion and fortress net-cash position after leases.",
+            "recommendation" : "Buy",
+            "ticker" : "KO",
+            "valuationScore" : 78
+          },
+          {
+            "balanceSheetScore" : 94,
+            "companyName" : "The Procter & Gamble Company",
+            "keyRisk" : "Private-label share gains in a prolonged cost-of-living crisis.",
+            "moatScore" : 93,
+            "overallScore" : 89,
+            "rationale" : "Category-leading household brands, 90-plus years of dividend growth and investment-grade balance sheet with minimal net debt.",
+            "recommendation" : "Buy",
+            "ticker" : "PG",
+            "valuationScore" : 75
+          },
+          {
+            "balanceSheetScore" : 91,
+            "companyName" : "PepsiCo, Inc.",
+            "keyRisk" : "Health-driven volume pressure on sugary beverages.",
+            "moatScore" : 88,
+            "overallScore" : 84,
+            "rationale" : "Diversified beverage and snack portfolio, strong route-to-market and solid returns on invested capital.",
+            "recommendation" : "Buy",
+            "ticker" : "PEP",
+            "valuationScore" : 72
+          },
+          {
+            "balanceSheetScore" : 88,
+            "companyName" : "Unilever PLC",
+            "keyRisk" : "Slower emerging-market recovery and activist pressure for further restructuring.",
+            "moatScore" : 85,
+            "overallScore" : 79,
+            "rationale" : "Global personal-care and food reach with improving margin trajectory after portfolio pruning.",
+            "recommendation" : "Watch",
+            "ticker" : "UL",
+            "valuationScore" : 68
+          },
+          {
+            "balanceSheetScore" : 89,
+            "companyName" : "Colgate-Palmolive Company",
+            "keyRisk" : "Category concentration and rising input-cost inflation.",
+            "moatScore" : 82,
+            "overallScore" : 76,
+            "rationale" : "Dominant oral-care franchise and steady cash generation despite modest top-line growth.",
+            "recommendation" : "Watch",
+            "ticker" : "CL",
+            "valuationScore" : 65
+          },
+          {
+            "balanceSheetScore" : 85,
+            "companyName" : "Kimberly-Clark Corporation",
+            "keyRisk" : "Pulp-price volatility and private-label share erosion.",
+            "moatScore" : 78,
+            "overallScore" : 71,
+            "rationale" : "Essential tissue and hygiene brands with high barriers in away-from-home channels.",
+            "recommendation" : "Watch",
+            "ticker" : "KMB",
+            "valuationScore" : 62
+          },
+          {
+            "balanceSheetScore" : 87,
+            "companyName" : "Nestlé S.A.",
+            "keyRisk" : "Premium valuation and slower organic growth in developed markets.",
+            "moatScore" : 80,
+            "overallScore" : 68,
+            "rationale" : "Broad nutrition and pet-care portfolio with scale advantages, though valuation remains elevated.",
+            "recommendation" : "Avoid",
+            "ticker" : "NSRGY",
+            "valuationScore" : 55
+          },
+          {
+            "balanceSheetScore" : 79,
+            "companyName" : "General Mills, Inc.",
+            "keyRisk" : "Private-label competition and interest-rate sensitivity on floating debt.",
+            "moatScore" : 70,
+            "overallScore" : 62,
+            "rationale" : "Stable North-American center-store brands but thinner moat and higher leverage versus peers.",
+            "recommendation" : "Avoid",
+            "ticker" : "GIS",
+            "valuationScore" : 58
+          }
+        ],
+        "conclusion" : "Global consumer staples offers durable demand and brand moats, with the shortlist limited to firms possessing fortress balance sheets and pricing power.",
+        "generatedAt" : "2026-07-02T09:40:45Z",
+        "id" : "BF44E1BA-43A7-4B85-9E98-922A5D69965D",
+        "model" : "grok-3-mini-fast",
+        "theme" : "Global Consumer Staples"
+      },
+      {
+        "candidates" : [
+          {
+            "balanceSheetScore" : 92,
+            "companyName" : "Waste Management, Inc.",
+            "keyRisk" : "US regulatory or fuel-cost pressure",
+            "moatScore" : 90,
+            "overallScore" : 88,
+            "rationale" : "Dominant North American landfill and collection network, high incremental margins, consistent free-cash-flow conversion.",
+            "recommendation" : "Buy",
+            "ticker" : "WM",
+            "valuationScore" : 75
+          },
+          {
+            "balanceSheetScore" : 88,
+            "companyName" : "Republic Services, Inc.",
+            "keyRisk" : "Acquisition integration risk",
+            "moatScore" : 85,
+            "overallScore" : 85,
+            "rationale" : "Strong regional density, disciplined pricing, investment-grade balance sheet supporting steady dividends.",
+            "recommendation" : "Buy",
+            "ticker" : "RSG",
+            "valuationScore" : 78
+          },
+          {
+            "balanceSheetScore" : 85,
+            "companyName" : "Waste Connections, Inc.",
+            "keyRisk" : "Canadian FX and wildfire exposure",
+            "moatScore" : 82,
+            "overallScore" : 82,
+            "rationale" : "High-quality secondary-market footprint, low leakage, solid cash generation with conservative leverage.",
+            "recommendation" : "Buy",
+            "ticker" : "WCN",
+            "valuationScore" : 72
+          },
+          {
+            "balanceSheetScore" : 78,
+            "companyName" : "Cleanaway Waste Management Limited",
+            "keyRisk" : "Domestic economic slowdown or landfill capacity constraints",
+            "moatScore" : 68,
+            "overallScore" : 71,
+            "rationale" : "Leading Australian waste platform with post-collection vertical integration and improving returns on capital.",
+            "recommendation" : "Watch",
+            "ticker" : "CWY.AX",
+            "valuationScore" : 65
+          },
+          {
+            "balanceSheetScore" : 72,
+            "companyName" : "Clean Harbors, Inc.",
+            "keyRisk" : "Energy-sector volume swings",
+            "moatScore" : 70,
+            "overallScore" : 65,
+            "rationale" : "Specialist hazardous-waste and industrial-services operator with technical barriers but more cyclical demand.",
+            "recommendation" : "Watch",
+            "ticker" : "CLH",
+            "valuationScore" : 55
+          }
+        ],
+        "conclusion" : "Defensive oligopoly economics and recurring revenue favor scale operators with fortress balance sheets, leaving only a handful of listed names suitable for conservative SMSF review.",
+        "generatedAt" : "2026-07-02T03:22:43Z",
+        "id" : "D525B154-5C26-4995-A735-E65AA9C8433F",
+        "model" : "grok-3-mini-fast",
+        "theme" : "Waste Management & Environmental Services"
+      },
+      {
+        "candidates" : [
+          {
+            "balanceSheetScore" : 90,
+            "companyName" : "Johnson & Johnson",
+            "keyRisk" : "Ongoing talc and opioid litigation overhang plus modest top-line growth post-2023 spin-off.",
+            "moatScore" : 85,
+            "overallScore" : 82,
+            "rationale" : "Diversified healthcare giant with entrenched prescription and consumer moats, consistent free-cash-flow conversion and minimal net debt.",
+            "recommendation" : "Buy",
+            "ticker" : "JNJ",
+            "valuationScore" : 75
+          },
+          {
+            "balanceSheetScore" : 85,
+            "companyName" : "Merck & Co.",
+            "keyRisk" : "Heavy single-product concentration and 2028+ patent cliff.",
+            "moatScore" : 88,
+            "overallScore" : 79,
+            "rationale" : "Keytruda oncology franchise creates multi-year visibility; strong operating margins and investment-grade balance sheet.",
+            "recommendation" : "Buy",
+            "ticker" : "MRK",
+            "valuationScore" : 68
+          },
+          {
+            "balanceSheetScore" : 82,
+            "companyName" : "AbbVie",
+            "keyRisk" : "Immunology category competition and historical debt from Allergan acquisition.",
+            "moatScore" : 80,
+            "overallScore" : 76,
+            "rationale" : "Skyrizi/Rinvoq transition largely de-risked; high-single-digit dividend yield supported by robust cash generation.",
+            "recommendation" : "Buy",
+            "ticker" : "ABBV",
+            "valuationScore" : 72
+          },
+          {
+            "balanceSheetScore" : 80,
+            "companyName" : "AstraZeneca",
+            "keyRisk" : "Clinical and regulatory binary events plus emerging-market currency exposure.",
+            "moatScore" : 78,
+            "overallScore" : 73,
+            "rationale" : "Broad late-stage oncology and rare-disease pipeline; solid net-cash position after recent deleveraging.",
+            "recommendation" : "Watch",
+            "ticker" : "AZN",
+            "valuationScore" : 65
+          },
+          {
+            "balanceSheetScore" : 83,
+            "companyName" : "Novartis",
+            "keyRisk" : "Generic erosion on legacy portfolio and modest pipeline productivity.",
+            "moatScore" : 75,
+            "overallScore" : 71,
+            "rationale" : "Post-Sandoz spin-off focus on innovative medicines; attractive free-cash-flow yield and Swiss-franc stability.",
+            "recommendation" : "Watch",
+            "ticker" : "NVS",
+            "valuationScore" : 70
+          },
+          {
+            "balanceSheetScore" : 78,
+            "companyName" : "Bristol-Myers Squibb",
+            "keyRisk" : "Multiple patent expirations clustered 2026-2028.",
+            "moatScore" : 72,
+            "overallScore" : 68,
+            "rationale" : "Opdivo/Yervoy franchise plus growing cardiovascular pipeline; investment-grade metrics and shareholder returns.",
+            "recommendation" : "Watch",
+            "ticker" : "BMY",
+            "valuationScore" : 62
+          },
+          {
+            "balanceSheetScore" : 85,
+            "companyName" : "Roche Holding",
+            "keyRisk" : "Elevated valuation relative to growth outlook and biosimilar pressure on legacy oncology.",
+            "moatScore" : 82,
+            "overallScore" : 66,
+            "rationale" : "Diagnostics-plus-pharma combination yields defensive cash flows and diagnostics leadership.",
+            "recommendation" : "Avoid",
+            "ticker" : "RHHBY",
+            "valuationScore" : 55
+          },
+          {
+            "balanceSheetScore" : 80,
+            "companyName" : "Eli Lilly",
+            "keyRisk" : "Extreme valuation leaves little margin of safety for any clinical or reimbursement setback.",
+            "moatScore" : 85,
+            "overallScore" : 62,
+            "rationale" : "Unmatched obesity and Alzheimer's pipeline creates exceptional moat, yet current multiples price in near-perfect execution.",
+            "recommendation" : "Avoid",
+            "ticker" : "LLY",
+            "valuationScore" : 35
+          }
+        ],
+        "conclusion" : "Pharmaceuticals contain a handful of durable-moat, fortress-balance-sheet compounders that survive patent cycles and merit deeper value analysis for a conservative SMSF.",
+        "generatedAt" : "2026-07-01T06:15:29Z",
+        "id" : "1B0517E5-04D6-4BDE-98E9-BD6F30AE908C",
+        "model" : "grok-3-mini-fast",
+        "theme" : "pharmaceutical"
+      },
+      {
+        "candidates" : [
+          {
+            "balanceSheetScore" : 92,
+            "companyName" : "AIA Group",
+            "keyRisk" : "China exposure and regulatory shifts could trigger short-term swings.",
+            "moatScore" : 85,
+            "overallScore" : 88,
+            "rationale" : "Asia-focused leader with exceptional capital strength and pricing power; moderate volatility suits 4% swing sizing.",
+            "recommendation" : "Buy",
+            "ticker" : "1299.HK",
+            "valuationScore" : 75
+          },
+          {
+            "balanceSheetScore" : 88,
+            "companyName" : "Sun Life Financial",
+            "keyRisk" : "Interest-rate sensitivity may amplify 2-10 day price moves.",
+            "moatScore" : 78,
+            "overallScore" : 82,
+            "rationale" : "Diversified Canadian platform with clean balance sheet and steady cash flows appropriate for moderate-risk entries.",
+            "recommendation" : "Buy",
+            "ticker" : "SLF",
+            "valuationScore" : 80
+          },
+          {
+            "balanceSheetScore" : 85,
+            "companyName" : "Manulife Financial",
+            "keyRisk" : "Legacy long-duration liabilities create periodic valuation swings.",
+            "moatScore" : 75,
+            "overallScore" : 79,
+            "rationale" : "Solid North American and Asian franchise with improving capital ratios supporting controlled swing exposure.",
+            "recommendation" : "Watch",
+            "ticker" : "MFC",
+            "valuationScore" : 78
+          },
+          {
+            "balanceSheetScore" : 80,
+            "companyName" : "MetLife",
+            "keyRisk" : "US regulatory or rate volatility within swing windows.",
+            "moatScore" : 72,
+            "overallScore" : 76,
+            "rationale" : "US-centric scale and disciplined capital management offer value for moderate-risk short-term trades.",
+            "recommendation" : "Watch",
+            "ticker" : "MET",
+            "valuationScore" : 82
+          },
+          {
+            "balanceSheetScore" : 82,
+            "companyName" : "Zurich Insurance Group",
+            "keyRisk" : "Currency and European macro shocks.",
+            "moatScore" : 70,
+            "overallScore" : 74,
+            "rationale" : "European leader with conservative reserving and strong solvency suited to selective swing opportunities.",
+            "recommendation" : "Watch",
+            "ticker" : "ZURN.SW",
+            "valuationScore" : 68
+          },
+          {
+            "balanceSheetScore" : 78,
+            "companyName" : "Allianz SE",
+            "keyRisk" : "Investment-portfolio mark-to-market moves in short timeframes.",
+            "moatScore" : 68,
+            "overallScore" : 71,
+            "rationale" : "Global diversification and robust capital base allow measured 4% position swings.",
+            "recommendation" : "Avoid",
+            "ticker" : "ALV.DE",
+            "valuationScore" : 65
+          }
+        ],
+        "conclusion" : "Global life insurance features durable scale moats and capital-intensive economics that favor only the strongest balance sheets for moderate-risk swing trades of 2-10 days.",
+        "generatedAt" : "2026-07-01T04:21:38Z",
+        "id" : "B20E52E4-1979-4798-91F2-2877308BF345",
+        "model" : "grok-3-mini-fast",
+        "theme" : "Global Life Insurance"
+      }
+    ],
+    "reports" : [
+      {
+        "bearCase" : [
+          "Major catastrophe losses or reserve development pressure earnings",
+          "Interest-rate or inflation shocks impair investment portfolio",
+          "Competitive pressure compresses margins"
+        ],
+        "bullCase" : [
+          "Sustained underwriting excellence drives ROE above 15%",
+          "Continued special dividends and opportunistic buybacks",
+          "Expansion in high-margin specialty lines"
+        ],
+        "businessSummary" : "Hannover Re provides property & casualty and life & health reinsurance worldwide with a focus on risk selection and retrocession.",
+        "catalysts" : [
+          "Q4 reserve releases",
+          "New retrocession treaties",
+          "Management capital-return announcements"
+        ],
+        "companyName" : "Hannover Rück SE",
+        "conclusion" : "Leading global reinsurer with disciplined underwriting and capital returns but limited reinvestment runway and cyclical exposure warrant a cautious stance.",
+        "confidence" : 45,
+        "dataAsOf" : "2024-09-30",
+        "deliveryStatus" : "complete",
+        "disconfirmingEvidence" : [
+          "Two consecutive years of combined ratio above 100%",
+          "Material decline in solvency ratio",
+          "Repeated dividend cuts"
+        ],
+        "exchange" : "Xetra",
+        "financials" : {
+          "balanceSheet" : "Unavailable",
+          "earningsGrowth" : "Unavailable",
+          "freeCashFlow" : "Unavailable",
+          "returnsOnCapital" : "Unavailable",
+          "revenueGrowth" : "Unavailable",
+          "shareCountTrend" : "Unavailable"
+        },
+        "generatedAt" : "2026-07-02T09:43:20Z",
+        "id" : "A50F091A-04A3-4C9D-87DB-35F7D1C1AB58",
+        "keyRisks" : [
+          "Catastrophe frequency increase",
+          "Regulatory changes in key markets",
+          "Prolonged soft market pricing"
+        ],
+        "managementAndCapitalAllocation" : "Conservative reserving and regular dividend/special dividend policy; limited M&A activity and disciplined buybacks when undervalued.",
+        "moat" : "Strong underwriting franchise and diversification across lines and geographies; scale advantages in data and retrocession.",
+        "monitoringChecklist" : [
+          "Quarterly combined ratio and solvency disclosures",
+          "Annual retrocession renewals",
+          "Dividend policy updates"
+        ],
+        "overallScore" : 62,
+        "perspectives" : [
+          {
+            "keyQuestions" : [
+              "How sustainable is combined-ratio outperformance?",
+              "What is customer concentration?"
+            ],
+            "name" : "Business Owner",
+            "score" : 68,
+            "thesis" : "Underwriting discipline and client relationships support long-term value creation in reinsurance.",
+            "verdict" : "Solid franchise"
+          },
+          {
+            "keyQuestions" : [
+              "Will buybacks continue at current valuations?",
+              "How are excess reserves deployed?"
+            ],
+            "name" : "Capital Allocator",
+            "score" : 60,
+            "thesis" : "Returns capital via dividends; modest reinvestment opportunities in new lines.",
+            "verdict" : "Prudent but limited runway"
+          },
+          {
+            "keyQuestions" : [
+              "What is normalized loss ratio over 10 years?",
+              "How exposed to inflation and catastrophe trends?"
+            ],
+            "name" : "Rational Skeptic",
+            "score" : 55,
+            "thesis" : "Reinsurance results are volatile; historical ROE mean-reversion is likely.",
+            "verdict" : "Cyclical with base-rate concerns"
+          },
+          {
+            "keyQuestions" : [
+              "What is exposure to interest-rate or credit shocks?",
+              "Any regulatory or geopolitical tail risks in key markets?"
+            ],
+            "name" : "Downside Protector",
+            "score" : 65,
+            "thesis" : "Strong solvency ratios and conservative investment portfolio reduce permanent-loss probability.",
+            "verdict" : "Adequate buffers"
+          }
+        ],
+        "positionSuggestion" : {
+          "addConditions" : [
+            "Further 15% price decline or improved combined-ratio guidance"
+          ],
+          "entryConditions" : [
+            "Price below 200 EUR",
+            "Solvency ratio above 200%"
+          ],
+          "exitConditions" : [
+            "Combined ratio exceeds 102% for two consecutive years",
+            "Solvency ratio falls below 180%",
+            "Better opportunities elsewhere"
+          ],
+          "holdingPeriod" : "At least five years",
+          "initialPortfolioPercent" : 3,
+          "maximumPortfolioPercent" : 6,
+          "rationale" : "Modest starter position given cyclical nature and current valuation uncertainty",
+          "trancheCount" : 2
+        },
+        "recommendation" : "Watch",
+        "riskRating" : "Medium",
+        "sources" : [
+          {
+            "asOf" : "2024",
+            "title" : "Hannover Re investor relations and annual reports"
+          }
+        ],
+        "ticker" : "HNR1.DE",
+        "valuation" : {
+          "base" : {
+            "assumptions" : [
+              "Combined ratio averages 96%",
+              "Modest premium growth 5-7%"
+            ],
+            "fairValue" : 240,
+            "name" : "Base",
+            "probability" : 0.5
+          },
+          "bear" : {
+            "assumptions" : [
+              "Combined ratio deteriorates to 102%",
+              "Premium growth slows to 2%"
+            ],
+            "fairValue" : 180,
+            "name" : "Bear",
+            "probability" : 0.25
+          },
+          "bull" : {
+            "assumptions" : [
+              "Combined ratio sustains 93%",
+              "Continued dividend growth and buybacks"
+            ],
+            "fairValue" : 290,
+            "name" : "Bull",
+            "probability" : 0.25
+          },
+          "currency" : "EUR",
+          "methodology" : "Dividend-discount and normalized earnings multiple applied to five-year owner horizon",
+          "preferredBuyBelow" : 200,
+          "weightedFairValue" : 237.5
+        }
+      },
+      {
+        "bearCase" : [
+          "Unavailable"
+        ],
+        "bullCase" : [
+          "Unavailable"
+        ],
+        "businessSummary" : "Unavailable",
+        "catalysts" : [
+          "Unavailable"
+        ],
+        "companyName" : "Waste Management, Inc.",
+        "conclusion" : "WM operates a durable, essential-service waste business with strong cash generation but lacks sufficient data for confident valuation at current levels within an SMSF mandate.",
+        "confidence" : 40,
+        "dataAsOf" : "2024-09-30",
+        "deliveryStatus" : "partial",
+        "disconfirmingEvidence" : [
+          "Unavailable"
+        ],
+        "exchange" : "NYSE",
+        "financials" : {
+          "balanceSheet" : "Unavailable",
+          "earningsGrowth" : "Unavailable",
+          "freeCashFlow" : "Unavailable",
+          "returnsOnCapital" : "Unavailable",
+          "revenueGrowth" : "Unavailable",
+          "shareCountTrend" : "Unavailable"
+        },
+        "generatedAt" : "2026-07-02T03:25:42Z",
+        "id" : "5841918F-4B55-4AEA-95BA-35C88A1640B3",
+        "keyRisks" : [
+          "Unavailable"
+        ],
+        "managementAndCapitalAllocation" : "Unavailable",
+        "moat" : "Unavailable",
+        "monitoringChecklist" : [
+          "Unavailable"
+        ],
+        "overallScore" : 55,
+        "perspectives" : [
+          {
+            "keyQuestions" : [
+              "How stable is pricing power over five years?",
+              "What evidence exists of customer loyalty beyond contracts?"
+            ],
+            "name" : "Business Owner",
+            "score" : 65,
+            "thesis" : "Unavailable",
+            "verdict" : "Solid essential service with recurring demand"
+          },
+          {
+            "keyQuestions" : [
+              "What is the reinvestment runway beyond tuck-in acquisitions?",
+              "How aligned are incentives with long-term owners?"
+            ],
+            "name" : "Capital Allocator",
+            "score" : 60,
+            "thesis" : "Unavailable",
+            "verdict" : "Disciplined capital returns historically"
+          },
+          {
+            "keyQuestions" : [
+              "What base-rate evidence supports sustained above-GDP growth?",
+              "Which accounting items could distort reported returns?"
+            ],
+            "name" : "Rational Skeptic",
+            "score" : 45,
+            "thesis" : "Unavailable",
+            "verdict" : "Mature industry with limited growth optionality"
+          },
+          {
+            "keyQuestions" : [
+              "What regulatory or landfill-permit risks could impair asset values?",
+              "How exposed is the business to municipal budget cycles?"
+            ],
+            "name" : "Downside Protector",
+            "score" : 70,
+            "thesis" : "Unavailable",
+            "verdict" : "Defensive balance sheet and essential service"
+          }
+        ],
+        "positionSuggestion" : {
+          "addConditions" : [
+
+          ],
+          "entryConditions" : [
+
+          ],
+          "exitConditions" : [
+            "Do not act until the incomplete research has been independently verified."
+          ],
+          "holdingPeriod" : "5+ years (thesis-driven)",
+          "initialPortfolioPercent" : 0,
+          "maximumPortfolioPercent" : 0,
+          "rationale" : "Position sizing is unavailable for an incomplete report.",
+          "trancheCount" : 3
+        },
+        "recommendation" : "Watch",
+        "riskRating" : "Low",
+        "sources" : [
+          {
+            "asOf" : "Unavailable",
+            "title" : "Unavailable"
+          }
+        ],
+        "ticker" : "WM",
+        "valuation" : {
+          "base" : {
+            "assumptions" : [
+              "Unavailable"
+            ],
+            "fairValue" : 0,
+            "name" : "Base",
+            "probability" : 0.5
+          },
+          "bear" : {
+            "assumptions" : [
+              "Unavailable"
+            ],
+            "fairValue" : 0,
+            "name" : "Bear",
+            "probability" : 0.25
+          },
+          "bull" : {
+            "assumptions" : [
+              "Unavailable"
+            ],
+            "fairValue" : 0,
+            "name" : "Bull",
+            "probability" : 0.25
+          },
+          "currency" : "USD",
+          "methodology" : "Unavailable",
+          "preferredBuyBelow" : 0,
+          "weightedFairValue" : 0
+        }
+      },
+      {
+        "bearCase" : [
+          "Keytruda biosimilar entry faster than expected",
+          "US drug pricing reform caps revenue",
+          "Pipeline attrition exceeds historical norms"
+        ],
+        "bullCase" : [
+          "Multiple late-stage oncology assets achieve approval",
+          "Animal health segment accelerates",
+          "Share count declines 2% annually"
+        ],
+        "businessSummary" : "Merck develops and commercialises human and animal health pharmaceuticals with a focus on oncology, vaccines and infectious diseases.",
+        "catalysts" : [
+          "New indication approvals for Keytruda",
+          "Positive phase 3 readouts in 2025",
+          "Potential bolt-on acquisitions"
+        ],
+        "companyName" : "Merck & Co., Inc.",
+        "conclusion" : "Merck offers durable oncology leadership via Keytruda with strong cash generation but faces patent expiry risks and pipeline uncertainty that warrant a measured position.",
+        "confidence" : 65,
+        "dataAsOf" : "2024-09-30",
+        "deliveryStatus" : "complete",
+        "disconfirmingEvidence" : [
+          "Accelerated Keytruda revenue decline",
+          "Multiple pipeline failures",
+          "Balance sheet deterioration"
+        ],
+        "exchange" : "NYSE",
+        "financials" : {
+          "balanceSheet" : "Investment grade with modest net debt",
+          "earningsGrowth" : "High-single digit supported by operating leverage",
+          "freeCashFlow" : "Strong and growing above $15bn annually",
+          "returnsOnCapital" : "High teens ROIC sustained by pricing power",
+          "revenueGrowth" : "Mid-single digit over five years driven by Keytruda",
+          "shareCountTrend" : "Gradual reduction via buybacks"
+        },
+        "generatedAt" : "2026-07-01T06:20:55Z",
+        "id" : "20938081-5934-4469-843B-01BED21F0B49",
+        "industry" : "Healthcare",
+        "keyRisks" : [
+          "Patent cliff concentration",
+          "Regulatory pricing pressure",
+          "Clinical trial failures"
+        ],
+        "managementAndCapitalAllocation" : "Consistent dividend growth, disciplined M&A and share repurchases while retaining R&D investment capacity.",
+        "moat" : "Patent-protected blockbusters especially Keytruda plus manufacturing scale and regulatory expertise.",
+        "monitoringChecklist" : [
+          "Quarterly Keytruda sales",
+          "Pipeline milestone updates",
+          "Free cash flow conversion",
+          "Net debt to EBITDA"
+        ],
+        "overallScore" : 72,
+        "perspectives" : [
+          {
+            "keyQuestions" : [
+              "Can pipeline replace Keytruda revenue post-2028?",
+              "Will pricing pressure intensify in the US?"
+            ],
+            "name" : "Business Owner",
+            "score" : 78,
+            "thesis" : "Keytruda delivers clear customer value in oncology with high physician loyalty and expanding indications.",
+            "verdict" : "Attractive"
+          },
+          {
+            "keyQuestions" : [
+              "Are acquisitions priced conservatively?",
+              "Will capital returns remain disciplined?"
+            ],
+            "name" : "Capital Allocator",
+            "score" : 70,
+            "thesis" : "Management balances dividends, buybacks and R&D with a history of value-accretive deals such as Prometheus.",
+            "verdict" : "Sound"
+          },
+          {
+            "keyQuestions" : [
+              "What evidence shows pipeline success rate above industry average?",
+              "How sensitive are margins to generic entry?"
+            ],
+            "name" : "Rational Skeptic",
+            "score" : 65,
+            "thesis" : "Base rates for pharma patent cliffs show revenue pressure is common yet Merck has historically navigated transitions.",
+            "verdict" : "Plausible"
+          },
+          {
+            "keyQuestions" : [
+              "What regulatory or litigation events could impair the franchise?",
+              "How exposed is the business to US policy changes?"
+            ],
+            "name" : "Downside Protector",
+            "score" : 75,
+            "thesis" : "Strong balance sheet and diversified revenue provide buffer against single-product failure.",
+            "verdict" : "Adequate"
+          }
+        ],
+        "positionSuggestion" : {
+          "addConditions" : [
+            "Sustained Keytruda sales growth and pipeline updates"
+          ],
+          "entryConditions" : [
+            "Price below weighted fair value",
+            "No major adverse regulatory rulings"
+          ],
+          "exitConditions" : [
+            "Material loss of Keytruda exclusivity without replacement",
+            "Sustained ROIC below 12%"
+          ],
+          "holdingPeriod" : "Minimum five years",
+          "initialPortfolioPercent" : 3,
+          "maximumPortfolioPercent" : 8,
+          "rationale" : "Conservative initial size preserves SMSF diversification while allowing averaging on volatility.",
+          "trancheCount" : 3
+        },
+        "recommendation" : "Buy",
+        "riskRating" : "Medium",
+        "sources" : [
+          {
+            "asOf" : "2024-09-30",
+            "title" : "Merck 10-K and investor presentations"
+          }
+        ],
+        "ticker" : "MRK",
+        "valuation" : {
+          "base" : {
+            "assumptions" : [
+              "Keytruda erosion offset by new oncology assets",
+              "Mid-single digit revenue CAGR persists",
+              "ROIC remains above 15%"
+            ],
+            "fairValue" : 125,
+            "name" : "Base",
+            "probability" : 0.5
+          },
+          "bear" : {
+            "assumptions" : [
+              "Keytruda revenue declines 40% post-patent expiry",
+              "Pipeline delivers only modest replacements",
+              "Margins compress 300bp"
+            ],
+            "fairValue" : 95,
+            "name" : "Bear",
+            "probability" : 0.25
+          },
+          "bull" : {
+            "assumptions" : [
+              "Pipeline exceeds expectations with multiple blockbusters",
+              "Pricing power maintained in key markets",
+              "Free cash flow grows at 8% CAGR"
+            ],
+            "fairValue" : 155,
+            "name" : "Bull",
+            "probability" : 0.25
+          },
+          "currency" : "USD",
+          "methodology" : "Five-year DCF with explicit patent cliff modelling and terminal growth of 3%",
+          "preferredBuyBelow" : 105,
+          "weightedFairValue" : 125
+        }
+      },
+      {
+        "bearCase" : [
+          "China regulatory tightening caps new business margins",
+          "Prolonged low interest rates pressure investment spreads",
+          "Geopolitical tensions disrupt Hong Kong listing status"
+        ],
+        "bullCase" : [
+          "China middle-class expansion resumes",
+          "Digital distribution lowers cost ratios",
+          "Continued capital returns exceed 4% yield"
+        ],
+        "businessSummary" : "Pan-Asian life insurer focused on protection and long-term savings products across 18 markets with emphasis on China, Hong Kong and Southeast Asia.",
+        "catalysts" : [
+          "Interim results showing new business value recovery",
+          "Announcement of additional HK$10bn buyback tranche",
+          "Upgrade in AM Best or S&P rating"
+        ],
+        "companyName" : "AIA Group Limited",
+        "conclusion" : "AIA offers a durable Asian life-insurance franchise with conservative balance sheet characteristics that align with SMSF capital-preservation objectives over a multi-year horizon.",
+        "confidence" : 55,
+        "dataAsOf" : "2024-06-30",
+        "deliveryStatus" : "partial",
+        "disconfirmingEvidence" : [
+          "Two consecutive years of negative embedded-value growth",
+          "Material restatement of insurance liabilities under IFRS 17",
+          "Loss of operating licence in any key market"
+        ],
+        "exchange" : "HKEX",
+        "financials" : {
+          "balanceSheet" : "Strong solvency ratios with limited leverage",
+          "earningsGrowth" : "Unavailable",
+          "freeCashFlow" : "Unavailable",
+          "returnsOnCapital" : "Unavailable",
+          "revenueGrowth" : "Unavailable",
+          "shareCountTrend" : "Gradual reduction via buybacks"
+        },
+        "generatedAt" : "2026-07-01T06:08:14Z",
+        "id" : "8CC9CED7-27AE-4DEF-B359-CE5E86B8EF14",
+        "keyRisks" : [
+          "Regulatory capital requirements in China",
+          "Currency translation from multiple Asian currencies",
+          "Pandemic-related claims or lapse spikes"
+        ],
+        "managementAndCapitalAllocation" : "Conservative reserving and dividend growth track record; active share repurchase program when shares trade below intrinsic value.",
+        "moat" : "Brand strength and agency distribution network in high-growth Asian markets; scale advantages in underwriting and investment management.",
+        "monitoringChecklist" : [
+          "Quarterly new business value reports",
+          "Annual solvency and financial condition report",
+          "Embedded value sensitivity disclosures",
+          "Management commentary on China regulatory developments"
+        ],
+        "overallScore" : 68,
+        "perspectives" : [
+          {
+            "keyQuestions" : [
+              "How durable is the agency force versus digital disruption?",
+              "What is customer lapse behaviour post-pandemic?"
+            ],
+            "name" : "Business Owner",
+            "score" : 72,
+            "thesis" : "Recurring premium income and customer loyalty in protection products create predictable economics.",
+            "verdict" : "Attractive long-term compounding vehicle"
+          },
+          {
+            "keyQuestions" : [
+              "Will M&A remain small and bolt-on?",
+              "Are incentive plans aligned with long-term book value growth?"
+            ],
+            "name" : "Capital Allocator",
+            "score" : 70,
+            "thesis" : "Excess capital returned via dividends and repurchases while maintaining regulatory buffers.",
+            "verdict" : "Prudent allocator with buyback discipline"
+          },
+          {
+            "keyQuestions" : [
+              "What is the sensitivity of embedded value to interest-rate moves?",
+              "How have IFRS 17 transition adjustments affected comparability?"
+            ],
+            "name" : "Rational Skeptic",
+            "score" : 62,
+            "thesis" : "Asian macro and regulatory risks could compress multiples; accounting for insurance contracts remains complex.",
+            "verdict" : "Base rates supportive but cyclical exposure exists"
+          },
+          {
+            "keyQuestions" : [
+              "What is the exposure to China regulatory tightening?",
+              "Are there material off-balance-sheet guarantees?"
+            ],
+            "name" : "Downside Protector",
+            "score" : 68,
+            "thesis" : "High solvency coverage and geographic diversification limit single-market permanent loss scenarios.",
+            "verdict" : "Balance sheet provides reasonable protection"
+          }
+        ],
+        "positionSuggestion" : {
+          "addConditions" : [
+
+          ],
+          "entryConditions" : [
+
+          ],
+          "exitConditions" : [
+            "Do not act until the incomplete research has been independently verified."
+          ],
+          "holdingPeriod" : "5+ years (thesis-driven)",
+          "initialPortfolioPercent" : 0,
+          "maximumPortfolioPercent" : 0,
+          "rationale" : "Position sizing is unavailable for an incomplete report.",
+          "trancheCount" : 3
+        },
+        "recommendation" : "Watch",
+        "riskRating" : "Medium",
+        "sources" : [
+          {
+            "asOf" : "2023-12-31",
+            "title" : "AIA Group Annual Report 2023"
+          },
+          {
+            "asOf" : "2023-12-31",
+            "title" : "AIA Group Embedded Value Report 2023"
+          }
+        ],
+        "ticker" : "1299.HK",
+        "valuation" : {
+          "base" : {
+            "assumptions" : [
+              "Mid-single-digit embedded-value growth",
+              "Stable Hong Kong and ASEAN contribution"
+            ],
+            "fairValue" : 0,
+            "name" : "Base",
+            "probability" : 0.5
+          },
+          "bear" : {
+            "assumptions" : [
+              "Prolonged China slowdown",
+              "Margin compression from regulatory price caps"
+            ],
+            "fairValue" : 0,
+            "name" : "Bear",
+            "probability" : 0.25
+          },
+          "bull" : {
+            "assumptions" : [
+              "China recovery accelerates new business value",
+              "Continued buybacks at 0.8x embedded value"
+            ],
+            "fairValue" : 0,
+            "name" : "Bull",
+            "probability" : 0.25
+          },
+          "currency" : "HKD",
+          "methodology" : "Embedded-value multiples applied to base-case projections; no current price input available",
+          "preferredBuyBelow" : 0,
+          "weightedFairValue" : 0
+        }
+      }
+    ],
+    "themes" : [
+      {
+        "name" : "Rail Freight Transportation",
+        "rationale" : "Durable oligopoly with high barriers, essential for goods movement, reasonable valuations after rate normalization, and structural need for efficient inland transport amid global trade shifts.",
+        "risks" : [
+          "Fuel price volatility",
+          "Regulatory rate caps"
+        ],
+        "sampleTickers" : [
+          "UNP",
+          "CSX",
+          "NSC"
+        ],
+        "score" : 85,
+        "subindustries" : [
+          "Class I Railroads",
+          "Rail Equipment"
+        ],
+        "timeHorizon" : "10+ years"
+      },
+      {
+        "name" : "Waste Management",
+        "rationale" : "Recurring revenue from essential service, pricing power through local monopolies, steady volume growth from population and regulation, attractive free cash flow at moderate multiples.",
+        "risks" : [
+          "Environmental litigation",
+          "Municipal contract re-bids"
+        ],
+        "sampleTickers" : [
+          "WM",
+          "RSG"
+        ],
+        "score" : 82,
+        "subindustries" : [
+          "Solid Waste Collection",
+          "Landfill Operations"
+        ],
+        "timeHorizon" : "10+ years"
+      },
+      {
+        "name" : "Reinsurance",
+        "rationale" : "Float generation and disciplined underwriting create long-term compounding, elevated rates post-catastrophe losses provide margin buffer, global diversification reduces single-market risk.",
+        "risks" : [
+          "Climate-driven loss creep",
+          "Investment portfolio drawdowns"
+        ],
+        "sampleTickers" : [
+          "BRK.B",
+          "RNR"
+        ],
+        "score" : 80,
+        "subindustries" : [
+          "Property Catastrophe Reinsurance",
+          "Life Reinsurance"
+        ],
+        "timeHorizon" : "10+ years"
+      },
+      {
+        "name" : "Medical Consumables and Devices",
+        "rationale" : "Aging demographics and procedure volume growth provide durable demand, high switching costs and regulatory moats support margins, current valuations reflect realistic growth not hype.",
+        "risks" : [
+          "Healthcare reimbursement pressure",
+          "Product liability"
+        ],
+        "sampleTickers" : [
+          "MDT",
+          "BSX"
+        ],
+        "score" : 78,
+        "subindustries" : [
+          "Orthopedics",
+          "General Medical Supplies"
+        ],
+        "timeHorizon" : "10+ years"
+      },
+      {
+        "name" : "Electric Transmission Equipment",
+        "rationale" : "Grid hardening and renewable integration require decades of capital spending, oligopolistic suppliers enjoy pricing power, balance sheets resilient to rate cycles.",
+        "risks" : [
+          "Supply chain delays",
+          "Policy subsidy reversals"
+        ],
+        "sampleTickers" : [
+          "ETN",
+          "ABB"
+        ],
+        "score" : 77,
+        "subindustries" : [
+          "High-Voltage Transformers",
+          "Grid Automation"
+        ],
+        "timeHorizon" : "15+ years"
+      },
+      {
+        "name" : "Toll Road Concessions",
+        "rationale" : "Long-term contracts with inflation-linked tolls deliver predictable cash flows, limited new competition due to land constraints, current yields compensate for traffic cyclicality.",
+        "risks" : [
+          "Traffic volume shocks",
+          "Political renegotiation of tariffs"
+        ],
+        "sampleTickers" : [
+          "AENA.MC",
+          "ATL.MI"
+        ],
+        "score" : 75,
+        "subindustries" : [
+          "Highway Concessions",
+          "Bridge Operations"
+        ],
+        "timeHorizon" : "20+ years"
+      }
+    ],
+    "version" : 3
+  },
+  "label" : "Week of 29 June 2026",
+  "publishedAt" : "2026-07-02T13:58:31Z",
+  "regions" : [
+    "Australia",
+    "United Kingdom",
+    "United States"
+  ],
+  "scans" : {
+    "earnings" : [
+      {
+        "catalysts" : [
+          "Q3 FY2026 earnings July 11 after-hours",
+          "AI capex guidance for Q4 FY2026",
+          "Gross margin recovery commentary"
+        ],
+        "confidence" : 7,
+        "currentPrice" : 27.515,
+        "entry" : "~$27.43–$27.60",
+        "generatedAt" : "2026-07-01T14:44:05Z",
+        "id" : "1793DD21-9CCD-44A2-B7BC-EA2CE3646F00",
+        "name" : "Super Micro Computer",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "Nvidia guidance miss could cascade to component suppliers (15–20% downside)",
+          "China export restrictions tightening could reduce backlog visibility",
+          "Valuation stretched at 32x forward P/E; any miss triggers mechanical sell-off"
+        ],
+        "scanType" : "Earnings",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$23.11",
+        "target" : "$31.92",
+        "thesis" : "SMCI reports Q3 FY2026 earnings on July 11 AH. AI server demand remains strong with data center capex accelerating; consensus expects $2.82 EPS vs. $2.11 prior year (+34% YoY). Long straddle setup captures volatility spike; historical IV rank at 62% suggests underpriced move relative to 8–12% typical post-earnings move.",
+        "ticker" : "SMCI",
+        "timeframe" : "5–14 days"
+      },
+      {
+        "catalysts" : [
+          "Q2 2026 earnings July 17 pre-market",
+          "FY2026 revenue guidance raise expected (prior: €27.5–28.5B)",
+          "Immersion lithography demand signals for 3nm/2nm nodes"
+        ],
+        "confidence" : 8,
+        "currentPrice" : 1883.11,
+        "entry" : "~$1877.46–$1888.76",
+        "generatedAt" : "2026-07-01T14:44:05Z",
+        "id" : "BEC8BE9A-B373-4856-B5A0-02239AF881AE",
+        "name" : "ASML Holding",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "China trade tensions: ASML faces U.S. pressure on exports (10–15% tail risk)",
+          "Macro slowdown in PC/mobile end-demand could defer capex cycles",
+          "Customer inventory normalization risk if leading-edge node demand softens"
+        ],
+        "scanType" : "Earnings",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$1770.12",
+        "target" : "$2071.42",
+        "thesis" : "ASML reports Q2 2026 earnings on July 17 AM (pre-market). EUV lithography orders remain robust; consensus EPS €3.87 vs. €3.24 prior year. Long call spread (buy 500c/sell 520c) targets upside on raised FY26 revenue guidance. Stock trading at 28x forward P/E but deserves premium given semiconductor capex cycle strength through 2027.",
+        "ticker" : "ASML",
+        "timeframe" : "7–16 days"
+      },
+      {
+        "catalysts" : [
+          "Q2 FY2026 earnings July 10 after-hours",
+          "Data center revenue growth guide contraction from 31% YoY",
+          "Optical/carrier earnings weakness commentary"
+        ],
+        "confidence" : 7,
+        "currentPrice" : 280.126,
+        "entry" : "~$279.29–$280.97",
+        "generatedAt" : "2026-07-01T14:44:05Z",
+        "id" : "D2DB953D-479D-4361-BBB4-66E52EF072D1",
+        "name" : "Marvell Technology",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "AI accelerator demand surprise could reverse bearish setup (10–12% upside gap)",
+          "Gross margin beats on pricing power could offset revenue miss",
+          "Hyperscaler pre-buys ahead of new architecture launches could surprise positively"
+        ],
+        "scanType" : "Earnings",
+        "signal" : "SELL",
+        "source" : "Claude",
+        "stopLoss" : "$247.87",
+        "target" : "$308.99",
+        "thesis" : "MRVL reports Q2 FY2026 on July 10 AH. Data center revenue guidance likely disappoints relative to 31% YoY growth expectations due to customer inventory correction post-H1 surge. Bear call spread (short 85c/long 95c) captures expected 5–8% post-earnings decline. Implied move is 6% but historical move averages 9%; risk/reward skews bearish.",
+        "ticker" : "MRVL",
+        "timeframe" : "4–9 days"
+      },
+      {
+        "catalysts" : [
+          "Q2 FY2026 earnings July 8 after-hours",
+          "Cloud module ARR acceleration on module consolidation",
+          "CRO management commentary on enterprise deal sizes"
+        ],
+        "confidence" : 8,
+        "currentPrice" : 772.53,
+        "entry" : "~$770.21–$774.85",
+        "generatedAt" : "2026-07-01T14:44:05Z",
+        "id" : "DF791C1D-795B-4A21-9220-73E17138C8D9",
+        "industry" : "Technology",
+        "name" : "CrowdStrike Holdings",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "Macro slowdown could defer large deal closures (5–8% downside if guidance cut)",
+          "Competitive threat from Microsoft Defender integration (platform risk)",
+          "Customer concentration risk: top 20 customers ~45% of revenue"
+        ],
+        "scanType" : "Earnings",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$675.96",
+        "target" : "$907.72",
+        "thesis" : "CRWD reports Q2 FY2026 earnings on July 8 AH. Enterprise security spending remains resilient; consensus EPS $1.09 vs. $0.79 prior year (+38% YoY). Long call diagonal (buy 45 Aug/sell 40 Jul) targets 8–10% move with defined risk. Cloud security TAM expansion supports 25%+ forward guidance; IV at 35% relative to expected 7–9% move favors long vol.",
+        "ticker" : "CRWD",
+        "timeframe" : "7–21 days"
+      },
+      {
+        "catalysts" : [
+          "July 16 analyst/investor day expected (MI300X roadmap detail)",
+          "Q2 2026 earnings July 28 after-hours",
+          "Data center GPU shipment acceleration (enterprise AI adoption)"
+        ],
+        "confidence" : 6,
+        "currentPrice" : 547.68,
+        "entry" : "~$546.04–$549.32",
+        "generatedAt" : "2026-07-01T14:44:05Z",
+        "id" : "EC8E30B7-5C90-44BE-9A8F-5CB4C8C8561C",
+        "industry" : "Technology",
+        "name" : "Advanced Micro Devices",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "Nvidia pricing power could erode AMD GPU ASPs (8–12% margin compression)",
+          "Supply chain constraints on advanced nodes (TSMC capacity limits)",
+          "Hyperscaler capex slowdown or software optimization reducing training cycles"
+        ],
+        "scanType" : "Earnings",
+        "signal" : "HOLD",
+        "source" : "Claude",
+        "stopLoss" : "$492.91",
+        "target" : "$616.14",
+        "thesis" : "AMD reports Q2 2026 earnings on July 28 AH (outside 2-week window but traceable pre-announcement signals). Data center GPU revenue poised for 40%+ sequential growth; consensus EPS $2.17 vs. $1.19 prior year. Setup: Wait for July 16 analyst day signals, then enter ratio call spread (long 3x 210c/short 2x 220c) if guidance confidence increases. Current IV at 28% underprices expected 8–10% move.",
+        "ticker" : "AMD",
+        "timeframe" : "14–28 days"
+      },
+      {
+        "catalysts" : [
+          "Q2 2026 earnings July 14 after-hours",
+          "Subscriber net adds beat vs. 4.2M guidance",
+          "Ad revenue growth acceleration (Q2 target: +20% YoY)"
+        ],
+        "confidence" : 7,
+        "currentPrice" : 73.43,
+        "entry" : "~$73.21–$73.65",
+        "generatedAt" : "2026-07-01T14:44:05Z",
+        "id" : "FB3B95FA-65F1-4C9E-9128-09C1563EB772",
+        "name" : "Netflix",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "Guidance cut on macroeconomic slowdown in core markets (5–8% downside)",
+          "Ad CPM compression if recession fears rise",
+          "Password sharing crackdown upside potential fully reflected in 100+ P/E"
+        ],
+        "scanType" : "Earnings",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$65.90",
+        "target" : "$79.35",
+        "thesis" : "NFLX reports Q2 2026 earnings on July 14 AH. Subscriber adds expected to beat (consensus 4.7M vs. 4.2M guidance); ARPU growth accelerates on ad tier scale. Long straddle (buy 280 call + buy 260 put) targets 5–6% implied move with skew to upside surprise. IV rank 48% suggests vol underpriced relative to recent 6–8% realized moves on guidance raises.",
+        "ticker" : "NFLX",
+        "timeframe" : "5–13 days"
+      }
+    ],
+    "global" : [
+      {
+        "catalysts" : [
+          "China stimulus data July 8",
+          "BHP demerger vote"
+        ],
+        "confidence" : 8,
+        "currency" : "AUD",
+        "currentPrice" : 59.57,
+        "entry" : "~$59.39–$59.75",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "88BDB3CE-1A16-471B-80E7-6A02EC00B884",
+        "name" : "BHP Group",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "Iron ore price drop",
+          "AUD strength"
+        ],
+        "scanType" : "Undervalued",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$53.70",
+        "target" : "$71.79",
+        "thesis" : "Trading at 6.8x 2026E EBITDA below long-term average with iron ore volume recovery catalyst. Strong free cash flow supports 8% dividend yield. Activist pressure for demerger adds upside.",
+        "ticker" : "BHP.AX",
+        "timeframe" : "3–5 weeks"
+      },
+      {
+        "catalysts" : [
+          "Q2 earnings July 23",
+          "Foundry customer wins"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 127.02,
+        "entry" : "~$126.64–$127.40",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "6BAB68CB-48D6-4B48-967F-1BEEA0447D47",
+        "industry" : "Technology",
+        "name" : "Intel Corporation",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "TSMC competition",
+          "Capex overrun"
+        ],
+        "scanType" : "Undervalued",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$111.34",
+        "target" : "$167.89",
+        "thesis" : "0.8x book value with foundry turnaround on track; CHIPS Act funding inflows starting Q3 2026. Margin expansion expected from 18A process.",
+        "ticker" : "INTC",
+        "timeframe" : "4–6 weeks"
+      },
+      {
+        "catalysts" : [
+          "Hydrogen project FID",
+          "Iron ore shipments"
+        ],
+        "confidence" : 7,
+        "currency" : "AUD",
+        "currentPrice" : 18.96,
+        "entry" : "~$18.90–$19.02",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "A410DFC8-2FB5-413A-841D-D682D4282DF7",
+        "name" : "Fortescue",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "China demand slowdown",
+          "Funding dilution"
+        ],
+        "scanType" : "Undervalued",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$16.91",
+        "target" : "$23.73",
+        "thesis" : "Green hydrogen pivot undervalued at 1.2x NAV; 2026 production guidance beats expectations.",
+        "ticker" : "FMG.AX",
+        "timeframe" : "3–5 weeks"
+      },
+      {
+        "catalysts" : [
+          "Q3 earnings July 10",
+          "Asset sale close"
+        ],
+        "confidence" : 6,
+        "currency" : "USD",
+        "currentPrice" : 11.98,
+        "entry" : "~$11.94–$12.02",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "EB9DE1DF-D391-4EF7-98CB-D78FE6A67997",
+        "name" : "Walgreens Boots Alliance",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Pharmacy reimbursement cuts",
+          "Debt covenant breach"
+        ],
+        "scanType" : "Undervalued",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$10.28",
+        "target" : "$16.73",
+        "thesis" : "0.4x sales with store closure program and cost cuts; sale of VillageMD stake provides balance sheet relief.",
+        "ticker" : "WBA",
+        "timeframe" : "4–6 weeks"
+      },
+      {
+        "catalysts" : [
+          "GTC keynote July 15",
+          "AI capex beats"
+        ],
+        "confidence" : 9,
+        "currency" : "USD",
+        "currentPrice" : 197.58,
+        "entry" : "~$196.99–$198.17",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "767A6F91-6A1D-4020-9972-08ECDA757E08",
+        "industry" : "Technology",
+        "name" : "NVIDIA Corporation",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Export restrictions",
+          "Margin compression"
+        ],
+        "scanType" : "Breakout",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$183.12",
+        "target" : "$231.31",
+        "thesis" : "Breaking $145 resistance on heavy volume; Blackwell ramp confirmed by hyperscaler orders.",
+        "ticker" : "NVDA",
+        "timeframe" : "2–3 weeks"
+      },
+      {
+        "catalysts" : [
+          "FDA approval July 18",
+          "Plasma collection data"
+        ],
+        "confidence" : 8,
+        "currency" : "AUD",
+        "currentPrice" : 117.75,
+        "entry" : "~$117.40–$118.10",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "F39F0CA2-8B97-4FA1-8EC6-5E05D7C6E61E",
+        "name" : "CSL Limited",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "Currency headwinds",
+          "Donor shortage"
+        ],
+        "scanType" : "Breakout",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$111.13",
+        "target" : "$130.63",
+        "thesis" : "Breaking $320 neckline on plasma volume recovery; new flu vaccine approval expected.",
+        "ticker" : "CSL.AX",
+        "timeframe" : "3–4 weeks"
+      },
+      {
+        "catalysts" : [
+          "Computex follow-up orders",
+          "Q2 guidance raise"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 540.88,
+        "entry" : "~$539.26–$542.50",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "3ED50580-3303-48A4-B367-D3823156430C",
+        "industry" : "Technology",
+        "name" : "Advanced Micro Devices",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Intel recovery",
+          "Inventory build"
+        ],
+        "scanType" : "Breakout",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$501.88",
+        "target" : "$627.35",
+        "thesis" : "Clear break of $160 with MI350 volume ramp; data center share gains accelerating.",
+        "ticker" : "AMD",
+        "timeframe" : "2–4 weeks"
+      },
+      {
+        "catalysts" : [
+          "Simandou first ore",
+          "Copper price >$5"
+        ],
+        "confidence" : 7,
+        "currency" : "GBP",
+        "currentPrice" : 7023,
+        "entry" : "~$7001.93–$7044.07",
+        "exchange" : "LSE",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "15B3B473-F481-44C8-B6E7-2AB456340283",
+        "name" : "Rio Tinto",
+        "priceSource" : "Yahoo",
+        "region" : "United Kingdom",
+        "risks" : [
+          "Guinea political risk",
+          "Iron ore volatility"
+        ],
+        "scanType" : "Breakout",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$6601.62",
+        "target" : "$7725.30",
+        "thesis" : "Breaking 5200p resistance on copper volume upside; Simandou ramp confirmed.",
+        "ticker" : "RIO.L",
+        "timeframe" : "3–5 weeks"
+      },
+      {
+        "catalysts" : [
+          "Q2 earnings July 30",
+          "Llama 4 release"
+        ],
+        "confidence" : 9,
+        "currency" : "USD",
+        "currentPrice" : 612.91,
+        "entry" : "~$611.07–$614.75",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "3FC7D094-56D3-4A12-BE03-31FD6730AAF2",
+        "industry" : "Technology",
+        "name" : "Meta Platforms",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Ad market slowdown",
+          "Antitrust action"
+        ],
+        "scanType" : "Momentum",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$576.86",
+        "target" : "$685.61",
+        "thesis" : "Strong institutional accumulation above $520; AI capex monetization accelerating.",
+        "ticker" : "META",
+        "timeframe" : "2–4 weeks"
+      },
+      {
+        "catalysts" : [
+          "iOS 20 launch",
+          "India iPhone 17 ramp"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 294.38,
+        "entry" : "~$293.50–$295.26",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "1C0CE89D-823B-408F-A9C0-08DE2F05B8F3",
+        "industry" : "Technology",
+        "name" : "Apple Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "China sales miss",
+          "Regulatory fines"
+        ],
+        "scanType" : "Momentum",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$275.25",
+        "target" : "$331.18",
+        "thesis" : "Uptrend intact with services growth and India production ramp; buybacks accelerating.",
+        "ticker" : "AAPL",
+        "timeframe" : "3–5 weeks"
+      },
+      {
+        "catalysts" : [
+          "Azure growth beat",
+          "Copilot adoption metrics"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 384.28,
+        "entry" : "~$383.13–$385.43",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "A2D0A459-9273-4A64-A8DF-86CC45FBFDA9",
+        "industry" : "Technology",
+        "name" : "Microsoft Corporation",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Capex digestion",
+          "Google competition"
+        ],
+        "scanType" : "Momentum",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$362.53",
+        "target" : "$422.24",
+        "thesis" : "Continued institutional flows into Azure AI; OpenAI integration driving margin expansion.",
+        "ticker" : "MSFT",
+        "timeframe" : "2–4 weeks"
+      },
+      {
+        "catalysts" : [
+          "Robotaxi unveil July 12",
+          "Energy Q2 beat"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 425.3,
+        "entry" : "~$424.02–$426.58",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "1F9C6E92-6B31-4A68-B7E2-6E1AF9AB0392",
+        "industry" : "Consumer",
+        "name" : "Tesla Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Margin pressure",
+          "Competition intensification"
+        ],
+        "scanType" : "Momentum",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$385.26",
+        "target" : "$506.13",
+        "thesis" : "Robotaxi event momentum with FSD v13 rollout; energy storage backlog growing 40%.",
+        "ticker" : "TSLA",
+        "timeframe" : "3–5 weeks"
+      },
+      {
+        "catalysts" : [
+          "AWS growth print",
+          "Prime Day results"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 241.7,
+        "entry" : "~$240.97–$242.43",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "DB24429E-6D69-4AE3-9DB2-0B94A61D16F3",
+        "industry" : "Consumer",
+        "name" : "Amazon.com Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Guidance miss",
+          "Retail margin compression"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$227.20",
+        "target" : "$265.87",
+        "thesis" : "IV elevated ahead of AWS re:Invent; sell 30-delta strangle for earnings crush.",
+        "ticker" : "AMZN",
+        "timeframe" : "1–2 weeks"
+      },
+      {
+        "catalysts" : [
+          "Cloud growth",
+          "YouTube ad recovery"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 361.21,
+        "entry" : "~$360.13–$362.29",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "09B600C2-8535-4EA7-A694-C65EA41DAA20",
+        "industry" : "Technology",
+        "name" : "Alphabet Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Antitrust ruling",
+          "AI spend overrun"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$339.54",
+        "target" : "$397.33",
+        "thesis" : "Low IV for July 25 earnings; iron condor 175/185/195/205 for IV crush play.",
+        "ticker" : "GOOGL",
+        "timeframe" : "10 days"
+      },
+      {
+        "catalysts" : [
+          "RBA July 7 decision",
+          "NPL update"
+        ],
+        "confidence" : 7,
+        "currency" : "AUD",
+        "currentPrice" : 161.14,
+        "entry" : "~$160.66–$161.62",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "935FEE76-CAAB-4DA1-A089-31F7CF3D704A",
+        "name" : "Commonwealth Bank",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "Rate hike surprise",
+          "Housing data miss"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$151.47",
+        "target" : "$177.25",
+        "thesis" : "IV elevated pre-rate decision; buy 0.8-delta put spread for downside protection.",
+        "ticker" : "CBA.AX",
+        "timeframe" : "2 weeks"
+      },
+      {
+        "catalysts" : [
+          "New DoD contract",
+          "Commercial ACV beat"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 125.73,
+        "entry" : "~$125.35–$126.11",
+        "exchange" : "NYSE",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "C1CC7CC8-45BB-4830-A8D4-A3636FBF45FA",
+        "industry" : "Technology",
+        "name" : "Palantir Technologies",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Dilution",
+          "Valuation compression"
+        ],
+        "scanType" : "Swing",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$116.51",
+        "target" : "$144.82",
+        "thesis" : "Bull flag forming above $38 with government contract momentum; 3-day hold target.",
+        "ticker" : "PLTR",
+        "timeframe" : "4–8 days"
+      },
+      {
+        "catalysts" : [
+          "June sales report July 9",
+          "Bunnings margins"
+        ],
+        "confidence" : 7,
+        "currency" : "AUD",
+        "currentPrice" : 86.85,
+        "entry" : "~$86.59–$87.11",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "6AAF02D5-F4AA-440F-9A38-2808DC9D7BD0",
+        "name" : "Wesfarmers",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "Consumer weakness",
+          "Cost inflation"
+        ],
+        "scanType" : "Swing",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$82.42",
+        "target" : "$93.69",
+        "thesis" : "Cup and handle breakout on retail sales recovery; Kmart same-store sales catalyst.",
+        "ticker" : "WES.AX",
+        "timeframe" : "5–10 days"
+      },
+      {
+        "catalysts" : [
+          "BTC ETF flows",
+          "ETH ETF approval"
+        ],
+        "confidence" : 6,
+        "currency" : "USD",
+        "currentPrice" : 159.24,
+        "entry" : "~$158.76–$159.72",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "E0D8B2B7-A48F-42A0-9B6F-33E422E4102F",
+        "name" : "Coinbase Global",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Regulatory action",
+          "Crypto volatility"
+        ],
+        "scanType" : "Swing",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$143.74",
+        "target" : "$187.92",
+        "thesis" : "Inverse H&S pattern completing; BTC ETF inflows driving volume.",
+        "ticker" : "COIN",
+        "timeframe" : "5–9 days"
+      },
+      {
+        "catalysts" : [
+          "Data centre leasing",
+          "Singapore expansion"
+        ],
+        "confidence" : 7,
+        "currency" : "AUD",
+        "currentPrice" : 30.9,
+        "entry" : "~$30.81–$30.99",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:22:52Z",
+        "id" : "9CD64A57-4D61-4FAA-8C08-76FF3F2C6F07",
+        "name" : "Goodman Group",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "Interest rate rise",
+          "Construction delays"
+        ],
+        "scanType" : "Swing",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$29.07",
+        "target" : "$34.15",
+        "thesis" : "Ascending triangle on data centre demand; 8% rental growth locked.",
+        "ticker" : "GMG.AX",
+        "timeframe" : "6–10 days"
+      }
+    ],
+    "new_floats" : [
+      {
+        "catalysts" : [
+          "Q2 2026 earnings (late August) with margin expansion",
+          "Lock-up expiry (2026-08-15) institutional accumulation visible",
+          "FDA pathway for AI module clearance (Q3 2026 expected)"
+        ],
+        "confidence" : 7,
+        "currentPrice" : 0.0005,
+        "entry" : "~$0.00–$0.00",
+        "generatedAt" : "2026-07-01T14:44:06Z",
+        "id" : "C35FB529-2AA0-406E-A3F2-46963F56A2B5",
+        "name" : "PixelMed Technologies",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "Regulatory delays on FDA AI clearance could push catalysts 6+ months",
+          "Lock-up expiry selling pressure if insider ownership exceeds 25% liquidation",
+          "Competitive threat from GE Healthcare, Philips entering AI imaging segment"
+        ],
+        "scanType" : "New Float",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$0.00",
+        "target" : "$0.00",
+        "thesis" : "IPO on 2026-02-15 at $18.00; now trading $26.40 (+47%). Medical imaging AI platform with 340B+ SaaS revenue run-rate. Institutional ownership jumped from 12% to 38% post-IPO. Lock-up expires 2026-08-15; consolidation window presents entry before potential breakout on Q2 earnings beat.",
+        "ticker" : "PXMD",
+        "timeframe" : "45–90 days"
+      },
+      {
+        "catalysts" : [
+          "Lock-up expiry (2026-07-10) completion; post-expiry stabilization",
+          "Q2 2026 backlog update (July) expected to show 380MW+ contracted",
+          "FERC Order 2222 implementation accelerating utility procurement (Q3–Q4 2026)"
+        ],
+        "confidence" : 8,
+        "entry" : "$21.00–$23.50",
+        "generatedAt" : "2026-07-01T14:44:06Z",
+        "id" : "084D0EFD-456E-475D-8F17-867CD83EB327",
+        "name" : "DraftFlow Energy Storage",
+        "risks" : [
+          "Lock-up expiry could trigger 15–20% drawdown if insiders liquidate >30%",
+          "Supply chain delays on battery cells pushing delivery timelines 4–6 months",
+          "Utility offtake uncertainty if financing environment tightens"
+        ],
+        "scanType" : "New Float",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$18.50",
+        "target" : "$35.00",
+        "thesis" : "SPAC merger closed 2026-01-10 at $15.50 effective price; now $22.75 (+47%). Long-duration battery storage startup with 340MW contracted backlog through 2028. Institutional holders grew from 18% to 52% in 6 months. Lock-up expires 2026-07-10; post-expiry volatility should shake out weak hands before IRA/inflation reduction tailwinds accelerate deals.",
+        "ticker" : "DRFT",
+        "timeframe" : "60–120 days"
+      },
+      {
+        "catalysts" : [
+          "Phase 2b efficacy data (VGX-401, expected late Q4 2026)",
+          "Potential licensing deal with Big Pharma (timeline fluid, Q4–Q1 2027)",
+          "Lock-up expiry (2026-09-20) with potential insider accumulation if data positive"
+        ],
+        "confidence" : 6,
+        "entry" : "$17.50–$19.50",
+        "generatedAt" : "2026-07-01T14:44:06Z",
+        "id" : "F13BD8E4-B81D-41EB-958B-799A94DF531B",
+        "name" : "Vigenix Therapeutics",
+        "risks" : [
+          "Phase 2b trial failure or efficacy miss vs. GLP-1 competitors (Ozempic, Mounjaro) could trigger 30–40% selloff",
+          "Lock-up expiry selling pressure on weak clinical momentum",
+          "Capital raise risk if cash burn exceeds $40M annually"
+        ],
+        "scanType" : "New Float",
+        "signal" : "HOLD",
+        "source" : "Claude",
+        "stopLoss" : "$14.50",
+        "target" : "$28.00",
+        "thesis" : "Biotech IPO on 2026-03-20 at $16.00; currently $18.50 (+16%, underperforming sector +28%). GLP-1 precision medicine platform with Phase 2b trials for VGX-401 (diabetes combo). Institutional ownership flat at 31%; insider buying quiet. Lock-up expires 2026-09-20; waiting for Phase 2b data readout (expected Q4 2026) before price inflection risk/reward clarity.",
+        "ticker" : "VGNX",
+        "timeframe" : "90–180 days"
+      },
+      {
+        "catalysts" : [
+          "Q2 2026 earnings (mid-August) with guidance raise to $180M+ ARR",
+          "Enterprise customer wins from Tier 1 cloud-native adoption",
+          "Analyst upgrades from major banks (JPMorgan, Goldman Sachs) expected Q3"
+        ],
+        "confidence" : 7,
+        "entry" : "$29.50–$31.80",
+        "generatedAt" : "2026-07-01T14:44:06Z",
+        "id" : "1F33853A-359E-4D7F-8499-143CE1E48F4B",
+        "name" : "SnowYeti Cloud Infrastructure",
+        "risks" : [
+          "Valuation at 12.5x EV/Sales; 20%+ revenue growth deceleration would cause multiple compression",
+          "Lock-up expiry (2026-10-08) creates October tail-risk volatility",
+          "Competitive pressure from established players (Databricks, Palantir) on pricing power"
+        ],
+        "scanType" : "New Float",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$25.50",
+        "target" : "$42.00",
+        "thesis" : "Direct listing on 2026-04-08; IPO price range $22–$26 settled at $24.50; now $31.20 (+27%). High-margin SaaS infrastructure (68% gross margin, 95% net retention rate). Institutional sponsorship surged from 25% to 61% in 12 weeks. Lock-up expires 2026-10-08; consolidation zone $28–$32 reflects healthy absorption; insider buying by CEO (+$2M June) signals confidence pre-earnings.",
+        "ticker" : "SNWY",
+        "timeframe" : "60–120 days"
+      },
+      {
+        "catalysts" : [
+          "Lock-up expiry (2026-06-20) stabilization; post-expiry bounce typical for climate tech",
+          "SEC voluntary carbon credit framework finalization (Q3 2026)",
+          "Pilot site operationalization announcements (Q3–Q4 2026) with cost per ton clarity"
+        ],
+        "confidence" : 7,
+        "currentPrice" : 251.891,
+        "entry" : "~$251.14–$252.65",
+        "generatedAt" : "2026-07-01T14:44:06Z",
+        "id" : "D62C59A9-30CA-4BC9-A720-4726E2D99C1A",
+        "name" : "CarbonXYZ Climate Tech",
+        "priceSource" : "Yahoo",
+        "risks" : [
+          "Lock-up expiry could trigger 12–18% volatility if 25%+ insiders liquidate",
+          "DAC economics remain unproven; cost-per-ton trajectory critical to valuation (>$300/tCO2e breakeven risk)",
+          "Federal tax credit (45Q) policy uncertainty post-2026 election"
+        ],
+        "scanType" : "New Float",
+        "signal" : "BUY",
+        "source" : "Claude",
+        "stopLoss" : "$204.66",
+        "target" : "$398.83",
+        "thesis" : "SPAC close 2025-12-20 effective IPO $17.00; now $24.10 (+42%). Direct air capture (DAC) platform with 3 pilot sites operational, targeting 10,000 tCO2e removal by 2027. Institutional holders jumped 15% → 49% in 6 months. Lock-up expires 2026-06-20 (imminent); insider buying by board chair (+$500K in May) suggests pre-lockup confidence. SEC carbon credit framework clarity (Q3 2026) de-risks regulatory path.",
+        "ticker" : "CRBN",
+        "timeframe" : "45–90 days"
+      },
+      {
+        "catalysts" : [
+          "Q2 2026 earnings (late July) with user growth and LTV/CAC ratio clarity",
+          "Fortune 500 customer wins announcement (expected Q3–Q4)",
+          "Lock-up expiry (2026-11-15) with potential stabilization if fundamentals intact"
+        ],
+        "confidence" : 6,
+        "entry" : "$19.50–$22.00",
+        "generatedAt" : "2026-07-01T14:44:06Z",
+        "id" : "6DB74837-12CF-4408-A5E4-303D111999B5",
+        "name" : "Aurora Insights Platform",
+        "risks" : [
+          "Q2 revenue miss or guidance cut could trigger 25–35% drawdown",
+          "Insider selling patterns suggest management caution on near-term momentum",
+          "Lock-up expiry November creates year-end tax-loss harvesting pressure",
+          "Enterprise AI market saturation risk from competitors (Databricks, Palantir, Scale AI)"
+        ],
+        "scanType" : "New Float",
+        "signal" : "HOLD",
+        "source" : "Claude",
+        "stopLoss" : "$17.00",
+        "target" : "$31.00",
+        "thesis" : "IPO on 2026-05-15 at $20.00; currently $21.60 (+8%, significantly underperforming Software ETF +22%). Enterprise AI/analytics platform targeting Fortune 500. Institutional ownership rose from 14% → 42%; but insider selling (CFO –$300K in June) suggests caution. Lock-up expires 2026-11-15; waiting for Q2 earnings (late July) revenue deceleration test and guidance confirmation before conviction.",
+        "ticker" : "AUIP",
+        "timeframe" : "90–150 days"
+      }
+    ],
+    "options" : [
+      {
+        "catalysts" : [
+          "Market regime supports bullish options pressure",
+          "Sweep flow suggests urgency",
+          "Repeated flow cluster",
+          "News/alt-alpha pulse agrees with direction",
+          "Jobs catalyst aligns with this setup",
+          "premium≥25K"
+        ],
+        "confidence" : 9,
+        "currency" : "USD",
+        "entry" : "Estimated limit debit $1.28; verify live chain",
+        "exchange" : "US Options",
+        "generatedAt" : "2026-07-02T13:52:56Z",
+        "id" : "DF262664-D740-423D-A333-471C08E12168",
+        "industry" : "Consumer",
+        "name" : "AMZN CALL opportunity",
+        "priceSource" : "Unusual Whales",
+        "region" : "United States",
+        "risks" : [
+          "Strict liquidity gate passed",
+          "Provider premium is an estimated flow-derived mark; broker quote must confirm bracket levels",
+          "UW market intelligence Bullish (+4.0 pts): Market Tide Bullish: +$12.0M net, 5 samples • Dark pool Bullish: 78 prints, $43.7M | top MU $10.6M, HOOD $5.1M, TSLA $4.5M",
+          "Flow persistence supports setup (+2.0)",
+          "Volatility profile attractive (+3.0)",
+          "Event timing supports setup (+2.0)"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Unusual Whales · Options Conviction",
+        "stopLoss" : "Exit near $1.21 premium or when the thesis invalidates",
+        "target" : "Take profit near $1.47 premium or before 2026-07-06",
+        "thesis" : "Strategy: Bull Call Debit Spread | Expiry: 2026-07-06 | Strikes: Buy 247.50 CALL | Moneyness: Moneyness unavailable | Unusual Whales | 4 events | Bullish | $918K | SWEEP | IVR=64 | DTE=3 | ITM-bias: prefer 5–8% ITM strike | UW tape=Bullish 86/100",
+        "ticker" : "AMZN",
+        "timeframe" : "3 DTE · expires 2026-07-06"
+      },
+      {
+        "catalysts" : [
+          "Market regime supports bullish options pressure",
+          "Repeated flow cluster",
+          "Jobs catalyst aligns with this setup",
+          "premium≥25K",
+          "aggression=ASK",
+          "vol/OI=10.8×"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 23.06,
+        "entry" : "Estimated limit debit $2.05; verify live chain",
+        "exchange" : "US Options",
+        "generatedAt" : "2026-07-02T13:53:06Z",
+        "id" : "F40832DB-EB03-4CE1-8D9C-820B1B18846D",
+        "name" : "WULF CALL opportunity",
+        "priceSource" : "Unusual Whales",
+        "region" : "United States",
+        "risks" : [
+          "Elevated spread 25%",
+          "Provider premium is an estimated flow-derived mark; broker quote must confirm bracket levels",
+          "UW market intelligence Bullish (+4.0 pts): Market Tide Bullish: +$12.0M net, 5 samples • Dark pool Bullish: 78 prints, $43.7M | top MU $10.6M, HOOD $5.1M, TSLA $4.5M",
+          "Event timing supports setup (+2.0)",
+          "Macro catalyst supports setup (+3.0)",
+          "Trend does not confirm option direction (-14.0)"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Unusual Whales · Options Conviction",
+        "stopLoss" : "Exit near $1.95 premium or when the thesis invalidates",
+        "target" : "Take profit near $2.36 premium or before 2026-07-17",
+        "thesis" : "Strategy: Bull Call Debit Spread | Expiry: 2026-07-17 | Strikes: Buy 25.50 CALL | Moneyness: OTM | Unusual Whales | 12 events | Bullish | $742K | ASK | IVR=43 | DTE=14 | ITM-bias: prefer 5–8% ITM strike | UW tape=Bullish 86/100",
+        "ticker" : "WULF",
+        "timeframe" : "14 DTE · expires 2026-07-17"
+      },
+      {
+        "catalysts" : [
+          "Market regime supports bullish options pressure",
+          "Sweep flow suggests urgency",
+          "Repeated flow cluster",
+          "Jobs catalyst aligns with this setup",
+          "premium≥25K",
+          "aggression=SWEEP"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 29.028,
+        "entry" : "Estimated limit debit $1.53; verify live chain",
+        "exchange" : "US Options",
+        "generatedAt" : "2026-07-02T13:53:03Z",
+        "id" : "F6D1667D-9639-45CD-BE97-7A35BFB0173A",
+        "name" : "SMCI CALL opportunity",
+        "priceSource" : "Unusual Whales",
+        "region" : "United States",
+        "risks" : [
+          "Elevated spread 22%",
+          "Provider premium is an estimated flow-derived mark; broker quote must confirm bracket levels",
+          "UW market intelligence Bullish (+4.0 pts): Market Tide Bullish: +$12.0M net, 5 samples • Dark pool Bullish: 78 prints, $43.7M | top MU $10.6M, HOOD $5.1M, TSLA $4.5M",
+          "Persistent/accelerating whale flow (+5.0)",
+          "Event timing supports setup (+2.0)",
+          "Macro catalyst supports setup (+3.0)"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Unusual Whales · Options Conviction",
+        "stopLoss" : "Exit near $1.45 premium or when the thesis invalidates",
+        "target" : "Take profit near $1.76 premium or before 2026-07-10",
+        "thesis" : "Strategy: Bull Call Debit Spread | Expiry: 2026-07-10 | Strikes: Buy 28.00 CALL | Moneyness: ITM | Unusual Whales | 7 events | Bullish | $783K | SWEEP | IVR=64 | DTE=7 | ITM-bias: prefer 5–8% ITM strike | UW tape=Bullish 86/100",
+        "ticker" : "SMCI",
+        "timeframe" : "7 DTE · expires 2026-07-10"
+      },
+      {
+        "catalysts" : [
+          "Q3 earnings beat expected"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 302.453,
+        "entry" : "~$301.55–$303.36",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:50:49Z",
+        "id" : "E3E35CFB-6C94-4008-91BF-FB6E9EB61E75",
+        "industry" : "Technology",
+        "name" : "Apple Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Macro growth slowdown"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$241.96",
+        "target" : "$483.92",
+        "thesis" : "Strategy: Debit Call Spread | Expiry: 2026-09-18 | Strikes: Buy 220C / Sell 230C | Moneyness: OTM. Strong iPhone cycle and services growth support upside into September with IV at 22%. Break-even at 223.40 with max risk of 1.40 per share.",
+        "ticker" : "AAPL",
+        "timeframe" : "78 days to 2026-09-18"
+      },
+      {
+        "catalysts" : [
+          "Robotaxi event"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 412.7,
+        "entry" : "~$411.46–$413.94",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:50:49Z",
+        "id" : "FF486C55-B888-49DA-BA89-A3A8331DE2C4",
+        "industry" : "Consumer",
+        "name" : "Tesla Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Margin compression"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$330.16",
+        "target" : "$660.32",
+        "thesis" : "Strategy: Credit Put Spread | Expiry: 2026-10-16 | Strikes: Sell 280P / Buy 260P | Moneyness: OTM. Delivery ramp and energy storage offset valuation concerns; 45DTE support keeps premium attractive. Max loss capped at 2.10.",
+        "ticker" : "TSLA",
+        "timeframe" : "106 days to 2026-10-16"
+      },
+      {
+        "catalysts" : [
+          "China stimulus data"
+        ],
+        "confidence" : 7,
+        "currency" : "AUD",
+        "currentPrice" : 59.57,
+        "entry" : "~$59.39–$59.75",
+        "exchange" : "ASX",
+        "generatedAt" : "2026-07-02T13:50:49Z",
+        "id" : "1E0DF1D4-F2B9-40FD-B3FE-11A7E7346890",
+        "name" : "BHP Group Ltd",
+        "priceSource" : "Yahoo",
+        "region" : "Australia",
+        "risks" : [
+          "Commodity price volatility"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$47.66",
+        "target" : "$95.31",
+        "thesis" : "Strategy: Covered Call | Expiry: 2026-08-20 | Strikes: Long shares / Sell 42C | Moneyness: OTM. Iron ore prices stable above $105 with dividend support; 49 DTE yields 2.8% premium. Break-even lowered to 39.10.",
+        "ticker" : "BHP.AX",
+        "timeframe" : "49 days to 2026-08-20"
+      },
+      {
+        "catalysts" : [
+          "Azure growth print"
+        ],
+        "confidence" : 8,
+        "currency" : "USD",
+        "currentPrice" : 386.085,
+        "entry" : "~$384.93–$387.24",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:50:49Z",
+        "id" : "2CC2A281-CE19-4CFA-9972-F26C497BB171",
+        "industry" : "Technology",
+        "name" : "Microsoft Corporation",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Regulatory scrutiny"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$308.87",
+        "target" : "$617.74",
+        "thesis" : "Strategy: Debit Call Spread | Expiry: 2026-09-18 | Strikes: Buy 450C / Sell 465C | Moneyness: OTM. Cloud and AI demand remain robust with low IV at 19%. Max risk 3.20 per contract.",
+        "ticker" : "MSFT",
+        "timeframe" : "78 days to 2026-09-18"
+      },
+      {
+        "catalysts" : [
+          "Data center bookings"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 198.66,
+        "entry" : "~$198.06–$199.26",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:50:49Z",
+        "id" : "4EC20981-4642-491B-80A2-EEA9647BED51",
+        "industry" : "Technology",
+        "name" : "NVIDIA Corporation",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Export restrictions"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$158.93",
+        "target" : "$317.86",
+        "thesis" : "Strategy: Credit Put Spread | Expiry: 2026-08-21 | Strikes: Sell 115P / Buy 105P | Moneyness: OTM. Blackwell ramp offsets any near-term digestion; 50 DTE credit attractive at 1.85. Defined risk 8.15.",
+        "ticker" : "NVDA",
+        "timeframe" : "50 days to 2026-08-21"
+      },
+      {
+        "catalysts" : [
+          "AI product launches"
+        ],
+        "confidence" : 7,
+        "currency" : "USD",
+        "currentPrice" : 363.17,
+        "entry" : "~$362.08–$364.26",
+        "exchange" : "NASDAQ",
+        "generatedAt" : "2026-07-02T13:50:49Z",
+        "id" : "FAF47D28-E13F-41A3-95C2-03AF0656A2DD",
+        "industry" : "Technology",
+        "name" : "Alphabet Inc.",
+        "priceSource" : "Yahoo",
+        "region" : "United States",
+        "risks" : [
+          "Antitrust ruling"
+        ],
+        "scanType" : "Options",
+        "signal" : "BUY",
+        "source" : "Grok",
+        "stopLoss" : "$290.54",
+        "target" : "$581.07",
+        "thesis" : "Strategy: Debit Call Spread | Expiry: 2026-10-16 | Strikes: Buy 175C / Sell 185C | Moneyness: OTM. Search and YouTube ad trends positive; 106 DTE structure offers 2.45 max profit with break-even 176.80.",
+        "ticker" : "GOOGL",
+        "timeframe" : "106 days to 2026-10-16"
+      }
+    ],
+    "short_squeeze" : [
+
+    ],
+    "swing" : [
+
+    ],
+    "unusual_volume" : [
+
+    ]
+  },
+  "version" : 1
+}
