@@ -1,0 +1,160 @@
+[
+  {
+    "catalysts" : [
+      "Q2 2026 earnings release (July 14, 2026)",
+      "AI cloud partnership expansion announcement pending",
+      "Analyst upgrade potential post-earnings"
+    ],
+    "confidence" : 8,
+    "currentPrice" : 3.71,
+    "entry" : "~$3.70–$3.72",
+    "generatedAt" : "2026-07-01T14:44:22Z",
+    "id" : "A0BADC6D-6F3D-459B-89BA-0C223337C05C",
+    "name" : "BigBaadassMachine Inc.",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Earnings miss could trigger short covering reversal; downside to $2.80",
+      "Broader AI sector correction would weigh on sentiment",
+      "Borrow availability could increase if large share block located"
+    ],
+    "scanType" : "Short Squeeze",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$3.12",
+    "target" : "$5.73",
+    "thesis" : "BBAI carries 28% short interest of float with 12.3 days-to-cover ratio. Stock broke above $4.20 resistance in June 2026 after AI partnership announcement. Hard-to-borrow shares at 18% annualized borrow cost signal peak short positioning ahead of Q2 earnings in mid-July.",
+    "ticker" : "BBAI",
+    "timeframe" : "3–6 weeks"
+  },
+  {
+    "catalysts" : [
+      "FDA approval decision (July 28, 2026) – binary event",
+      "Post-approval partnership licensing deal likely within 60 days",
+      "Street EPS revisions upward (currently depressed)"
+    ],
+    "confidence" : 7,
+    "entry" : "$8.50–$9.20",
+    "generatedAt" : "2026-07-01T14:44:22Z",
+    "id" : "92E59AF9-1CF3-4A72-9DAF-B6EC1BB81152",
+    "name" : "Clearvue Technologies",
+    "risks" : [
+      "FDA rejection or delayed decision pushes stock to $5.50",
+      "Clinical trial safety signals could emerge post-approval",
+      "Convertible debt overhang if company raises capital pre-approval"
+    ],
+    "scanType" : "Short Squeeze",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$7.10",
+    "target" : "$13.50",
+    "thesis" : "CLVS shows 22% short interest with 9.8 days-to-cover. FDA decision on lead drug expected July 28, 2026. Stock up 34% since May on phase 3 data hints. Borrow cost at 22% annualized indicates desperation; shorts losing conviction as catalyst nears.",
+    "ticker" : "CLVS",
+    "timeframe" : "4–8 weeks"
+  },
+  {
+    "catalysts" : [
+      "Product launch in Sephora/Ulta (~September 2026)",
+      "Beauty influencer campaign rollout mid-August",
+      "Potential analyst initiation at BUY post-partnership"
+    ],
+    "confidence" : 7,
+    "currentPrice" : 0.7409,
+    "entry" : "~$0.74–$0.74",
+    "generatedAt" : "2026-07-01T14:44:22Z",
+    "id" : "0B0E5001-FECC-480D-96F3-EE1853B0C3D2",
+    "name" : "Skinvisible Inc.",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Retail channel pullback if sell-through weak; downside to $2.10",
+      "Private equity founder liquidation could flood float",
+      "Generic/competitive product launch from larger rival"
+    ],
+    "scanType" : "Short Squeeze",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$0.59",
+    "target" : "$1.19",
+    "thesis" : "SKIN has 19% short interest of ~2.1M float, 11.2 days-to-cover ratio. Stock broke above $3.80 resistance on June 25 after dermatology partnership with major beauty conglomerate. Borrow cost at 24% and shares hard to locate suggest short crowding; Q3 product launch catalyst in September.",
+    "ticker" : "SKIN",
+    "timeframe" : "8–12 weeks"
+  },
+  {
+    "catalysts" : [
+      "Phase 2b respiratory trial interim readout (August 5, 2026)",
+      "Institutional accumulation signals (23M shares bought last 2 weeks)",
+      "Medical conference presentation (August 12–15)"
+    ],
+    "confidence" : 8,
+    "currentPrice" : 0.0001,
+    "entry" : "~$0.00–$0.00",
+    "generatedAt" : "2026-07-01T14:44:22Z",
+    "id" : "8DA73A46-F40F-49FB-8109-C276184653C0",
+    "name" : "Rinonovus Pharma",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "Trial data disappointment; stock could drop 35% to $3.85",
+      "Dilutive secondary offering to fund operations",
+      "Competitor announces better efficacy data pre-August readout"
+    ],
+    "scanType" : "Short Squeeze",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$0.00",
+    "target" : "$0.00",
+    "thesis" : "RINO exhibits 26% short interest with 13.4 days-to-cover. Stock rallied 41% in June after respiratory therapy data exceeded expectations. Borrow cost at 19% and 89% of float sold short indicates peak short saturation. Clinical readout catalyst (Aug 5) could force capitulation.",
+    "ticker" : "RINO",
+    "timeframe" : "3–6 weeks"
+  },
+  {
+    "catalysts" : [
+      "IRA subsidy Phase 2 rollout details (July 15, 2026)",
+      "Federal fleet charging contract awards expected Q3",
+      "Analyst upgrades as EBITDA inflection visible"
+    ],
+    "confidence" : 6,
+    "currentPrice" : 5.97,
+    "entry" : "~$5.95–$5.99",
+    "generatedAt" : "2026-07-01T14:44:22Z",
+    "id" : "64801BB3-5DD6-4A55-B8D8-F38F0D7D9B30",
+    "name" : "ChargePoint Holdings",
+    "priceSource" : "Yahoo",
+    "risks" : [
+      "EV macro slowdown – OEM guidance reductions pressure valuation",
+      "Subsidy clawback risk if administration changes",
+      "Competitive intensity from Tesla Supercharger network expansion"
+    ],
+    "scanType" : "Short Squeeze",
+    "signal" : "HOLD",
+    "source" : "Claude",
+    "stopLoss" : "$4.78",
+    "target" : "$8.54",
+    "thesis" : "CHPT carries 17.5% short interest with 8.1 days-to-cover. Stock broke above $4.85 resistance on EV charging demand surge. Borrow cost moderate at 12%. Upcoming Inflation Reduction Act subsidy implementation (Phase 2, July 15) could be catalyst, but macro EV slowdown creates headwind.",
+    "ticker" : "CHPT",
+    "timeframe" : "6–10 weeks"
+  },
+  {
+    "catalysts" : [
+      "Bitcoin breaks $70k (technical level, ~July 10 possible)",
+      "Mining difficulty adjustment (July 20) – margin expansion signals",
+      "Earnings beat on hash rate efficiency (August release)"
+    ],
+    "confidence" : 8,
+    "entry" : "$2.80–$3.25",
+    "generatedAt" : "2026-07-01T14:44:22Z",
+    "id" : "10966CE8-815F-4E7C-986F-946C8BC21DC4",
+    "name" : "Bitfarms Limited",
+    "risks" : [
+      "Bitcoin flash crash to $55k would liquidate longs, cascade pain",
+      "US mining regulation (SEC/CFTC) could spike unpredictably",
+      "Difficulty spike outpaces BITF capacity upgrades – thesis breaks"
+    ],
+    "scanType" : "Short Squeeze",
+    "signal" : "BUY",
+    "source" : "Claude",
+    "stopLoss" : "$2.20",
+    "target" : "$4.80",
+    "thesis" : "BITF shows 21% short interest with 10.7 days-to-cover following Bitcoin's 38% rally since May 2026. Stock broke above $2.95 resistance; borrow cost at 25% annualized indicates peak short stress. Bitcoin approaching $68k creates technical setup for margin call cascade among shorts holding miner hedges.",
+    "ticker" : "BITF",
+    "timeframe" : "4–8 weeks"
+  }
+]
