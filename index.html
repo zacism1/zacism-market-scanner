@@ -786,7 +786,7 @@
         </div>
     </section>
 
-    <!-- Weekly Top 5: derived from Investment Mode and Global Scan publications -->
+    <!-- Weekly Top 5: only evidence-audited Investment Mode publications qualify -->
     <section class="max-w-[1480px] mx-auto px-0 sm:px-10 pb-8" aria-labelledby="weekly-top-five-title">
         <div class="top-five-shell">
             <div class="px-5 sm:px-6 py-4 border-b border-white/10 flex flex-wrap items-end justify-between gap-3">
@@ -795,7 +795,7 @@
                         <span class="block w-0.5 h-5 bg-emerald-400"></span>
                         Weekly Top 5 Investment Ideas
                     </h2>
-                    <p class="text-xs text-zinc-500 mt-1 ml-[14px]">Ranked from published long-horizon research · diversified by industry where the data allows</p>
+                    <p class="text-xs text-zinc-500 mt-1 ml-[14px]">Only A/B evidence-audited, independently red-teamed long-horizon research can qualify</p>
                 </div>
                 <div id="weekly-top-five-count" class="top-five-count text-xs text-zinc-500 terminal-text">Loading published ideas…</div>
             </div>
@@ -815,7 +815,7 @@
             <div id="weekly-top-five-results" aria-live="polite"></div>
 
             <div class="ledger-evidence">
-                <span><i class="fa-regular fa-clipboard text-emerald-400"></i>Evidence quality: published research</span>
+                <span><i class="fa-regular fa-clipboard text-emerald-400"></i>Evidence quality: deterministic A/B audit</span>
                 <span><i class="fa-regular fa-clock text-emerald-400"></i>Update cadence: manual weekly review</span>
                 <span><i class="fa-solid fa-database text-emerald-400"></i>Published datasets: 9</span>
                 <span><i class="fa-solid fa-scale-balanced text-emerald-400"></i>Owner’s Compounder Framework</span>
@@ -886,7 +886,7 @@
                         <i class="fa-solid fa-building-columns text-indigo-400"></i>
                         <span>INVESTMENT RESEARCH · LONG-TERM VALUE</span>
                     </div>
-                    <div class="text-xs text-zinc-500 mt-0.5">Grok web-grounded evidence · source cross-checks · four perspectives · scenario valuation</div>
+                    <div class="text-xs text-zinc-500 mt-0.5">Independent Grok evidence + red-team passes · deterministic audit · scenario valuation</div>
                 </div>
                 <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="investment-count">—</div>
             </div>
@@ -1208,6 +1208,21 @@
                 keyRisks: textArray(report.keyRisks ?? report.key_risks),
                 disconfirmingEvidence: textArray(report.disconfirmingEvidence ?? report.disconfirming_evidence),
                 monitoringChecklist: textArray(report.monitoringChecklist ?? report.monitoring_checklist),
+                qualityAudit: (() => {
+                    const audit = report.qualityAudit ?? report.quality_audit ?? {};
+                    return {
+                        score: boundedNumber(audit.score),
+                        grade: escapeHTML(audit.grade || 'D · Legacy / unscored'),
+                        calibratedConfidence: boundedNumber(audit.calibratedConfidence ?? audit.calibrated_confidence),
+                        linkedSourceCount: boundedNumber(audit.linkedSourceCount ?? audit.linked_source_count, 0, 1000),
+                        independentDomainCount: boundedNumber(audit.independentDomainCount ?? audit.independent_domain_count, 0, 1000),
+                        primarySourceCount: boundedNumber(audit.primarySourceCount ?? audit.primary_source_count, 0, 1000),
+                        redTeamUsed: Boolean(audit.redTeamUsed ?? audit.red_team_used),
+                        valuationMathDeltaPercent: Number(audit.valuationMathDeltaPercent ?? audit.valuation_math_delta_percent),
+                        hardFailures: textArray(audit.hardFailures ?? audit.hard_failures),
+                        warnings: textArray(audit.warnings)
+                    };
+                })(),
                 sources: (Array.isArray(report.sources) ? report.sources : []).map(source => ({
                     title: escapeHTML(source.title),
                     url: safeSourceURL(source.url),
@@ -1265,9 +1280,15 @@
                 candidates: (Array.isArray(funnel.candidates) ? funnel.candidates : []).map(candidate => ({
                     ticker: escapeHTML(candidate.ticker),
                     companyName: escapeHTML(candidate.companyName ?? candidate.company_name),
+                    exchange: escapeHTML(candidate.exchange || 'Unknown'),
+                    country: escapeHTML(candidate.country || 'Unknown'),
+                    currency: escapeHTML(candidate.currency || 'Unknown'),
+                    marketCapBand: escapeHTML(candidate.marketCapBand ?? candidate.market_cap_band ?? 'Unknown'),
+                    liquidityTier: escapeHTML(candidate.liquidityTier ?? candidate.liquidity_tier ?? 'Unverified'),
                     overallScore: boundedNumber(candidate.overallScore ?? candidate.overall_score),
                     rationale: escapeHTML(candidate.rationale),
                     keyRisk: escapeHTML(candidate.keyRisk ?? candidate.key_risk),
+                    evidenceNotes: textArray(candidate.evidenceNotes ?? candidate.evidence_notes),
                     recommendation: escapeHTML(candidate.recommendation || 'Watch')
                 }))
             }));
@@ -1459,6 +1480,13 @@
             return 'bg-amber-500/15 text-amber-300 border-amber-500/30';
         }
 
+        function qualityGradeClasses(grade) {
+            if (grade.startsWith('A')) return 'bg-emerald-500/15 text-emerald-300 border-emerald-500/30';
+            if (grade.startsWith('B')) return 'bg-cyan-500/15 text-cyan-300 border-cyan-500/30';
+            if (grade.startsWith('C')) return 'bg-amber-500/15 text-amber-300 border-amber-500/30';
+            return 'bg-rose-500/15 text-rose-300 border-rose-500/30';
+        }
+
         function investmentMoney(value, currency = '') {
             const number = Number(value);
             if (!Number.isFinite(number) || number <= 0) return '—';
@@ -1518,14 +1546,20 @@
         }
 
         function topFiveCandidates() {
-            const reportCandidates = investmentData.reports.map(report => ({
+            const reportCandidates = investmentData.reports
+                .filter(report => report.qualityAudit.score >= 75
+                    && ['A', 'B'].includes(report.qualityAudit.grade.charAt(0))
+                    && report.qualityAudit.redTeamUsed
+                    && report.qualityAudit.hardFailures.length === 0
+                    && ['Buy', 'Strong Buy'].includes(report.recommendation))
+                .map(report => ({
                 id: report.id,
                 detailType: 'investment',
                 sourcePriority: 3,
                 ticker: report.ticker,
                 companyName: report.companyName,
                 industry: firstPublishedIndustry(report.ticker, report.industry),
-                conviction: Math.round((report.overallScore * 0.7) + (report.confidence * 0.3)),
+                conviction: Math.round((report.overallScore * 0.50) + (report.confidence * 0.25) + (report.qualityAudit.score * 0.25)),
                 thesis: joinedThesis(report.conclusion, report.businessSummary, report.moat),
                 catalysts: report.catalysts.slice(0, 3),
                 risks: report.keyRisks.slice(0, 3),
@@ -1533,40 +1567,8 @@
                 fairValueGap: fairValueGap(report.valuation.currentPrice, report.valuation.weightedFairValue)
             }));
 
-            const equityCandidates = investmentData.equityIdeas.map(idea => ({
-                id: idea.id,
-                detailType: 'equity',
-                sourcePriority: 2,
-                ticker: idea.ticker,
-                companyName: idea.companyName,
-                industry: firstPublishedIndustry(idea.ticker, idea.industry, idea.category || 'Long-term equity opportunity'),
-                conviction: Math.round(idea.convictionScore * 10),
-                thesis: joinedThesis(idea.thesis, idea.moatEvidence, idea.valuationFramework),
-                catalysts: idea.catalysts.slice(0, 3),
-                risks: idea.risks.slice(0, 3),
-                horizon: idea.timeHorizon || '3–5+ years',
-                fairValueGap: fairValueGap(idea.currentPrice, idea.targetPrice)
-            }));
-
-            const globalCandidates = scanData.global
-                .filter(result => result.signal === 'BUY' && result.thesis)
-                .map(result => ({
-                    id: result.id,
-                    detailType: 'scan',
-                    sourcePriority: 1,
-                    ticker: result.ticker,
-                    companyName: result.name,
-                    industry: firstPublishedIndustry(result.ticker, result.industry, result.scanType || 'Global equity opportunity'),
-                    conviction: Math.round(result.confidence * 10),
-                    thesis: result.thesis,
-                    catalysts: result.catalysts.slice(0, 3),
-                    risks: result.risks.slice(0, 3),
-                    horizon: /year|long/i.test(result.timeframe) ? result.timeframe : '3–5+ years',
-                    fairValueGap: fairValueGap(result.currentPrice, result.target)
-                }));
-
             const bestByTicker = new Map();
-            [...reportCandidates, ...equityCandidates, ...globalCandidates]
+            reportCandidates
                 .sort((left, right) => right.sourcePriority - left.sourcePriority || right.conviction - left.conviction)
                 .forEach(candidate => {
                     const key = candidate.ticker.toUpperCase();
@@ -1675,7 +1677,7 @@
 
             container.innerHTML = ideas.length
                 ? ideas.map(createTopFiveRow).join('')
-                : `<div class="px-6 py-12 text-center"><div class="text-sm text-zinc-300">No long-term ideas have been published yet.</div><div class="text-xs text-zinc-500 mt-2">Publish Investment Mode research or a Global Scan from the Zacism app to populate this weekly list.</div></div>`;
+                : `<div class="px-6 py-12 text-center"><div class="text-sm text-zinc-300">No published research currently clears the elite evidence bar.</div><div class="text-xs text-zinc-500 mt-2">A report must be A/B graded, independently red-teamed, free of blocking audit failures, and rated Buy or Strong Buy.</div></div>`;
             renderLedgerChanges(ideas);
         }
 
@@ -1859,6 +1861,7 @@
             const fairValue = valuation.weightedFairValue ?? valuation.weighted_fair_value;
             const buyBelow = valuation.preferredBuyBelow ?? valuation.preferred_buy_below;
             const currency = escapeHTML(valuation.currency || '');
+            const audit = report.qualityAudit;
 
             return `
                 <button type="button" class="scan-card glass border border-white/10 rounded-3xl p-5 text-left w-full" onclick="showInvestmentModal('${report.id}')">
@@ -1867,6 +1870,7 @@
                             <div class="flex items-center gap-2 flex-wrap">
                                 <span class="terminal-text text-2xl font-semibold tracking-tighter">${report.ticker}</span>
                                 <span class="px-2.5 py-0.5 text-[10px] font-bold rounded-2xl border ${recommendationClasses(report.recommendation)}">${report.recommendation}</span>
+                                <span class="px-2.5 py-0.5 text-[10px] font-bold rounded-2xl border ${qualityGradeClasses(audit.grade)}">Evidence ${audit.grade} · ${Math.round(audit.score)}</span>
                             </div>
                             <div class="text-xs text-zinc-400 mt-0.5">${report.companyName}</div>
                             <div class="text-[10px] text-zinc-500 mt-1">${report.exchange} · data as of ${report.dataAsOf || 'unknown'}</div>
@@ -1887,6 +1891,7 @@
 
                     <div class="flex items-center justify-between text-[10px] text-zinc-400">
                         <span>Confidence ${Math.round(report.confidence)}%</span>
+                        <span>${audit.redTeamUsed ? 'Independent red team ✓' : 'Red team unavailable'}</span>
                         <span>Risk ${report.riskRating}</span>
                     </div>
                 </button>`;
@@ -1994,7 +1999,7 @@
                         <p class="text-xs text-zinc-400 mt-1 mb-3">${funnel.conclusion}</p>
                         <div class="flex flex-wrap gap-2">${funnel.candidates.map(candidate => `
                             <span class="px-3 py-1.5 bg-white/5 border border-white/10 rounded-full text-xs">
-                                <strong class="text-zinc-100">${candidate.ticker}</strong> · ${Math.round(candidate.overallScore)} · ${candidate.recommendation}
+                                <strong class="text-zinc-100">${candidate.ticker}</strong> · ${candidate.exchange} · ${candidate.country} · ${candidate.liquidityTier} liquidity · ${Math.round(candidate.overallScore)} · ${candidate.recommendation}
                             </span>`).join('')}</div>
                     </div>`).join('')}` : '';
         }
@@ -2206,6 +2211,7 @@
 
             const valuation = report.valuation;
             const position = report.positionSuggestion;
+            const audit = report.qualityAudit;
             const margin = Number.isFinite(valuation.marginOfSafetyPercent) ? `${valuation.marginOfSafetyPercent.toFixed(1)}%` : '—';
             const sources = report.sources.length ? `
                 <div class="mt-6 pt-5 border-t border-white/10">
@@ -2239,6 +2245,21 @@
                             <div class="bg-white/5 rounded-xl p-3"><div class="text-zinc-500">Confidence</div><div class="text-lg font-semibold">${Math.round(report.confidence)}%</div></div>
                             <div class="bg-white/5 rounded-xl p-3"><div class="text-zinc-500">Margin of safety</div><div class="text-lg font-semibold text-emerald-300">${margin}</div></div>
                             <div class="bg-white/5 rounded-xl p-3"><div class="text-zinc-500">Risk</div><div class="text-lg font-semibold">${report.riskRating}</div></div>
+                        </div>
+
+                        <div class="border rounded-2xl p-4 mb-6 ${qualityGradeClasses(audit.grade)}">
+                            <div class="flex flex-wrap items-center justify-between gap-2">
+                                <div class="text-xs font-semibold">DETERMINISTIC EVIDENCE AUDIT</div>
+                                <div class="font-mono font-semibold">${audit.grade} · ${Math.round(audit.score)}/100</div>
+                            </div>
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-3 text-[11px]">
+                                <div><span class="opacity-60">Linked sources</span><div class="font-semibold">${audit.linkedSourceCount}</div></div>
+                                <div><span class="opacity-60">Independent domains</span><div class="font-semibold">${audit.independentDomainCount}</div></div>
+                                <div><span class="opacity-60">Likely primary</span><div class="font-semibold">${audit.primarySourceCount}</div></div>
+                                <div><span class="opacity-60">Independent red team</span><div class="font-semibold">${audit.redTeamUsed ? 'Completed' : 'Unavailable'}</div></div>
+                            </div>
+                            ${audit.hardFailures.length ? `<div class="mt-3 text-[11px]"><strong>Blocking failures:</strong> ${audit.hardFailures.join(' · ')}</div>` : ''}
+                            ${audit.warnings.length ? `<div class="mt-2 text-[11px]"><strong>Cautions:</strong> ${audit.warnings.join(' · ')}</div>` : ''}
                         </div>
 
                         <div class="grid md:grid-cols-2 gap-5 mb-6">
