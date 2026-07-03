@@ -631,13 +631,12 @@
             }
 
             #investment-themes {
-                display: flex;
-                overflow-x: auto;
+                display: grid;
+                grid-template-columns: 1fr;
+                overflow: visible;
                 gap: 12px;
-                margin-inline: -24px;
-                padding: 0 24px 10px;
-                scroll-snap-type: x mandatory;
-                scrollbar-width: none;
+                margin-inline: 0;
+                padding: 0;
             }
 
             #investment-themes::-webkit-scrollbar {
@@ -645,8 +644,7 @@
             }
 
             #investment-themes > * {
-                flex: 0 0 min(82vw, 320px);
-                scroll-snap-align: start;
+                min-width: 0;
             }
 
             .mobile-menu-backdrop.is-open {
@@ -888,12 +886,27 @@
                         <i class="fa-solid fa-building-columns text-indigo-400"></i>
                         <span>INVESTMENT RESEARCH · LONG-TERM VALUE</span>
                     </div>
-                    <div class="text-xs text-zinc-500 mt-0.5">5+ year owner mindset · four independent perspectives · scenario valuation</div>
+                    <div class="text-xs text-zinc-500 mt-0.5">Grok web-grounded evidence · source cross-checks · four perspectives · scenario valuation</div>
                 </div>
                 <div class="text-xs px-3 py-1 bg-white/5 rounded-2xl text-zinc-400" id="investment-count">—</div>
             </div>
 
-            <div id="investment-themes" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-6"></div>
+            <section class="mb-8" aria-labelledby="theme-universe-title">
+                <div class="flex flex-wrap items-end justify-between gap-3 mb-3">
+                    <div>
+                        <div id="theme-universe-title" class="section-header flex items-center gap-2"><i class="fa-solid fa-earth-asia text-indigo-300"></i><span>GLOBAL THEME UNIVERSE</span></div>
+                        <p class="text-xs text-zinc-500 mt-1">Searchable long-duration opportunities across major broker-accessible markets. Starred themes are Grok’s current ranked picks.</p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <select id="theme-category" aria-label="Filter themes by category" onchange="filterResults()" class="bg-white/5 border border-white/10 rounded-2xl px-3 py-2 text-xs text-zinc-300 outline-none">
+                            <option value="all">All categories</option>
+                        </select>
+                        <span id="theme-count" class="text-xs px-3 py-2 bg-white/5 rounded-2xl text-zinc-400">—</span>
+                    </div>
+                </div>
+                <div id="investment-themes" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3"></div>
+                <button id="theme-expand-button" type="button" onclick="toggleThemeUniverse()" class="hidden mt-4 mx-auto px-5 py-2 text-xs rounded-3xl bg-white/5 hover:bg-white/10 border border-white/10 text-zinc-300"></button>
+            </section>
             <div id="tenx-ideas" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8"></div>
             <div id="equity-ideas" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8"></div>
             <div id="investment-results" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"></div>
@@ -1021,6 +1034,8 @@
         };
         let publishedArchive = [];
         let activeEdition = null;
+        let themePageSize = 24;
+        var themeUniverseExpanded = false;
         async function fetchJSON(path, fallback) {
             try {
                 const separator = path.includes('?') ? '&' : '?';
@@ -1233,9 +1248,15 @@
                 score: boundedNumber(theme.score),
                 rationale: escapeHTML(theme.rationale),
                 timeHorizon: escapeHTML(theme.timeHorizon ?? theme.time_horizon),
+                category: escapeHTML(theme.category || 'Other'),
+                regions: textArray(theme.regions),
+                exchanges: textArray(theme.exchanges),
+                subindustries: textArray(theme.subindustries),
                 sampleTickers: textArray(theme.sampleTickers ?? theme.sample_tickers),
-                risks: textArray(theme.risks)
+                risks: textArray(theme.risks),
+                isWeeklyPick: Boolean(theme.isWeeklyPick ?? theme.is_weekly_pick)
             }));
+            updateThemeCategoryOptions();
 
             investmentData.funnels = funnels.map(funnel => ({
                 theme: escapeHTML(funnel.theme),
@@ -1399,11 +1420,31 @@
             else if (currentTab === 4) renderOptionsResults(searchTerm, minConf);
         }
 
+        function updateThemeCategoryOptions() {
+            const select = document.getElementById('theme-category');
+            if (!select) return;
+            const previous = select.value;
+            const categories = [...new Set(investmentData.themes.map(theme => theme.category).filter(Boolean))]
+                .sort((a, b) => a.localeCompare(b));
+            select.innerHTML = '<option value="all">All categories</option>'
+                + categories.map(category => `<option value="${category}">${category}</option>`).join('');
+            select.value = categories.includes(previous) ? previous : 'all';
+        }
+
+        function toggleThemeUniverse() {
+            themeUniverseExpanded = !themeUniverseExpanded;
+            filterResults();
+            if (!themeUniverseExpanded) document.getElementById('theme-universe-title')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+
         function resetFilters() {
             document.getElementById('search-input').value = '';
             document.getElementById('confidence-slider').value = 6;
             document.getElementById('confidence-value').textContent = '6';
             currentSpecialFilter = 'all';
+            themeUniverseExpanded = false;
+            const themeCategory = document.getElementById('theme-category');
+            if (themeCategory) themeCategory.value = 'all';
 
             document.querySelectorAll('.special-subtab').forEach(el => el.classList.remove('bg-white/10', 'active-subtab'));
             document.getElementById('special-all').classList.add('bg-white/10', 'active-subtab');
@@ -1917,15 +1958,29 @@
                     ? '<div class="col-span-full text-center py-12 text-zinc-500 text-sm">No Investment Mode research has been published yet.</div>'
                     : '');
 
-            const themes = investmentData.themes.filter(theme =>
-                !searchTerm || theme.name.toLowerCase().includes(searchTerm) || theme.rationale.toLowerCase().includes(searchTerm)
-            );
-            themesContainer.innerHTML = themes.length ? themes.map(theme => `
-                <div class="glass rounded-2xl p-4 border border-indigo-500/15">
-                    <div class="flex justify-between gap-3 mb-2"><div class="font-semibold text-sm">${theme.name}</div><div class="text-indigo-300 font-mono text-sm">${Math.round(theme.score)}</div></div>
+            const selectedCategory = document.getElementById('theme-category')?.value || 'all';
+            const themes = investmentData.themes.filter(theme => {
+                const comparableCategory = theme.category.replaceAll('&amp;', '&');
+                if (selectedCategory !== 'all' && comparableCategory !== selectedCategory) return false;
+                if (!searchTerm) return true;
+                return [theme.name, theme.rationale, theme.category, ...theme.regions, ...theme.exchanges, ...theme.sampleTickers, ...theme.subindustries]
+                    .some(value => value.toLowerCase().includes(searchTerm));
+            });
+            const visibleThemes = themeUniverseExpanded ? themes : themes.slice(0, themePageSize);
+            document.getElementById('theme-count').textContent = `${themes.length} ${themes.length === 1 ? 'theme' : 'themes'}`;
+            themesContainer.innerHTML = visibleThemes.length ? visibleThemes.map(theme => `
+                <div class="glass rounded-2xl p-4 border ${theme.isWeeklyPick ? 'border-amber-400/25' : 'border-indigo-500/15'} text-left">
+                    <div class="flex justify-between gap-3 mb-2">
+                        <div class="font-semibold text-sm">${theme.isWeeklyPick ? '<i class="fa-solid fa-star text-amber-300 mr-1.5" aria-label="Weekly Grok pick"></i>' : ''}${theme.name}</div>
+                        ${theme.isWeeklyPick ? `<div class="text-indigo-300 font-mono text-sm">${Math.round(theme.score)}</div>` : ''}
+                    </div>
                     <p class="text-xs text-zinc-400 line-clamp-3">${theme.rationale}</p>
-                    <div class="text-[10px] text-indigo-300 mt-3">${theme.timeHorizon || '5+ years'}${theme.sampleTickers.length ? ` · ${theme.sampleTickers.join(' · ')}` : ''}</div>
-                </div>`).join('') : '';
+                    <div class="text-[10px] text-teal-300 mt-3">${theme.category}${theme.regions.length ? ` · ${theme.regions.slice(0, 2).join(' · ')}` : ''}</div>
+                    <div class="text-[10px] text-indigo-300 mt-1">${theme.timeHorizon || '5+ years'}${theme.sampleTickers.length ? ` · ${theme.sampleTickers.slice(0, 3).join(' · ')}` : ''}</div>
+                </div>`).join('') : '<div class="col-span-full text-center py-10 text-zinc-500 text-sm">No themes match this search and category.</div>';
+            const expandButton = document.getElementById('theme-expand-button');
+            expandButton.classList.toggle('hidden', themes.length <= themePageSize);
+            expandButton.textContent = themeUniverseExpanded ? `Show first ${themePageSize}` : `Show all ${themes.length} themes`;
 
             const funnels = investmentData.funnels.filter(funnel =>
                 !searchTerm || funnel.theme.toLowerCase().includes(searchTerm) ||
