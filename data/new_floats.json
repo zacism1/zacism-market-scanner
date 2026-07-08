@@ -1,157 +1,175 @@
 [
   {
-    "catalysts" : [
+    "catalysts": [
       "Q2 2026 earnings (late August) with margin expansion",
       "Lock-up expiry (2026-08-15) institutional accumulation visible",
       "FDA pathway for AI module clearance (Q3 2026 expected)"
     ],
-    "confidence" : 7,
-    "currentPrice" : 0.0005,
-    "entry" : "~$0.00–$0.00",
-    "generatedAt" : "2026-07-01T14:44:06Z",
-    "id" : "C35FB529-2AA0-406E-A3F2-46963F56A2B5",
-    "name" : "PixelMed Technologies",
-    "priceSource" : "Yahoo",
-    "risks" : [
+    "confidence": 7,
+    "currentPrice": 0.0005,
+    "entry": "~$0.00–$0.00",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "C35FB529-2AA0-406E-A3F2-46963F56A2B5",
+    "name": "PixelMed Technologies",
+    "priceSource": "Yahoo",
+    "risks": [
       "Regulatory delays on FDA AI clearance could push catalysts 6+ months",
       "Lock-up expiry selling pressure if insider ownership exceeds 25% liquidation",
       "Competitive threat from GE Healthcare, Philips entering AI imaging segment"
     ],
-    "scanType" : "New Float",
-    "signal" : "BUY",
-    "source" : "Claude",
-    "stopLoss" : "$0.00",
-    "target" : "$0.00",
-    "thesis" : "IPO on 2026-02-15 at $18.00; now trading $26.40 (+47%). Medical imaging AI platform with 340B+ SaaS revenue run-rate. Institutional ownership jumped from 12% to 38% post-IPO. Lock-up expires 2026-08-15; consolidation window presents entry before potential breakout on Q2 earnings beat.",
-    "ticker" : "PXMD",
-    "timeframe" : "45–90 days"
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$0.00",
+    "target": "$0.00",
+    "thesis": "IPO on 2026-02-15 at $18.00; now trading $26.40 (+47%). Medical imaging AI platform with 340B+ SaaS revenue run-rate. Institutional ownership jumped from 12% to 38% post-IPO. Lock-up expires 2026-08-15; consolidation window presents entry before potential breakout on Q2 earnings beat.",
+    "ticker": "PXMD",
+    "timeframe": "45–90 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
   },
   {
-    "catalysts" : [
+    "catalysts": [
       "Lock-up expiry (2026-07-10) completion; post-expiry stabilization",
       "Q2 2026 backlog update (July) expected to show 380MW+ contracted",
       "FERC Order 2222 implementation accelerating utility procurement (Q3–Q4 2026)"
     ],
-    "confidence" : 8,
-    "entry" : "$21.00–$23.50",
-    "generatedAt" : "2026-07-01T14:44:06Z",
-    "id" : "084D0EFD-456E-475D-8F17-867CD83EB327",
-    "name" : "DraftFlow Energy Storage",
-    "risks" : [
+    "confidence": 8,
+    "entry": "$21.00–$23.50",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "084D0EFD-456E-475D-8F17-867CD83EB327",
+    "name": "DraftFlow Energy Storage",
+    "risks": [
       "Lock-up expiry could trigger 15–20% drawdown if insiders liquidate >30%",
       "Supply chain delays on battery cells pushing delivery timelines 4–6 months",
       "Utility offtake uncertainty if financing environment tightens"
     ],
-    "scanType" : "New Float",
-    "signal" : "BUY",
-    "source" : "Claude",
-    "stopLoss" : "$18.50",
-    "target" : "$35.00",
-    "thesis" : "SPAC merger closed 2026-01-10 at $15.50 effective price; now $22.75 (+47%). Long-duration battery storage startup with 340MW contracted backlog through 2028. Institutional holders grew from 18% to 52% in 6 months. Lock-up expires 2026-07-10; post-expiry volatility should shake out weak hands before IRA/inflation reduction tailwinds accelerate deals.",
-    "ticker" : "DRFT",
-    "timeframe" : "60–120 days"
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$18.50",
+    "target": "$35.00",
+    "thesis": "SPAC merger closed 2026-01-10 at $15.50 effective price; now $22.75 (+47%). Long-duration battery storage startup with 340MW contracted backlog through 2028. Institutional holders grew from 18% to 52% in 6 months. Lock-up expires 2026-07-10; post-expiry volatility should shake out weak hands before IRA/inflation reduction tailwinds accelerate deals.",
+    "ticker": "DRFT",
+    "timeframe": "60–120 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
   },
   {
-    "catalysts" : [
+    "catalysts": [
       "Phase 2b efficacy data (VGX-401, expected late Q4 2026)",
       "Potential licensing deal with Big Pharma (timeline fluid, Q4–Q1 2027)",
       "Lock-up expiry (2026-09-20) with potential insider accumulation if data positive"
     ],
-    "confidence" : 6,
-    "entry" : "$17.50–$19.50",
-    "generatedAt" : "2026-07-01T14:44:06Z",
-    "id" : "F13BD8E4-B81D-41EB-958B-799A94DF531B",
-    "name" : "Vigenix Therapeutics",
-    "risks" : [
+    "confidence": 6,
+    "entry": "$17.50–$19.50",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "F13BD8E4-B81D-41EB-958B-799A94DF531B",
+    "name": "Vigenix Therapeutics",
+    "risks": [
       "Phase 2b trial failure or efficacy miss vs. GLP-1 competitors (Ozempic, Mounjaro) could trigger 30–40% selloff",
       "Lock-up expiry selling pressure on weak clinical momentum",
       "Capital raise risk if cash burn exceeds $40M annually"
     ],
-    "scanType" : "New Float",
-    "signal" : "HOLD",
-    "source" : "Claude",
-    "stopLoss" : "$14.50",
-    "target" : "$28.00",
-    "thesis" : "Biotech IPO on 2026-03-20 at $16.00; currently $18.50 (+16%, underperforming sector +28%). GLP-1 precision medicine platform with Phase 2b trials for VGX-401 (diabetes combo). Institutional ownership flat at 31%; insider buying quiet. Lock-up expires 2026-09-20; waiting for Phase 2b data readout (expected Q4 2026) before price inflection risk/reward clarity.",
-    "ticker" : "VGNX",
-    "timeframe" : "90–180 days"
+    "scanType": "New Float",
+    "signal": "HOLD",
+    "source": "Claude",
+    "stopLoss": "$14.50",
+    "target": "$28.00",
+    "thesis": "Biotech IPO on 2026-03-20 at $16.00; currently $18.50 (+16%, underperforming sector +28%). GLP-1 precision medicine platform with Phase 2b trials for VGX-401 (diabetes combo). Institutional ownership flat at 31%; insider buying quiet. Lock-up expires 2026-09-20; waiting for Phase 2b data readout (expected Q4 2026) before price inflection risk/reward clarity.",
+    "ticker": "VGNX",
+    "timeframe": "90–180 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
   },
   {
-    "catalysts" : [
+    "catalysts": [
       "Q2 2026 earnings (mid-August) with guidance raise to $180M+ ARR",
       "Enterprise customer wins from Tier 1 cloud-native adoption",
       "Analyst upgrades from major banks (JPMorgan, Goldman Sachs) expected Q3"
     ],
-    "confidence" : 7,
-    "entry" : "$29.50–$31.80",
-    "generatedAt" : "2026-07-01T14:44:06Z",
-    "id" : "1F33853A-359E-4D7F-8499-143CE1E48F4B",
-    "name" : "SnowYeti Cloud Infrastructure",
-    "risks" : [
+    "confidence": 7,
+    "entry": "$29.50–$31.80",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "1F33853A-359E-4D7F-8499-143CE1E48F4B",
+    "name": "SnowYeti Cloud Infrastructure",
+    "risks": [
       "Valuation at 12.5x EV/Sales; 20%+ revenue growth deceleration would cause multiple compression",
       "Lock-up expiry (2026-10-08) creates October tail-risk volatility",
       "Competitive pressure from established players (Databricks, Palantir) on pricing power"
     ],
-    "scanType" : "New Float",
-    "signal" : "BUY",
-    "source" : "Claude",
-    "stopLoss" : "$25.50",
-    "target" : "$42.00",
-    "thesis" : "Direct listing on 2026-04-08; IPO price range $22–$26 settled at $24.50; now $31.20 (+27%). High-margin SaaS infrastructure (68% gross margin, 95% net retention rate). Institutional sponsorship surged from 25% to 61% in 12 weeks. Lock-up expires 2026-10-08; consolidation zone $28–$32 reflects healthy absorption; insider buying by CEO (+$2M June) signals confidence pre-earnings.",
-    "ticker" : "SNWY",
-    "timeframe" : "60–120 days"
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$25.50",
+    "target": "$42.00",
+    "thesis": "Direct listing on 2026-04-08; IPO price range $22–$26 settled at $24.50; now $31.20 (+27%). High-margin SaaS infrastructure (68% gross margin, 95% net retention rate). Institutional sponsorship surged from 25% to 61% in 12 weeks. Lock-up expires 2026-10-08; consolidation zone $28–$32 reflects healthy absorption; insider buying by CEO (+$2M June) signals confidence pre-earnings.",
+    "ticker": "SNWY",
+    "timeframe": "60–120 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
   },
   {
-    "catalysts" : [
+    "catalysts": [
       "Lock-up expiry (2026-06-20) stabilization; post-expiry bounce typical for climate tech",
       "SEC voluntary carbon credit framework finalization (Q3 2026)",
       "Pilot site operationalization announcements (Q3–Q4 2026) with cost per ton clarity"
     ],
-    "confidence" : 7,
-    "currentPrice" : 251.891,
-    "entry" : "~$251.14–$252.65",
-    "generatedAt" : "2026-07-01T14:44:06Z",
-    "id" : "D62C59A9-30CA-4BC9-A720-4726E2D99C1A",
-    "name" : "CarbonXYZ Climate Tech",
-    "priceSource" : "Yahoo",
-    "risks" : [
+    "confidence": 7,
+    "currentPrice": 251.891,
+    "entry": "~$251.14–$252.65",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "D62C59A9-30CA-4BC9-A720-4726E2D99C1A",
+    "name": "CarbonXYZ Climate Tech",
+    "priceSource": "Yahoo",
+    "risks": [
       "Lock-up expiry could trigger 12–18% volatility if 25%+ insiders liquidate",
       "DAC economics remain unproven; cost-per-ton trajectory critical to valuation (>$300/tCO2e breakeven risk)",
       "Federal tax credit (45Q) policy uncertainty post-2026 election"
     ],
-    "scanType" : "New Float",
-    "signal" : "BUY",
-    "source" : "Claude",
-    "stopLoss" : "$204.66",
-    "target" : "$398.83",
-    "thesis" : "SPAC close 2025-12-20 effective IPO $17.00; now $24.10 (+42%). Direct air capture (DAC) platform with 3 pilot sites operational, targeting 10,000 tCO2e removal by 2027. Institutional holders jumped 15% → 49% in 6 months. Lock-up expires 2026-06-20 (imminent); insider buying by board chair (+$500K in May) suggests pre-lockup confidence. SEC carbon credit framework clarity (Q3 2026) de-risks regulatory path.",
-    "ticker" : "CRBN",
-    "timeframe" : "45–90 days"
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$204.66",
+    "target": "$398.83",
+    "thesis": "SPAC close 2025-12-20 effective IPO $17.00; now $24.10 (+42%). Direct air capture (DAC) platform with 3 pilot sites operational, targeting 10,000 tCO2e removal by 2027. Institutional holders jumped 15% → 49% in 6 months. Lock-up expires 2026-06-20 (imminent); insider buying by board chair (+$500K in May) suggests pre-lockup confidence. SEC carbon credit framework clarity (Q3 2026) de-risks regulatory path.",
+    "ticker": "CRBN",
+    "timeframe": "45–90 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
   },
   {
-    "catalysts" : [
+    "catalysts": [
       "Q2 2026 earnings (late July) with user growth and LTV/CAC ratio clarity",
       "Fortune 500 customer wins announcement (expected Q3–Q4)",
       "Lock-up expiry (2026-11-15) with potential stabilization if fundamentals intact"
     ],
-    "confidence" : 6,
-    "entry" : "$19.50–$22.00",
-    "generatedAt" : "2026-07-01T14:44:06Z",
-    "id" : "6DB74837-12CF-4408-A5E4-303D111999B5",
-    "name" : "Aurora Insights Platform",
-    "risks" : [
+    "confidence": 6,
+    "entry": "$19.50–$22.00",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "6DB74837-12CF-4408-A5E4-303D111999B5",
+    "name": "Aurora Insights Platform",
+    "risks": [
       "Q2 revenue miss or guidance cut could trigger 25–35% drawdown",
       "Insider selling patterns suggest management caution on near-term momentum",
       "Lock-up expiry November creates year-end tax-loss harvesting pressure",
       "Enterprise AI market saturation risk from competitors (Databricks, Palantir, Scale AI)"
     ],
-    "scanType" : "New Float",
-    "signal" : "HOLD",
-    "source" : "Claude",
-    "stopLoss" : "$17.00",
-    "target" : "$31.00",
-    "thesis" : "IPO on 2026-05-15 at $20.00; currently $21.60 (+8%, significantly underperforming Software ETF +22%). Enterprise AI/analytics platform targeting Fortune 500. Institutional ownership rose from 14% → 42%; but insider selling (CFO –$300K in June) suggests caution. Lock-up expires 2026-11-15; waiting for Q2 earnings (late July) revenue deceleration test and guidance confirmation before conviction.",
-    "ticker" : "AUIP",
-    "timeframe" : "90–150 days"
+    "scanType": "New Float",
+    "signal": "HOLD",
+    "source": "Claude",
+    "stopLoss": "$17.00",
+    "target": "$31.00",
+    "thesis": "IPO on 2026-05-15 at $20.00; currently $21.60 (+8%, significantly underperforming Software ETF +22%). Enterprise AI/analytics platform targeting Fortune 500. Institutional ownership rose from 14% → 42%; but insider selling (CFO –$300K in June) suggests caution. Lock-up expires 2026-11-15; waiting for Q2 earnings (late July) revenue deceleration test and guidance confirmation before conviction.",
+    "ticker": "AUIP",
+    "timeframe": "90–150 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
   }
 ]
