@@ -1,3 +1,730 @@
 [
-
+  {
+    "id": "zgscan-sofi-0",
+    "ticker": "SOFI",
+    "name": "SoFi Technologies",
+    "industry": "Under the Radar",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 10,
+    "thesis": "SoFi Technologies screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$18.89",
+    "target": "$24.18",
+    "stopLoss": "$14.73",
+    "currentPrice": 18.89,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "SOFI Expands Lending: Can Small Business Loans Boost Growth?",
+      "Cathie Wood Goes Bargain Hunting: 3 Stocks She Just Bought"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-sofi-7",
+    "ticker": "SOFI",
+    "name": "SoFi Technologies",
+    "industry": "Long-Term Compounder",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "10x Potential",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "SoFi Technologies fits the next-generation consumer finance platforms sleeve at $18.93; the 10x case depends on years of compounding rather than a quick rerating. If the platform becomes a primary financial account for younger customers and cross-sell expands, revenue per user could compound for years from a still-modest base. Moat evidence to verify: Brand, product velocity, embedded distribution, and data-driven underwriting are the execution signals to monitor. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$18.93",
+    "target": "$151.40",
+    "stopLoss": "$11.36",
+    "currentPrice": 18.925,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Long-term compounder (5-10 years)",
+    "catalysts": [
+      "User growth",
+      "Product cross-sell",
+      "Rate-cycle normalization",
+      "SOFI Expands Lending: Can Small Business Loans Boost Growth?"
+    ],
+    "risks": [
+      "Credit cycle losses",
+      "Regulatory pressure",
+      "High competition from banks and fintechs"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:46:39Z"
+  },
+  {
+    "id": "zgscan-ntla-11",
+    "ticker": "NTLA",
+    "name": "Intellia Therapeutics",
+    "industry": "Long-Term Compounder",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "10x Potential",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Intellia Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $17.70; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$17.70",
+    "target": "$141.60",
+    "stopLoss": "$10.62",
+    "currentPrice": 17.7,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Long-term compounder (5-10 years)",
+    "catalysts": [
+      "Clinical trial readouts",
+      "Platform partnerships",
+      "Regulatory milestones",
+      "Wall Street Thinks This High-Flying Biotech Stock Can Soar Another 57%"
+    ],
+    "risks": [
+      "Binary clinical failures",
+      "Cash burn and dilution",
+      "Long commercialization timelines"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:46:39Z"
+  },
+  {
+    "id": "zgscan-rxrx-14",
+    "ticker": "RXRX",
+    "name": "Recursion Pharmaceuticals",
+    "industry": "Long-Term Compounder",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "10x Potential",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Recursion Pharmaceuticals fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $3.75; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$3.75",
+    "target": "$30.00",
+    "stopLoss": "$2.25",
+    "currentPrice": 3.75,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Long-term compounder (5-10 years)",
+    "catalysts": [
+      "Clinical trial readouts",
+      "Platform partnerships",
+      "Regulatory milestones",
+      "Cathie Wood Doubles Down on AI, Loads Up on Tesla, Palantir, and SpaceX"
+    ],
+    "risks": [
+      "Binary clinical failures",
+      "Cash burn and dilution",
+      "Long commercialization timelines"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:46:39Z"
+  },
+  {
+    "id": "zgscan-qs-15",
+    "ticker": "QS",
+    "name": "QuantumScape",
+    "industry": "Long-Term Compounder",
+    "exchange": "NYSE",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "10x Potential",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "QuantumScape fits the next-generation batteries sleeve at $7.64; the 10x case depends on years of compounding rather than a quick rerating. If the battery architecture reaches scaled manufacturing and wins premium device or EV sockets, revenue could move from pilot scale to a multi-billion-dollar opportunity. Moat evidence to verify: Manufacturing yield, customer qualification, and IP-protected chemistry are the important moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$7.64",
+    "target": "$61.16",
+    "stopLoss": "$4.59",
+    "currentPrice": 7.645,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Long-term compounder (5-10 years)",
+    "catalysts": [
+      "Manufacturing yield milestones",
+      "Customer qualifications",
+      "Energy density validation",
+      "AMD Is Up 150% This Year But Here Are 5 Overlooked Stocks Betting on What Comes Next"
+    ],
+    "risks": [
+      "Scale-up failures",
+      "Cash burn",
+      "Incumbent battery competition"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:46:39Z"
+  },
+  {
+    "id": "zgscan-wow-ax-1",
+    "ticker": "WOW.AX",
+    "name": "Woolworths Group Limited",
+    "industry": "Momentum Breakout",
+    "exchange": "ASX",
+    "region": "Australia",
+    "currency": "AUD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Woolworths Group Limited screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$39.35",
+    "target": "$45.65",
+    "stopLoss": "$34.63",
+    "currentPrice": 39.35,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Momentum hold (2-8 weeks)",
+    "catalysts": [
+      "Breakout-style trend continuation",
+      "Natural Gas Falls Ahead of US Storage Data Despite Hot Weather Forecasts",
+      "Microsoft Launching AI Engineering Business"
+    ],
+    "risks": [
+      "False breakout / reversal risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-intc-2",
+    "ticker": "INTC",
+    "name": "Intel Corporation",
+    "industry": "Technology",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Intel Corporation screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$127.04",
+    "target": "$147.37",
+    "stopLoss": "$111.80",
+    "currentPrice": 127.04,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Momentum hold (2-8 weeks)",
+    "catalysts": [
+      "Breakout-style trend continuation",
+      "HSBC Adjusts Price Target on Intel to $200 From $100, Maintains Buy Rating",
+      "Why Analysts Are Growing More Bullish on Cadence Design Systems, Inc. (CDNS)"
+    ],
+    "risks": [
+      "False breakout / reversal risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-celh-3",
+    "ticker": "CELH",
+    "name": "Celsius Holdings",
+    "industry": "Under the Radar",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Celsius Holdings screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$33.37",
+    "target": "$42.71",
+    "stopLoss": "$26.03",
+    "currentPrice": 33.37,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "Celsius Holdings (CELH) Stock Looks Fully Priced Despite Strong 36% Returns",
+      "Did Analyst Reframes Of Slowing Core Growth Just Shift Celsius Holdings' (CELH) Investment Narrative?"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-elf-4",
+    "ticker": "ELF",
+    "name": "e.l.f. Beauty",
+    "industry": "Under the Radar",
+    "exchange": "NYSE",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "e.l.f. Beauty screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$79.57",
+    "target": "$101.85",
+    "stopLoss": "$62.06",
+    "currentPrice": 79.57,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "e.l.f. Beauty (ELF) Soars 5.9%: Is Further Upside Left in the Stock?",
+      "ELF: Raising target price to $59.00"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-wes-ax-5",
+    "ticker": "WES.AX",
+    "name": "Wesfarmers Limited",
+    "industry": "Momentum Breakout",
+    "exchange": "ASX",
+    "region": "Australia",
+    "currency": "AUD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Wesfarmers Limited screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$86.85",
+    "target": "$100.75",
+    "stopLoss": "$76.43",
+    "currentPrice": 86.85,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Momentum hold (2-8 weeks)",
+    "catalysts": [
+      "Breakout-style trend continuation",
+      "Almonty begins processing operations at South Korea’s Sangdong Mine",
+      "Florida Cancer Specialists & Research Institute Celebrates Ribbon Cutting of New Downtown Sarasota Location"
+    ],
+    "risks": [
+      "False breakout / reversal risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-tost-6",
+    "ticker": "TOST",
+    "name": "Toast",
+    "industry": "Under the Radar",
+    "exchange": "NYSE",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Toast screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$28.97",
+    "target": "$37.08",
+    "stopLoss": "$22.60",
+    "currentPrice": 28.97,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "Box, HubSpot, and Toast Shares Are Soaring, What You Need To Know",
+      "Toast (TOST) Stock Declines While Market Improves: Some Information for Investors"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-csl-ax-8",
+    "ticker": "CSL.AX",
+    "name": "CSL Limited",
+    "industry": "Under the Radar",
+    "exchange": "ASX",
+    "region": "Australia",
+    "currency": "AUD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "CSL Limited screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$117.75",
+    "target": "$150.72",
+    "stopLoss": "$91.84",
+    "currentPrice": 117.75,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "Natural Gas Falls Ahead of US Storage Data Despite Hot Weather Forecasts",
+      "Microsoft Launching AI Engineering Business"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-hims-9",
+    "ticker": "HIMS",
+    "name": "Hims & Hers Health",
+    "industry": "Under the Radar",
+    "exchange": "NYSE",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Hims & Hers Health screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$37.60",
+    "target": "$48.13",
+    "stopLoss": "$29.33",
+    "currentPrice": 37.6,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "HIMS Stock Hits 2026 High After Unlocking $400M Working Capital Through JPMorgan — Retail Gets Less Bearish",
+      "Sector Update: Healthcare Stocks Higher Late Afternoon"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk",
+      "Headline language skews cautious"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-hood-10",
+    "ticker": "HOOD",
+    "name": "Robinhood Markets",
+    "industry": "Under the Radar",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Robinhood Markets screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$117.73",
+    "target": "$150.70",
+    "stopLoss": "$91.83",
+    "currentPrice": 117.735,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves",
+      "Sector Update: Financial Stocks Advance Premarket Thursday",
+      "Robinhood CEO says AI agents could soon trade as effectively as humans"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-cava-12",
+    "ticker": "CAVA",
+    "name": "CAVA Group",
+    "industry": "Under the Radar",
+    "exchange": "NYSE",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "CAVA Group screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
+    "entry": "$78.95",
+    "target": "$101.06",
+    "stopLoss": "$61.58",
+    "currentPrice": 78.95,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-afrm-13",
+    "ticker": "AFRM",
+    "name": "Affirm Holdings",
+    "industry": "Under the Radar",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "Core Opportunities",
+    "signal": "BUY",
+    "confidence": 9,
+    "thesis": "Affirm Holdings screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
+    "entry": "$85.51",
+    "target": "$109.45",
+    "stopLoss": "$66.70",
+    "currentPrice": 85.51,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Accumulation watch (3-12 months)",
+    "catalysts": [
+      "Potential rerating if execution improves"
+    ],
+    "risks": [
+      "Lower institutional coverage and liquidity risk"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:43:19Z"
+  },
+  {
+    "id": "zgscan-beam-16",
+    "ticker": "BEAM",
+    "name": "Beam Therapeutics",
+    "industry": "Long-Term Compounder",
+    "exchange": "NASDAQ",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "10x Potential",
+    "signal": "BUY",
+    "confidence": 8,
+    "thesis": "Beam Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $34.50; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$34.50",
+    "target": "$276.00",
+    "stopLoss": "$20.70",
+    "currentPrice": 34.5,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Long-term compounder (5-10 years)",
+    "catalysts": [
+      "Clinical trial readouts",
+      "Platform partnerships",
+      "Regulatory milestones",
+      "Tesla’s 10% Weight in ARKK Sets Up a Make-or-Break Year for the Innovation ETF"
+    ],
+    "risks": [
+      "Binary clinical failures",
+      "Cash burn and dilution",
+      "Long commercialization timelines"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:46:39Z"
+  },
+  {
+    "id": "zgscan-joby-17",
+    "ticker": "JOBY",
+    "name": "Joby Aviation",
+    "industry": "Long-Term Compounder",
+    "exchange": "NYSE",
+    "region": "United States",
+    "currency": "USD",
+    "instrumentKind": "Stock",
+    "scanType": "10x Potential",
+    "signal": "BUY",
+    "confidence": 8,
+    "thesis": "Joby Aviation fits the robotics, autonomy, and physical AI sleeve at $8.86; the 10x case depends on years of compounding rather than a quick rerating. If autonomous systems move from pilots to scaled fleets, even niche leadership in logistics, mobility, or robotics could create large recurring hardware-plus-software economics. Moat evidence to verify: Certification progress, deployment data, manufacturing partners, and real customer usage are the moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
+    "entry": "$8.86",
+    "target": "$70.88",
+    "stopLoss": "$5.32",
+    "currentPrice": 8.86,
+    "priceSource": "Yahoo/Alpha Vantage",
+    "timeframe": "Long-term compounder (5-10 years)",
+    "catalysts": [
+      "Commercial deployment milestones",
+      "Regulatory approvals",
+      "Fleet and unit-economics proof",
+      "Is Joby Aviation a Buy After Clearing Its Latest Regulatory Hurdle?"
+    ],
+    "risks": [
+      "Regulatory delays",
+      "Hardware margin pressure",
+      "Adoption may be slower than forecasts"
+    ],
+    "source": "ZacismGlobalScanner · investment payload backfill",
+    "generatedAt": "2026-07-02T13:46:39Z"
+  },
+  {
+    "catalysts": [
+      "Lock-up expiry (2026-07-10) completion; post-expiry stabilization",
+      "Q2 2026 backlog update (July) expected to show 380MW+ contracted",
+      "FERC Order 2222 implementation accelerating utility procurement (Q3–Q4 2026)"
+    ],
+    "confidence": 8,
+    "entry": "$21.00–$23.50",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "084D0EFD-456E-475D-8F17-867CD83EB327",
+    "name": "DraftFlow Energy Storage",
+    "risks": [
+      "Lock-up expiry could trigger 15–20% drawdown if insiders liquidate >30%",
+      "Supply chain delays on battery cells pushing delivery timelines 4–6 months",
+      "Utility offtake uncertainty if financing environment tightens"
+    ],
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$18.50",
+    "target": "$35.00",
+    "thesis": "SPAC merger closed 2026-01-10 at $15.50 effective price; now $22.75 (+47%). Long-duration battery storage startup with 340MW contracted backlog through 2028. Institutional holders grew from 18% to 52% in 6 months. Lock-up expires 2026-07-10; post-expiry volatility should shake out weak hands before IRA/inflation reduction tailwinds accelerate deals.",
+    "ticker": "DRFT",
+    "timeframe": "60–120 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
+  },
+  {
+    "catalysts": [
+      "Q2 2026 earnings (late August) with margin expansion",
+      "Lock-up expiry (2026-08-15) institutional accumulation visible",
+      "FDA pathway for AI module clearance (Q3 2026 expected)"
+    ],
+    "confidence": 7,
+    "currentPrice": 0.0005,
+    "entry": "~$0.00–$0.00",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "C35FB529-2AA0-406E-A3F2-46963F56A2B5",
+    "name": "PixelMed Technologies",
+    "priceSource": "Yahoo",
+    "risks": [
+      "Regulatory delays on FDA AI clearance could push catalysts 6+ months",
+      "Lock-up expiry selling pressure if insider ownership exceeds 25% liquidation",
+      "Competitive threat from GE Healthcare, Philips entering AI imaging segment"
+    ],
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$0.00",
+    "target": "$0.00",
+    "thesis": "IPO on 2026-02-15 at $18.00; now trading $26.40 (+47%). Medical imaging AI platform with 340B+ SaaS revenue run-rate. Institutional ownership jumped from 12% to 38% post-IPO. Lock-up expires 2026-08-15; consolidation window presents entry before potential breakout on Q2 earnings beat.",
+    "ticker": "PXMD",
+    "timeframe": "45–90 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
+  },
+  {
+    "catalysts": [
+      "Q2 2026 earnings (mid-August) with guidance raise to $180M+ ARR",
+      "Enterprise customer wins from Tier 1 cloud-native adoption",
+      "Analyst upgrades from major banks (JPMorgan, Goldman Sachs) expected Q3"
+    ],
+    "confidence": 7,
+    "entry": "$29.50–$31.80",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "1F33853A-359E-4D7F-8499-143CE1E48F4B",
+    "name": "SnowYeti Cloud Infrastructure",
+    "risks": [
+      "Valuation at 12.5x EV/Sales; 20%+ revenue growth deceleration would cause multiple compression",
+      "Lock-up expiry (2026-10-08) creates October tail-risk volatility",
+      "Competitive pressure from established players (Databricks, Palantir) on pricing power"
+    ],
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$25.50",
+    "target": "$42.00",
+    "thesis": "Direct listing on 2026-04-08; IPO price range $22–$26 settled at $24.50; now $31.20 (+27%). High-margin SaaS infrastructure (68% gross margin, 95% net retention rate). Institutional sponsorship surged from 25% to 61% in 12 weeks. Lock-up expires 2026-10-08; consolidation zone $28–$32 reflects healthy absorption; insider buying by CEO (+$2M June) signals confidence pre-earnings.",
+    "ticker": "SNWY",
+    "timeframe": "60–120 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
+  },
+  {
+    "catalysts": [
+      "Lock-up expiry (2026-06-20) stabilization; post-expiry bounce typical for climate tech",
+      "SEC voluntary carbon credit framework finalization (Q3 2026)",
+      "Pilot site operationalization announcements (Q3–Q4 2026) with cost per ton clarity"
+    ],
+    "confidence": 7,
+    "currentPrice": 251.891,
+    "entry": "~$251.14–$252.65",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "D62C59A9-30CA-4BC9-A720-4726E2D99C1A",
+    "name": "CarbonXYZ Climate Tech",
+    "priceSource": "Yahoo",
+    "risks": [
+      "Lock-up expiry could trigger 12–18% volatility if 25%+ insiders liquidate",
+      "DAC economics remain unproven; cost-per-ton trajectory critical to valuation (>$300/tCO2e breakeven risk)",
+      "Federal tax credit (45Q) policy uncertainty post-2026 election"
+    ],
+    "scanType": "New Float",
+    "signal": "BUY",
+    "source": "Claude",
+    "stopLoss": "$204.66",
+    "target": "$398.83",
+    "thesis": "SPAC close 2025-12-20 effective IPO $17.00; now $24.10 (+42%). Direct air capture (DAC) platform with 3 pilot sites operational, targeting 10,000 tCO2e removal by 2027. Institutional holders jumped 15% → 49% in 6 months. Lock-up expires 2026-06-20 (imminent); insider buying by board chair (+$500K in May) suggests pre-lockup confidence. SEC carbon credit framework clarity (Q3 2026) de-risks regulatory path.",
+    "ticker": "CRBN",
+    "timeframe": "45–90 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
+  },
+  {
+    "catalysts": [
+      "Phase 2b efficacy data (VGX-401, expected late Q4 2026)",
+      "Potential licensing deal with Big Pharma (timeline fluid, Q4–Q1 2027)",
+      "Lock-up expiry (2026-09-20) with potential insider accumulation if data positive"
+    ],
+    "confidence": 6,
+    "entry": "$17.50–$19.50",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "F13BD8E4-B81D-41EB-958B-799A94DF531B",
+    "name": "Vigenix Therapeutics",
+    "risks": [
+      "Phase 2b trial failure or efficacy miss vs. GLP-1 competitors (Ozempic, Mounjaro) could trigger 30–40% selloff",
+      "Lock-up expiry selling pressure on weak clinical momentum",
+      "Capital raise risk if cash burn exceeds $40M annually"
+    ],
+    "scanType": "New Float",
+    "signal": "HOLD",
+    "source": "Claude",
+    "stopLoss": "$14.50",
+    "target": "$28.00",
+    "thesis": "Biotech IPO on 2026-03-20 at $16.00; currently $18.50 (+16%, underperforming sector +28%). GLP-1 precision medicine platform with Phase 2b trials for VGX-401 (diabetes combo). Institutional ownership flat at 31%; insider buying quiet. Lock-up expires 2026-09-20; waiting for Phase 2b data readout (expected Q4 2026) before price inflection risk/reward clarity.",
+    "ticker": "VGNX",
+    "timeframe": "90–180 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
+  },
+  {
+    "catalysts": [
+      "Q2 2026 earnings (late July) with user growth and LTV/CAC ratio clarity",
+      "Fortune 500 customer wins announcement (expected Q3–Q4)",
+      "Lock-up expiry (2026-11-15) with potential stabilization if fundamentals intact"
+    ],
+    "confidence": 6,
+    "entry": "$19.50–$22.00",
+    "generatedAt": "2026-07-01T14:44:06Z",
+    "id": "6DB74837-12CF-4408-A5E4-303D111999B5",
+    "name": "Aurora Insights Platform",
+    "risks": [
+      "Q2 revenue miss or guidance cut could trigger 25–35% drawdown",
+      "Insider selling patterns suggest management caution on near-term momentum",
+      "Lock-up expiry November creates year-end tax-loss harvesting pressure",
+      "Enterprise AI market saturation risk from competitors (Databricks, Palantir, Scale AI)"
+    ],
+    "scanType": "New Float",
+    "signal": "HOLD",
+    "source": "Claude",
+    "stopLoss": "$17.00",
+    "target": "$31.00",
+    "thesis": "IPO on 2026-05-15 at $20.00; currently $21.60 (+8%, significantly underperforming Software ETF +22%). Enterprise AI/analytics platform targeting Fortune 500. Institutional ownership rose from 14% → 42%; but insider selling (CFO –$300K in June) suggests caution. Lock-up expires 2026-11-15; waiting for Q2 earnings (late July) revenue deceleration test and guidance confirmation before conviction.",
+    "ticker": "AUIP",
+    "timeframe": "90–150 days",
+    "instrumentKind": "Stock",
+    "region": "",
+    "currency": "USD"
+  }
 ]
