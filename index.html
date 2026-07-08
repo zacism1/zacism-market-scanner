@@ -1935,13 +1935,24 @@
                 (idea.ticker.toLowerCase().includes(searchTerm) || idea.companyName.toLowerCase().includes(searchTerm)) &&
                 idea.convictionScore >= minConf
             );
+            const matchingTenXBeforeConfidence = investmentData.equityIdeas.filter(idea =>
+                /10x/i.test(idea.scanType) &&
+                (idea.ticker.toLowerCase().includes(searchTerm) || idea.companyName.toLowerCase().includes(searchTerm))
+            );
             const tenXIdeas = equityIdeas.filter(idea => /10x/i.test(idea.scanType));
             const coreIdeas = equityIdeas.filter(idea => !/10x/i.test(idea.scanType));
             const visibleCount = reports.length + equityIdeas.length;
             document.getElementById('investment-count').textContent = `${visibleCount} ${visibleCount === 1 ? 'idea' : 'ideas'}`;
             tenXContainer.innerHTML = tenXIdeas.length
                 ? `<div class="col-span-full mb-1"><div class="section-header flex items-center gap-2"><i class="fa-solid fa-arrow-up-right-dots text-amber-300"></i><span>10X &amp; ASYMMETRIC UPSIDE</span></div><p class="text-xs text-zinc-500 mt-1">Under-the-radar businesses where a small current base, structural tailwind and identifiable milestones create several-fold upside—with explicit failure cases.</p></div>${tenXIdeas.map(createEquityCard).join('')}`
-                : '';
+                : `<div class="col-span-full mb-1 rounded-3xl border border-amber-400/15 bg-amber-400/[0.04] p-4 text-sm text-amber-100/80">
+                    <div class="font-semibold text-amber-200 flex items-center gap-2"><i class="fa-solid fa-arrow-up-right-dots"></i>10x & asymmetric upside</div>
+                    <div class="text-xs text-amber-100/65 mt-1">${
+                        matchingTenXBeforeConfidence.length
+                            ? `There ${matchingTenXBeforeConfidence.length === 1 ? 'is' : 'are'} ${matchingTenXBeforeConfidence.length} matching 10x candidate${matchingTenXBeforeConfidence.length === 1 ? '' : 's'}, but the current confidence filter is hiding ${matchingTenXBeforeConfidence.length === 1 ? 'it' : 'them'}. Lower Min Confidence or reset filters.`
+                            : 'No 10x candidates are published for this search yet. Run/publish a 10x Potential scan from Zacism Global Scanner to refresh this sleeve.'
+                    }</div>
+                </div>`;
             equityContainer.innerHTML = coreIdeas.length
                 ? `<div class="col-span-full section-header flex items-center gap-2 mb-1"><i class="fa-solid fa-gem text-emerald-400"></i><span>HIGH-CONVICTION LONG-TERM IDEAS</span></div>${coreIdeas.map(createEquityCard).join('')}`
                 : '';
