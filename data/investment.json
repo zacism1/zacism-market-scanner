@@ -15,6 +15,7 @@
       "exchange" : "NASDAQ",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "2F4A9C2B-390A-4B2B-9A53-08DB3513EBF9",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -27,6 +28,78 @@
       "thesis" : "SoFi Technologies screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
       "ticker" : "SOFI",
       "timeHorizon" : "Accumulation watch (3-12 months)"
+    },
+    {
+      "catalysts" : [
+        "Clinical trial readouts",
+        "Platform partnerships",
+        "Regulatory milestones",
+        "Beam Therapeutics (BEAM) Faces New AATD Rival PM647 Ruling What Does It Signal Strategically?"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "Beam Therapeutics",
+      "convictionScore" : 9.55,
+      "currency" : "USD",
+      "currentPrice" : 35.82,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$250.74-$429.84 (7-12x over 5-10 years)",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-10T05:12:12Z",
+      "id" : "77C38625-900A-467F-9B14-E63569981C29",
+      "instrumentKind" : "Stock",
+      "longTermUpsideScore" : 9.75,
+      "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Binary clinical failures",
+        "Cash burn and dilution",
+        "Long commercialization timelines"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 21.492,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 286.56,
+      "thesis" : "Beam Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $35.82; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "BEAM",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
+    },
+    {
+      "catalysts" : [
+        "Clinical trial readouts",
+        "Platform partnerships",
+        "Regulatory milestones",
+        "NTLA Surges 38% in a Month: Should You Buy, Sell or Hold the Stock?"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "CRISPR Therapeutics",
+      "convictionScore" : 9.450000000000001,
+      "currency" : "USD",
+      "currentPrice" : 56.34,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$394.38-$676.08 (7-12x over 5-10 years)",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-10T05:12:12Z",
+      "id" : "AD46B426-407B-435A-AD9B-5775AEFDB0F4",
+      "instrumentKind" : "Stock",
+      "longTermUpsideScore" : 9.5,
+      "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Binary clinical failures",
+        "Cash burn and dilution",
+        "Long commercialization timelines"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 33.804,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 450.72,
+      "thesis" : "CRISPR Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $56.34; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "CRSP",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
     },
     {
       "catalysts" : [
@@ -43,6 +116,7 @@
       "exchange" : "ASX",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "3D7018EF-5827-4CE3-9A57-42C809848FC0",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "False breakout / reversal risk"
@@ -72,6 +146,7 @@
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "CE46754E-B1B8-463E-A49B-ADD11EB862B1",
       "industry" : "Technology",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "False breakout / reversal risk"
@@ -84,6 +159,42 @@
       "thesis" : "Intel Corporation screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
       "ticker" : "INTC",
       "timeHorizon" : "Momentum hold (2-8 weeks)"
+    },
+    {
+      "catalysts" : [
+        "Procedure/adoption growth",
+        "Regulatory and reimbursement wins",
+        "International expansion",
+        "Near-term relative strength confirms investor attention"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "WELL Health Technologies",
+      "convictionScore" : 9.4,
+      "currency" : "USD",
+      "currentPrice" : 4.44,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$31.08-$53.28 (7-12x over 5-10 years)",
+      "exchange" : "TSX",
+      "generatedAt" : "2026-07-10T05:12:12Z",
+      "id" : "3E5CA05B-A9A8-41D6-AA60-B64B37119C3D",
+      "instrumentKind" : "Stock",
+      "longTermUpsideScore" : 9.45,
+      "moatEvidence" : "Clinical evidence, reimbursement access, surgeon/provider adoption, and differentiated workflow integration are the moat signals to verify.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Clinical or reimbursement setbacks",
+        "Execution risk in new markets",
+        "Valuation compression"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 2.664,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 35.52,
+      "thesis" : "WELL Health Technologies fits the specialised healthcare platforms and devices sleeve at $4.44; the 10x case depends on years of compounding rather than a quick rerating. If clinical adoption, reimbursement, and recurring service/device usage scale globally, a focused healthcare platform can compound from a modest current base. Moat evidence to verify: Clinical evidence, reimbursement access, surgeon/provider adoption, and differentiated workflow integration are the moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "WELL.TO",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If clinical adoption, reimbursement, and recurring service/device usage scale globally, a focused healthcare platform can compound from a modest current base."
     },
     {
       "catalysts" : [
@@ -100,6 +211,7 @@
       "exchange" : "NASDAQ",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "881ACE7E-EDF4-4700-9228-0C5B32A9710F",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -128,6 +240,7 @@
       "exchange" : "NYSE",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "A52168C3-9B59-449C-B370-0F5F6ADB8E9D",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -156,6 +269,7 @@
       "exchange" : "ASX",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "20654E85-33D6-4109-A9DF-4E746B4808CE",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "False breakout / reversal risk"
@@ -168,6 +282,114 @@
       "thesis" : "Wesfarmers Limited screens as momentum breakout with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
       "ticker" : "WES.AX",
       "timeHorizon" : "Momentum hold (2-8 weeks)"
+    },
+    {
+      "catalysts" : [
+        "User and GMV growth",
+        "Fintech/payment monetisation",
+        "Operating leverage across platform segments",
+        "Near-term relative strength confirms investor attention"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "Nu Holdings",
+      "convictionScore" : 9.25,
+      "currency" : "USD",
+      "currentPrice" : 13.67,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$95.69-$164.04 (7-12x over 5-10 years)",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-10T05:12:12Z",
+      "id" : "78D543B0-87E5-4A06-8B77-96C09E6BF7C0",
+      "instrumentKind" : "Stock",
+      "longTermUpsideScore" : 9.6,
+      "moatEvidence" : "Network effects, local operating density, payments data, brand trust, and product breadth are the moat signals to verify.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Regulatory pressure",
+        "Currency and macro volatility",
+        "Competitive intensity"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 8.202,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 109.36,
+      "thesis" : "Nu Holdings fits the global and emerging-market digital platforms sleeve at $13.67; the 10x case depends on years of compounding rather than a quick rerating. If the platform keeps compounding users, payments, credit, commerce, or logistics across underpenetrated markets, a still-growing revenue base could support several-fold market-cap expansion. Moat evidence to verify: Network effects, local operating density, payments data, brand trust, and product breadth are the moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "NU",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If the platform keeps compounding users, payments, credit, commerce, or logistics across underpenetrated markets, a still-growing revenue base could support several-fold market-cap expansion."
+    },
+    {
+      "catalysts" : [
+        "AI networking demand",
+        "Hyperscaler design wins",
+        "Margin expansion as volume scales",
+        "Near-term relative strength confirms investor attention"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "Credo Technology Group",
+      "convictionScore" : 9.25,
+      "currency" : "USD",
+      "currentPrice" : 265.65,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$1859.55-$3187.80 (7-12x over 5-10 years)",
+      "exchange" : "NASDAQ",
+      "generatedAt" : "2026-07-10T05:12:12Z",
+      "id" : "863779C6-9A39-4356-B5ED-4A444199BE61",
+      "instrumentKind" : "Stock",
+      "longTermUpsideScore" : 9.45,
+      "moatEvidence" : "Specialized connectivity IP, customer design wins, and exposure to AI infrastructure build-outs create a credible niche moat.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Customer concentration",
+        "Semiconductor cycle volatility",
+        "Design-win losses"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 159.39,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 2125.2,
+      "thesis" : "Credo Technology Group fits the AI data-center connectivity sleeve at $265.65; the 10x case depends on years of compounding rather than a quick rerating. If AI cluster bandwidth keeps expanding and Credo wins a durable share of high-speed connectivity sockets, earnings power could scale faster than the current market expects. Moat evidence to verify: Specialized connectivity IP, customer design wins, and exposure to AI infrastructure build-outs create a credible niche moat. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "CRDO",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If AI cluster bandwidth keeps expanding and Credo wins a durable share of high-speed connectivity sockets, earnings power could scale faster than the current market expects."
+    },
+    {
+      "catalysts" : [
+        "Payment volume growth",
+        "Margin recovery",
+        "International customer expansion",
+        "Near-term relative strength confirms investor attention"
+      ],
+      "category" : "Long-Term Compounder",
+      "companyName" : "PagSeguro Digital",
+      "convictionScore" : 9.25,
+      "currency" : "USD",
+      "currentPrice" : 9,
+      "dataFreshness" : "Delayed",
+      "estimatedUpsideRange" : "$63.00-$108.00 (7-12x over 5-10 years)",
+      "exchange" : "NYSE",
+      "generatedAt" : "2026-07-10T05:12:12Z",
+      "id" : "364C40DF-A5B6-4A0B-B55C-B9B08ACDDF0A",
+      "instrumentKind" : "Stock",
+      "longTermUpsideScore" : 9.45,
+      "moatEvidence" : "Merchant/customer retention, local licences, compliance stack, developer integrations, and transaction data are the moat signals to verify.",
+      "priceSource" : "Yahoo/Alpha Vantage",
+      "risks" : [
+        "Take-rate compression",
+        "Regulation and compliance costs",
+        "FX and emerging-market credit risk"
+      ],
+      "scanType" : "10x Potential",
+      "signal" : "BUY",
+      "stopLoss" : 5.3999999999999995,
+      "suggestedAllocationPct" : 1.5,
+      "targetPrice" : 72,
+      "thesis" : "PagSeguro Digital fits the payments and software infrastructure outside the US mega-cap complex sleeve at $9.00; the 10x case depends on years of compounding rather than a quick rerating. If cross-border payments, merchant acquiring, or enterprise software penetration expands and take rates/margins normalise, earnings power could scale from a smaller base. Moat evidence to verify: Merchant/customer retention, local licences, compliance stack, developer integrations, and transaction data are the moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
+      "ticker" : "PAGS",
+      "timeHorizon" : "Long-term compounder (5-10 years)",
+      "valuationFramework" : "If cross-border payments, merchant acquiring, or enterprise software penetration expands and take rates/margins normalise, earnings power could scale from a smaller base."
     },
     {
       "catalysts" : [
@@ -184,6 +406,7 @@
       "exchange" : "NYSE",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "410C2D83-7789-4E08-AC2E-8584E3D6ADC8",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -196,41 +419,6 @@
       "thesis" : "Toast screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry. Alt alpha: Neutral pulse from 6 recent headline(s).",
       "ticker" : "TOST",
       "timeHorizon" : "Accumulation watch (3-12 months)"
-    },
-    {
-      "catalysts" : [
-        "User growth",
-        "Product cross-sell",
-        "Rate-cycle normalization",
-        "SOFI Expands Lending: Can Small Business Loans Boost Growth?"
-      ],
-      "category" : "Long-Term Compounder",
-      "companyName" : "SoFi Technologies",
-      "convictionScore" : 9.05,
-      "currency" : "USD",
-      "currentPrice" : 18.925,
-      "dataFreshness" : "Delayed",
-      "estimatedUpsideRange" : "$132.47-$227.10 (7-12x over 5-10 years)",
-      "exchange" : "NASDAQ",
-      "generatedAt" : "2026-07-02T13:46:39Z",
-      "id" : "FFD9052F-ABDA-472E-A1BC-E79A82E00B4D",
-      "longTermUpsideScore" : 9.1,
-      "moatEvidence" : "Brand, product velocity, embedded distribution, and data-driven underwriting are the execution signals to monitor.",
-      "priceSource" : "Yahoo/Alpha Vantage",
-      "risks" : [
-        "Credit cycle losses",
-        "Regulatory pressure",
-        "High competition from banks and fintechs"
-      ],
-      "scanType" : "10x Potential",
-      "signal" : "BUY",
-      "stopLoss" : 11.355,
-      "suggestedAllocationPct" : 1.5,
-      "targetPrice" : 151.4,
-      "thesis" : "SoFi Technologies fits the next-generation consumer finance platforms sleeve at $18.93; the 10x case depends on years of compounding rather than a quick rerating. If the platform becomes a primary financial account for younger customers and cross-sell expands, revenue per user could compound for years from a still-modest base. Moat evidence to verify: Brand, product velocity, embedded distribution, and data-driven underwriting are the execution signals to monitor. Alt alpha: Neutral pulse from 6 recent headline(s).",
-      "ticker" : "SOFI",
-      "timeHorizon" : "Long-term compounder (5-10 years)",
-      "valuationFramework" : "If the platform becomes a primary financial account for younger customers and cross-sell expands, revenue per user could compound for years from a still-modest base."
     },
     {
       "catalysts" : [
@@ -247,6 +435,7 @@
       "exchange" : "ASX",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "BF332003-950E-45F0-A296-B67FBB639739",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -275,6 +464,7 @@
       "exchange" : "NYSE",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "C1023099-E0A2-465C-B404-3FCE65B32625",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk",
@@ -304,6 +494,7 @@
       "exchange" : "NASDAQ",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "476E8555-06AC-4BFF-BBA3-0B6837671983",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -319,41 +510,6 @@
     },
     {
       "catalysts" : [
-        "Clinical trial readouts",
-        "Platform partnerships",
-        "Regulatory milestones",
-        "Wall Street Thinks This High-Flying Biotech Stock Can Soar Another 57%"
-      ],
-      "category" : "Long-Term Compounder",
-      "companyName" : "Intellia Therapeutics",
-      "convictionScore" : 8.75,
-      "currency" : "USD",
-      "currentPrice" : 17.7,
-      "dataFreshness" : "Delayed",
-      "estimatedUpsideRange" : "$123.90-$212.40 (7-12x over 5-10 years)",
-      "exchange" : "NASDAQ",
-      "generatedAt" : "2026-07-02T13:46:39Z",
-      "id" : "B717FC99-ED53-4C52-B78A-E477C274C0E1",
-      "longTermUpsideScore" : 9.1,
-      "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
-      "priceSource" : "Yahoo/Alpha Vantage",
-      "risks" : [
-        "Binary clinical failures",
-        "Cash burn and dilution",
-        "Long commercialization timelines"
-      ],
-      "scanType" : "10x Potential",
-      "signal" : "BUY",
-      "stopLoss" : 10.62,
-      "suggestedAllocationPct" : 1.5,
-      "targetPrice" : 141.6,
-      "thesis" : "Intellia Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $17.70; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
-      "ticker" : "NTLA",
-      "timeHorizon" : "Long-term compounder (5-10 years)",
-      "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
-    },
-    {
-      "catalysts" : [
         "Potential rerating if execution improves"
       ],
       "category" : "Under the Radar",
@@ -365,6 +521,7 @@
       "exchange" : "NYSE",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "7C019D3A-6316-4071-941F-CCB29A21B781",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -391,6 +548,7 @@
       "exchange" : "NASDAQ",
       "generatedAt" : "2026-07-02T13:43:19Z",
       "id" : "90F44C6B-765D-4950-A269-BD90B33EBA41",
+      "instrumentKind" : "Stock",
       "priceSource" : "Yahoo/Alpha Vantage",
       "risks" : [
         "Lower institutional coverage and liquidity risk"
@@ -403,149 +561,271 @@
       "thesis" : "Affirm Holdings screens as under the radar with positive 20-day trend, valuation data limited, and price action that warrants deeper review before entry.",
       "ticker" : "AFRM",
       "timeHorizon" : "Accumulation watch (3-12 months)"
-    },
-    {
-      "catalysts" : [
-        "Clinical trial readouts",
-        "Platform partnerships",
-        "Regulatory milestones",
-        "Cathie Wood Doubles Down on AI, Loads Up on Tesla, Palantir, and SpaceX"
-      ],
-      "category" : "Long-Term Compounder",
-      "companyName" : "Recursion Pharmaceuticals",
-      "convictionScore" : 8.700000000000001,
-      "currency" : "USD",
-      "currentPrice" : 3.75,
-      "dataFreshness" : "Delayed",
-      "estimatedUpsideRange" : "$26.25-$45.00 (7-12x over 5-10 years)",
-      "exchange" : "NASDAQ",
-      "generatedAt" : "2026-07-02T13:46:39Z",
-      "id" : "CB56F9AE-7FDA-48E2-A853-31056FDE4230",
-      "longTermUpsideScore" : 8.9,
-      "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
-      "priceSource" : "Yahoo/Alpha Vantage",
-      "risks" : [
-        "Binary clinical failures",
-        "Cash burn and dilution",
-        "Long commercialization timelines"
-      ],
-      "scanType" : "10x Potential",
-      "signal" : "BUY",
-      "stopLoss" : 2.25,
-      "suggestedAllocationPct" : 1.5,
-      "targetPrice" : 30,
-      "thesis" : "Recursion Pharmaceuticals fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $3.75; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
-      "ticker" : "RXRX",
-      "timeHorizon" : "Long-term compounder (5-10 years)",
-      "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
-    },
-    {
-      "catalysts" : [
-        "Manufacturing yield milestones",
-        "Customer qualifications",
-        "Energy density validation",
-        "AMD Is Up 150% This Year But Here Are 5 Overlooked Stocks Betting on What Comes Next"
-      ],
-      "category" : "Long-Term Compounder",
-      "companyName" : "QuantumScape",
-      "convictionScore" : 8.600000000000001,
-      "currency" : "USD",
-      "currentPrice" : 7.645,
-      "dataFreshness" : "Delayed",
-      "estimatedUpsideRange" : "$53.52-$91.74 (7-12x over 5-10 years)",
-      "exchange" : "NYSE",
-      "generatedAt" : "2026-07-02T13:46:39Z",
-      "id" : "A45710CC-F235-4EEF-BEF7-3BFD535230B4",
-      "longTermUpsideScore" : 8.8,
-      "moatEvidence" : "Manufacturing yield, customer qualification, and IP-protected chemistry are the important moat evidence.",
-      "priceSource" : "Yahoo/Alpha Vantage",
-      "risks" : [
-        "Scale-up failures",
-        "Cash burn",
-        "Incumbent battery competition"
-      ],
-      "scanType" : "10x Potential",
-      "signal" : "BUY",
-      "stopLoss" : 4.587,
-      "suggestedAllocationPct" : 1.5,
-      "targetPrice" : 61.16,
-      "thesis" : "QuantumScape fits the next-generation batteries sleeve at $7.64; the 10x case depends on years of compounding rather than a quick rerating. If the battery architecture reaches scaled manufacturing and wins premium device or EV sockets, revenue could move from pilot scale to a multi-billion-dollar opportunity. Moat evidence to verify: Manufacturing yield, customer qualification, and IP-protected chemistry are the important moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
-      "ticker" : "QS",
-      "timeHorizon" : "Long-term compounder (5-10 years)",
-      "valuationFramework" : "If the battery architecture reaches scaled manufacturing and wins premium device or EV sockets, revenue could move from pilot scale to a multi-billion-dollar opportunity."
-    },
-    {
-      "catalysts" : [
-        "Clinical trial readouts",
-        "Platform partnerships",
-        "Regulatory milestones",
-        "Tesla’s 10% Weight in ARKK Sets Up a Make-or-Break Year for the Innovation ETF"
-      ],
-      "category" : "Long-Term Compounder",
-      "companyName" : "Beam Therapeutics",
-      "convictionScore" : 8.450000000000001,
-      "currency" : "USD",
-      "currentPrice" : 34.5,
-      "dataFreshness" : "Delayed",
-      "estimatedUpsideRange" : "$241.50-$414.00 (7-12x over 5-10 years)",
-      "exchange" : "NASDAQ",
-      "generatedAt" : "2026-07-02T13:46:39Z",
-      "id" : "653814F5-3F99-4A8A-ABB9-C9CA7F0A6A8A",
-      "longTermUpsideScore" : 8.8,
-      "moatEvidence" : "Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence.",
-      "priceSource" : "Yahoo/Alpha Vantage",
-      "risks" : [
-        "Binary clinical failures",
-        "Cash burn and dilution",
-        "Long commercialization timelines"
-      ],
-      "scanType" : "10x Potential",
-      "signal" : "BUY",
-      "stopLoss" : 20.7,
-      "suggestedAllocationPct" : 1.5,
-      "targetPrice" : 276,
-      "thesis" : "Beam Therapeutics fits the AI-enabled and gene-editing biotech breakthroughs sleeve at $34.50; the 10x case depends on years of compounding rather than a quick rerating. If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics. Moat evidence to verify: Proprietary datasets, platform IP, clinical pipeline progress, and partner validation are the key moat evidence. Alt alpha: Neutral pulse from 6 recent headline(s).",
-      "ticker" : "BEAM",
-      "timeHorizon" : "Long-term compounder (5-10 years)",
-      "valuationFramework" : "If one platform produces approved therapies or high-value discovery partnerships, the current equity value could be small relative to future milestone and product economics."
-    },
-    {
-      "catalysts" : [
-        "Commercial deployment milestones",
-        "Regulatory approvals",
-        "Fleet and unit-economics proof",
-        "Is Joby Aviation a Buy After Clearing Its Latest Regulatory Hurdle?"
-      ],
-      "category" : "Long-Term Compounder",
-      "companyName" : "Joby Aviation",
-      "convictionScore" : 8.450000000000001,
-      "currency" : "USD",
-      "currentPrice" : 8.86,
-      "dataFreshness" : "Delayed",
-      "estimatedUpsideRange" : "$62.02-$106.32 (7-12x over 5-10 years)",
-      "exchange" : "NYSE",
-      "generatedAt" : "2026-07-02T13:46:39Z",
-      "id" : "0424E989-933D-40F3-AEB8-79ABFDB732D5",
-      "longTermUpsideScore" : 8.8,
-      "moatEvidence" : "Certification progress, deployment data, manufacturing partners, and real customer usage are the moat signals to verify.",
-      "priceSource" : "Yahoo/Alpha Vantage",
-      "risks" : [
-        "Regulatory delays",
-        "Hardware margin pressure",
-        "Adoption may be slower than forecasts"
-      ],
-      "scanType" : "10x Potential",
-      "signal" : "BUY",
-      "stopLoss" : 5.316,
-      "suggestedAllocationPct" : 1.5,
-      "targetPrice" : 70.88,
-      "thesis" : "Joby Aviation fits the robotics, autonomy, and physical AI sleeve at $8.86; the 10x case depends on years of compounding rather than a quick rerating. If autonomous systems move from pilots to scaled fleets, even niche leadership in logistics, mobility, or robotics could create large recurring hardware-plus-software economics. Moat evidence to verify: Certification progress, deployment data, manufacturing partners, and real customer usage are the moat signals to verify. Alt alpha: Neutral pulse from 6 recent headline(s).",
-      "ticker" : "JOBY",
-      "timeHorizon" : "Long-term compounder (5-10 years)",
-      "valuationFramework" : "If autonomous systems move from pilots to scaled fleets, even niche leadership in logistics, mobility, or robotics could create large recurring hardware-plus-software economics."
     }
   ],
   "funnels" : [
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 75,
+          "companyName" : "Intel Corporation",
+          "country" : "United States",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "INTC 10-K confirms Gaudi3 production ramp in 2025",
+            "Net cash position reported Q2 2024"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "Execution delays on process nodes and continued share loss to specialized accelerators.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Large",
+          "moatScore" : 55,
+          "overallScore" : 68,
+          "rationale" : "Gaudi inference accelerators and foundry push offer exposure at depressed multiples with adequate liquidity.",
+          "recommendation" : "Watch",
+          "ticker" : "INTC",
+          "valuationScore" : 82
+        },
+        {
+          "balanceSheetScore" : 90,
+          "companyName" : "Taiwan Semiconductor Manufacturing Company",
+          "country" : "Taiwan",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "TSM 20-F shows >60% share of <7nm capacity",
+            "Free cash flow positive every year since 2010"
+          ],
+          "exchange" : "NYSE",
+          "keyRisk" : "Geopolitical concentration in Taiwan and cyclical capex intensity.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Mega",
+          "moatScore" : 85,
+          "overallScore" : 62,
+          "rationale" : "Foundry monopoly on advanced nodes used for inference ASICs; balance sheet fortress but valuation premium.",
+          "recommendation" : "Watch",
+          "ticker" : "TSM",
+          "valuationScore" : 48
+        },
+        {
+          "balanceSheetScore" : 70,
+          "companyName" : "Samsung Electronics",
+          "country" : "South Korea",
+          "currency" : "KRW",
+          "evidenceNotes" : [
+            "HBM3E qualification with multiple hyperscalers disclosed",
+            "Data gap on exact inference-specific revenue share"
+          ],
+          "exchange" : "KRX",
+          "keyRisk" : "Memory price volatility and governance concerns around chaebol structure.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Mega",
+          "moatScore" : 60,
+          "overallScore" : 51,
+          "rationale" : "HBM memory supply for inference clusters plus foundry optionality at cyclically low multiples.",
+          "recommendation" : "Watch",
+          "ticker" : "005930.KS",
+          "valuationScore" : 65
+        }
+      ],
+      "conclusion" : "Three value-screened candidates emerged across Taiwan, the US, and South Korea after rejecting high-valuation US leaders and opaque Asian names for weak economics or governance gaps.",
+      "generatedAt" : "2026-07-11T07:35:49Z",
+      "id" : "94C850E3-CB8B-4E60-BF74-4858F7D8EF25",
+      "model" : "grok-3-mini-fast",
+      "theme" : "AI inference infrastructure"
+    },
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 85,
+          "companyName" : "SAP SE",
+          "country" : "Germany",
+          "currency" : "EUR",
+          "evidenceNotes" : [
+            "SAP.DE primary listing confirmed active; strong debt/equity ~17%, cash ~€10B, interest coverage >270x per Yahoo/filings"
+          ],
+          "exchange" : "Xetra",
+          "keyRisk" : "Currency translation and competition from cloud natives.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Large",
+          "moatScore" : 90,
+          "overallScore" : 82,
+          "rationale" : "Dominant ERP/CRM provider with C/4HANA exposure; wide moat from installed base and switching costs; reasonable forward multiples relative to growth.",
+          "recommendation" : "Buy",
+          "ticker" : "SAP.DE",
+          "valuationScore" : 75
+        },
+        {
+          "balanceSheetScore" : 60,
+          "companyName" : "The Sage Group plc",
+          "country" : "United Kingdom",
+          "currency" : "GBP",
+          "evidenceNotes" : [
+            "SGE.L primary listing active; revenue growth ~10% underlying per recent results"
+          ],
+          "exchange" : "London Stock Exchange",
+          "keyRisk" : "Elevated debt/equity and execution on cloud transition.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Large",
+          "moatScore" : 70,
+          "overallScore" : 68,
+          "rationale" : "SMB-focused business management and CRM software; recurring revenue model; forward P/E attractive but higher leverage noted.",
+          "recommendation" : "Watch",
+          "ticker" : "SGE.L",
+          "valuationScore" : 65
+        },
+        {
+          "balanceSheetScore" : 65,
+          "companyName" : "TOTVS S.A.",
+          "country" : "Brazil",
+          "currency" : "BRL",
+          "evidenceNotes" : [
+            "TOTS3.SA primary listing active on B3; ERP platform includes customer service/logistics modules per company site"
+          ],
+          "exchange" : "B3",
+          "keyRisk" : "Currency volatility and limited international diversification.",
+          "liquidityTier" : "Medium",
+          "marketCapBand" : "Mid",
+          "moatScore" : 60,
+          "overallScore" : 55,
+          "rationale" : "Leading Brazilian ERP with CRM-adjacent modules; domestic market leader but smaller global scale and emerging-market exposure.",
+          "recommendation" : "Watch",
+          "ticker" : "TOTS3.SA",
+          "valuationScore" : 50
+        }
+      ],
+      "conclusion" : "Value candidates in global CRM/ERP software are concentrated in Europe and Latin America with SAP offering the strongest moat and balance sheet, followed by Sage and Totvs after screening for governance, liquidity, and verifiable listings.",
+      "generatedAt" : "2026-07-06T11:37:22Z",
+      "id" : "4F93EB43-AB89-4AA1-BF5D-24CC383BDE6A",
+      "model" : "grok-4.3 · Web grounded",
+      "theme" : "Customer relationship management"
+    },
+    {
+      "candidates" : [
+        {
+          "balanceSheetScore" : 70,
+          "companyName" : "CRISPR Therapeutics AG",
+          "country" : "Switzerland",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "Casgevy FDA approval Dec 2023 and ongoing commercialization per company reports",
+            "Q1 cash ~$1.85B cited in recent analyses",
+            "NASDAQ:CRSP primary listing confirmed active"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "Heavy reliance on single partnered asset; ongoing cash burn typical of sector.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Large",
+          "moatScore" : 65,
+          "overallScore" : 52,
+          "rationale" : "First approved CRISPR therapy (Casgevy via Vertex partnership) provides revenue share and de-risking; strong cash position from filings supports pipeline; Swiss HQ with global ops.",
+          "recommendation" : "Buy",
+          "ticker" : "CRSP",
+          "valuationScore" : 35
+        },
+        {
+          "balanceSheetScore" : 45,
+          "companyName" : "Cellectis S.A.",
+          "country" : "France",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "Euronext ALCLS primary and NASDAQ CLLS ADR confirmed active",
+            "Gene-editing platform described in company investor materials"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "Pre-revenue clinical stage with dilution risk and smaller scale vs US peers.",
+          "liquidityTier" : "Medium",
+          "marketCapBand" : "Small",
+          "moatScore" : 50,
+          "overallScore" : 38,
+          "rationale" : "TALEN gene editing platform with CAR-T focus; dual-listed (primary ALCLS Euronext Growth Paris) offers Europe exposure; partnerships provide some validation.",
+          "recommendation" : "Watch",
+          "ticker" : "CLLS",
+          "valuationScore" : 30
+        },
+        {
+          "balanceSheetScore" : 50,
+          "companyName" : "Beam Therapeutics Inc.",
+          "country" : "United States",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "NASDAQ:BEAM active listing per market data",
+            "BEAM-101 and BEAM-302 trial updates in 2025-2026 reports"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "No approved products; high R&D burn and binary clinical outcomes.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Mid",
+          "moatScore" : 55,
+          "overallScore" : 35,
+          "rationale" : "Base editing platform with clinical progress in sickle cell and AATD; US-listed with recent financing noted.",
+          "recommendation" : "Watch",
+          "ticker" : "BEAM",
+          "valuationScore" : 25
+        },
+        {
+          "balanceSheetScore" : 45,
+          "companyName" : "Intellia Therapeutics Inc.",
+          "country" : "United States",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "NASDAQ:NTLA active; MAGNITUDE Phase 3 enrollment updates"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "Pre-commercial; execution and competition risks in crowded field.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Mid",
+          "moatScore" : 50,
+          "overallScore" : 32,
+          "rationale" : "In vivo CRISPR platform with Regeneron partnership; Phase 3 assets in ATTR amyloidosis.",
+          "recommendation" : "Watch",
+          "ticker" : "NTLA",
+          "valuationScore" : 25
+        },
+        {
+          "balanceSheetScore" : 40,
+          "companyName" : "Editas Medicine Inc.",
+          "country" : "United States",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "NASDAQ:EDIT active; RUBY trial enrollment completed per 2025 updates"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "Delayed data readouts and capital needs typical of early biotech.",
+          "liquidityTier" : "High",
+          "marketCapBand" : "Small",
+          "moatScore" : 45,
+          "overallScore" : 28,
+          "rationale" : "CRISPR platform with sickle cell and ocular programs; US-listed clinical-stage player.",
+          "recommendation" : "Avoid",
+          "ticker" : "EDIT",
+          "valuationScore" : 20
+        },
+        {
+          "balanceSheetScore" : 35,
+          "companyName" : "Sangamo Therapeutics Inc.",
+          "country" : "United States",
+          "currency" : "USD",
+          "evidenceNotes" : [
+            "NASDAQ:SGMO confirmed listed; zinc-finger platform per company site"
+          ],
+          "exchange" : "NASDAQ",
+          "keyRisk" : "Multiple failed or stalled programs historically; thin balance sheet.",
+          "liquidityTier" : "Medium",
+          "marketCapBand" : "Micro",
+          "moatScore" : 40,
+          "overallScore" : 22,
+          "rationale" : "Zinc finger nuclease gene editing with legacy programs; smaller scale and weaker recent momentum.",
+          "recommendation" : "Avoid",
+          "ticker" : "SGMO",
+          "valuationScore" : 15
+        }
+      ],
+      "conclusion" : "Gene editing offers few traditional value opportunities due to pre-profit economics and clinical risks, but CRSP stands out for its approved therapy and cash position while CLLS provides the only meaningful non-US primary listing exposure among screened candidates across US, Swiss, and French listings.",
+      "generatedAt" : "2026-07-06T11:36:06Z",
+      "id" : "5827F329-77AF-4021-A3E8-C8784F7D917F",
+      "model" : "grok-4.3 · Web grounded",
+      "theme" : "Gene editing"
+    },
     {
       "candidates" : [
         {
@@ -2383,6 +2663,12 @@
         "weightedFairValue" : 0
       }
     }
+  ],
+  "scannerName" : "ZacismGlobalScanner",
+  "scoringMethodology" : [
+    "Core mode ranks globally tradable stocks and ETFs by live-price momentum, valuation support, liquidity, catalyst quality, and alternative-alpha overlays.",
+    "10x Potential mode adds long-horizon secular-tailwind, moat, valuation-framework, market-cap, price, liquidity, and hybrid LLM thesis validation gates.",
+    "Short-term scan files are sourced from the same canonical scanner state and include an instrumentKind field so public consumers can split stocks, ETFs, options, and futures."
   ],
   "themes" : [
     {
@@ -21811,5 +22097,5 @@
       "timeHorizon" : "5+ years"
     }
   ],
-  "version" : 5
+  "version" : 6
 }
