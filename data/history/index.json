@@ -1,6 +1,16 @@
 {
   "editions" : [
     {
+      "id" : "2026-W28",
+      "investmentIdeas" : 23,
+      "label" : "Week of 6 July 2026",
+      "optionsIdeas" : 0,
+      "publishedAt" : "2026-07-11T07:39:33Z",
+      "regions" : [
+
+      ]
+    },
+    {
       "id" : "2026-W27",
       "investmentIdeas" : 23,
       "label" : "Week of 29 June 2026",
